@@ -131,7 +131,7 @@ export default function John() {
         </tbody>
         <tbody>
           <tr className={styles.menuTablLast}>
-            <th className={styles.menuTableTh}>プレミアムデジタルパーｍ</th>
+            <th className={styles.menuTableTh}>プレミアムデジタルパーマ</th>
             <td className={styles.menuTableTd}>&nbsp;</td>
             <td className={styles.menuTableTd}>¥9,800</td>
             <td className={styles.menuTableTd}>150分</td>
