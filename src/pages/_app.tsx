@@ -13,21 +13,23 @@ import GoogleTagManager, {
   GoogleTagManagerId,
 } from "../components/layouts/GoogleTagManager";
 
-export default function MyApp({ Component, pageProps }: AppProps) {
+import { useRouter } from "next/router";
+
+export default function MyApp({ Component, pageProps, router }: AppProps) {
   return (
     <>
       <GoogleTagManager
         googleTagManagerId={googleTagManagerId as GoogleTagManagerId}
       />
       <NextNprogress
-        color="#0000ee"
+        color="aqua"
         startPosition={0.3}
         stopDelayMs={200}
         height={4}
         showOnShallow={true}
       />
       <HamburgerMenu />
-      <Component {...pageProps} />
+      <Component key={router.asPath} {...pageProps} />
       <Footer />
     </>
   );

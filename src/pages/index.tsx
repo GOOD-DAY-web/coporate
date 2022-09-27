@@ -11,7 +11,9 @@ import type { Article } from "../types/article";
 import TopCarousel from "../components/home/TopCarousel";
 import MakeFriends from "../components/home/MakeFriends";
 import NakashimaShopInfo from "../components/shop/Nakashima";
-import HamburgerMenu from "../components/layouts/HamburgerMenu";
+
+import { motion } from "framer-motion";
+import type { NextPage } from "next";
 
 type Props = {
   articles: Array<Article>;
@@ -31,7 +33,6 @@ export default function Home({ articles }: Props) {
         image={"/media/GOOD-DAY_mainLogo_05.png"}
         url={""}
       />
-      <HamburgerMenu />
       <div className={styles.mainHome}>
         <TopCarousel />
         <div className={styles.articleArea}>

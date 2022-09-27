@@ -10,6 +10,7 @@ const StyleCarousel = () => {
     "/styles/Nami_01.jpg",
     "/styles/Nami_03.jpg",
   ];
+
   return (
     <div className={styles.styleCarouselArea}>
       <div className={styles.styleCarousel}>
