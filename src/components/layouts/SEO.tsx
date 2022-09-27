@@ -22,10 +22,6 @@ export default function SEO({
       {/* 本番公開時には削除予定 ここから*/}
       <meta name="robots" content="noindex" />
       {/* 本番公開時には削除予定 ここまで*/}
-      <meta
-        name="google-site-verification"
-        content="8sodVuZGRA7Hrp-x-sDmPF0V9skQAUC6b_52klP3tGw"
-      />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta name="keywords" content={keyword} />
@@ -44,7 +40,7 @@ export default function SEO({
       <link rel="apple-touch-icon" href={"/GOOD-DAY_mainLogo.png"} />
       <meta
         name="google-site-verification"
-        content="b0fvth4fo1qgmc_KutS3RmpSCKlpM6hS0xo3GI2hR88"
+        content="8sodVuZGRA7Hrp-x-sDmPF0V9skQAUC6b_52klP3tGw"
       />
     </Head>
   );
