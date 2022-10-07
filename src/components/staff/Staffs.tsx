@@ -120,7 +120,7 @@ const Staffs: React.FC = () => {
                 <li className={styles.stylistImage}>
                   <Image
                     className={styles.stylistImageHover}
-                    src={"/media/Dai_01.jpg"}
+                    src={"/media/Dai_03.jpg"}
                     objectFit="contain"
                     alt={"Dai"}
                     width={240}
