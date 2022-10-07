@@ -81,10 +81,10 @@ export default function Home({ articles }: Props) {
           ))}
         </div>
         <Staffs />
+        <NakashimaShopInfo />
         <Styles />
         <MakeFriends />
         <Works />
-        <NakashimaShopInfo />
       </div>
     </>
   );
