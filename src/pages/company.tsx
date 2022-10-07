@@ -1,6 +1,7 @@
 import SEO from "../components/layouts/SEO";
 import NewShop from "../components/company/NewShop";
 import Nakashima from "../components/company/Nakashima";
+import Noda from "../components/company/Noda";
 import Corporation from "../components/company/Corporation";
 
 const Company: React.FC = () => {
@@ -18,6 +19,7 @@ const Company: React.FC = () => {
         url={""}
       />
       <NewShop />
+      <Noda />
       <Nakashima />
       <Corporation />
     </>

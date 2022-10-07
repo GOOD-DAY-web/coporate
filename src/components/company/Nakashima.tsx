@@ -8,6 +8,15 @@ export default function Nakashima() {
     <>
       <div id="Nakashima" className={styles.menu}>
         <h2 className={styles.menuTitle}>倉敷中島店</h2>
+        <div className={styles.shopImg}>
+          <Image
+            src={"/media/GOOD-DAY_Nakashima.jpg"}
+            objectFit="contain"
+            alt={"commig soon !!"}
+            width={1920}
+            height={1060}
+          />
+        </div>
         <table className={styles.menuArea}>
           <tbody>
             <tr className={styles.menuTableTr}>
@@ -50,7 +59,7 @@ export default function Nakashima() {
           <tbody>
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>Mail</th>
-              <td className={styles.menuTableTd}>info@goodday-salon.jp</td>
+              <td className={styles.menuTableTd}>gooddaybss777@gmail.com</td>
             </tr>
           </tbody>
           <tbody>

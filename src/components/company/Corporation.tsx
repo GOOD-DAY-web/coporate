@@ -9,6 +9,15 @@ export default function Corporation() {
     <>
       <div id="Corporation" className={styles.menu}>
         <h2 className={styles.menuTitle}>会社概要</h2>
+        {/* <div className={styles.shopImg}>
+          <Image
+            src={"/media/ComingSoon_00.jpg"}
+            objectFit="contain"
+            alt={"commig soon !!"}
+            width={1920}
+            height={1060}
+          />
+        </div> */}
         <table className={styles.menuArea}>
           <tbody>
             <tr className={styles.menuTableTr}>
@@ -19,7 +28,7 @@ export default function Corporation() {
           <tbody>
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>本社</th>
-              <td className={styles.menuTableTd}>岡山県倉敷市笹沖449-4</td>
+              <td className={styles.menuTableTd}>〒710-0803 岡山県倉敷市中島795-1</td>
             </tr>
           </tbody>
           <tbody>
@@ -41,7 +50,7 @@ export default function Corporation() {
           <tbody>
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>Mail</th>
-              <td className={styles.menuTableTd}>info@goodday-salon.jp</td>
+              <td className={styles.menuTableTd}>gooddaybss777@gmail.com</td>
             </tr>
           </tbody>
           <tbody>

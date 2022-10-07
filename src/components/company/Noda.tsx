@@ -3,14 +3,14 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "../../styles/Company/Company.module.scss";
 
-export default function NewShop() {
+export default function Noda() {
   return (
     <>
       <div id="NewShop" className={styles.menu}>
-        <h2 className={styles.menuTitle}>新店舗情報</h2>
+        <h2 className={styles.menuTitle}>岡山野田店</h2>
         <div className={styles.shopImg}>
           <Image
-            src={"/media/ComingSoon_00.jpg"}
+            src={"/media/GOOD-DAY_Noda.jpg"}
             objectFit="contain"
             alt={"commig soon !!"}
             width={1920}
@@ -21,7 +21,7 @@ export default function NewShop() {
           <tbody>
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>店舗名</th>
-              <td className={styles.menuTableTd}>GOOD-DAY 新店舗</td>
+              <td className={styles.menuTableTd}>GOOD-DAY 岡山野田店</td>
             </tr>
           </tbody>
           <tbody>
@@ -50,14 +50,14 @@ export default function NewShop() {
           <tbody>
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>Open日時</th>
-              <td className={styles.menuTableTd}>2023年春を予定</td>
+              <td className={styles.menuTableTd}>2022年11月を予定</td>
             </tr>
           </tbody>
           <tbody>
             <tr className={styles.menuTablLast}>
               <th className={styles.menuTableTh}>所在地</th>
               <td className={styles.menuTableTd}>
-                未定(決まり次第お知らせします)
+                〒700-0971 岡山県岡山市北区野田5丁目7-3
               </td>
             </tr>
           </tbody>
