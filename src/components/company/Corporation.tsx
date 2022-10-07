@@ -9,15 +9,6 @@ export default function Corporation() {
     <>
       <div id="Corporation" className={styles.menu}>
         <h2 className={styles.menuTitle}>会社概要</h2>
-        {/* <div className={styles.shopImg}>
-          <Image
-            src={"/media/ComingSoon_00.jpg"}
-            objectFit="contain"
-            alt={"commig soon !!"}
-            width={1920}
-            height={1060}
-          />
-        </div> */}
         <table className={styles.menuArea}>
           <tbody>
             <tr className={styles.menuTableTr}>
