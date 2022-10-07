@@ -28,7 +28,9 @@ export default function Corporation() {
           <tbody>
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>本社</th>
-              <td className={styles.menuTableTd}>〒710-0803 岡山県倉敷市中島795-1</td>
+              <td className={styles.menuTableTd}>
+                〒710-0803 岡山県倉敷市中島795-1
+              </td>
             </tr>
           </tbody>
           <tbody>
