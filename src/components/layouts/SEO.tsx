@@ -19,9 +19,6 @@ export default function SEO({
   return (
     <Head>
       <title>{title}</title>
-      {/* 本番公開時には削除予定 ここから*/}
-      <meta name="robots" content="noindex" />
-      {/* 本番公開時には削除予定 ここまで*/}
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
       <meta name="keywords" content={keyword} />
