@@ -6,7 +6,7 @@ import styles from "../../styles/Company/Company.module.scss";
 export default function Noda() {
   return (
     <>
-      <div id="NewShop" className={styles.menu}>
+      <div id="Noda" className={styles.menu}>
         <h2 className={styles.menuTitle}>岡山野田店</h2>
         <div className={styles.shopImg}>
           <Image
@@ -40,7 +40,7 @@ export default function Noda() {
                   </div>
                   <Link href={"https://line.me/R/ti/p/%40511gsugf"} passHref>
                     <a>
-                      <div className={styles.line}></div>
+                      <span className={styles.line}></span>
                     </a>
                   </Link>
                 </div>

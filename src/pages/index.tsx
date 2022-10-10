@@ -12,9 +12,6 @@ import TopCarousel from "../components/home/TopCarousel";
 import MakeFriends from "../components/home/MakeFriends";
 import NakashimaShopInfo from "../components/shop/Nakashima";
 
-import { motion } from "framer-motion";
-import type { NextPage } from "next";
-
 type Props = {
   articles: Array<Article>;
 };

@@ -15,24 +15,24 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 システムロジックを構成することに重きを置いてきたので、デザイン面が課題です。
 
 - 特徴(Jamstackな構成)
- - HeadressCMSから記事データを受け取り、記事データ、スタイリストデータを取得しています。
- - ホスティングにレンタルサーバーではなく、静的ホスティングサービスを利用しています。
+  - HeadressCMSから記事データを受け取り、記事データ、スタイリストデータを取得しています。
+  - ホスティングにレンタルサーバーではなく、静的ホスティングサービスを利用しています。
 
 - 管理に必要なソフトウェアや環境
- - Github(現在のメンバからOrganizationsに追加してもらってください)
- - IDE (VSCodeが良いと思います)
- - Ubuntu (本体の設定を書き換えるのを防止する目的でMacの中にもう一台パソコンを作っています)
- - HeadressCMS(記事を投稿するサービス)
- - 静的ホスティングサービス(サーバーのようなサービス)
+  - Github(現在のメンバからOrganizationsに追加してもらってください)
+  - IDE (VSCodeが良いと思います)
+  - Ubuntu (本体の設定を書き換えるのを防止する目的でMacの中にもう一台パソコンを作っています)
+  - HeadressCMS(記事を投稿するサービス)
+  - 静的ホスティングサービス(サーバーのようなサービス)
 
 - 採用している技術
- - Next.js
- - React
- - TypeScript
- - Git
- - node.js
- - ESlint
- - yarn
+  - Next.js
+  - React
+  - TypeScript
+  - Git
+  - node.js
+  - ESlint
+  - yarn
 
 ## Getting Started
 

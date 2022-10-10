@@ -2,9 +2,12 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "../../styles/Layouts/Footer.module.scss";
 import ToTopButton from "../home/ToTopButton";
-import UnderNotice from "../../components/home/UnderNotice";
+import UnderNotice from "../home/UnderNotice";
+import data from "../../data/shops.json";
 
 export default function Footer() {
+  const nakashima = data.nakashima;
+  const noda = data.noda;
   return (
     <footer className={styles.mainFooter}>
       <ToTopButton />
@@ -30,13 +33,32 @@ export default function Footer() {
               <p className={styles.footerTitle}>Stylist</p>
             </a>
           </Link>
-          <ul className={styles.footerUl}>
-            <Link href={"/stylist"} passHref>
-              <a>
-                <li>倉敷中島店</li>
-              </a>
-            </Link>
-          </ul>
+          <div className={styles.footerUl}>
+            {nakashima.map((shop) => {
+              return (
+                <ul key={shop.shop_id}>
+                  <Link href={`/company/${shop.url}`} passHref>
+                    <a>
+                      <li>{shop.name}</li>
+                    </a>
+                  </Link>
+                </ul>
+              );
+            })}
+          </div>
+          <div className={styles.footerUl}>
+            {noda.map((shop) => {
+              return (
+                <ul key={shop.shop_id}>
+                  <Link href={`/company/${shop.url}`} passHref>
+                    <a>
+                      <li>{shop.name}</li>
+                    </a>
+                  </Link>
+                </ul>
+              );
+            })}
+          </div>
         </div>
         <div className={styles.footerBrock}>
           <Link href={"/service"} passHref>
@@ -91,11 +113,7 @@ export default function Footer() {
           </ul>
         </div>
         <div className={styles.footerBrock}>
-          <Link href={"/company"} passHref>
-            <a>
-              <p className={styles.footerTitle}>Company</p>
-            </a>
-          </Link>
+          <p className={styles.footerTitle}>Company</p>
           <ul className={styles.footerUl}>
             <Link href={"/company/#NewShop"} passHref>
               <a>
@@ -136,3 +154,9 @@ export default function Footer() {
     </footer>
   );
 }
+
+export const getStaticProps = async () => {
+  return {
+    props: data,
+  };
+};
