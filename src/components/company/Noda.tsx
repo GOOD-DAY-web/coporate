@@ -40,7 +40,7 @@ export default function Noda() {
                   </div>
                   <Link href={"https://line.me/R/ti/p/%40511gsugf"} passHref>
                     <a>
-                      <span className={styles.line}></span>
+                      <div className={styles.line}></div>
                     </a>
                   </Link>
                 </div>
