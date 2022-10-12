@@ -2,6 +2,7 @@
 import "../styles/globals.css";
 import "nprogress/nprogress.css";
 import { NextSeo } from "next-seo";
+import { useRouter } from "next/router";
 import React, { useEffect } from "react";
 import type { AppProps } from "next/app";
 import NextNprogress from "nextjs-progressbar";
@@ -13,9 +14,7 @@ import GoogleTagManager, {
   GoogleTagManagerId,
 } from "../components/layouts/GoogleTagManager";
 
-import { useRouter } from "next/router";
-
-export default function MyApp({ Component, pageProps, router }: AppProps) {
+const MyApp = ({ Component, pageProps, router }: AppProps): JSX.Element => {
   return (
     <>
       <GoogleTagManager
@@ -33,4 +32,6 @@ export default function MyApp({ Component, pageProps, router }: AppProps) {
       <Footer />
     </>
   );
-}
+};
+
+export default MyApp;
