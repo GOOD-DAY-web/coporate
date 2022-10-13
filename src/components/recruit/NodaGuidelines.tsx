@@ -63,7 +63,7 @@ export default function NakashimaGuidelines() {
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>こだわり</th>
               <td className={styles.menuTableTd}>
-                店舗が綺麗(2022年11月Open)、半個室・個室、入店時の検温・消毒、独立支援制度、確定申告のサポート(青色申告)、技術講習会、集客勉強会、ブランクOK、副業・WワークOK、車通勤OK、バイク通勤OK、土日休み可能、勤務時間を自由に設定可能
+                店舗が綺麗(2022年11月Open)、完全個室、入店時の検温・消毒、独立支援制度、確定申告のサポート(青色申告)、技術講習会、集客勉強会、ブランクOK、副業・WワークOK、車通勤OK、バイク通勤OK、土日休み可能、勤務時間を自由に設定可能
               </td>
             </tr>
           </tbody>
@@ -97,7 +97,7 @@ export default function NakashimaGuidelines() {
                 ※施術に使用する道具・商材については各自ご準備ください。
                 <br />
                 <br />
-                ※ご自身で使いやすい薬剤をご持参ください。(持込量は無し)
+                ※ご自身で使いやすい薬剤をご持参ください。(持込料は無し)
                 <br />
                 <br />
               </td>
@@ -179,7 +179,7 @@ export default function NakashimaGuidelines() {
                 ③4月14日(水) 12:00〜
                 <br />
                 <br />
-                ※岡山野田店のサロン見学は10月20日から開始します。
+                ※岡山野田店のサロン見学は10月20日から開始予定です。
                 <br />
                 <br />
                 ※上記例を参考に、日付、曜日、お時間をお知らせいただけるとスムーズです。
