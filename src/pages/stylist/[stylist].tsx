@@ -20,6 +20,7 @@ import MaiSNS from "../../components/sns/MaiSNS";
 import YukaSNS from "../../components/sns/YukaSNS";
 import MahoSNS from "../../components/sns/MahoSNS";
 import NamiSNS from "../../components/sns/NamiSNS";
+import TomoyaSNS from "../../components/sns/TomoyaSNS";
 // 各スタイリストのMenuを読み込む(暫定適用)
 import Katayama from "../../components/menu/Katayama";
 import Mika from "../../components/menu/Mika";
@@ -46,6 +47,7 @@ import MaiPagination from "../../components/pagination/MaiPagination";
 import YukaPagination from "../../components/pagination/YukaPagination";
 import MahoPagination from "../../components/pagination/MahoPagination";
 import NamiPagination from "../../components/pagination/NamiPagination";
+import TomoyaPagination from "../../components/pagination/TomoyaPagination";
 
 type Props = {
   stylist: Stylist;
@@ -88,44 +90,6 @@ export default function Stylist({ stylist }: Props) {
                 </a>
               </Link>
               {/* ここでstylistIdを認識して、各自のSNSメニューを表示する */}
-              {/* <div>
-                {stylistIds.map((id) => {
-                  return (
-                    <div key={id}>
-                      {( () => {
-                        if (!id == null) {
-                          return <></>;
-                        } else if (id == 1) {
-                          return <KatayamaSNS />;
-                        } else if (id == 2) {
-                          return <MikaSNS />;
-                        } else if (id == 3) {
-                          return <NozomiSNS />;
-                        } else if (id == 4) {
-                          return <NatsukiSNS />;
-                        } else if (id == 5) {
-                          return <DaiSNS />;
-                        } else if (id == 6) {
-                          return <JohnSNS />;
-                        } else if (id == 7) {
-                          return <FujiiSNS />;
-                        } else if (id == 8) {
-                          return <IkemotoSNS />;
-                        } else if (id == 9) {
-                          return <MaiSNS />;
-                        } else if (id == 10) {
-                          return <YukaSNS />;
-                        } else if (id == 11) {
-                          return <MahoSNS />;
-                        } else if (id == 12) {
-                          return <NamiSNS />;
-                        }
-                      }) () };
-                    </div>
-                  );
-                })}
-              </div> */}
-              {/* ここでstylistIdを認識して、各自のSNSメニューを表示する2 */}
               <div>
                 {stylistIds.map((id) => {
                   return (
@@ -142,6 +106,7 @@ export default function Stylist({ stylist }: Props) {
                       {id == 10 && <YukaSNS />}
                       {id == 11 && <MahoSNS />}
                       {id == 12 && <NamiSNS />}
+                      {id == 13 && <TomoyaSNS />}
                     </div>
                   );
                 })}
@@ -265,6 +230,7 @@ export default function Stylist({ stylist }: Props) {
                 {id == 10 && <YukaPagination />}
                 {id == 11 && <MahoPagination />}
                 {id == 12 && <NamiPagination />}
+                {id == 13 && <TomoyaPagination />}
               </div>
             );
           })}

@@ -3,19 +3,19 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "../../styles/Pagination/Pagination.module.scss";
 
-export default function NamiPagination() {
+export default function TomoyaPagination() {
   return (
     <>
       <div className={styles.nextFlex}>
         <div className={styles.next}>
-          <Link href={"tomoya"} passHref>
+          <Link href={"katayama"} passHref>
             <a className={styles.nextInner}>
               <span className={styles.nextInnerIn}>Back</span>
             </a>
           </Link>
         </div>
         <div className={styles.next}>
-          <Link href={"maho"} passHref>
+          <Link href={"nami"} passHref>
             <a className={styles.nextInner}>
               <span className={styles.nextInnerIn}>Next</span>
             </a>
