@@ -5,7 +5,7 @@ const SitePolicy: React.FC = () => {
   return (
     <>
       <SEO
-        title={"GOOD-DAY会社概要|岡山県倉敷市の個室シェアサロン"}
+        title={"GOOD-DAY会社概要|岡山県の個室シェアサロン"}
         description={""}
         keyword={""}
         image={""}
