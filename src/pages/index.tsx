@@ -11,6 +11,7 @@ import type { Article } from "../types/article";
 import TopCarousel from "../components/home/TopCarousel";
 import MakeFriends from "../components/home/MakeFriends";
 import NakashimaShopInfo from "../components/shop/Nakashima";
+import NodaShopInfo from "../components/shop/Noda";
 
 type Props = {
   articles: Array<Article>;
@@ -78,6 +79,7 @@ export default function Home({ articles }: Props) {
           ))}
         </div>
         <Staffs />
+        <NodaShopInfo />
         <NakashimaShopInfo />
         <Styles />
         <MakeFriends />
