@@ -34,6 +34,7 @@ import Mai from "../../components/menu/Mai";
 import Yuka from "../../components/menu/Yuka";
 import Maho from "../../components/menu/Maho";
 import Nami from "../../components/menu/Nami";
+import Tomoya from "../../components/menu/Tomoya";
 // 各スタイリストのPaginationを読み込む(暫定適用)
 import KatayamaPagination from "../../components/pagination/KatayamaPagination";
 import MikaPagination from "../../components/pagination/MikaPagination";
@@ -196,6 +197,7 @@ export default function Stylist({ stylist }: Props) {
                 {id == 10 && <Yuka />}
                 {id == 11 && <Maho />}
                 {id == 12 && <Nami />}
+                {id == 13 && <Tomoya />}
               </div>
             );
           })}
