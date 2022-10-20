@@ -7,17 +7,17 @@ export default function TomoyaSNS() {
   return (
     <>
       <div className={styles.sns}>
-        <Link href={"/"} passHref>
+        {/* <Link href={"/"} passHref>
           <a>
             <div className={styles.blog}></div>
           </a>
-        </Link>
-        <Link href={"/"} passHref>
+        </Link> */}
+        <Link href={"https://z-p15.www.instagram.com/moyashiosushi/"} passHref>
           <a>
             <div className={styles.instagram}></div>
           </a>
         </Link>
-        <Link href={"/"} passHref>
+        <Link href={"https://line.me/R/ti/p/%40xkn5155f"} passHref>
           <a>
             <div className={styles.line}></div>
           </a>

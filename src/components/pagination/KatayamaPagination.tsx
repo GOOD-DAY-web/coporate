@@ -15,7 +15,7 @@ export default function KatayamaPagination() {
           </Link>
         </div>
         <div className={styles.next}>
-          <Link href={"nami"} passHref>
+          <Link href={"tomoya"} passHref>
             <a className={styles.nextInner}>
               <span className={styles.nextInnerIn}>Next</span>
             </a>
