@@ -109,7 +109,7 @@ export default function Tomoya() {
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>ハイライト・ローライト</th>
             <td className={styles.menuTableTd}>(15枚)</td>
-            <td className={styles.menuTableTd}>¥4,400〜</td>
+            <td className={styles.menuTableTd}>¥4,400</td>
             <td className={styles.menuTableTd}>120分</td>
           </tr>
         </tbody>
@@ -117,7 +117,7 @@ export default function Tomoya() {
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>ハイライト・ローライト</th>
             <td className={styles.menuTableTd}>(30枚)</td>
-            <td className={styles.menuTableTd}>¥8,800〜</td>
+            <td className={styles.menuTableTd}>¥8,800</td>
             <td className={styles.menuTableTd}>120分</td>
           </tr>
         </tbody>
@@ -125,7 +125,7 @@ export default function Tomoya() {
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>その他デザインカラー</th>
             <td className={styles.menuTableTd}>(ポイント)</td>
-            <td className={styles.menuTableTd}>¥,200</td>
+            <td className={styles.menuTableTd}>¥2,200</td>
             <td className={styles.menuTableTd}>90分</td>
           </tr>
         </tbody>
@@ -141,7 +141,7 @@ export default function Tomoya() {
           <tr className={styles.menuTablLast}>
             <th className={styles.menuTableTh}>その他デザインカラー</th>
             <td className={styles.menuTableTd}>(フル)</td>
-            <td className={styles.menuTableTd}>¥/,800</td>
+            <td className={styles.menuTableTd}>¥8,800</td>
             <td className={styles.menuTableTd}>120分</td>
           </tr>
         </tbody>
@@ -208,7 +208,7 @@ export default function Tomoya() {
           <tr className={styles.menuTablLast}>
             <th className={styles.menuTableTh}>Hita髪質改善トリートメント</th>
             <td className={styles.menuTableTd}>(詳細)</td>
-            <td className={styles.menuTableTd}>¥6,600〜</td>
+            <td className={styles.menuTableTd}>¥6,600</td>
             <td className={styles.menuTableTd}>60分</td>
           </tr>
         </tbody>
@@ -283,7 +283,7 @@ export default function Tomoya() {
           <tr className={styles.menuTablLast}>
             <th className={styles.menuTableTh}>シャンプー・ブロー</th>
             <td className={styles.menuTableTd}>(詳細)</td>
-            <td className={styles.menuTableTd}>¥3,300〜</td>
+            <td className={styles.menuTableTd}>¥3,300</td>
             <td className={styles.menuTableTd}>30分</td>
           </tr>
         </tbody>
@@ -442,8 +442,8 @@ export default function Tomoya() {
               カット + クイックトリートメント
             </th>
             <td className={styles.menuTableTd}>(詳細)</td>
-            <td className={styles.menuTableTd}>¥,</td>
-            <td className={styles.menuTableTd}>分</td>
+            <td className={styles.menuTableTd}>¥6,050</td>
+            <td className={styles.menuTableTd}>90分</td>
           </tr>
         </tbody>
         <tbody>
@@ -452,7 +452,7 @@ export default function Tomoya() {
               カット + 髪質改善トリートメント
             </th>
             <td className={styles.menuTableTd}>(詳細)</td>
-            <td className={styles.menuTableTd}>¥12,650</td>
+            <td className={styles.menuTableTd}>¥11,550</td>
             <td className={styles.menuTableTd}>150分</td>
           </tr>
         </tbody>
