@@ -217,7 +217,7 @@ export default function Tomoya() {
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>クイックトリートメント</th>
             <td className={styles.menuTableTd}>2Step</td>
-            <td className={styles.menuTableTd}>¥7,000</td>
+            <td className={styles.menuTableTd}>¥1,100</td>
             <td className={styles.menuTableTd}>120分</td>
           </tr>
         </tbody>
