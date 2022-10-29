@@ -9,16 +9,16 @@ export default function NatsukiPagination() {
       <div className={styles.nextFlex}>
         <div className={styles.next}>
           <Link href={"dai"} passHref>
-            <a className={styles.nextInner}>
+            <div className={styles.nextInner}>
               <span className={styles.nextInnerIn}>Back</span>
-            </a>
+            </div>
           </Link>
         </div>
         <div className={styles.next}>
           <Link href={"nozomi"} passHref>
-            <a className={styles.nextInner}>
+            <div className={styles.nextInner}>
               <span className={styles.nextInnerIn}>Next</span>
-            </a>
+            </div>
           </Link>
         </div>
       </div>

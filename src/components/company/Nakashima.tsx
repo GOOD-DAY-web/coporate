@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import styles from "../../styles/Company/Company.module.scss";
 
 export default function Nakashima() {
@@ -11,8 +11,8 @@ export default function Nakashima() {
         <div className={styles.shopImg}>
           <Image
             src={"/media/GOOD-DAY_Nakashima.jpg"}
-            objectFit="contain"
             alt={"commig soon !!"}
+            objectFit="contain"
             width={1920}
             height={1060}
           />
@@ -46,11 +46,9 @@ export default function Nakashima() {
               <td className={styles.menuTableTd}>
                 <div className={styles.next}>
                   <Link href={"tel:086-454-7373"} passHref>
-                    <a className={styles.nextInner}>
-                      <span className={styles.nextInnerIn}>
-                        call someone !!
-                      </span>
-                    </a>
+                    <span className={styles.nextInner}>
+                      <p className={styles.nextInnerIn}>Phone Call</p>
+                    </span>
                   </Link>
                 </div>
               </td>

@@ -23,7 +23,7 @@ export default function NakashimaGuidelines() {
               <br />
               <br />
               <Link href={"/company"} passHref>
-                <a className={styles.newShop}>新店舗情報</a>
+                <div className={styles.newShop}>新店舗情報</div>
               </Link>
             </td>
           </tr>
@@ -131,7 +131,7 @@ export default function NakashimaGuidelines() {
                 href={"https://page.line.me/153jsnax?openQrModal=true"}
                 passHref
               >
-                <a>LINE公式アカウント</a>
+                LINE公式アカウント
               </Link>
               からお問合せください。
               <br />
@@ -141,15 +141,12 @@ export default function NakashimaGuidelines() {
                   href={"https://page.line.me/153jsnax?openQrModal=true"}
                   passHref
                 >
-                  <a>
-                    <Image
-                      src={"/media/QR_LINE.png"}
-                      objectFit="contain"
-                      alt={"LINE公式アカウントはこちら"}
-                      width={240}
-                      height={240}
-                    />
-                  </a>
+                  <Image
+                    src={"/media/QR_LINE.png"}
+                    alt={"LINE公式アカウントはこちら"}
+                    width={240}
+                    height={240}
+                  />
                 </Link>
               </div>
             </td>

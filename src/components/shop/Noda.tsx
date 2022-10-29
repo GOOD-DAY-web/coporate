@@ -21,11 +21,9 @@ export default function NodaShopInfo() {
               <td className={styles.menuTableTd}>
                 <div className={styles.next}>
                   <Link href={"tel:086-230-7177"} passHref>
-                    <a className={styles.nextInner}>
-                      <span className={styles.nextInnerIn}>
-                        call someone !!
-                      </span>
-                    </a>
+                    <div className={styles.nextInner}>
+                      <span className={styles.nextInnerIn}>Phone Call</span>
+                    </div>
                   </Link>
                 </div>
               </td>

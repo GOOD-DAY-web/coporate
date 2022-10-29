@@ -30,7 +30,14 @@
   }
 }
 .footerBrock {
-  padding: 1rem;
+  padding: 2rem;
+  
+  @media (max-width: 767px) {
+    padding: 1rem;
+  }
+}
+.footerImage {
+  margin: 0 auto;
 }
 .rules {
   margin: 0 auto 3rem;

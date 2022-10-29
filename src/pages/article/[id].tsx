@@ -25,9 +25,7 @@ export default function Article({ article }: Props) {
       />
       <div className={styles.detailArea}>
         <Link href={"/"}>
-          <a>
-            <h2 className={styles.detailMainTitle}>Topics</h2>
-          </a>
+          <h2 className={styles.detailMainTitle}>Topics</h2>
         </Link>
         <div className={styles.detailMainArea}>
           <div className="">
@@ -38,11 +36,10 @@ export default function Article({ article }: Props) {
               <div className={styles.detailTag}>#{article.tag}</div>
             </div>
           )}
-          <div className={styles.detailStyleImage}>
+          <div>
             <Image
-              className=""
+              className={styles.detailMainImage}
               src={article.eye_catch.url}
-              objectFit="contain"
               alt={article.title + "の画像です"}
               width={480}
               height={480}
@@ -61,9 +58,9 @@ export default function Article({ article }: Props) {
         </div>
         <div className={styles.next}>
           <Link href={"/"} passHref>
-            <a className={styles.nextInner}>
+            <div className={styles.nextInner}>
               <span className={styles.nextInnerIn}>Topに戻る</span>
-            </a>
+            </div>
           </Link>
         </div>
       </div>

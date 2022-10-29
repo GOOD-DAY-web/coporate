@@ -14,186 +14,147 @@ const Staffs: React.FC = () => {
         <div>
           <ul className={styles.flex}>
             <Link href={"/stylist/tomoya"}>
-              <a>
-                <li className={styles.stylistImage}>
-                  <Image
-                    className={styles.stylistImageHover}
-                    src={"/media/Tomoya_01.jpg"}
-                    objectFit="contain"
-                    alt={"tomoya"}
-                    width={240}
-                    height={240}
-                  />
-                </li>
-              </a>
+              <li className={styles.stylistImage}>
+                <Image
+                  className={styles.stylistImageHover}
+                  src={"/media/Tomoya_01.jpg"}
+                  alt={"tomoya"}
+                  width={240}
+                  height={240}
+                />
+              </li>
             </Link>
             <Link href={"/stylist/nami"}>
-              <a>
-                <li className={styles.stylistImage}>
-                  <Image
-                    className={styles.stylistImageHover}
-                    src={"/media/Nami_01.jpg"}
-                    objectFit="contain"
-                    alt={"Nami"}
-                    width={240}
-                    height={240}
-                  />
-                </li>
-              </a>
+              <li className={styles.stylistImage}>
+                <Image
+                  className={styles.stylistImageHover}
+                  src={"/media/Nami_01.jpg"}
+                  alt={"Nami"}
+                  width={240}
+                  height={240}
+                />
+              </li>
             </Link>
             <Link href={"/stylist/maho"}>
-              <a>
-                <li className={styles.stylistImage}>
-                  <Image
-                    className={styles.stylistImageHover}
-                    src={"/media/Maho_01.jpg"}
-                    objectFit="contain"
-                    alt={"Maho"}
-                    width={240}
-                    height={240}
-                  />
-                </li>
-              </a>
+              <li className={styles.stylistImage}>
+                <Image
+                  className={styles.stylistImageHover}
+                  src={"/media/Maho_01.jpg"}
+                  alt={"Maho"}
+                  width={240}
+                  height={240}
+                />
+              </li>
             </Link>
             <Link href={"/stylist/yuka"}>
-              <a>
-                <li className={styles.stylistImage}>
-                  <Image
-                    className={styles.stylistImageHover}
-                    src={"/media/Yuka_01.jpg"}
-                    objectFit="contain"
-                    alt={"Yuka"}
-                    width={240}
-                    height={240}
-                  />
-                </li>
-              </a>
+              <li className={styles.stylistImage}>
+                <Image
+                  className={styles.stylistImageHover}
+                  src={"/media/Yuka_01.jpg"}
+                  alt={"Yuka"}
+                  width={240}
+                  height={240}
+                />
+              </li>
             </Link>
             <Link href={"/stylist/mai"}>
-              <a>
-                <li className={styles.stylistImage}>
-                  <Image
-                    className={styles.stylistImageHover}
-                    src={"/media/Mai_01.jpg"}
-                    objectFit="contain"
-                    alt={"Mai"}
-                    width={240}
-                    height={240}
-                  />
-                </li>
-              </a>
+              <li className={styles.stylistImage}>
+                <Image
+                  className={styles.stylistImageHover}
+                  src={"/media/Mai_01.jpg"}
+                  alt={"Mai"}
+                  width={240}
+                  height={240}
+                />
+              </li>
             </Link>
             <Link href={"/stylist/ikemoto"}>
-              <a>
-                <li className={styles.stylistImage}>
-                  <Image
-                    className={styles.stylistImageHover}
-                    src={"/media/Ikemoto_01.jpg"}
-                    objectFit="contain"
-                    alt={"Ikemoto"}
-                    width={240}
-                    height={240}
-                  />
-                </li>
-              </a>
+              <li className={styles.stylistImage}>
+                <Image
+                  className={styles.stylistImageHover}
+                  src={"/media/Ikemoto_01.jpg"}
+                  alt={"Ikemoto"}
+                  width={240}
+                  height={240}
+                />
+              </li>
             </Link>
             <Link href={"/stylist/fujii"}>
-              <a>
-                <li className={styles.stylistImage}>
-                  <Image
-                    className={styles.stylistImageHover}
-                    src={"/media/Fujii_01.jpg"}
-                    objectFit="contain"
-                    alt={"Fujii"}
-                    width={240}
-                    height={240}
-                  />
-                </li>
-              </a>
+              <li className={styles.stylistImage}>
+                <Image
+                  className={styles.stylistImageHover}
+                  src={"/media/Fujii_01.jpg"}
+                  alt={"Fujii"}
+                  width={240}
+                  height={240}
+                />
+              </li>
             </Link>
             <Link href={"/stylist/john"}>
-              <a>
-                <li className={styles.stylistImage}>
-                  <Image
-                    className={styles.stylistImageHover}
-                    src={"/media/John_01.jpg"}
-                    objectFit="contain"
-                    alt={"John"}
-                    width={240}
-                    height={240}
-                  />
-                </li>
-              </a>
+              <li className={styles.stylistImage}>
+                <Image
+                  className={styles.stylistImageHover}
+                  src={"/media/John_01.jpg"}
+                  alt={"John"}
+                  width={240}
+                  height={240}
+                />
+              </li>
             </Link>
             <Link href={"/stylist/dai"}>
-              <a>
-                <li className={styles.stylistImage}>
-                  <Image
-                    className={styles.stylistImageHover}
-                    src={"/media/Dai_03.jpg"}
-                    objectFit="contain"
-                    alt={"Dai"}
-                    width={240}
-                    height={240}
-                  />
-                </li>
-              </a>
+              <li className={styles.stylistImage}>
+                <Image
+                  className={styles.stylistImageHover}
+                  src={"/media/Dai_03.jpg"}
+                  alt={"Dai"}
+                  width={240}
+                  height={240}
+                />
+              </li>
             </Link>
             <Link href={"/stylist/natsuki"}>
-              <a>
-                <li className={styles.stylistImage}>
-                  <Image
-                    className={styles.stylistImageHover}
-                    src={"/media/Natsuki_01.jpg"}
-                    objectFit="contain"
-                    alt={"Natsuki"}
-                    width={240}
-                    height={240}
-                  />
-                </li>
-              </a>
+              <li className={styles.stylistImage}>
+                <Image
+                  className={styles.stylistImageHover}
+                  src={"/media/Natsuki_01.jpg"}
+                  alt={"Natsuki"}
+                  width={240}
+                  height={240}
+                />
+              </li>
             </Link>
             <Link href={"/stylist/nozomi"}>
-              <a>
-                <li className={styles.stylistImage}>
-                  <Image
-                    className={styles.stylistImageHover}
-                    src={"/media/Nozomi_01.jpg"}
-                    objectFit="contain"
-                    alt={"Nozomi"}
-                    width={240}
-                    height={240}
-                  />
-                </li>
-              </a>
+              <li className={styles.stylistImage}>
+                <Image
+                  className={styles.stylistImageHover}
+                  src={"/media/Nozomi_01.jpg"}
+                  alt={"Nozomi"}
+                  width={240}
+                  height={240}
+                />
+              </li>
             </Link>
             <Link href={"/stylist/mika"}>
-              <a>
-                <li className={styles.stylistImage}>
-                  <Image
-                    className={styles.stylistImageHover}
-                    src={"/media/Mika_01.jpg"}
-                    objectFit="contain"
-                    alt={"Mika"}
-                    width={240}
-                    height={240}
-                  />
-                </li>
-              </a>
+              <li className={styles.stylistImage}>
+                <Image
+                  className={styles.stylistImageHover}
+                  src={"/media/Mika_01.jpg"}
+                  alt={"Mika"}
+                  width={240}
+                  height={240}
+                />
+              </li>
             </Link>
             <Link href={"/stylist/katayama"}>
-              <a>
-                <li className={styles.stylistImage}>
-                  <Image
-                    className={styles.stylistImageHover}
-                    src={"/media/Katayama_01.jpg"}
-                    objectFit="contain"
-                    alt={"Katayama"}
-                    width={240}
-                    height={240}
-                  />
-                </li>
-              </a>
+              <li className={styles.stylistImage}>
+                <Image
+                  className={styles.stylistImageHover}
+                  src={"/media/Katayama_01.jpg"}
+                  alt={"Katayama"}
+                  width={240}
+                  height={240}
+                />
+              </li>
             </Link>
           </ul>
         </div>

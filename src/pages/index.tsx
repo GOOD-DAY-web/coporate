@@ -40,35 +40,30 @@ export default function Home({ articles }: Props) {
               <div className={styles.articleFlex}>
                 <div className={styles.articleLeft}>
                   <Link href={`/article/${article.id}`} passHref>
-                    <a>
-                      <Image
-                        className={styles.articleImage}
-                        src={article.eye_catch.url}
-                        objectFit="contain"
-                        alt={article.title + "の画像です"}
-                        width={240}
-                        height={240}
-                      />
-                    </a>
+                    <Image
+                      className={styles.articleImage}
+                      src={article.eye_catch.url}
+                      alt={article.title + "の画像です"}
+                      width={240}
+                      height={240}
+                    />
                   </Link>
                 </div>
                 <div className={styles.articleRight}>
                   <div className={styles.articleSubTitle}>
                     <Link href={`/article/${article.id}`} passHref>
-                      <a>{article.title}</a>
+                      {article.title}
                     </Link>
                   </div>
                   {/* Prevent HTML tags from being output */}
                   <Link href={`/article/${article.id}`} passHref>
-                    <a>
-                      <div className={styles.articleBody}>
-                        <div
-                          dangerouslySetInnerHTML={{
-                            __html: `${article.body}`,
-                          }}
-                        />
-                      </div>
-                    </a>
+                    <div className={styles.articleBody}>
+                      <div
+                        dangerouslySetInnerHTML={{
+                          __html: `${article.body}`,
+                        }}
+                      />
+                    </div>
                   </Link>
                   <div className={styles.articleTag}>
                     {article.tag && <p className="">#{article.tag}</p>}

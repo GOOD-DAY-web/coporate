@@ -13,48 +13,45 @@ export default function HamburgerMenu() {
       <header id="header" className={styles.header}>
         <div className={styles.logo}>
           <Link href={"/"} passHref>
-            <a>
-              <Image
-                className={styles.navImage}
-                src={"/media/GOOD-DAY_mainLogo_05.png"}
-                objectFit="contain"
-                alt="GOOD-DAY_MainLogo"
-                width={56}
-                height={56}
-              />
-            </a>
+            <Image
+              className={styles.navImage}
+              src={"/media/GOOD-DAY_mainLogo_05.png"}
+              alt="GOOD-DAY_MainLogo"
+              width={56}
+              height={56}
+            />
           </Link>
         </div>
         <nav className={styles.navPC}>
           <ul>
             <li>
               <Link href="/" passHref>
-                <a>Home</a>
+                Home
               </Link>
             </li>
             <li>
               <Link href="/stylist" passHref>
-                <a>Stylist</a>
+                Stylist
               </Link>
             </li>
             <li>
               <Link href="/service" passHref>
-                <a>Service</a>
+                Service
               </Link>
             </li>
             <li>
               <Link href="/philosophy" passHref>
-                <a>Philosophy</a>
+                Philosophy
               </Link>
             </li>
             <li>
               <Link href="/recruit" passHref>
-                <a>Recruit</a>
+                Recruit
               </Link>
             </li>
             <li>
               <Link href="/company" passHref>
-                <a>Company</a>
+                Company
               </Link>
             </li>
             <li className={styles.poyoyon}>
@@ -62,7 +59,7 @@ export default function HamburgerMenu() {
                 href="https://sam004.salonanswer.com/sas/reserve/goodday/staff"
                 passHref
               >
-                <a>Reservation</a>
+                Reservation
               </Link>
             </li>
           </ul>
@@ -85,52 +82,34 @@ export default function HamburgerMenu() {
             <span></span>
             <p>Close</p>
           </div>
-          {/* <li>
-            <Link href="/" passHref>
-              <a>
-                <p className={styles.mainTitle}>Home</p>
-                <p className={styles.subTitle}>ホーム</p>
-              </a>
-            </Link>
-          </li> */}
           <li>
             <Link href="/stylist" passHref>
-              <a>
-                <p className={styles.mainTitle}>Stylist</p>
-                <p className={styles.subTitle}>スタイリスト</p>
-              </a>
+              <p className={styles.mainTitle}>Stylist</p>
+              <p className={styles.subTitle}>スタイリスト</p>
             </Link>
           </li>
           <li>
             <Link href="/service" passHref>
-              <a>
-                <p className={styles.mainTitle}>Service</p>
-                <p className={styles.subTitle}>サービス</p>
-              </a>
+              <p className={styles.mainTitle}>Service</p>
+              <p className={styles.subTitle}>サービス</p>
             </Link>
           </li>
           <li>
             <Link href="/philosophy" passHref>
-              <a>
-                <p className={styles.mainTitle}>philosophy</p>
-                <p className={styles.subTitle}>理念</p>
-              </a>
+              <p className={styles.mainTitle}>philosophy</p>
+              <p className={styles.subTitle}>理念</p>
             </Link>
           </li>
           <li>
             <Link href="/recruit" passHref>
-              <a>
-                <p className={styles.mainTitle}>Recruit</p>
-                <p className={styles.subTitle}>リクルート</p>
-              </a>
+              <p className={styles.mainTitle}>Recruit</p>
+              <p className={styles.subTitle}>リクルート</p>
             </Link>
           </li>
           <li>
             <Link href="/company" passHref>
-              <a>
-                <p className={styles.mainTitle}>Company</p>
-                <p className={styles.subTitle}>運営会社</p>
-              </a>
+              <p className={styles.mainTitle}>Company</p>
+              <p className={styles.subTitle}>運営会社</p>
             </Link>
           </li>
           <div className={styles.poyoyon}>
@@ -139,10 +118,8 @@ export default function HamburgerMenu() {
                 href="https://sam004.salonanswer.com/sas/reserve/goodday/staff"
                 passHref
               >
-                <a>
-                  <p className={styles.mainTitle}>Reservation</p>
-                  <p className={styles.subTitle}>予約する</p>
-                </a>
+                <p className={styles.mainTitle}>Reservation</p>
+                <p className={styles.subTitle}>予約する</p>
               </Link>
             </li>
           </div>

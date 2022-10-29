@@ -39,19 +39,16 @@ export default function Stylist({ stylists }: Props) {
                   href={`/stylist/${stylist.id}`}
                   passHref
                 >
-                  <a>
-                    <Image
-                      src={stylist.eye_catch.url}
-                      objectFit="contain"
-                      alt={stylist.title + "の画像です"}
-                      width={1000}
-                      height={1000}
-                    />
-                  </a>
+                  <Image
+                    src={stylist.eye_catch.url}
+                    alt={stylist.title + "の画像です"}
+                    width={1000}
+                    height={1000}
+                  />
                 </Link>
                 <div className={styles.stylistSubTitle}>
                   <Link href={`/stylist/${stylist.id}`} passHref>
-                    <a>{stylist.title}</a>
+                    {stylist.title}
                   </Link>
                 </div>
                 <div className={styles.stylistTag}>
@@ -59,9 +56,9 @@ export default function Stylist({ stylists }: Props) {
                 </div>
                 <div className={styles.next}>
                   <Link href={stylist.url} passHref>
-                    <a className={styles.nextInner}>
+                    <div className={styles.nextInner}>
                       <span className={styles.nextInnerIn}>Web予約する</span>
-                    </a>
+                    </div>
                   </Link>
                 </div>
               </div>

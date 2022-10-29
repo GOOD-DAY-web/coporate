@@ -218,9 +218,7 @@ export default function FAQ() {
 
         {/* 必要になったタイミングで増やしましょう。
         <Link href={"/"} passHref>
-          <a>
-            <p className={styles.more}>もっと見る</p>
-          </a>
+          <p className={styles.more}>もっと見る</p>
         </Link> */}
       </div>
     </>

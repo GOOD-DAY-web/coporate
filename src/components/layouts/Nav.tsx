@@ -18,34 +18,31 @@ export default function Nav(props: any) {
     <div className={styles.mainNav}>
       <div className={styles.navImageArea}>
         <Link href={"/"}>
-          <a>
-            <Image
-              className={styles.navImage}
-              src={"/"}
-              objectFit="contain"
-              alt="GOOD-DAY_MainLogo"
-              width={64}
-              height={64}
-            />
-          </a>
+          <Image
+            className={styles.navImage}
+            src={"/"}
+            alt="GOOD-DAY_MainLogo"
+            width={64}
+            height={64}
+          />
         </Link>
       </div>
       <div className={styles.navRow}>
         <div className={styles.navRowCharacter}>
           <Link href={"/"} passHref>
-            <a className={styles.navRowCharacterSingle}>Home</a>
+            <div className={styles.navRowCharacterSingle}>Home</div>
           </Link>
           <Link href={"/stylist"} passHref>
-            <a className={styles.navRowCharacterSingle}>Stylist</a>
+            <div className={styles.navRowCharacterSingle}>Stylist</div>
           </Link>
           <Link href={"/service"} passHref>
-            <a className={styles.navRowCharacterSingle}>service</a>
+            <div className={styles.navRowCharacterSingle}>service</div>
           </Link>
           <Link href={"/recruit"} passHref>
-            <a className={styles.navRowCharacterSingle}>Recruit</a>
+            <div className={styles.navRowCharacterSingle}>Recruit</div>
           </Link>
           <Link href={"/campany"} passHref>
-            <a className={styles.navRowCharacterSingle}>Company</a>
+            <div className={styles.navRowCharacterSingle}>Company</div>
           </Link>
         </div>
       </div>

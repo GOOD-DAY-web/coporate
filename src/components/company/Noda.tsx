@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import styles from "../../styles/Company/Company.module.scss";
 
 export default function Noda() {
@@ -11,8 +11,8 @@ export default function Noda() {
         <div className={styles.shopImg}>
           <Image
             src={"/media/GOOD-DAY_Noda.jpg"}
-            objectFit="contain"
             alt={"commig soon !!"}
+            objectFit="contain"
             width={1920}
             height={1060}
           />
@@ -39,9 +39,7 @@ export default function Noda() {
                     公式LINEよりご連絡ください。
                   </div>
                   <Link href={"https://line.me/R/ti/p/%40511gsugf"} passHref>
-                    <a>
-                      <div className={styles.line}></div>
-                    </a>
+                    <p className={styles.line}></p>
                   </Link>
                 </div>
               </td>

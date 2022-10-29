@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import MapPage from "../../components/company/MapPage";
 import styles from "../../styles/Company/Company.module.scss";
 
@@ -30,11 +30,9 @@ export default function Corporation() {
               <td className={styles.menuTableTd}>
                 <div className={styles.next}>
                   <Link href={"tel:086-454-7373"} passHref>
-                    <a className={styles.nextInner}>
-                      <span className={styles.nextInnerIn}>
-                        call someone !!
-                      </span>
-                    </a>
+                    <span className={styles.nextInner}>
+                      <p className={styles.nextInnerIn}>Phone Call</p>
+                    </span>
                   </Link>
                 </div>
               </td>

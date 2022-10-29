@@ -8,19 +8,13 @@ export default function MikaSNS() {
     <>
       <div className={styles.sns}>
         {/* <Link href={"/"} passHref>
-          <a>
-            <div className={styles.blog}></div>
-          </a>
+          <div className={styles.blog}></div>
         </Link> */}
         <Link href={"https://www.instagram.com/mi._.ka._.22"} passHref>
-          <a>
-            <div className={styles.instagram}></div>
-          </a>
+          <div className={styles.instagram}></div>
         </Link>
         <Link href={"https://line.me/R/ti/p/%40980gkidl"} passHref>
-          <a>
-            <div className={styles.line}></div>
-          </a>
+          <div className={styles.line}></div>
         </Link>
       </div>
     </>

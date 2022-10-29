@@ -8,19 +8,13 @@ export default function NozomiSNS() {
     <>
       <div className={styles.sns}>
         <Link href={"https://beauty.hotpepper.jp/slnH000524394/blog/"} passHref>
-          <a>
-            <div className={styles.blog}></div>
-          </a>
+          <div className={styles.blog}></div>
         </Link>
         <Link href={"https://www.instagram.com/isomura_nozomi/"} passHref>
-          <a>
-            <div className={styles.instagram}></div>
-          </a>
+          <div className={styles.instagram}></div>
         </Link>
         <Link href={"https://line.me/R/ti/p/%40400osdsa"} passHref>
-          <a>
-            <div className={styles.line}></div>
-          </a>
+          <div className={styles.line}></div>
         </Link>
       </div>
     </>

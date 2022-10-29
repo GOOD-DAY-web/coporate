@@ -21,11 +21,9 @@ export default function NakashimaShopInfo() {
               <td className={styles.menuTableTd}>
                 <div className={styles.next}>
                   <Link href={"tel:086-454-7373"} passHref>
-                    <a className={styles.nextInner}>
-                      <span className={styles.nextInnerIn}>
-                        call someone !!
-                      </span>
-                    </a>
+                    <div className={styles.nextInner}>
+                      <span className={styles.nextInnerIn}>Phone Call</span>
+                    </div>
                   </Link>
                 </div>
               </td>

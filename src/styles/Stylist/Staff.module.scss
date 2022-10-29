@@ -82,6 +82,7 @@
   letter-spacing: 0.1em;
   position: absolute;
   top: -5px;
+  text-align: center;
   text-decoration: none;
   transition-duration: 0.2s;
   width: 100%;
@@ -117,6 +118,8 @@
 }
 .stylistImageHover {
   box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0.2rem;
 
   &:hover {
     opacity: 0.8;

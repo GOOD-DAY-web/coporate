@@ -15,7 +15,6 @@ export default function Recruitment() {
         <div className={styles.mainImage}>
           <Image
             src={"/media/GOOD-DAY_Noda.jpg"}
-            objectFit="contain"
             alt={"Recruitメインイメージ"}
             width={1920}
             height={1060}

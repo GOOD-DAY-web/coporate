@@ -15,32 +15,25 @@ export default function Footer() {
       <div className={styles.footerContents}>
         <div className={styles.footerBrock}>
           <Link href={"/"} passHref>
-            <a>
-              <Image
-                className=""
-                src={"/media/GOOD-DAY_mainLogo_05.png"}
-                objectFit="contain"
-                alt={"GOOD-DAY メインロゴ"}
-                width={80}
-                height={80}
-              />
-            </a>
+            <Image
+              className={styles.footerImage}
+              src={"/media/GOOD-DAY_mainLogo_05.png"}
+              alt={"GOOD-DAY メインロゴ"}
+              width={80}
+              height={80}
+            />
           </Link>
         </div>
         <div className={styles.footerBrock}>
           <Link href={"/stylist"} passHref>
-            <a>
-              <p className={styles.footerTitle}>Stylist</p>
-            </a>
+            <p className={styles.footerTitle}>Stylist</p>
           </Link>
           <div className={styles.footerUl}>
             {nakashima.map((shop) => {
               return (
                 <ul key={shop.shop_id}>
                   <Link href={`/company/${shop.url}`} passHref>
-                    <a>
-                      <li>{shop.name}</li>
-                    </a>
+                    <li>{shop.name}</li>
                   </Link>
                 </ul>
               );
@@ -51,9 +44,7 @@ export default function Footer() {
               return (
                 <ul key={shop.shop_id}>
                   <Link href={`/company/${shop.url}`} passHref>
-                    <a>
-                      <li>{shop.name}</li>
-                    </a>
+                    <li>{shop.name}</li>
                   </Link>
                 </ul>
               );
@@ -62,53 +53,37 @@ export default function Footer() {
         </div>
         <div className={styles.footerBrock}>
           <Link href={"/service"} passHref>
-            <a>
-              <p className={styles.footerTitle}>Service</p>
-            </a>
+            <p className={styles.footerTitle}>Service</p>
           </Link>
           <ul className={styles.footerUl}>
             <Link href={"/service/#Customer"} passHref>
-              <a>
-                <li>お客様へ</li>
-              </a>
+              <li>お客様へ</li>
             </Link>
             <Link href={"/service/#ToStylist"} passHref>
-              <a>
-                <li>スタイリスト向け</li>
-              </a>
+              <li>スタイリスト向け</li>
             </Link>
           </ul>
         </div>
         <div className={styles.footerBrock}>
           <Link href={"/philosophy"} passHref>
-            <a>
-              <p className={styles.footerTitle}>Philosophy</p>
-            </a>
+            <p className={styles.footerTitle}>Philosophy</p>
           </Link>
           <ul className={styles.footerUl}>
             <Link href={"/philosophy"} passHref>
-              <a>
-                <li>大切にしたいこと</li>
-              </a>
+              <li>大切にしたいこと</li>
             </Link>
           </ul>
         </div>
         <div className={styles.footerBrock}>
           <Link href={"/recruit"} passHref>
-            <a>
-              <p className={styles.footerTitle}>Recruit</p>
-            </a>
+            <p className={styles.footerTitle}>Recruit</p>
           </Link>
           <ul className={styles.footerUl}>
             <Link href={"/recruit/#RecruitmentSummary"} passHref>
-              <a>
-                <li>募集概要</li>
-              </a>
+              <li>募集概要</li>
             </Link>
             <Link href={"/recruit/#FAQ"} passHref>
-              <a>
-                <li>よくある質問(FAQ)</li>
-              </a>
+              <li>よくある質問(FAQ)</li>
             </Link>
           </ul>
         </div>
@@ -116,19 +91,13 @@ export default function Footer() {
           <p className={styles.footerTitle}>Company</p>
           <ul className={styles.footerUl}>
             <Link href={"/company/#NewShop"} passHref>
-              <a>
-                <li>新店舗情報</li>
-              </a>
+              <li>新店舗情報</li>
             </Link>
             <Link href={"/company/#Nakashima"} passHref>
-              <a>
-                <li>倉敷中島店</li>
-              </a>
+              <li>倉敷中島店</li>
             </Link>
             <Link href={"/company/#Corporation"} passHref>
-              <a>
-                <li>運営会社</li>
-              </a>
+              <li>運営会社</li>
             </Link>
           </ul>
         </div>
@@ -138,14 +107,10 @@ export default function Footer() {
         <div>
           <ul className={styles.footerContentsEven}>
             <Link href={"/sitepolicy"} passHref>
-              <a>
-                <li>Webサイトの利用条件</li>
-              </a>
+              <li>Webサイトの利用条件</li>
             </Link>
             <Link href={"/privacypolicy"} passHref>
-              <a>
-                <li>プライバシーポリシー</li>
-              </a>
+              <li>プライバシーポリシー</li>
             </Link>
           </ul>
         </div>

@@ -68,16 +68,13 @@ export default function Stylist({ stylist }: Props) {
       <HamburgerMenu />
       <div className={styles.detailArea}>
         <Link href={"/stylist"} passHref>
-          <a>
-            <h2 className={styles.detailMainTitle}>Stylist</h2>
-          </a>
+          <h2 className={styles.detailMainTitle}>Stylist</h2>
         </Link>
         <div className={styles.detailFlex}>
           <div className={styles.detailImage}>
             <Image
-              className=""
+              className={styles.detailMainImage}
               src={stylist.eye_catch.url}
-              objectFit="contain"
               alt={stylist.title + "の画像です"}
               width={1000}
               height={720}
@@ -86,9 +83,7 @@ export default function Stylist({ stylist }: Props) {
           <div className={styles.detailRight}>
             <div>
               <Link href={stylist.url} passHref>
-                <a>
-                  <div className={styles.detailSubTitle}>{stylist.title}</div>
-                </a>
+                <div className={styles.detailSubTitle}>{stylist.title}</div>
               </Link>
               {/* ここでstylistIdを認識して、各自のSNSメニューを表示する */}
               <div>
@@ -130,9 +125,9 @@ export default function Stylist({ stylist }: Props) {
               </div>
               <div className={styles.next}>
                 <Link href={stylist.url} passHref>
-                  <a className={styles.nextInner}>
+                  <div className={styles.nextInner}>
                     <span className={styles.nextInnerIn}>Web予約する</span>
-                  </a>
+                  </div>
                 </Link>
               </div>
             </div>
@@ -149,31 +144,28 @@ export default function Stylist({ stylist }: Props) {
         {/* ここで各自のstyleを表示 */}
         <h2 className={styles.detailMainTitle}>Hair Style</h2>
         <div className={styles.detailStyle}>
-          <div className={styles.detailStyleImage}>
+          <div>
             <Image
-              className=""
+              className={styles.detailStyleImage}
               src={stylist.style1.url}
-              objectFit="contain"
               alt={stylist.title + "のスタイルです。"}
               width={1000}
               height={800}
             />
           </div>
-          <div className={styles.detailStyleImage}>
+          <div>
             <Image
-              className=""
+              className={styles.detailStyleImage}
               src={stylist.style2.url}
-              objectFit="contain"
               alt={stylist.title + "のスタイルです。"}
               width={1000}
               height={800}
             />
           </div>
-          <div className={styles.detailStyleImage}>
+          <div>
             <Image
-              className=""
+              className={styles.detailStyleImage}
               src={stylist.style3.url}
-              objectFit="contain"
               alt={stylist.title + "のスタイルです。"}
               width={1000}
               height={800}
@@ -210,9 +202,9 @@ export default function Stylist({ stylist }: Props) {
         </p>
         <div className={styles.next}>
           <Link href={stylist.url} passHref>
-            <a className={styles.nextInner}>
+            <div className={styles.nextInner}>
               <span className={styles.nextInnerIn}>Web予約する</span>
-            </a>
+            </div>
           </Link>
         </div>
         {/* ここでstylistIdを認識して、各自のページネーションを表示(暫定適用) */}

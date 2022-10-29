@@ -13,7 +13,6 @@ const Customer: React.FC = () => {
             <li>
               <Image
                 src={"/media/Customer_00.png"}
-                objectFit="contain"
                 alt={"こだわり1"}
                 width={240}
                 height={240}
@@ -24,7 +23,6 @@ const Customer: React.FC = () => {
             <li>
               <Image
                 src={"/media/Customer_01.png"}
-                objectFit="contain"
                 alt={"こだわり2"}
                 width={240}
                 height={240}
@@ -39,7 +37,6 @@ const Customer: React.FC = () => {
             <li>
               <Image
                 src={"/media/Customer_02.png"}
-                objectFit="contain"
                 alt={"こだわり3"}
                 width={240}
                 height={240}
@@ -51,7 +48,6 @@ const Customer: React.FC = () => {
             <li>
               <Image
                 src={"/media/Customer_03.png"}
-                objectFit="contain"
                 alt={"こだわり4"}
                 width={240}
                 height={240}
@@ -66,7 +62,6 @@ const Customer: React.FC = () => {
             <li>
               <Image
                 src={"/media/Customer_04.png"}
-                objectFit="contain"
                 alt={"こだわり5"}
                 width={240}
                 height={240}
@@ -77,7 +72,6 @@ const Customer: React.FC = () => {
             <li>
               <Image
                 src={"/media/Customer_05.png"}
-                objectFit="contain"
                 alt={"こだわり6"}
                 width={240}
                 height={240}
@@ -92,9 +86,9 @@ const Customer: React.FC = () => {
             href={"https://sam004.salonanswer.com/sas/reserve/goodday/staff"}
             passHref
           >
-            <a className={styles.nextInner}>
+            <div className={styles.nextInner}>
               <span className={styles.nextInnerIn}>Web予約はこちら</span>
-            </a>
+            </div>
           </Link>
         </div>
       </div>

@@ -28,7 +28,6 @@ export default function Custom404() {
           <Image
             className=""
             src={"/media/404notfound_00.jpg"}
-            objectFit="contain"
             alt={"ページがありません。"}
             width={1000}
             height={1000}
@@ -36,9 +35,9 @@ export default function Custom404() {
         </div>
         <div className={styles.next}>
           <Link href={"/"} passHref>
-            <a className={styles.nextInner}>
+            <div className={styles.nextInner}>
               <span className={styles.nextInnerIn}>Topに戻る</span>
-            </a>
+            </div>
           </Link>
         </div>
       </main>

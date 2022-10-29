@@ -44,9 +44,7 @@ export default function Info() {
         </div>
         <div className={styles.buttonArea}>
           <Link href={"/"}>
-            <a>
-              <button className={styles.infoButton}>Web予約はこちらから</button>
-            </a>
+            <button className={styles.infoButton}>Web予約はこちらから</button>
           </Link>
         </div>
       </div>

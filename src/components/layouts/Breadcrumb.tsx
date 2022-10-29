@@ -21,9 +21,7 @@ const Breadcrumb: React.FC<Props> = ({ blogPageInfo, pageTitle }) => {
   return (
     <MyBreadcrumb>
       <BreadcrumbItem>
-        <Link href="/">
-          <a>サイト名</a>
-        </Link>
+        <Link href="/">サイト名</Link>
       </BreadcrumbItem>
       {isBlogPage && (
         <>
@@ -32,7 +30,7 @@ const Breadcrumb: React.FC<Props> = ({ blogPageInfo, pageTitle }) => {
               href="/category/[id]"
               as={`/category/${blogPageInfo?.categoryId}`}
             >
-              <a>{blogPageInfo?.categoryName}</a>
+              {blogPageInfo?.categoryName}
             </Link>
           </BreadcrumbItem>
           <BreadcrumbItem>{blogPageInfo?.blogTitle}</BreadcrumbItem>

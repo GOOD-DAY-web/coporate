@@ -92,6 +92,13 @@
     width: 100%;
  }
 }
+.articleImage {
+
+  @media screen and (max-width:767px) {
+    padding: 1rem;
+    width: 100%;
+ }
+}
 .articleSubTitle {
   font-size:24px;
   font-weight: bold;
@@ -127,7 +134,4 @@
     padding: 0;
     width: 100%;
  }
-}
-.articleImage {
-  width: 240px;
 }

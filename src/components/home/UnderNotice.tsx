@@ -10,11 +10,9 @@ export default function UnderNotice() {
           <Link
             href={"https://sam004.salonanswer.com/sas/reserve/goodday/staff"}
           >
-            <a>
-              <button className={styles.underNoticeButton}>
-                Web予約はこちら
-              </button>
-            </a>
+            <button className={styles.underNoticeButton}>
+              Web予約はこちら
+            </button>
           </Link>
         </div>
       </div>
