@@ -136,12 +136,13 @@ export default function NakashimaGuidelines() {
                 からお問合せください。
                 <br />
                 <br />
-                <div className={styles.qrImage}>
+                <div>
                   <Link
                     href={"https://page.line.me/153jsnax?openQrModal=true"}
                     passHref
                   >
                     <Image
+                      className={styles.qrImage}
                       src={"/media/QR_LINE.png"}
                       alt={"LINE公式アカウントはこちら"}
                       width={240}

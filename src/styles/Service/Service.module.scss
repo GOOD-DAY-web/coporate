@@ -20,6 +20,22 @@
   margin: 1rem 0 4rem 0;
   text-align: center;
 }
+.featuresItem {
+  margin-bottom: 2rem;
+  text-align: center;
+
+  @media (max-width: 767px) {
+    border: dotted 8px #eeeeee;
+    padding: 1rem;
+  }
+}
+.featuresImage {
+  width: 100%;
+  @media (max-width: 767px) {
+    margin: 0 auto;
+    width: 90;
+  }
+}
 .featuresTitle {
   border-bottom: solid 1px #333333;
   font-size: 24px;

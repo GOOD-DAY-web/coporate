@@ -68,6 +68,15 @@
     width: 100%;
   }
 }
+.qrImage {
+  &:hover {
+    border: solid 4px;
+    opacity: 0.8;
+  }
+  @media (max-width: 767px) {
+    margin: 0 auto;
+  }
+}
 .textBold {
   font-weight: bold;
 }
