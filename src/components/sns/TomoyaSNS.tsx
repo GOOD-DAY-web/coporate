@@ -7,9 +7,9 @@ export default function TomoyaSNS() {
   return (
     <>
       <div className={styles.sns}>
-        {/* <Link href={"/"} passHref>
+        <Link href={"https://beauty.hotpepper.jp/slnH000616748/blog/"} passHref>
           <div className={styles.blog}></div>
-        </Link> */}
+        </Link>
         <Link href={"https://z-p15.www.instagram.com/moyashiosushi/"} passHref>
           <div className={styles.instagram}></div>
         </Link>
