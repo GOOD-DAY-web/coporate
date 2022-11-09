@@ -85,4 +85,8 @@
   &:hover {
     opacity: 0.8;
   }
+  @media (max-width: 767px) {
+    padding: 0;
+    width: 100%;
+  }
 }
