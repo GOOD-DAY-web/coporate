@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import styles from "../../styles/StylistMenu/StylistMenu.module.scss";
 
 export default function Tomoya() {
@@ -522,6 +522,19 @@ export default function Tomoya() {
           </tr>
         </tbody>
       </table>
+      <div className={styles.kuchikomi}>
+        <div className={styles.kuchikomiImage}>
+          <Link href="https://g.page/r/CQPgESBuoBhVEAI/review" passHref>
+            <Image
+              src={"/media/kuchikomi_01.png"}
+              alt={"口コミのご協力をお願いします。"}
+              objectFit="contain"
+              width={500}
+              height={500}
+            />
+          </Link>
+        </div>
+      </div>
     </div>
   );
 }
