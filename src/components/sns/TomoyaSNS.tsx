@@ -16,6 +16,9 @@ export default function TomoyaSNS() {
         <Link href={"https://line.me/R/ti/p/%40xkn5155f"} passHref>
           <div className={styles.line}></div>
         </Link>
+        <Link href={"https://minimodel.jp/r/KmDJoKw?list_no=1"} passHref>
+          <div className={styles.minimo}></div>
+        </Link>
       </div>
     </>
   );

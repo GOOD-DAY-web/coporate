@@ -114,6 +114,19 @@ padding: 1rem;
   margin: 2rem auto 4rem;
   width: 90%;
 }
+.detailText {
+  background-color: bisque;
+  box-decoration-break: clone;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+  display: inline;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 2;
+  margin: 2rem auto 4rem;
+  padding: 5px 20px;
+  -webkit-box-decoration: clone;
+  width: 90%;
+}
 .detailBody1 {
   background-color: #fafafa;
   border: solid 0.1px #eeeeee;
