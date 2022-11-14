@@ -26,7 +26,7 @@ export default function Home({ articles }: Props) {
           "岡山県にあるBeauty Hair Salon GOOD-DAY(グッディ)では、独立したい美容師さんを応援しています。全ての美容師に夢を与えられるようなシェアサロンを目指しています。"
         }
         keyword={
-          "岡山県,倉敷市,美容室,シェアサロン,GOOD-DAY,グッディ,独立,独立支援"
+          "岡山県, 岡山市, 倉敷市, 美容室, シェアサロン, ヘアサロン, GOOD-DAY, グッディ, 独立, 独立支援"
         }
         image={"/media/GOOD-DAY_mainLogo_05.png"}
         url={""}
