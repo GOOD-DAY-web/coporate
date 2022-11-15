@@ -28,7 +28,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 960px) {
   .header {
     position: initial;
     nav {
@@ -37,7 +37,7 @@
   }
 }
 .navPC {
-  @media (max-width: 767px) {
+  @media (max-width: 960px) {
     display: none;
   }
 }
@@ -83,7 +83,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 960px) {
   .header {
     position: fixed;
     top: 0;

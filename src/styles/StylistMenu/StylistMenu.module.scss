@@ -37,7 +37,7 @@
   padding: 1rem;
 }
    
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 960px) {
 .menuTablLast .menuTableTd:last-child {
   border-bottom: solid 1px #ccc;
   width: 100%;
@@ -67,7 +67,7 @@
     color: #0000ee;
     background-color: #333333;
   }
-  @media (max-width: 767px) {
+  @media (max-width: 960px) {
     width: 80%;
     margin-bottom: 2rem;
   }
@@ -85,7 +85,7 @@
   &:hover {
     opacity: 0.8;
   }
-  @media (max-width: 767px) {
+  @media (max-width: 960px) {
     padding: 0;
     width: 100%;
   }

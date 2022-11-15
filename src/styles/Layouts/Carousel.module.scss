@@ -19,11 +19,17 @@
   width: 40%;
 
   &:hover {
-    background: linear-gradient(#c14bfb,#7ee8e9);
-    color: #333333;
+    opacity: 0.6;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 960px) {
+    bottom: 4rem;
+    font-size: 16px;
+    padding: 1rem;
+    width: 40%;
+  }
+
+  @media (max-width: 520px) {
     bottom: 2rem;
     font-size: 16px;
     padding: 0.4rem;

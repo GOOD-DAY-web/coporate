@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import FAQ from "../../components/recruit/FAQ";
-import NakashimaGuidelines from "./NakashimaGuidelines";
+// import NakashimaGuidelines from "./NakashimaGuidelines";
 import NodaGuidelines from "./NodaGuidelines";
 import MakeFriends from "../../components/home/MakeFriends";
 import styles from "../../styles/Recruit/Recruit.module.scss";
@@ -14,7 +14,7 @@ export default function Recruitment() {
         <h2 className={styles.mainTitle}>Recruit</h2>
         <div className={styles.mainImage}>
           <Image
-            src={"/media/GOOD-DAY_Noda.jpg"}
+            src={"/media/Noda_sliderimg_03.jpg"}
             alt={"Recruitメインイメージ"}
             width={1920}
             height={1060}

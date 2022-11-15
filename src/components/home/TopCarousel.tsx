@@ -30,7 +30,7 @@ const TopCarousel = () => {
             width={2000}
             height={1250}
           />
-          <Link href="https://www.goodday-salon.com/recruit" passHref>
+          <Link href={`/recruit`} passHref>
             <p className={styles.carouselInfo}>詳しく見る</p>
           </Link>
         </div>

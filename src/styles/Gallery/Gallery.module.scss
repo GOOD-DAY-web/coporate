@@ -3,7 +3,7 @@
   margin: 5.8rem auto 2rem;
   width: 80%;
 
-  @media (max-width: 767px) {
+  @media (max-width: 960px) {
     margin-top: 7.8rem;
     margin-bottom: 0;
     padding: 1rem;
@@ -43,7 +43,7 @@
   padding: 0.4rem;
   width: 20%;
 
-  @media (max-width: 767px) {
+  @media (max-width: 960px) {
     width: 40%;
     margin-bottom: 2rem;
   }
@@ -98,7 +98,7 @@
   justify-content: space-around;
   padding: 2rem 0;
 
-  @media (max-width: 767px) {
+  @media (max-width: 960px) {
     display: block;
     margin: 0 auto;
     text-align: center;
@@ -112,7 +112,7 @@
 .stylistImage {
   filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.2));
 
-  @media (max-width: 767px) {
+  @media (max-width: 960px) {
     margin-bottom: 2rem;
   }
 }

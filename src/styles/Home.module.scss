@@ -41,7 +41,7 @@
 .mainHome {
   margin-top: 5.8rem;
 
-  @media screen and (max-width:767px) {
+  @media screen and (max-width:960px) {
     margin-top: 5.8rem;
   }
 }
@@ -60,7 +60,7 @@
   display: flex;
   justify-content: space-evenly;
 
-  @media screen and (max-width:767px) {
+  @media screen and (max-width:960px) {
     display: block;
   }
 }
@@ -75,7 +75,7 @@
   padding: 1rem;
   width: 80%;
 
-  @media screen and (max-width:767px) {
+  @media screen and (max-width:960px) {
     padding: 1rem;
     width: 96%;
  }
@@ -86,7 +86,7 @@
   text-align: center;
   width: 30%;
 
-  @media screen and (max-width:767px) {
+  @media screen and (max-width:960px) {
     margin: 0;
     padding: 0;
     width: 100%;
@@ -94,7 +94,12 @@
 }
 .articleImage {
 
-  @media screen and (max-width:767px) {
+  @media screen and (max-width:960px) {
+    margin: 0 auto;
+    padding: 1rem;
+    width: 50%;
+ }
+  @media screen and (max-width:520px) {
     padding: 1rem;
     width: 100%;
  }
@@ -104,7 +109,7 @@
   font-weight: bold;
   margin-bottom: 1rem;
 
-  @media screen and (max-width:767px) {
+  @media screen and (max-width:960px) {
     text-align: center;
  }
 }
@@ -122,7 +127,7 @@
     color: #333333;
   }
 
-  @media screen and (max-width:767px) {
+  @media screen and (max-width:960px) {
     text-align: center;
  }
 }
@@ -130,7 +135,7 @@
   padding: 1rem;
   width: 70%;
 
-  @media screen and (max-width:767px) {
+  @media screen and (max-width:960px) {
     padding: 0;
     width: 100%;
  }

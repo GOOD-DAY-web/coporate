@@ -10,7 +10,7 @@
 margin-top: 5.8rem;
 padding: 1rem;
 
-  @media screen and (max-width:767px) {
+  @media screen and (max-width:960px) {
     margin-top: 7.8rem;
   }
 }
@@ -19,7 +19,7 @@ padding: 1rem;
   text-align: center;
   width: 60%;
 
-  @media (max-width: 767px) {
+  @media (max-width: 960px) {
     margin: 0 auto;
     width: 100%;
   }
@@ -27,7 +27,7 @@ padding: 1rem;
 .detailRight {
   width: 40%;
 
-  @media (max-width: 767px) {
+  @media (max-width: 960px) {
     margin: 0 auto;
     width: 100%;
   }
@@ -42,7 +42,7 @@ padding: 1rem;
   margin: 0 auto;
   width: 70%;
 
-  @media (max-width: 767px) {
+  @media (max-width: 960px) {
     width: 100%;
   }
 }
@@ -57,7 +57,7 @@ padding: 1rem;
   padding: 1rem;
   width: 90%;
 
-  @media (max-width: 767px) {
+  @media (max-width: 960px) {
     background-color: #ffffff;
     border: none;
     border-radius: 0;
@@ -73,7 +73,12 @@ padding: 1rem;
   padding: 0.2rem;
   width: 50%;
 
-  @media (max-width: 767px) {
+  @media (max-width: 960px) {
+    padding: 1rem;
+    width: 50%;
+  }
+
+  @media (max-width: 520px) {
     padding: 1rem;
     width: 100%;
   }
@@ -84,7 +89,7 @@ padding: 1rem;
   margin-bottom: 1rem;
   width: 100%;
 
-  @media (max-width: 767px) {
+  @media (max-width: 960px) {
     text-align: center;
     margin: 0 auto;
     overflow: hidden;
@@ -96,7 +101,7 @@ padding: 1rem;
   margin-bottom: 2rem;
   width: 100%;
 
-  @media (max-width: 767px) {
+  @media (max-width: 960px) {
     text-align: center;
     margin: 0 auto;
     overflow: hidden;
@@ -142,7 +147,7 @@ padding: 1rem;
   justify-content: space-around;
   margin-bottom: 2rem;
 
-  @media (max-width: 767px) {
+  @media (max-width: 960px) {
     display: block;
     margin: 1rem auto;
     padding: 0;
@@ -156,7 +161,12 @@ padding: 1rem;
   padding: 0.2rem;
   width: 90%;
 
-  @media (max-width: 767px) {
+  @media (max-width: 960px) {
+    padding: 1rem;
+    width: 50%;
+  }
+
+  @media (max-width: 520px) {
     padding: 1rem;
     width: 100%;
   }
@@ -175,7 +185,7 @@ padding: 1rem;
     color: #0000ee;
     background-color: #333333;
   }
-  @media (max-width: 767px) {
+  @media (max-width: 960px) {
     width: 80%;
     margin-bottom: 2rem;
   }
@@ -197,7 +207,7 @@ padding: 1rem;
     color: #0000ee;
     background-color: #333333;
   }
-  @media (max-width: 767px) {
+  @media (max-width: 960px) {
     width: 80%;
     margin-bottom: 2rem;
   }
@@ -212,7 +222,7 @@ padding: 1rem;
   text-align: center;
   width: 24%;
 
-  @media (max-width: 767px) {
+  @media (max-width: 960px) {
     width: 60%;
     margin-bottom: 2rem;
   }
@@ -296,7 +306,7 @@ padding: 1rem;
   padding: 1rem;
   width: 40%;
 
-  @media (max-width: 767px) {
+  @media (max-width: 960px) {
     width: 90%;
     margin-bottom: 2rem;
   }
