@@ -6,8 +6,8 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const TopCarousel = () => {
   const images: string[] = [
-    "/media/GOOD-DAY_Noda_mainImage_00.jpg",
-    "/media/GOOD-DAY_Noda_mainImage_01.jpg",
+    "/media/Noda_sliderimg_00.jpg",
+    "/media/Noda_sliderimg_01.jpg",
     "/media/main_slider_00.jpg",
     "/media/main_slider_01.jpg",
     "/media/main_slider_02.jpg",
@@ -22,7 +22,55 @@ const TopCarousel = () => {
         showThumbs={false}
         statusFormatter={() => ``}
       >
-        {images.map((url, index) => (
+        <div>
+          <Image
+            className={styles.carousel}
+            src={images[0]}
+            alt={"GOOD-DAY岡山野田店スタイリスト募集中"}
+            width={2000}
+            height={1250}
+          />
+          <Link href="https://www.goodday-salon.com/recruit" passHref>
+            <p className={styles.carouselInfo}>詳しく見る</p>
+          </Link>
+        </div>
+        <div>
+          <Image
+            className={styles.carousel}
+            src={images[1]}
+            alt={"GOOD-DAY岡山野田店"}
+            width={2000}
+            height={1250}
+          />
+        </div>
+        <div>
+          <Image
+            className={styles.carousel}
+            src={images[2]}
+            alt={"GOOD-DAY倉敷中島店"}
+            width={2000}
+            height={1250}
+          />
+        </div>
+        <div>
+          <Image
+            className={styles.carousel}
+            src={images[3]}
+            alt={"GOOD-DAY倉敷中島店"}
+            width={2000}
+            height={1250}
+          />
+        </div>
+        <div>
+          <Image
+            className={styles.carousel}
+            src={images[4]}
+            alt={"GOOD-DAY倉敷中島店"}
+            width={2000}
+            height={1250}
+          />
+        </div>
+        {/* {images.map((url, index) => (
           <div key={index}>
             <Image
               src={url}
@@ -31,7 +79,7 @@ const TopCarousel = () => {
               alt={"Topスライダーです"}
             />
           </div>
-        ))}
+        ))} */}
       </Carousel>
     </>
   );

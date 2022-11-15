@@ -1,22 +1,14 @@
-.styleCarouselArea {
-  display: flex;
-  flex-direction:row;
-  margin: 0 auto;
-  text-align: center;
-  height: auto;
-  width: 100%;
-}
-.styleCarousel {
-  margin: 0;
-  padding: 0;
+.carousel {
+  position: relative;
 }
 .carouselInfo {
-  background: #333333;
-  border-radius: 1rem;
-  bottom: 4rem;
-  color: #fff;
-  font-size: 16px;
-  left: 50%;
+  background: linear-gradient(#7ee8e9, #c14bfb);
+  border-radius: 40px;
+  bottom: 8rem;
+  color: #ffffff;
+  font-size: 32px;
+  font-weight: bold;
+  left: 70%;
   margin-left: -40%;
   opacity: 0.8;
   padding: 1rem;
@@ -24,11 +16,17 @@
   transition: all .5s ease-in-out;
   text-align: center;
   transition: opacity .35s ease-in-out;
-  width: 80%;
+  width: 40%;
+
+  &:hover {
+    background: linear-gradient(#c14bfb,#7ee8e9);
+    color: #333333;
+  }
 
   @media (max-width: 767px) {
-      width: 80%;
-      padding-bottom: 1rem;
-      bottom: 2rem;
+    bottom: 2rem;
+    font-size: 16px;
+    padding: 0.4rem;
+    width: 40%;
   }
 }
