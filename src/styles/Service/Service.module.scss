@@ -15,6 +15,11 @@
   font-weight: bold;
   margin: 2rem;
   text-align: center;
+
+  @media (max-width: 960px) {
+    font-size: 24px;
+    margin: 1rem;
+  }
 }
 .featuresMainSubTitle {
   margin: 1rem 0 4rem 0;
@@ -23,6 +28,7 @@
 .featuresItem {
   margin-bottom: 2rem;
   text-align: center;
+  width: 30%;
 
   @media (max-width: 960px) {
     padding: 1rem;
@@ -31,6 +37,7 @@
   @media (max-width: 520px) {
     border: dotted 8px #eeeeee;
     padding: 1rem;
+    width: 100%;
   }
 }
 .featuresImage {
@@ -38,12 +45,12 @@
 
   @media (max-width: 960px) {
     margin: 0 auto;
-    width: 50%;
+    width: 90%;
   }
 
   @media (max-width: 520px) {
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
   }
 }
 .featuresTitle {
