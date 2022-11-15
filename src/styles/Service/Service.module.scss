@@ -25,6 +25,10 @@
   text-align: center;
 
   @media (max-width: 960px) {
+    padding: 1rem;
+  }
+
+  @media (max-width: 520px) {
     border: dotted 8px #eeeeee;
     padding: 1rem;
   }
@@ -121,11 +125,10 @@
   padding: 2rem 0;
 
   @media (max-width: 960px) {
-    display: block;
     margin: 0 auto;
     text-align: center;
     padding: 0;
-    width: 80%;
+    width: 100%;
   }
 
   @media (max-width: 520px) {

@@ -5,6 +5,10 @@
 .menuArea {
   margin: 0 auto;
   width: 90%;
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
+  }
 }
 .menuTitle {
   font-size: 32px;
@@ -12,12 +16,20 @@
   margin: 0 auto;
   padding: 3rem 0 1rem 0;
   width: 90%;
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
+  }
 }
 .menuDetail {
   font-size: 16px;
   margin: 0 auto;
   padding: 0 0 1rem 0;
   width: 90%;
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
+  }
 }
 .menuTabl {
   margin: 1rem auto;
