@@ -24,6 +24,7 @@ const Staffs: React.FC = () => {
                 />
                 <div className={styles.stylistMask}>
                   <p className={styles.stylistCaption}>藤原 朋也</p>
+                  <p className={styles.stylistCaptionSub}>岡山野田店</p>
                 </div>
               </li>
             </Link>
@@ -38,6 +39,7 @@ const Staffs: React.FC = () => {
                 />
                 <div className={styles.stylistMask}>
                   <p className={styles.stylistCaption}>小野 奈美</p>
+                  <p className={styles.stylistCaptionSub}>倉敷中島店</p>
                 </div>
               </li>
             </Link>
@@ -52,6 +54,7 @@ const Staffs: React.FC = () => {
                 />
                 <div className={styles.stylistMask}>
                   <p className={styles.stylistCaption}>土田 真帆</p>
+                  <p className={styles.stylistCaptionSub}>倉敷中島店</p>
                 </div>
               </li>
             </Link>
@@ -66,6 +69,7 @@ const Staffs: React.FC = () => {
                 />
                 <div className={styles.stylistMask}>
                   <p className={styles.stylistCaption}>藤原 由香</p>
+                  <p className={styles.stylistCaptionSub}>倉敷中島店</p>
                 </div>
               </li>
             </Link>
@@ -80,6 +84,7 @@ const Staffs: React.FC = () => {
                 />
                 <div className={styles.stylistMask}>
                   <p className={styles.stylistCaption}>今石 麻依</p>
+                  <p className={styles.stylistCaptionSub}>倉敷中島店</p>
                 </div>
               </li>
             </Link>
@@ -94,6 +99,7 @@ const Staffs: React.FC = () => {
                 />
                 <div className={styles.stylistMask}>
                   <p className={styles.stylistCaption}>池本 麻紀子</p>
+                  <p className={styles.stylistCaptionSub}>倉敷中島店</p>
                 </div>
               </li>
             </Link>
@@ -108,6 +114,7 @@ const Staffs: React.FC = () => {
                 />
                 <div className={styles.stylistMask}>
                   <p className={styles.stylistCaption}>藤井 政美</p>
+                  <p className={styles.stylistCaptionSub}>倉敷中島店</p>
                 </div>
               </li>
             </Link>
@@ -122,6 +129,7 @@ const Staffs: React.FC = () => {
                 />
                 <div className={styles.stylistMask}>
                   <p className={styles.stylistCaption}>神田 敏和</p>
+                  <p className={styles.stylistCaptionSub}>倉敷中島店</p>
                 </div>
               </li>
             </Link>
@@ -136,6 +144,7 @@ const Staffs: React.FC = () => {
                 />
                 <div className={styles.stylistMask}>
                   <p className={styles.stylistCaption}>田邉 大将</p>
+                  <p className={styles.stylistCaptionSub}>倉敷中島店</p>
                 </div>
               </li>
             </Link>
@@ -150,6 +159,7 @@ const Staffs: React.FC = () => {
                 />
                 <div className={styles.stylistMask}>
                   <p className={styles.stylistCaption}>natsuki</p>
+                  <p className={styles.stylistCaptionSub}>倉敷中島店</p>
                 </div>
               </li>
             </Link>
@@ -164,6 +174,7 @@ const Staffs: React.FC = () => {
                 />
                 <div className={styles.stylistMask}>
                   <p className={styles.stylistCaption}>磯村 希実</p>
+                  <p className={styles.stylistCaptionSub}>倉敷中島店</p>
                 </div>
               </li>
             </Link>
@@ -178,6 +189,7 @@ const Staffs: React.FC = () => {
                 />
                 <div className={styles.stylistMask}>
                   <p className={styles.stylistCaption}>田原 美華</p>
+                  <p className={styles.stylistCaptionSub}>倉敷中島店</p>
                 </div>
               </li>
             </Link>
@@ -192,6 +204,7 @@ const Staffs: React.FC = () => {
                 />
                 <div className={styles.stylistMask}>
                   <p className={styles.stylistCaption}>かたやま はるか</p>
+                  <p className={styles.stylistCaptionSub}>倉敷中島店</p>
                 </div>
               </li>
             </Link>

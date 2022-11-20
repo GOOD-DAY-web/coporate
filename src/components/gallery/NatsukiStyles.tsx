@@ -19,6 +19,13 @@ const NatsukiStyles: React.FC = () => {
               width={178}
               height={240}
             />
+            <div className={styles.stylistMask}>
+              <p className={styles.stylistCaption}>
+                Provided by
+                <br />
+                {stylistName}
+              </p>
+            </div>
           </li>
         </Link>
         <Link href={"/stylist/natsuki"}>
@@ -31,6 +38,13 @@ const NatsukiStyles: React.FC = () => {
               width={178}
               height={240}
             />
+            <div className={styles.stylistMask}>
+              <p className={styles.stylistCaption}>
+                Provided by
+                <br />
+                {stylistName}
+              </p>
+            </div>
           </li>
         </Link>
         <Link href={"/stylist/natsuki"}>
@@ -43,6 +57,13 @@ const NatsukiStyles: React.FC = () => {
               width={178}
               height={240}
             />
+            <div className={styles.stylistMask}>
+              <p className={styles.stylistCaption}>
+                Provided by
+                <br />
+                {stylistName}
+              </p>
+            </div>
           </li>
         </Link>
       </ul>

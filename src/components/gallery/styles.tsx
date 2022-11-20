@@ -2,6 +2,8 @@ import react from "react";
 import Link from "next/link";
 import Image from "next/image";
 import styles from "../../styles/Gallery/Gallery.module.scss";
+
+import TomoyaStyles from "../../components/gallery/TomoyaStyles";
 import NamiStyles from "../../components/gallery/NamiStyles";
 import MahoStyles from "../../components/gallery/MahoStyles";
 import YukaStyles from "../../components/gallery/YukaStyles";
@@ -21,6 +23,7 @@ const Styles: React.FC = () => {
       <div id="Works" className={styles.main}>
         <h2 className={styles.featuresMainTitle}>GOOD-DAY Hit Styles</h2>
         <p className={styles.featuresMainSubTitle}>スタイル一覧</p>
+        <TomoyaStyles />
         <NamiStyles />
         <MahoStyles />
         <YukaStyles />

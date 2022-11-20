@@ -3,17 +3,17 @@ import Link from "next/link";
 import Image from "next/legacy/image";
 import styles from "../../styles/Gallery/Gallery.module.scss";
 
-const stylistName: string = "池本 麻紀子";
+const stylistName: string = "藤原 朋也";
 
-const IkemotoStyles: React.FC = () => {
+const TomoyaStyles: React.FC = () => {
   return (
     <>
       <ul className={styles.flex}>
-        <Link href={"/stylist/ikemoto"}>
+        <Link href={"/stylist/tomoya"}>
           <li className={styles.stylistImage}>
             <Image
               className={styles.stylistImageHover}
-              src={"/styles/Nami_03.jpg"}
+              src={"/styles/Tomoya_00.jpg"}
               alt={stylistName + "のスタイル1です。"}
               objectFit="contain"
               width={178}
@@ -28,11 +28,11 @@ const IkemotoStyles: React.FC = () => {
             </div>
           </li>
         </Link>
-        <Link href={"/stylist/ikemoto"}>
+        <Link href={"/stylist/tomoya"}>
           <li className={styles.stylistImage}>
             <Image
               className={styles.stylistImageHover}
-              src={"/styles/Nami_01.jpg"}
+              src={"/styles/Tomoya_01.jpg"}
               alt={stylistName + "のスタイル2です。"}
               objectFit="contain"
               width={178}
@@ -47,11 +47,11 @@ const IkemotoStyles: React.FC = () => {
             </div>
           </li>
         </Link>
-        <Link href={"/stylist/ikemoto"}>
+        <Link href={"/stylist/tomoya"}>
           <li className={styles.stylistImage}>
             <Image
               className={styles.stylistImageHover}
-              src={"/styles/Nami_00.jpg"}
+              src={"/styles/Tomoya_02.jpg"}
               alt={stylistName + "のスタイル3です。"}
               objectFit="contain"
               width={178}
@@ -71,4 +71,4 @@ const IkemotoStyles: React.FC = () => {
   );
 };
 
-export default IkemotoStyles;
+export default TomoyaStyles;
