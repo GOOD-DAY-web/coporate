@@ -122,6 +122,8 @@
 }
 .stylistImage {
   filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.2));
+  overflow: hidden;
+  position: relative;
 
   @media (max-width: 960px) {
     margin-bottom: 2rem;
@@ -131,10 +133,24 @@
   box-sizing: border-box;
   margin: 0 auto;
   padding: 0.2rem;
-
-  &:hover {
-    opacity: 0.8;
-    // outline:solid 4px #0000ee;
-    // outline-offset: -10px;
-  }
+}
+.stylistCaption {
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+	padding-top: 70%;
+}
+.stylistMask {
+	width: 100%;
+	height: 100%;
+	position:	absolute;
+	top: 0;
+	left:	0;
+	opacity: 0;	/* デフォルトは非表示 */
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition:	all 0.2s ease;
+	transition:		all 0.2s ease;
+}
+.stylistMask:hover {
+	opacity:		1;	/* hoverした時に表示する */
 }

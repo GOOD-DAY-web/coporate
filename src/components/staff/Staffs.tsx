@@ -22,6 +22,9 @@ const Staffs: React.FC = () => {
                   width={240}
                   height={240}
                 />
+                <div className={styles.stylistMask}>
+                  <p className={styles.stylistCaption}>藤原 朋也</p>
+                </div>
               </li>
             </Link>
             <Link href={"/stylist/nami"}>
@@ -33,6 +36,9 @@ const Staffs: React.FC = () => {
                   width={240}
                   height={240}
                 />
+                <div className={styles.stylistMask}>
+                  <p className={styles.stylistCaption}>小野 奈美</p>
+                </div>
               </li>
             </Link>
             <Link href={"/stylist/maho"}>
@@ -44,6 +50,9 @@ const Staffs: React.FC = () => {
                   width={240}
                   height={240}
                 />
+                <div className={styles.stylistMask}>
+                  <p className={styles.stylistCaption}>土田 真帆</p>
+                </div>
               </li>
             </Link>
             <Link href={"/stylist/yuka"}>
@@ -55,6 +64,9 @@ const Staffs: React.FC = () => {
                   width={240}
                   height={240}
                 />
+                <div className={styles.stylistMask}>
+                  <p className={styles.stylistCaption}>藤原 由香</p>
+                </div>
               </li>
             </Link>
             <Link href={"/stylist/mai"}>
@@ -66,6 +78,9 @@ const Staffs: React.FC = () => {
                   width={240}
                   height={240}
                 />
+                <div className={styles.stylistMask}>
+                  <p className={styles.stylistCaption}>今石 麻依</p>
+                </div>
               </li>
             </Link>
             <Link href={"/stylist/ikemoto"}>
@@ -77,6 +92,9 @@ const Staffs: React.FC = () => {
                   width={240}
                   height={240}
                 />
+                <div className={styles.stylistMask}>
+                  <p className={styles.stylistCaption}>池本 麻紀子</p>
+                </div>
               </li>
             </Link>
             <Link href={"/stylist/fujii"}>
@@ -88,6 +106,9 @@ const Staffs: React.FC = () => {
                   width={240}
                   height={240}
                 />
+                <div className={styles.stylistMask}>
+                  <p className={styles.stylistCaption}>藤井 政美</p>
+                </div>
               </li>
             </Link>
             <Link href={"/stylist/john"}>
@@ -99,6 +120,9 @@ const Staffs: React.FC = () => {
                   width={240}
                   height={240}
                 />
+                <div className={styles.stylistMask}>
+                  <p className={styles.stylistCaption}>神田 敏和</p>
+                </div>
               </li>
             </Link>
             <Link href={"/stylist/dai"}>
@@ -110,6 +134,9 @@ const Staffs: React.FC = () => {
                   width={240}
                   height={240}
                 />
+                <div className={styles.stylistMask}>
+                  <p className={styles.stylistCaption}>田邉 大将</p>
+                </div>
               </li>
             </Link>
             <Link href={"/stylist/natsuki"}>
@@ -121,6 +148,9 @@ const Staffs: React.FC = () => {
                   width={240}
                   height={240}
                 />
+                <div className={styles.stylistMask}>
+                  <p className={styles.stylistCaption}>natsuki</p>
+                </div>
               </li>
             </Link>
             <Link href={"/stylist/nozomi"}>
@@ -132,6 +162,9 @@ const Staffs: React.FC = () => {
                   width={240}
                   height={240}
                 />
+                <div className={styles.stylistMask}>
+                  <p className={styles.stylistCaption}>磯村 希実</p>
+                </div>
               </li>
             </Link>
             <Link href={"/stylist/mika"}>
@@ -143,6 +176,9 @@ const Staffs: React.FC = () => {
                   width={240}
                   height={240}
                 />
+                <div className={styles.stylistMask}>
+                  <p className={styles.stylistCaption}>田原 美華</p>
+                </div>
               </li>
             </Link>
             <Link href={"/stylist/katayama"}>
@@ -154,6 +190,9 @@ const Staffs: React.FC = () => {
                   width={240}
                   height={240}
                 />
+                <div className={styles.stylistMask}>
+                  <p className={styles.stylistCaption}>かたやま はるか</p>
+                </div>
               </li>
             </Link>
           </ul>
