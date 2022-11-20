@@ -140,6 +140,10 @@
   color: #ffffff;
   text-align: center;
 	padding-top: 90%;
+
+  @media (max-width: 520px) {
+    padding-top: 40%;
+  }
 }
 .stylistMask {
 	width: 100%;
