@@ -21,7 +21,7 @@ export default function ApplicationOutline() {
     title: "STEP3",
     src: "/media/howToUse_03.png",
     alt: "STEP3の画像です",
-    text: "会員登録日/施設利用料のご入金",
+    text: "会員登録/施設利用料のご入金",
   };
   const ArrowImagePC = {
     src: "/media/howToUse_04.png",
