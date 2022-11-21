@@ -2,10 +2,10 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import FAQ from "../../components/recruit/FAQ";
-// import NakashimaGuidelines from "./NakashimaGuidelines";
 import NodaGuidelines from "./NodaGuidelines";
 import MakeFriends from "../../components/home/MakeFriends";
 import styles from "../../styles/Recruit/Recruit.module.scss";
+import ApplicationFlow from "../../components/Application/ApplicationFlow";
 
 export default function Recruitment() {
   return (
@@ -30,8 +30,9 @@ export default function Recruitment() {
             募集要項
           </h2>
           <NodaGuidelines />
-          <FAQ />
+          <ApplicationFlow />
           <MakeFriends />
+          <FAQ />
         </>
       </div>
     </>
