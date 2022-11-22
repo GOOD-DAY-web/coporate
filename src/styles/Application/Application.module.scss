@@ -68,13 +68,14 @@
 
   @media screen and (max-width:520px) {
     margin: 0 auto;
-    width: 100%;
+    width: 70%;
   }
 }
 .allowImagePC {
-    padding-top: 3rem;
+    padding-top: 4rem;
+    width: 5%;
   @media screen and (max-width:960px) {
-    padding-top: 2rem;
+    padding-top: 3rem;
   }
   @media screen and (max-width:520px) {
     display: none;
@@ -84,8 +85,10 @@
     display: none;
   @media screen and (max-width:520px) {
     display: block;
+    margin: 0 auto;
     padding: 3rem;
     text-align: center;
+    width: 50%;
   } 
 }
 .applicationText {

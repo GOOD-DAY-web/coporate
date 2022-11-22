@@ -10,7 +10,6 @@ export default function FAQ() {
         <h2 id="FAQ" className={styles.accordionTitle}>
           よくある質問(FAQ)
         </h2>
-
         <input
           id="accordionCheck0"
           className={styles.accordionCheck}

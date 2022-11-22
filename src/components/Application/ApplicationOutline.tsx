@@ -38,7 +38,7 @@ export default function ApplicationOutline() {
     <>
       <div className={styles.flexE}>
         <div className={styles.flow}>
-          <h3>{ApplicationOutlineItems_00.title}</h3>
+          <h4>{ApplicationOutlineItems_00.title}</h4>
           <Image
             className=""
             src={ApplicationOutlineItems_00.src}
@@ -68,7 +68,7 @@ export default function ApplicationOutline() {
           />
         </div>
         <div className={styles.flow}>
-          <h3>{ApplicationOutlineItems_01.title}</h3>
+          <h4>{ApplicationOutlineItems_01.title}</h4>
           <Image
             className=""
             src={ApplicationOutlineItems_01.src}
@@ -99,7 +99,7 @@ export default function ApplicationOutline() {
           />
         </div>
         <div className={styles.flow}>
-          <h3>{ApplicationOutlineItems_02.title}</h3>
+          <h4>{ApplicationOutlineItems_02.title}</h4>
           <Image
             className=""
             src={ApplicationOutlineItems_02.src}

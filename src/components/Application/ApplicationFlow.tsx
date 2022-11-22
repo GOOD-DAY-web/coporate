@@ -2,8 +2,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+import ApplicationOutline from "./ApplicationOutline";
 import styles from "../../styles/Application/Application.module.scss";
-import ApplicationOutline from "../../components/Application/ApplicationOutline";
 
 export default function ApplicationFlow() {
   const ApplicationFlowItems = {
@@ -13,12 +13,12 @@ export default function ApplicationFlow() {
   return (
     <>
       <div className={styles.applicationFlowArea}>
-        <h1 className={styles.applicationFlowMainTitle}>
+        <h2 id="#ApplicationFlow" className={styles.applicationFlowMainTitle}>
           {ApplicationFlowItems.title}
-        </h1>
-        <h2 className={styles.applicationFlowSubTitle}>
-          {ApplicationFlowItems.subTitle}
         </h2>
+        <h3 className={styles.applicationFlowSubTitle}>
+          {ApplicationFlowItems.subTitle}
+        </h3>
         <ApplicationOutline />
       </div>
     </>

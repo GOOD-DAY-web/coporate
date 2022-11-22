@@ -82,6 +82,9 @@ export default function Footer() {
             <Link href={"/recruit/#RecruitmentSummary"} passHref>
               <li>募集概要</li>
             </Link>
+            <Link href={"/recruit/#ApplicationFlow"} passHref>
+              <li>施設利用の流れ</li>
+            </Link>
             <Link href={"/recruit/#FAQ"} passHref>
               <li>よくある質問(FAQ)</li>
             </Link>

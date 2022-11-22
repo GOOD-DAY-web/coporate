@@ -5,7 +5,7 @@ import FAQ from "../../components/recruit/FAQ";
 import NodaGuidelines from "./NodaGuidelines";
 import MakeFriends from "../../components/home/MakeFriends";
 import styles from "../../styles/Recruit/Recruit.module.scss";
-import ApplicationFlow from "../../components/Application/ApplicationFlow";
+import ApplicationFlow from "../Application/ApplicationFlow";
 
 export default function Recruitment() {
   return (
