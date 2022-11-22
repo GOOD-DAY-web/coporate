@@ -3,6 +3,9 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import ApplicationOutline from "./ApplicationOutline";
+import Inspection from "./Inspection";
+import Documents from "./Documents";
+import Deposit from "./Deposit";
 import styles from "../../styles/Application/Application.module.scss";
 
 export default function ApplicationFlow() {
@@ -20,6 +23,12 @@ export default function ApplicationFlow() {
           {ApplicationFlowItems.subTitle}
         </h3>
         <ApplicationOutline />
+        <hr />
+        <Inspection />
+        <hr />
+        <Documents />
+        <hr />
+        <Deposit />
       </div>
     </>
   );

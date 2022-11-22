@@ -100,4 +100,95 @@
 .applicationText {
   padding: 1rem;
   text-align: center;
+}
+
+.applicationArea {
+  margin: 2rem auto;
+  width: 100%;
+  height: auto;
+}
+
+.applicationTopArea {
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.applicationTopImg {
+  width: 100%;
+}
+@media screen and (max-width: 520px) {
+  .applicationTopImg {
+    margin: 0 auto;
+    width: 50%;
+  }
+}
+
+.applicationTopTitle {
+  font-size: 36px;
+  font-weight: bold;
+  padding: 1rem;
+}
+@media screen and (max-width: 520px) {
+  .applicationTopTitle {
+    font-size: 24px;
+  }
+}
+
+.applicationTopText {
+  letter-spacing: 2px;
+  padding: 1rem;
+}
+
+.applicationUnderArea {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 520px) {
+  .applicationUnderArea {
+    display: block;
+  }
+}
+
+.applicationUnderTitle {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 1rem;
+}
+@media screen and (max-width: 520px) {
+  .applicationUnderTitle {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+
+.applicationUnderText {
+  padding: 1rem;
+}
+@media screen and (max-width: 520px) {
+  .applicationUnderText {
+    padding: 0;
+  }
+}
+
+.applicationUnderLeft {
+  padding: 1rem;
+  width: 50%;
+}
+@media screen and (max-width: 520px) {
+  .applicationUnderLeft {
+    width: 100%;
+  }
+}
+
+.applicationUnderRight {
+  padding: 1rem;
+  width: 50%;
+}
+@media screen and (max-width: 520px) {
+  .applicationUnderRight {
+    width: 100%;
+  }
 }/*# sourceMappingURL=Application.module.css.map */
