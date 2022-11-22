@@ -1,0 +1,103 @@
+.applicationFlowArea {
+  margin: 0 auto 4rem;
+  width: 90%;
+  height: auto;
+}
+
+.flexA {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+@media screen and (max-width: 520px) {
+  .flexA {
+    display: block;
+  }
+}
+
+.flexB {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+@media screen and (max-width: 520px) {
+  .flexB {
+    display: block;
+  }
+}
+
+.flexE {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+@media screen and (max-width: 520px) {
+  .flexE {
+    display: block;
+  }
+}
+
+.applicationFlowMainTitle {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+@media screen and (max-width: 960px) {
+  .applicationFlowMainTitle {
+    font-size: 24px;
+  }
+}
+.applicationFlowSubTitle {
+  font-size: 24px;
+  padding: 1rem 0;
+  text-align: center;
+}
+@media screen and (max-width: 960px) {
+  .applicationFlowSubTitle {
+    font-size: 16px;
+  }
+}
+.flow {
+  text-align: center;
+  width: 10%;
+  height: auto;
+}
+@media screen and (max-width: 520px) {
+  .flow {
+    margin: 0 auto;
+    width: 70%;
+  }
+}
+
+.allowImagePC {
+  padding-top: 4rem;
+  width: 5%;
+}
+@media screen and (max-width: 960px) {
+  .allowImagePC {
+    padding-top: 3rem;
+  }
+}
+@media screen and (max-width: 520px) {
+  .allowImagePC {
+    display: none;
+  }
+}
+
+.allowImageSP {
+  display: none;
+}
+@media screen and (max-width: 520px) {
+  .allowImageSP {
+    display: block;
+    margin: 0 auto;
+    padding: 3rem;
+    text-align: center;
+    width: 50%;
+  }
+}
+
+.applicationText {
+  padding: 1rem;
+  text-align: center;
+}/*# sourceMappingURL=Application.module.css.map */
