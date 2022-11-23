@@ -8,26 +8,31 @@ import styles from "../../styles/Recruit/Recruit.module.scss";
 import ApplicationFlow from "../Application/ApplicationFlow";
 
 export default function Recruitment() {
+  const RecruitmentItems = {
+    title: "Recruit",
+    src: "/media/Noda_sliderimg_03.jpg",
+    alt: "Recruitメインイメージ",
+    copy: "美容師として本気出せ!!",
+    subTitle: "募集要項",
+  };
   return (
     <>
       <div className={styles.mainArea}>
-        <h2 className={styles.mainTitle}>Recruit</h2>
+        <h2 className={styles.mainTitle}>{RecruitmentItems.title}</h2>
         <div className={styles.mainImage}>
           <Image
-            src={"/media/Noda_sliderimg_03.jpg"}
-            alt={"Recruitメインイメージ"}
+            src={RecruitmentItems.src}
+            alt={RecruitmentItems.alt}
             width={1920}
             height={1060}
           />
         </div>
         <div className={styles.mainTitleArea}>
-          <h2 className={styles.mainTitle}>
-            GOOD-DAYは、スタイリストとお客様を繋ぐ、新しい美容室です。
-          </h2>
+          <h2 className={styles.mainTitle}>{RecruitmentItems.copy}</h2>
         </div>
         <>
           <h2 id="RecruitmentSummary" className={styles.subTitle}>
-            募集要項
+            {RecruitmentItems.subTitle}
           </h2>
           <NodaGuidelines />
           <ApplicationFlow />
