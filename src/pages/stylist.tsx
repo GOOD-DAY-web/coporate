@@ -5,8 +5,7 @@ import Image from "next/image";
 import { client } from "../libs/client";
 import SEO from "../components/layouts/SEO";
 import type { Stylist } from "../types/stylist";
-import styles from "../styles/Stylist/Stylist.module.scss";
-import HamburgerMenu from "../components/layouts/HamburgerMenu";
+import styles from "../styles/Stylist/NewStylist.module.scss";
 
 type Props = {
   stylists: Array<Stylist>;
@@ -26,7 +25,6 @@ export default function Stylist({ stylists }: Props) {
         image={"/media/GOOD-DAY_stylists.jpg"}
         url={""}
       />
-      <HamburgerMenu />
       <div className={styles.mainHome}>
         <div className={styles.stylistArea}>
           <h2 className={styles.stylistMainTitle}>Stylist</h2>
