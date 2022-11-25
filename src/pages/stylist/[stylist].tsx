@@ -1,12 +1,13 @@
 // ここはStylist単体のPageを表示している
 import { GetServerSideProps } from "next";
-import Image from "next/image";
+import Image from "next/legacy/image";
 import Link from "next/link";
 import { client } from "../../libs/client";
 import SEO from "../../components/layouts/SEO";
 import type { Stylist } from "../../types/stylist";
 import styles from "../../styles/Stylist/Detail.module.scss";
 import HamburgerMenu from "../../components/layouts/HamburgerMenu";
+import { LikeButton } from "../../components/layouts/LikeButton";
 // 各スタイリストのSNSを読み込む(暫定適用)
 import KatayamaSNS from "../../components/sns/KatayamaSNS";
 import MikaSNS from "../../components/sns/MikaSNS";
@@ -78,6 +79,7 @@ export default function Stylist({ stylist }: Props) {
               alt={stylist.title + "の画像です"}
               width={1000}
               height={720}
+              objectFit="contain"
             />
           </div>
           <div className={styles.detailRight}>
@@ -144,14 +146,16 @@ export default function Stylist({ stylist }: Props) {
         {/* ここで各自のstyleを表示 */}
         <h2 className={styles.detailMainTitle}>Hair Style</h2>
         <div className={styles.detailStyle}>
-          <div>
+          <div className={styles.detailStyleSingle}>
             <Image
               className={styles.detailStyleImage}
               src={stylist.style1.url}
               alt={stylist.title + "のスタイルです。"}
               width={1000}
-              height={800}
+              height={1000}
+              objectFit="contain"
             />
+            <LikeButton />
           </div>
           <div>
             <Image
@@ -159,8 +163,10 @@ export default function Stylist({ stylist }: Props) {
               src={stylist.style2.url}
               alt={stylist.title + "のスタイルです。"}
               width={1000}
-              height={800}
+              height={1000}
+              objectFit="contain"
             />
+            <LikeButton />
           </div>
           <div>
             <Image
@@ -168,8 +174,10 @@ export default function Stylist({ stylist }: Props) {
               src={stylist.style3.url}
               alt={stylist.title + "のスタイルです。"}
               width={1000}
-              height={800}
+              height={1000}
+              objectFit="contain"
             />
+            <LikeButton />
           </div>
         </div>
         {/* ここでstylistIdを認識して、各自のメニューを表示します。 */}

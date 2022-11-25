@@ -67,6 +67,7 @@ export default function ApplicationOutline() {
             objectFit="contain"
           />
         </div>
+
         <div className={styles.flow}>
           <h4>{ApplicationOutlineItems_01.title}</h4>
           <Image
