@@ -5,15 +5,65 @@ import styles from "../../styles/Layouts/UnderNotice.module.scss";
 export default function UnderNotice() {
   return (
     <>
-      <div className={styles.underNotice}>
-        <div className={styles.poyoyon}>
-          <Link
-            href={"https://sam004.salonanswer.com/sas/reserve/goodday/staff"}
-          >
-            <button className={styles.underNoticeButton}>
-              Web予約はこちら
-            </button>
-          </Link>
+      <div className={styles.notice}>
+        <div className={styles.flexA}>
+          <div className={styles.box}>
+            <Link href={"/"}>
+              <button className={styles.iconButton}>
+                <ul className={styles.inner}>
+                  <li className={styles.innerMain_00}>&nbsp;</li>
+                  <li className={styles.innerMain_01}>&nbsp;</li>
+                  <li className={styles.innerMain_02}>Home</li>
+                </ul>
+              </button>
+            </Link>
+          </div>
+          <div className={styles.box}>
+            <Link href={"/stylist"}>
+              <button className={styles.iconButton}>
+                <ul className={styles.inner}>
+                  <li className={styles.innerMain_03}>&nbsp;</li>
+                  <li className={styles.innerMain_04}>&nbsp;</li>
+                  <li className={styles.innerMain_05}>Stylist</li>
+                </ul>
+              </button>
+            </Link>
+          </div>
+          <div className={styles.box}>
+            <Link href={"/recruit"}>
+              <button className={styles.iconButton}>
+                <ul className={styles.inner}>
+                  <li className={styles.innerMain_06}>&nbsp;</li>
+                  <li className={styles.innerMain_07}>&nbsp;</li>
+                  <li className={styles.innerMain_08}>Recruit</li>
+                </ul>
+              </button>
+            </Link>
+          </div>
+          <div className={styles.box}>
+            <Link href={"/company"}>
+              <button className={styles.iconButton}>
+                <ul className={styles.inner}>
+                  <li className={styles.innerMain_09}>&nbsp;</li>
+                  <li className={styles.innerMain_10}>&nbsp;</li>
+                  <li className={styles.innerMain_11}>Company</li>
+                </ul>
+              </button>
+            </Link>
+          </div>
+          <div className={styles.box}>
+            <Link
+              href={"https://sam004.salonanswer.com/sas/reserve/goodday/staff"}
+            >
+              <button className={styles.iconButton}>
+                <ul className={styles.inner}>
+                  <li className={styles.innerMain_12}>&nbsp;</li>
+                  <li className={styles.innerMain_13}>&nbsp;</li>
+                  <li className={styles.innerMain_14}>Reserve</li>
+                </ul>
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
     </>
