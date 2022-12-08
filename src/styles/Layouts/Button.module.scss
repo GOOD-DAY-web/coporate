@@ -59,8 +59,11 @@
       box-sizing: border-box;
       animation: blinkBorder 1s ease infinite alternate;
     }
-    @media (max-width: 1280px) {
+    @media (max-width: 1630px) {
       width: 70%;
+    }
+    @media (max-width: 1280px) {
+      width: 80%;
     }
     @media (max-width: 960px) {
       width: 50%;

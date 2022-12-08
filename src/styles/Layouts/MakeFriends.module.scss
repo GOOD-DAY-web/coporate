@@ -19,6 +19,7 @@
   }
 }
 .friendsFlex {
+  align-items: center;
   display: flex;
   justify-content: space-evenly;
 
@@ -27,7 +28,7 @@
     text-align: center;
   }
 }
-.friendsSingle {
+.friendsSingle { 
   background-color: #fafafa;
   border: solid 0.1px #eeeeee;
   border-radius: 8px;
@@ -47,7 +48,7 @@
   margin-top: 1rem;
   padding: 1rem;
   text-align: center;
-  width: 40%;
+  width: 50%;
 
   @media screen and (max-width:960px) {
     margin: 0;
@@ -75,7 +76,7 @@
 }
 .friendsRight {
   padding: 1rem;
-  width: 60%;
+  width: 50%;
 
   @media screen and (max-width:960px) {
     padding: 0;
