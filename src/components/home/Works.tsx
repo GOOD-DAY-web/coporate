@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/legacy/image";
+import Button from "../../components/layouts/Button";
 import styles from "../../styles/Service/Service.module.scss";
 
 const Works: React.FC = () => {
@@ -70,13 +71,9 @@ const Works: React.FC = () => {
             </li>
           </ul>
         </>
-        <div className={styles.next}>
-          <Link href={"/recruit"} passHref>
-            <div className={styles.nextInner}>
-              <span className={styles.nextInnerIn}>募集条件を見る</span>
-            </div>
-          </Link>
-        </div>
+        <Link href={"/recruit"} passHref>
+          <Button props={"募集条件を見る"} />
+        </Link>
       </div>
     </>
   );

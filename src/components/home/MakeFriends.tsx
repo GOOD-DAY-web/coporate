@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import Button from "../../components/layouts/Button";
 import styles from "../../styles/Layouts/MakeFriends.module.scss";
 
 const MakeFriends: React.FC = () => {
@@ -39,16 +40,12 @@ const MakeFriends: React.FC = () => {
                 GOOD-DAYでスタイリストとして働いてみたいという美容師さん。お気軽にご連絡ください。
               </div>
             </Link>
-            <div className={styles.next}>
-              <Link
-                href={"https://page.line.me/153jsnax?openQrModal=true"}
-                passHref
-              >
-                <div className={styles.nextInner}>
-                  <span className={styles.nextInnerIn}>Add Friends</span>
-                </div>
-              </Link>
-            </div>
+            <Link
+              href={"https://page.line.me/153jsnax?openQrModal=true"}
+              passHref
+            >
+              <Button props={"Add Friends"} />
+            </Link>
           </div>
         </div>
       </div>
