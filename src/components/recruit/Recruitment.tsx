@@ -12,7 +12,7 @@ export default function Recruitment() {
     title: "Recruit",
     src: "/media/Noda_sliderimg_03.jpg",
     alt: "Recruitメインイメージ",
-    copy: "美容師として本気出せ!!",
+    copy: "GOOD-DAYなら手取り倍以上、労働時間は今までの半分に…。",
     subTitle: "募集要項",
   };
   return (
