@@ -53,13 +53,15 @@
     border-radius: 16px;
     margin: 2rem auto;
     height: auto;
-    width: 30%;
+    width: 40%;
   
     &:hover {
       box-sizing: border-box;
       animation: blinkBorder 1s ease infinite alternate;
     }
-  
+    @media (max-width: 1280px) {
+      width: 70%;
+    }
     @media (max-width: 960px) {
       width: 50%;
     }
