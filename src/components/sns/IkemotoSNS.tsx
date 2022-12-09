@@ -10,12 +10,12 @@ export default function IkemotoSNS() {
         <Link href={"https://beauty.hotpepper.jp/slnH000524394/blog/"} passHref>
           <div className={styles.blog}></div>
         </Link>
-        <Link href={"/"} passHref>
+        <Link href={"https://www.instagram.com/goodday.maki/"} passHref>
           <div className={styles.instagram}></div>
         </Link>
-        <Link href={"/"} passHref>
+        {/* <Link href={"/"} passHref>
           <div className={styles.line}></div>
-        </Link>
+        </Link> */}
       </div>
     </>
   );
