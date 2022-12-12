@@ -8,4 +8,5 @@ export const routes = [
   { name: "Contact", link: "/contact" },
   { name: "PrivacyPolicy", link: "/privacypolicy" },
   { name: "SitePolicy", link: "/sitepolicy" },
+  { name: "Compaign", link: "/compaign" },
 ];

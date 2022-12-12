@@ -1,0 +1,215 @@
+// ━━━━━━━━━━━━━━━━
+// Buttonのcss
+// ━━━━━━━━━━━━━━━━
+@keyframes blinkFont {
+  0% {
+    color: aqua;
+  }
+  100% {
+    color: #c0c0c0;
+  }
+}
+@keyframes blinkBorder {
+  0% {
+    border: 8px solid aqua;
+  }
+  100% {
+    border: 8px solid rgba(255, 0, 0, 0);
+  }
+}
+.buttonArea {
+  height: auto;
+  margin: 0 auto;
+  width: 50%;
+  @media (max-width: 960px) {
+    width: 70%;
+  }
+  @media (max-width: 520px) {
+    width: 80%;
+  }
+}
+.btn {
+  align-items: center;
+  background: #fafafa;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.4);
+  color: #000000;
+  display: block;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  height: auto;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 1.6rem;
+  position: relative;
+  text-align: center;
+  width: 100%;
+
+  &:hover {
+    animation: blinkFont 1s ease infinite alternate;
+  }
+  @media (max-width: 960px) {
+    font-size: 16px;
+    text-align: center;
+  }
+  @media (max-width: 520px) {
+    padding: 1rem;
+  }
+}
+// ボタンを選択した時に現在値をインタラクティブに視認させる
+.btnBlink {
+  align-items: center;
+  border: solid 8px rgba(255, 0, 0, 0);
+  border-radius: 16px;
+  margin: 0 auto;
+  height: auto;
+  padding-bottom: 3rem;
+  width: 40%;
+
+  &:hover {
+    box-sizing: border-box;
+    animation: blinkBorder 1s ease infinite alternate;
+  }
+  @media (max-width: 1630px) {
+    width: 70%;
+  }
+  @media (max-width: 1280px) {
+    width: 80%;
+  }
+  @media (max-width: 960px) {
+    width: 50%;
+  }
+  @media (max-width: 520px) {
+    margin: 1.4rem auto;
+    width: 60%;
+  }
+}
+// ━━━━━━━━━━━━━━━━
+// Application(申込)のcss
+// ━━━━━━━━━━━━━━━━
+.adjustment {
+  height: auto;
+  width: 100%;
+  margin-top: 4rem;
+  @media (max-width: 960px) {
+    margin-top: 6rem;
+  }
+  @media (max-width: 520px) {
+    margin-top: 4rem;
+  }
+}
+.area {
+  background-color: #eeeeee;
+  height: auto;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+.tite {
+  font-size: 36px;
+  height: auto;
+  margin: 0 auto;
+  width: 90%;
+}
+.main {
+  background-color: #fafafa;
+  height: auto;
+  margin: 0 auto;
+  width: 90%;
+}
+.flexA {
+  display: flex;
+  justify-content: space-around;
+
+  @media screen and (max-width:960px) {
+      
+  }
+  @media screen and (max-width:520px) {
+    display: block;
+  }
+}
+.flexB {
+  display: flex;
+  justify-content: space-between;
+  
+  @media screen and (max-width:960px) {
+        
+  }
+  @media screen and (max-width:520px) {
+    display: block;
+  }
+}
+.flexE {
+  display: flex;
+  justify-content: space-evenly;
+  @media (max-width: 960px) {
+    
+  }
+  @media (max-width: 520px) {
+    display: block;
+  }
+}
+.flexR {
+  display: flex;
+  flex-direction: row;
+  @media (max-width: 960px) {
+    
+  }
+  @media (max-width: 520px) {
+    display: block;
+  }
+}
+.leftArea {
+  height: auto;
+  padding-top: 1rem;
+  width: 50%;
+  @media (max-width: 960px) {
+    padding: 3rem 0 0 0;
+    width: 100%;
+  }
+  @media (max-width: 520px) {
+    
+  }
+}
+.rightArea {
+  height: auto;
+  padding: 1rem 0;
+  width: 50%;
+  @media (max-width: 960px) {
+    width: 100%;
+  }
+  @media (max-width: 520px) {
+    
+  }
+}
+.rightAreaInner {
+  height: auto;
+  margin: 2rem auto;
+  width: 90%;
+}
+.innerText {
+  font-size: 56px;
+  font-weight: bold;
+  text-align: center;
+}
+.arrow {
+  width: 100%;
+}
+.noticeArea {
+  height: auto;
+  line-height: 2rem;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  width: 90%;
+
+}
+// ━━━━━━━━━━━━━━━━
+// Introduction(導入)のcss
+// ━━━━━━━━━━━━━━━━
+
+
+// ━━━━━━━━━━━━━━━━
+// FAQ(質問)のcss
+// ━━━━━━━━━━━━━━━━
