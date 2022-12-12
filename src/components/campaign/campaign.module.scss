@@ -102,21 +102,30 @@
   }
 }
 .area {
-  background-color: #eeeeee;
   height: auto;
   margin-bottom: 3rem;
   width: 100%;
 }
-.tite {
+.title {
   font-size: 36px;
   height: auto;
   margin: 0 auto;
+  text-align: center;
   width: 90%;
+}
+.text {
+  line-height: 2rem;
+  letter-spacing: 1px;
+}
+.image {
+  margin: 0 auto 1rem;
+  width: 20%;
+  height: auto;
 }
 .main {
   background-color: #fafafa;
   height: auto;
-  margin: 0 auto;
+  margin: 0 auto 2rem;
   width: 90%;
 }
 .flexA {
@@ -203,11 +212,144 @@
   letter-spacing: 1px;
   margin: 0 auto;
   width: 90%;
+}
+.list {
+  height: auto;
+  line-height: 2rem;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  width: 90%;
+}
+.listItem_00 {
+  border: solid 2px #c0c0c0;
+  margin-bottom: 1rem;
+  padding: 1rem;
 
+  &::before {
+    background-color: #c0c0c0;
+    color: #fafafa;
+    content: "01";
+    font-weight: bold;
+    margin-right: 1rem;
+    padding: 1rem;
+    width: 100%;
+  }
+  &::after {
+    content: "";
+  }
+}
+.listItem_01 {
+  border: solid 2px #c0c0c0;
+  margin-bottom: 1rem;
+  padding: 1rem;
+
+  &::before {
+    background-color: #c0c0c0;
+    color: #fafafa;
+    content: "02";
+    font-weight: bold;
+    margin-right: 1rem;
+    padding: 1rem;
+    width: 100%;
+  }
+  &::after {
+    content: "";
+  }
+}
+.listItem_02 {
+  border: solid 2px #c0c0c0;
+  margin-bottom: 1rem;
+  padding: 1rem;
+
+  &::before {
+    background-color: #c0c0c0;
+    color: #fafafa;
+    content: "03";
+    font-weight: bold;
+    margin-right: 1rem;
+    padding: 1rem;
+    width: 100%;
+  }
+  &::after {
+    content: "";
+  }
+}
+.listItem_03 {
+  border: solid 2px #c0c0c0;
+  border-radius: 250px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+
+  &::before {
+    background-color: #c0c0c0;
+    border-radius: 250px;
+    color: #fafafa;
+    content: "01";
+    font-weight: bold;
+    margin-right: 1rem;
+    padding: 1rem;
+    width: 100%;
+  }
+  &::after {
+    content: "";
+  }
+}
+.listItem_04 {
+  border: solid 2px #c0c0c0;
+  border-radius: 250px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+
+  &::before {
+    background-color: #c0c0c0;
+    border-radius: 250px;
+    color: #fafafa;
+    content: "02";
+    font-weight: bold;
+    margin-right: 1rem;
+    padding: 1rem;
+    width: 100%;
+  }
+  &::after {
+    content: "";
+  }
+}
+.listItem_05 {
+  border: solid 2px #c0c0c0;
+  border-radius: 250px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+
+  &::before {
+    background-color: #c0c0c0;
+    border-radius: 250px;
+    color: #fafafa;
+    content: "03";
+    font-weight: bold;
+    margin-right: 1rem;
+    padding: 1rem;
+    width: 100%;
+  }
+  &::after {
+    content: "";
+  }
+}
+.details {
+  height: auto;
+  width: 100%;
+}
+.detail {
+  background: blue;
+  color: #fafafa;
+  height: auto;
+  margin: 0 auto 1rem;
+  padding: 1rem;
+  width: 90%;
 }
 // ━━━━━━━━━━━━━━━━
 // Introduction(導入)のcss
 // ━━━━━━━━━━━━━━━━
+
 
 
 // ━━━━━━━━━━━━━━━━

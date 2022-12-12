@@ -3,6 +3,9 @@ import Link from "next/link";
 import Image from "next/legacy/image";
 import Application from "./Application";
 import Introduction from "./Introduction";
+import Benefits from "./Benefits";
+import Message from "./Message";
+import ChooseUs from "./ChooseUs";
 import FAQ from "./FAQ";
 
 export default function CustomerReferral() {
@@ -16,11 +19,11 @@ export default function CustomerReferral() {
     <>
       <Introduction />
       <Application />
-      ・特典
+      <Benefits />
       <Application />
-      ・メッセージ
+      <Message />
       <Application />
-      ・選ばれる理由
+      <ChooseUs />
       <Application />
       <FAQ />
     </>

@@ -4,12 +4,12 @@ import Image from "next/legacy/image";
 import Button from "./Button";
 import styles from "./campaign.module.scss";
 
-export default function Application() {
+export default function Introduction() {
   return (
     <>
       <div className={styles.adjustment}>&nbsp;</div>
       <div className={styles.area}>
-        <h2 className={styles.tite}>GOOD-DAYお客様ご紹介キャンペーン</h2>
+        <h2 className={styles.title}>GOOD-DAYお客様ご紹介キャンペーン</h2>
         <Image
           className={styles.articleImage}
           src={"/campaign/mainImage_00.jpg"}

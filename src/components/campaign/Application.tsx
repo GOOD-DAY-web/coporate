@@ -8,7 +8,7 @@ export default function Application() {
   return (
     <>
       <div className={styles.area}>
-        <h2 className={styles.tite}>お客さまご紹介キャンペーン</h2>
+        <h2 className={styles.title}>申込を決めたくなるタイトル</h2>
         <div className={styles.main}>
           <div className={styles.flexE}>
             <div className={styles.leftArea}>
