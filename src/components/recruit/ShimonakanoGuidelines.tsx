@@ -4,19 +4,19 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "../../styles/Recruit/Recruit.module.scss";
 
-export default function NodaGuidelines() {
+export default function ShimonakanoGuidelines() {
   return (
     <>
       <div className={styles.mainArea}>
-        <h2>岡山野田店</h2>
+        <h2>岡山下中野店</h2>
         <table>
           <tbody>
             <tr className={styles.menuTablLast}>
               <th className={styles.menuTableTh}>
-                募集要項(GOOD-DAY岡山野田店)
+                募集要項(GOOD-DAY岡山下中野店)
               </th>
               <td className={styles.menuTableTd}>
-                ※こちらの募集要項は岡山野田店の内容です。
+                ※こちらの募集要項は岡山下中野店の内容です。
                 <br />
                 <br />
                 その他店舗の募集要項については、条件、内容が異なる場合がございます。
@@ -46,10 +46,7 @@ export default function NodaGuidelines() {
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>勤務先・アクセス</th>
               <td className={styles.menuTableTd}>
-                〒700-0971 岡山県岡山市北区野田5丁目7-3
-                <br />
-                <br />
-                ※JR岡山駅より徒歩23分
+                ※情報解禁まで今しばらくお待ちください
               </td>
             </tr>
           </tbody>
@@ -63,7 +60,7 @@ export default function NodaGuidelines() {
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>こだわり</th>
               <td className={styles.menuTableTd}>
-                店舗が綺麗(2022年11月Open)、完全個室、入店時の検温・消毒、独立支援制度、確定申告のサポート(青色申告)、技術講習会、集客勉強会、ブランクOK、副業・WワークOK、車通勤OK、バイク通勤OK、土日休み可能、勤務時間を自由に設定可能
+                店舗が綺麗(2023年2月Open予定)、完全個室、入店時の検温・消毒、独立支援制度、確定申告のサポート(青色申告)、技術講習会、集客勉強会、ブランクOK、副業・WワークOK、車通勤OK、バイク通勤OK、土日休み可能、勤務時間を自由に設定可能
               </td>
             </tr>
           </tbody>
@@ -168,7 +165,7 @@ export default function NodaGuidelines() {
                 <br />
                 【例】
                 <br />
-                見学希望店舗: 岡山野田店
+                見学希望店舗: 岡山下中野店
                 <br />
                 ①4月12日(月) 10:00〜
                 <br />
@@ -177,7 +174,7 @@ export default function NodaGuidelines() {
                 ③4月14日(水) 12:00〜
                 <br />
                 <br />
-                ※岡山野田店のサロン見学は10月17日から開始します。
+                ※岡山下中野店のサロン見学は2023年2月から開始予定です。
                 <br />
                 <br />
                 ※上記例を参考に、日付、曜日、お時間をお知らせいただけるとスムーズです。

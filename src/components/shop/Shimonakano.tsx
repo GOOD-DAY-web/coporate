@@ -3,16 +3,18 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "../../styles/Shop/Shops.module.scss";
 
-export default function NakashimaShopInfo() {
+export default function ShimonakanoShopInfo() {
   return (
     <>
       <div id="Nakashima" className={styles.main}>
-        <h2 className={styles.menuTitle}>倉敷中島店</h2>
+        <h2 className={styles.menuTitle}>岡山下中野店(予定)</h2>
         <table className={styles.menuArea}>
           <tbody>
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>店舗名</th>
-              <td className={styles.menuTableTd}>GOOD-DAY 倉敷中島店</td>
+              <td className={styles.menuTableTd}>
+                GOOD-DAY 岡山下中野店(予定)
+              </td>
             </tr>
           </tbody>
           <tbody>
@@ -20,12 +22,17 @@ export default function NakashimaShopInfo() {
               <th className={styles.menuTableTh}>Tel</th>
               <td className={styles.menuTableTd}>
                 <div className={styles.next}>
-                  <Link href={"tel:086-454-7373"} passHref>
+                  <div className={styles.nextInner}>
+                    <span className={styles.nextInnerIn}>未定</span>
+                  </div>
+                </div>
+                {/* <div className={styles.next}>
+                  <Link href={"tel:086-454-"} passHref>
                     <div className={styles.nextInner}>
                       <span className={styles.nextInnerIn}>Phone Call</span>
                     </div>
                   </Link>
-                </div>
+                </div> */}
               </td>
             </tr>
           </tbody>
@@ -33,7 +40,7 @@ export default function NakashimaShopInfo() {
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>住所</th>
               <td className={styles.menuTableTd}>
-                〒710-0803 岡山県倉敷市中島795-1
+                ※情報解禁まで今しばらくお待ちください
               </td>
             </tr>
           </tbody>
@@ -53,6 +60,9 @@ export default function NakashimaShopInfo() {
             <tr className={styles.menuTablLast}>
               <th className={styles.menuTableTh}>支払方法</th>
               <td className={styles.menuTableTd}>
+                ※以下の支払方法を予定
+                <br />
+                <br />
                 VISA/MasterCard/JCB/AmericanExpress/Diners/Discover/PayPay/楽天ペイ/auPAY/d払い/メルペイ
               </td>
             </tr>
@@ -60,32 +70,46 @@ export default function NakashimaShopInfo() {
           <tbody>
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>カット価格</th>
-              <td className={styles.menuTableTd}>¥4,400〜</td>
+              <td className={styles.menuTableTd}>未定</td>
             </tr>
           </tbody>
           <tbody>
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>席数</th>
-              <td className={styles.menuTableTd}>7席</td>
+              <td className={styles.menuTableTd}>未定</td>
             </tr>
           </tbody>
           <tbody>
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>スタイリスト</th>
-              <td className={styles.menuTableTd}>12名</td>
+              <td className={styles.menuTableTd}>
+                ※募集中
+                <br />
+                <br />
+                詳しくは
+                <span>
+                  <Link href={"/recruit"} passHref>
+                    こちら
+                  </Link>
+                </span>
+                から、岡山下中野店の項目をご確認ください。
+              </td>
             </tr>
           </tbody>
           <tbody>
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>駐車場</th>
-              <td className={styles.menuTableTd}>17台</td>
+              <td className={styles.menuTableTd}>未定</td>
             </tr>
           </tbody>
           <tbody>
             <tr className={styles.menuTablLast}>
               <th className={styles.menuTableTh}>こだわり</th>
               <td className={styles.menuTableTd}>
-                駐車場あり/夜19時以降も受付OK/一人のスタイリストが仕上げまで担当/年中無休/ヘアセット/着付け/朝10時前でも受付OK/カード支払いOK/女性スタッフが多い/完全予約制/個室あり/お子さま同伴可/禁煙/半個室あり
+                ※以下のこだわり条件を予定
+                <br />
+                <br />
+                駐車場あり/夜19時以降も受付OK/一人のスタイリストが仕上げまで担当/年中無休/朝10時前でも受付OK/カード支払いOK/完全予約制/個室あり/お子さま同伴可/禁煙
               </td>
             </tr>
           </tbody>
@@ -93,7 +117,7 @@ export default function NakashimaShopInfo() {
             <tr className={styles.menuTablLast}>
               <th className={styles.menuTableTh}>備考</th>
               <td className={styles.menuTableTd}>
-                グッディでは、スムーズなご案内とお待たせしない接客を実現するために完全予約&amp;指名制としています。ご予約&amp;ご質問については、店舗またはスタイリストまで直接ご確認ください。
+                グッディでは、現在一緒に働く仲間を募集中です。独立を検討中の方、ブランクのある方、自由に働きたい方などライフスタイルに関わるお悩みは尽きないと思います。GOOD-DAYではより柔軟に働くことができますので、是非サロン見学にお越しください。
               </td>
             </tr>
           </tbody>

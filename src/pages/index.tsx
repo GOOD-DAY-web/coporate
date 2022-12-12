@@ -12,6 +12,7 @@ import TopCarousel from "../components/home/TopCarousel";
 import MakeFriends from "../components/home/MakeFriends";
 import NakashimaShopInfo from "../components/shop/Nakashima";
 import NodaShopInfo from "../components/shop/Noda";
+import ShimonakanoShopInfo from "../components/shop/Shimonakano";
 
 type Props = {
   articles: Array<Article>;
@@ -74,11 +75,12 @@ export default function Home({ articles }: Props) {
           ))}
         </div>
         <Staffs />
+        <ShimonakanoShopInfo />
         <NodaShopInfo />
         <NakashimaShopInfo />
         <Styles />
         <MakeFriends />
-        <Works />
+        {/* <Works /> */}
       </div>
     </>
   );

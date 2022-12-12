@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import styles from "../../styles/Shop/Nakashima.module.scss";
+import styles from "../../styles/Shop/Shops.module.scss";
 
 export default function NodaShopInfo() {
   return (
