@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/legacy/image";
-import styles from "./campaign.module.scss";
+import styles from "./styles/campaign.module.scss";
 
 export default function ChooseUs() {
   return (
@@ -22,98 +22,181 @@ export default function ChooseUs() {
         <div className={styles.list}>
           <div>
             <ul className={styles.listItem}>
-              <li className={styles.listItem_03}>全て個室・半個室!!</li>
-              <li className={styles.listItem_04}>
-                最初から最後まで一人のスタイリストが担当。
+              <li className={`${styles.flexR} ${styles.itemC}`}>
+                <h2 className={styles.listItemlTitle}>01</h2>
+                <p className={styles.listItemText}>全て個室・半個室!!</p>
               </li>
-              <li className={styles.listItem_05}>
-                腕の良いフリーランススタイリストのみ在籍!!
+            </ul>
+            <ul className={styles.listItem}>
+              <li className={`${styles.flexR} ${styles.itemC}`}>
+                <h2 className={styles.listItemlTitle}>02</h2>
+                <p className={styles.listItemText}>
+                  最初から最後まで一人のスタイリストが担当。
+                </p>
+              </li>
+            </ul>
+            <ul className={styles.listItem}>
+              <li className={`${styles.flexR} ${styles.itemC}`}>
+                <h2 className={styles.listItemlTitle}>03</h2>
+                <p className={styles.listItemText}>
+                  腕の良いフリーランススタイリストのみ在籍!!
+                </p>
               </li>
             </ul>
           </div>
         </div>
         <div className={styles.details}>
           <div className={styles.detail}>
-            <h2>01</h2>
-            <p>テキスト</p>
+            <h2 className={styles.detailTitle}>01</h2>
+            <p className={styles.detailText}>選ばれる理由1</p>
             <div>
-              flex align-items: center;
-              <ul>
-                <li>保湿</li>
-                <li>｜</li>
-                <li>テキスト</li>
+              <ul className={`${styles.flexE} ${styles.detailLine}`}>
+                <li className={styles.detailLine_00}>ポイント</li>
+                <li className={styles.detailLine_01}>&nbsp;</li>
+                <li className={styles.detailLine_02}>
+                  テキストです。ここにテキストが入ります。テキストです。ここにテキストが入ります。テキストです。ここにテキストが入ります。テキストです。ここにテキストが入ります。テキストです。ここにテキストが入ります。テキストです。ここにテキストが入ります。
+                </li>
               </ul>
             </div>
-            <div>
-              <ul>
-                アイコンを並べたかのようなエリア
-                <li></li>
-                <li></li>
-                <li></li>
+            <div className={styles.detailItems}>
+              <ul className={styles.detailItem}>
+                <li className={styles.detailImg}>&nbsp;</li>
+                <li className={styles.detailItemText}>テキスト</li>
               </ul>
-              <ul>
-                アイコンを並べたかのようなエリア
-                <li></li>
-                <li></li>
-                <li></li>
+              <ul className={styles.detailItem}>
+                <li className={styles.detailImg}>&nbsp;</li>
+                <li className={styles.detailItemText}>テキスト</li>
               </ul>
-            </div>
-          </div>
-
-          <div className={styles.detail}>
-            <h2>01</h2>
-            <p></p>
-            <div>
-              flex align-items: center;
-              <ul>
-                <li>保湿</li>
-                <li>｜</li>
-                <li>テキスト</li>
+              <ul className={styles.detailItem}>
+                <li className={styles.detailImg}>&nbsp;</li>
+                <li className={styles.detailItemText}>テキスト</li>
+              </ul>
+              <ul className={styles.detailItem}>
+                <li className={styles.detailImg}>&nbsp;</li>
+                <li className={styles.detailItemText}>テキスト</li>
               </ul>
             </div>
-            <div>
-              <ul>
-                アイコンを並べたかのようなエリア
-                <li></li>
-                <li></li>
-                <li></li>
+            <div className={styles.detailItems}>
+              <ul className={styles.detailItem}>
+                <li className={styles.detailImg}>&nbsp;</li>
+                <li className={styles.detailItemText}>テキスト</li>
               </ul>
-              <ul>
-                アイコンを並べたかのようなエリア
-                <li></li>
-                <li></li>
-                <li></li>
+              <ul className={styles.detailItem}>
+                <li className={styles.detailImg}>&nbsp;</li>
+                <li className={styles.detailItemText}>テキスト</li>
+              </ul>
+              <ul className={styles.detailItem}>
+                <li className={styles.detailImg}>&nbsp;</li>
+                <li className={styles.detailItemText}>テキスト</li>
+              </ul>
+              <ul className={styles.detailItem}>
+                <li className={styles.detailImg}>&nbsp;</li>
+                <li className={styles.detailItemText}>テキスト</li>
               </ul>
             </div>
           </div>
 
           <div className={styles.detail}>
-            <h2>01</h2>
-            <p></p>
+            <h2 className={styles.detailTitle}>02</h2>
+            <p className={styles.detailText}>選ばれる理由2</p>
             <div>
-              flex align-items: center;
-              <ul>
-                <li>保湿</li>
-                <li>｜</li>
-                <li>テキスト</li>
+              <ul className={`${styles.flexE} ${styles.detailLine}`}>
+                <li className={styles.detailLine_00}>ポイント</li>
+                <li className={styles.detailLine_01}>&nbsp;</li>
+                <li className={styles.detailLine_02}>
+                  テキストです。ここにテキストが入ります。テキストです。ここにテキストが入ります。テキストです。ここにテキストが入ります。テキストです。ここにテキストが入ります。テキストです。ここにテキストが入ります。テキストです。ここにテキストが入ります。
+                </li>
               </ul>
             </div>
-            <div>
-              <ul>
-                アイコンを並べたかのようなエリア
-                <li></li>
-                <li></li>
-                <li></li>
+            <div className={styles.detailItems}>
+              <ul className={styles.detailItem}>
+                <li className={styles.detailImg}>&nbsp;</li>
+                <li className={styles.detailItemText}>テキスト</li>
               </ul>
-              <ul>
-                アイコンを並べたかのようなエリア
-                <li></li>
-                <li></li>
-                <li></li>
+              <ul className={styles.detailItem}>
+                <li className={styles.detailImg}>&nbsp;</li>
+                <li className={styles.detailItemText}>テキスト</li>
+              </ul>
+              <ul className={styles.detailItem}>
+                <li className={styles.detailImg}>&nbsp;</li>
+                <li className={styles.detailItemText}>テキスト</li>
+              </ul>
+              <ul className={styles.detailItem}>
+                <li className={styles.detailImg}>&nbsp;</li>
+                <li className={styles.detailItemText}>テキスト</li>
+              </ul>
+            </div>
+            <div className={styles.detailItems}>
+              <ul className={styles.detailItem}>
+                <li className={styles.detailImg}>&nbsp;</li>
+                <li className={styles.detailItemText}>テキスト</li>
+              </ul>
+              <ul className={styles.detailItem}>
+                <li className={styles.detailImg}>&nbsp;</li>
+                <li className={styles.detailItemText}>テキスト</li>
+              </ul>
+              <ul className={styles.detailItem}>
+                <li className={styles.detailImg}>&nbsp;</li>
+                <li className={styles.detailItemText}>テキスト</li>
+              </ul>
+              <ul className={styles.detailItem}>
+                <li className={styles.detailImg}>&nbsp;</li>
+                <li className={styles.detailItemText}>テキスト</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className={styles.detail}>
+            <h2 className={styles.detailTitle}>03</h2>
+            <p className={styles.detailText}>選ばれる理由3</p>
+            <div>
+              <ul className={`${styles.flexE} ${styles.detailLine}`}>
+                <li className={styles.detailLine_00}>ポイント</li>
+                <li className={styles.detailLine_01}>&nbsp;</li>
+                <li className={styles.detailLine_02}>
+                  テキストです。ここにテキストが入ります。テキストです。ここにテキストが入ります。テキストです。ここにテキストが入ります。テキストです。ここにテキストが入ります。テキストです。ここにテキストが入ります。テキストです。ここにテキストが入ります。
+                </li>
+              </ul>
+            </div>
+            <div className={styles.detailItems}>
+              <ul className={styles.detailItem}>
+                <li className={styles.detailImg}>&nbsp;</li>
+                <li className={styles.detailItemText}>テキスト</li>
+              </ul>
+              <ul className={styles.detailItem}>
+                <li className={styles.detailImg}>&nbsp;</li>
+                <li className={styles.detailItemText}>テキスト</li>
+              </ul>
+              <ul className={styles.detailItem}>
+                <li className={styles.detailImg}>&nbsp;</li>
+                <li className={styles.detailItemText}>テキスト</li>
+              </ul>
+              <ul className={styles.detailItem}>
+                <li className={styles.detailImg}>&nbsp;</li>
+                <li className={styles.detailItemText}>テキスト</li>
+              </ul>
+            </div>
+            <div className={styles.detailItems}>
+              <ul className={styles.detailItem}>
+                <li className={styles.detailImg}>&nbsp;</li>
+                <li className={styles.detailItemText}>テキスト</li>
+              </ul>
+              <ul className={styles.detailItem}>
+                <li className={styles.detailImg}>&nbsp;</li>
+                <li className={styles.detailItemText}>テキスト</li>
+              </ul>
+              <ul className={styles.detailItem}>
+                <li className={styles.detailImg}>&nbsp;</li>
+                <li className={styles.detailItemText}>テキスト</li>
+              </ul>
+              <ul className={styles.detailItem}>
+                <li className={styles.detailImg}>&nbsp;</li>
+                <li className={styles.detailItemText}>テキスト</li>
               </ul>
             </div>
           </div>
         </div>
+
         <div className={styles.noticeArea}>
           <div>
             <ul>

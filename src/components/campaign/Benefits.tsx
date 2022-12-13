@@ -2,7 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/legacy/image";
-import styles from "./campaign.module.scss";
+import styles from "./styles/campaign.module.scss";
 
 export default function Benefits() {
   return (
@@ -22,14 +22,27 @@ export default function Benefits() {
         <div className={styles.list}>
           <div>
             <ul className={styles.listItem}>
-              <li className={styles.listItem_00}>
-                スタートアップキャンペーン実施中!!
+              <li className={`${styles.flexR} ${styles.itemC}`}>
+                <h2 className={styles.listItemlTitle}>01</h2>
+                <p className={styles.listItemText}>
+                  スタートアップキャンペーン実施中!!
+                </p>
               </li>
-              <li className={styles.listItem_01}>
-                早い者勝ち!!先着5名様限定!!半年間、40%OFF!!キャンペーン実施中
+            </ul>
+            <ul className={styles.listItem}>
+              <li className={`${styles.flexR} ${styles.itemC}`}>
+                <h2 className={styles.listItemlTitle}>02</h2>
+                <p className={styles.listItemText}>
+                  スタートアップキャンペーン実施中!!
+                </p>
               </li>
-              <li className={styles.listItem_02}>
-                スタートアップセットプレゼント中!!
+            </ul>
+            <ul className={styles.listItem}>
+              <li className={`${styles.flexR} ${styles.itemC}`}>
+                <h2 className={styles.listItemlTitle}>03</h2>
+                <p className={styles.listItemText}>
+                  スタートアップキャンペーン実施中!!
+                </p>
               </li>
             </ul>
           </div>

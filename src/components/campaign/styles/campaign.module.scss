@@ -66,8 +66,7 @@
   border-radius: 16px;
   margin: 0 auto;
   height: auto;
-  padding-bottom: 3rem;
-  width: 40%;
+  width: 50%;
 
   &:hover {
     box-sizing: border-box;
@@ -76,15 +75,26 @@
   @media (max-width: 1630px) {
     width: 70%;
   }
-  @media (max-width: 1280px) {
+  @media (max-width: 960px) {
     width: 80%;
   }
+  @media (max-width: 520px) {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
+.btnText {
+  color: #000000;
+  font-size: 16px;
+  margin: 0 auto 3rem;
+  text-align: center;
+  width: 100%;
+
   @media (max-width: 960px) {
-    width: 50%;
+    
   }
   @media (max-width: 520px) {
-    margin: 1.4rem auto;
-    width: 60%;
+    font-size: 12px;
   }
 }
 // ━━━━━━━━━━━━━━━━
@@ -101,15 +111,21 @@
     margin-top: 4rem;
   }
 }
-.area {
+.adjustment_01 {
   height: auto;
-  margin-bottom: 3rem;
   width: 100%;
+  margin: 0 auto 3rem;
+  @media (max-width: 960px) {
+  
+  }
+  @media (max-width: 520px) {
+  
+  }
 }
 .title {
   font-size: 36px;
   height: auto;
-  margin: 0 auto;
+  margin: 0 auto 1rem;
   text-align: center;
   width: 90%;
 }
@@ -122,11 +138,34 @@
   width: 20%;
   height: auto;
 }
+.titleImage {
+  margin: 1rem;
+}
+.question {
+  padding: 1rem;
+}
+.answer {
+  margin: 1rem;
+}
 .main {
   background-color: #fafafa;
   height: auto;
   margin: 0 auto 2rem;
+  padding: 1rem;
   width: 90%;
+}
+.area {
+  height: auto;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+.block {
+  background-color: #c0c0c0;
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  height: auto;
+  padding: 1rem;
+  width: 100%;
 }
 .flexA {
   display: flex;
@@ -170,6 +209,9 @@
     display: block;
   }
 }
+.itemC {
+  align-items: center;
+}
 .leftArea {
   height: auto;
   padding-top: 1rem;
@@ -208,9 +250,10 @@
 }
 .noticeArea {
   height: auto;
-  line-height: 2rem;
+  line-height: 3rem;
   letter-spacing: 1px;
   margin: 0 auto;
+  padding: 1rem;
   width: 90%;
 }
 .list {
@@ -218,65 +261,35 @@
   line-height: 2rem;
   letter-spacing: 1px;
   margin: 0 auto;
+  padding: 1rem;
   width: 90%;
 }
-.listItem_00 {
-  border: solid 2px #c0c0c0;
-  margin-bottom: 1rem;
-  padding: 1rem;
+.listItem {
+  align-items: center;
+  margin: 2rem auto;
+}
+.listItemlTitle {
+  font-size: 4rem;
+  height: 4.6rem;
+  padding: 1.2rem 2rem 0 0.4rem;
+  width: 12%;
 
-  &::before {
-    background-color: #c0c0c0;
-    color: #fafafa;
-    content: "01";
-    font-weight: bold;
-    margin-right: 1rem;
-    padding: 1rem;
-    width: 100%;
+  @media (max-width: 960px) {
+    
   }
-  &::after {
-    content: "";
+  @media (max-width: 520px) {
+    width: 28%;
   }
 }
-.listItem_01 {
-  border: solid 2px #c0c0c0;
-  margin-bottom: 1rem;
+.listItemText {
+  color: #333333;
   padding: 1rem;
-
-  &::before {
-    background-color: #c0c0c0;
-    color: #fafafa;
-    content: "02";
-    font-weight: bold;
-    margin-right: 1rem;
-    padding: 1rem;
-    width: 100%;
-  }
-  &::after {
-    content: "";
-  }
-}
-.listItem_02 {
-  border: solid 2px #c0c0c0;
-  margin-bottom: 1rem;
-  padding: 1rem;
-
-  &::before {
-    background-color: #c0c0c0;
-    color: #fafafa;
-    content: "03";
-    font-weight: bold;
-    margin-right: 1rem;
-    padding: 1rem;
-    width: 100%;
-  }
-  &::after {
-    content: "";
-  }
+  width: 100%;
 }
 .listItem_03 {
   border: solid 2px #c0c0c0;
   border-radius: 250px;
+  line-height: 3rem;
   margin-bottom: 1rem;
   padding: 1rem;
 
@@ -297,6 +310,7 @@
 .listItem_04 {
   border: solid 2px #c0c0c0;
   border-radius: 250px;
+  line-height: 3rem;
   margin-bottom: 1rem;
   padding: 1rem;
 
@@ -317,6 +331,7 @@
 .listItem_05 {
   border: solid 2px #c0c0c0;
   border-radius: 250px;
+  line-height: 3rem;
   margin-bottom: 1rem;
   padding: 1rem;
 
@@ -336,15 +351,122 @@
 }
 .details {
   height: auto;
-  width: 100%;
+  margin: 0 auto;
+  width: 90%;
 }
 .detail {
-  background: blue;
   color: #fafafa;
   height: auto;
   margin: 0 auto 1rem;
   padding: 1rem;
-  width: 90%;
+  width: 100%;
+}
+.detailTitle {
+  background-color: #c0c0c0;
+  font-size: 56px;
+  font-weight: bold;
+  font-family: Helvetica;
+  padding-left: 0.6rem;
+  opacity: 0.9;
+  width: 5rem;
+  @media (max-width: 960px) {
+    
+  }
+  @media (max-width: 520px) {
+    width: 5rem;
+  }
+}
+.detailText {
+  background-color: #fafafa;
+  color: #333333;
+  padding: 1rem;
+  font-size: 36px;
+
+  @media (max-width: 960px) {
+    
+  }
+  @media (max-width: 520px) {
+    
+  }
+}
+.detailLine {
+  align-items: center;
+  margin: 1rem 0;
+}
+.detailLine_00 {
+  background-color: #f8f8f8;
+  color: #333333;
+  font-size: 40px;
+  padding: 1rem 0;
+  text-align: center;
+  width: 30%;
+  @media (max-width: 960px) {
+    
+  }
+  @media (max-width: 520px) {
+    width: 100%;
+  }
+}
+.detailLine_01 {
+  background-color: #333333;
+  border-radius: 250px;
+  height: 5rem;
+  width: 4px;
+
+  @media (max-width: 960px) {
+    
+  }
+  @media (max-width: 520px) {
+    display: none;
+  }
+}
+.detailLine_02 {
+  background-color: #f8f8f8;
+  color: #333333;
+  line-height: 2rem;
+  letter-spacing: 1px;
+  padding: 1rem;
+  width: 60%;
+
+  @media (max-width: 960px) {
+    
+  }
+  @media (max-width: 520px) {
+    width: 100%;
+  }
+}
+.detailItems {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+  @media (max-width: 960px) {
+    
+  }
+  @media (max-width: 520px) {
+    
+  }
+}
+.detailItem {
+  padding: 1rem;
+  @media (max-width: 960px) {
+    
+  }
+  @media (max-width: 520px) {
+    padding: 0.2rem;
+  }
+}
+.detailImg {
+  background-color: #f8f8f8;
+  border-radius: 250px;
+  filter: drop-shadow(1px 2px 2px rgba(0,0,0,0.2));
+  height: 80px;
+  width: 80px;
+}
+.detailItemText {
+  color: #333333;
+  padding: 1rem 0;
+  text-align: center;
 }
 // ━━━━━━━━━━━━━━━━
 // Introduction(導入)のcss

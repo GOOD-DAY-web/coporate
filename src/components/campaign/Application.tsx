@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/legacy/image";
-import Button from "./Button";
-import styles from "./campaign.module.scss";
+import Button from "./Layouts/Button";
+import styles from "./styles/campaign.module.scss";
 
 export default function Application() {
   return (
@@ -14,7 +14,7 @@ export default function Application() {
             <div className={styles.leftArea}>
               <Image
                 className={styles.articleImage}
-                src={"/campaign/campaign_00.jpg"}
+                src={"/campaign/campaign_02.png"}
                 alt={""}
                 width={1200}
                 height={830}
@@ -41,8 +41,8 @@ export default function Application() {
             </div>
           </div>
           <div className={styles.buttonArea}>
-            <Link href={"/"} passHref>
-              <Button props={"20%OFFで予約する"} />
+            <Link href={"/campaign"} passHref>
+              <Button props={"20%OFFで予約する"} text={"予約ページに進む"} />
             </Link>
           </div>
         </div>

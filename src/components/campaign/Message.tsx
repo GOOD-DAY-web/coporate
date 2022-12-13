@@ -1,8 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/legacy/image";
-import Button from "./Button";
-import styles from "./campaign.module.scss";
+import Button from "./Layouts/Button";
+import styles from "./styles/campaign.module.scss";
 
 export default function Message() {
   return (
