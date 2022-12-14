@@ -10,7 +10,7 @@ export default function Message() {
       <div className={styles.area}>
         <h2 className={styles.title}>メッセージのタイトル</h2>
         <div className={styles.main}>
-          <div className={styles.flexE}>
+          <div className={`${styles.block} ${styles.flexE}`}>
             <div className={styles.leftArea}>
               <Image
                 className={styles.articleImage}
@@ -40,7 +40,7 @@ export default function Message() {
           </div> */}
         </div>
         <div className={styles.main}>
-          <div className={styles.flexE}>
+          <div className={`${styles.block} ${styles.flexE}`}>
             <div className={styles.leftArea}>
               <Image
                 className={styles.articleImage}
@@ -70,7 +70,7 @@ export default function Message() {
           </div> */}
         </div>
         <div className={styles.main}>
-          <div className={styles.flexE}>
+          <div className={`${styles.block} ${styles.flexE}`}>
             <div className={styles.leftArea}>
               <Image
                 className={styles.articleImage}
@@ -99,22 +99,6 @@ export default function Message() {
             </Link>
           </div> */}
         </div>
-
-        {/* <div className={styles.noticeArea}>
-          <div>
-            <ul>
-              <li>
-                ※本キャンペーンはチラシをお持ちいただいた方限定のキャンペーンです。
-              </li>
-              <li>
-                ※さらにご成約いただいた際に仲介手数料を20%OFFとさせていただきます。
-              </li>
-              <li>
-                ※キャンペーンは予告なく変更、終了する場合がございます。予めご了承ください。
-              </li>
-            </ul>
-          </div>
-        </div> */}
       </div>
     </>
   );

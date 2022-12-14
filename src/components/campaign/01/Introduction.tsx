@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/legacy/image";
 import Button from "./Layouts/Button";
 import styles from "./styles/campaign.module.scss";
+import { FramerMotion } from "../../layouts/FramerMotion";
 
 export default function Introduction() {
   return (
@@ -21,9 +22,15 @@ export default function Introduction() {
         <div className={styles.noticeArea}>
           <div>
             <ul>
-              <li>※何か特筆して明示すべき事柄があれば記入</li>
-              <li>※何か特筆して明示すべき事柄があれば記入</li>
-              <li>※何か特筆して明示すべき事柄があれば記入</li>
+              <li className={styles.listItemText}>
+                ※何か特筆して明示すべき事柄があれば記入
+              </li>
+              <li className={styles.listItemText}>
+                ※何か特筆して明示すべき事柄があれば記入
+              </li>
+              <li className={styles.listItemText}>
+                ※何か特筆して明示すべき事柄があれば記入
+              </li>
             </ul>
           </div>
         </div>

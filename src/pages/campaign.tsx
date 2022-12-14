@@ -1,6 +1,6 @@
 import React from "react";
 import SEO from "../components/layouts/SEO";
-import CustomerReferral from "../components/campaign/CustomerReferral";
+import CustomerReferral from "../components/campaign/01/CustomerReferral";
 
 export default function Campaign() {
   return (

@@ -24,7 +24,7 @@ export default function Application() {
             <div className={styles.rightArea}>
               <div className={styles.rightAreaInner}>
                 <ul>
-                  <li className={styles.innerText}>通常価格</li>
+                  <li className={styles.innerText_00}>通常価格</li>
                   <li className={styles.arrow}>
                     <Image
                       className={styles.articleImage}
@@ -35,27 +35,30 @@ export default function Application() {
                       objectFit={"contain"}
                     />
                   </li>
-                  <li className={styles.innerText}>20%OFF</li>
+                  <li className={styles.innerText_01}>20%OFF</li>
                 </ul>
               </div>
             </div>
           </div>
           <div className={styles.buttonArea}>
             <Link href={"/campaign"} passHref>
-              <Button props={"20%OFFで予約する"} text={"予約ページに進む"} />
+              <Button
+                props={"20%OFFで予約する"}
+                text={"\\ 予約ページに進む /"}
+              />
             </Link>
           </div>
         </div>
         <div className={styles.noticeArea}>
           <div>
             <ul>
-              <li>
+              <li className={styles.listItemText}>
                 ※本キャンペーンはチラシをお持ちいただいた方限定のキャンペーンです。
               </li>
-              <li>
+              <li className={styles.listItemText}>
                 ※さらにご成約いただいた際に仲介手数料を20%OFFとさせていただきます。
               </li>
-              <li>
+              <li className={styles.listItemText}>
                 ※キャンペーンは予告なく変更、終了する場合がございます。予めご了承ください。
               </li>
             </ul>

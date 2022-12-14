@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import styles from "../../../styles/Layouts/Footer.module.scss";
+import styles from "../../../../styles/Layouts/Footer.module.scss";
 import ToTopButton from "./ToTopButton";
 import UnderNotice from "./UnderNotice";
 
@@ -79,7 +79,7 @@ export function CampaignFooter() {
         </div>
       </div>
 
-      <div className={styles.rules}>
+      {/* <div className={styles.rules}>
         <p className={styles.footerTitle}>Webサイトのご利用について</p>
         <div>
           <ul className={styles.footerContentsEven}>
@@ -91,7 +91,7 @@ export function CampaignFooter() {
             </Link>
           </ul>
         </div>
-      </div>
+      </div> */}
       <p className={styles.footerCopyLight}>&copy; 2022 OneStep inc.</p>
     </footer>
   );

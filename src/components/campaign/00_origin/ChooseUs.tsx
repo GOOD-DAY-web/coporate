@@ -24,23 +24,19 @@ export default function ChooseUs() {
             <ul className={styles.listItem}>
               <li className={`${styles.flexR} ${styles.itemC}`}>
                 <h2 className={styles.listItemlTitle}>01</h2>
-                <p className={styles.listItemText}>全て個室・半個室!!</p>
+                <p>全て個室・半個室!!</p>
               </li>
             </ul>
             <ul className={styles.listItem}>
               <li className={`${styles.flexR} ${styles.itemC}`}>
                 <h2 className={styles.listItemlTitle}>02</h2>
-                <p className={styles.listItemText}>
-                  最初から最後まで一人のスタイリストが担当。
-                </p>
+                <p>最初から最後まで一人のスタイリストが担当。</p>
               </li>
             </ul>
             <ul className={styles.listItem}>
               <li className={`${styles.flexR} ${styles.itemC}`}>
                 <h2 className={styles.listItemlTitle}>03</h2>
-                <p className={styles.listItemText}>
-                  腕の良いフリーランススタイリストのみ在籍!!
-                </p>
+                <p>腕の良いフリーランススタイリストのみ在籍!!</p>
               </li>
             </ul>
           </div>
@@ -200,9 +196,15 @@ export default function ChooseUs() {
         <div className={styles.noticeArea}>
           <div>
             <ul>
-              <li>※何か特筆して明示すべき事柄があれば記入</li>
-              <li>※何か特筆して明示すべき事柄があれば記入</li>
-              <li>※何か特筆して明示すべき事柄があれば記入</li>
+              <li className={styles.listItemText}>
+                ※何か特筆して明示すべき事柄があれば記入
+              </li>
+              <li className={styles.listItemText}>
+                ※何か特筆して明示すべき事柄があれば記入
+              </li>
+              <li className={styles.listItemText}>
+                ※何か特筆して明示すべき事柄があれば記入
+              </li>
             </ul>
           </div>
         </div>

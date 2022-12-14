@@ -24,25 +24,19 @@ export default function Benefits() {
             <ul className={styles.listItem}>
               <li className={`${styles.flexR} ${styles.itemC}`}>
                 <h2 className={styles.listItemlTitle}>01</h2>
-                <p className={styles.listItemText}>
-                  スタートアップキャンペーン実施中!!
-                </p>
+                <p>今だけ!! 施術費用から20%OFF</p>
               </li>
             </ul>
             <ul className={styles.listItem}>
               <li className={`${styles.flexR} ${styles.itemC}`}>
                 <h2 className={styles.listItemlTitle}>02</h2>
-                <p className={styles.listItemText}>
-                  スタートアップキャンペーン実施中!!
-                </p>
+                <p>紹介した人、された人どっちもお得!!!</p>
               </li>
             </ul>
             <ul className={styles.listItem}>
               <li className={`${styles.flexR} ${styles.itemC}`}>
                 <h2 className={styles.listItemlTitle}>03</h2>
-                <p className={styles.listItemText}>
-                  スタートアップキャンペーン実施中!!
-                </p>
+                <p>ワイケイでご成約された方には更にプレゼント!!!!</p>
               </li>
             </ul>
           </div>
@@ -50,9 +44,15 @@ export default function Benefits() {
         <div className={styles.noticeArea}>
           <div>
             <ul>
-              <li>※何か特筆して明示すべき事柄があれば記入</li>
-              <li>※何か特筆して明示すべき事柄があれば記入</li>
-              <li>※何か特筆して明示すべき事柄があれば記入</li>
+              <li className={styles.listItemText}>
+                ※何か特筆して明示すべき事柄があれば記入
+              </li>
+              <li className={styles.listItemText}>
+                ※何か特筆して明示すべき事柄があれば記入
+              </li>
+              <li className={styles.listItemText}>
+                ※何か特筆して明示すべき事柄があれば記入
+              </li>
             </ul>
           </div>
         </div>

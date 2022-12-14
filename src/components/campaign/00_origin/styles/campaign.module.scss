@@ -148,7 +148,6 @@
   margin: 1rem;
 }
 .main {
-  background-color: #fafafa;
   height: auto;
   margin: 0 auto 2rem;
   padding: 1rem;
@@ -160,7 +159,7 @@
   width: 100%;
 }
 .block {
-  background-color: #c0c0c0;
+  background-color: #f8f8f8;
   box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   height: auto;
@@ -271,6 +270,7 @@
 .listItemlTitle {
   font-size: 4rem;
   height: 4.6rem;
+  margin-right: 2rem;
   padding: 1.2rem 2rem 0 0.4rem;
   width: 12%;
 
@@ -283,7 +283,7 @@
 }
 .listItemText {
   color: #333333;
-  padding: 1rem;
+  text-align: center;
   width: 100%;
 }
 .listItem_03 {
@@ -377,7 +377,7 @@
   }
 }
 .detailText {
-  background-color: #fafafa;
+  background-color: #f8f8f8;
   color: #333333;
   padding: 1rem;
   font-size: 36px;
@@ -394,7 +394,6 @@
   margin: 1rem 0;
 }
 .detailLine_00 {
-  background-color: #f8f8f8;
   color: #333333;
   font-size: 40px;
   padding: 1rem 0;
@@ -421,7 +420,6 @@
   }
 }
 .detailLine_02 {
-  background-color: #f8f8f8;
   color: #333333;
   line-height: 2rem;
   letter-spacing: 1px;

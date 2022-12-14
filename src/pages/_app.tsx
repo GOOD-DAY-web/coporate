@@ -8,8 +8,8 @@ import NextNprogress from "nextjs-progressbar";
 import Footer from "../components/layouts/Footer";
 import HamburgerMenu from "../components/layouts/HamburgerMenu";
 // campaignのコンポーネント
-import Header from "../components/campaign/Layouts/Header";
-import { CampaignFooter } from "../components/campaign/Layouts/CampaignFooter";
+import Header from "../components/campaign/01/Layouts/Header";
+import { CampaignFooter } from "../components/campaign/01/Layouts/CampaignFooter";
 
 import Script from "next/script";
 import * as gtag from "../lib/gtag";

@@ -21,7 +21,7 @@ export default function campaignView({ Component, pageProps }: AppProps) {
       router.events.off("routeChangeComplete", handleRouterChange);
     };
   }, [router.events]);
-  if (router.pathname == "/campaign") {
+  if (router.pathname == "/campaign/01") {
     return (
       <>
         <Script
