@@ -1,4 +1,5 @@
 import React from "react";
+// sudo yarn add @types/react-image-gallery でエラーを解消
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
 
