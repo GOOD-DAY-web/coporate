@@ -97,7 +97,9 @@ export default function ChooseUs() {
             <p className={styles.detailText}>選ばれる理由</p>
             <div>
               <ul className={`${styles.flexE} ${styles.detailLine}`}>
-                <li className={styles.detailLine_00}>最初から最後まで一人のスタイリストが担当。</li>
+                <li className={styles.detailLine_00}>
+                  最初から最後まで一人のスタイリストが担当。
+                </li>
                 <li className={styles.detailLine_01}>&nbsp;</li>
                 <li className={styles.detailLine_02}>
                   GOOD-DAYでは、お出迎えからお見送りまで一人のスタイリストが担当します。途中で他の人に変わることが無いので、お客様が気を遣われる必要はございません。
@@ -147,7 +149,9 @@ export default function ChooseUs() {
             <p className={styles.detailText}>選ばれる理由</p>
             <div>
               <ul className={`${styles.flexE} ${styles.detailLine}`}>
-                <li className={styles.detailLine_00}>腕の良いフリーランススタイリストが在籍!!</li>
+                <li className={styles.detailLine_00}>
+                  腕の良いフリーランススタイリストが在籍!!
+                </li>
                 <li className={styles.detailLine_01}>&nbsp;</li>
                 <li className={styles.detailLine_02}>
                   GOOD-DAYのスタイリストは全員個人事業主です。美容師であり社長でもある為、一般的な美容師よりもお客様のことを一番に考えています。是非安心してお任せください。
