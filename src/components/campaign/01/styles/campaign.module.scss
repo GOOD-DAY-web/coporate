@@ -124,6 +124,18 @@
   
   }
 }
+.background_00 {
+  background-image: url("/campaign/bd.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+.background_01 {
+  background-image: url("/campaign/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
 .title {
   font-size: 36px;
   height: auto;
@@ -477,6 +489,7 @@
   padding: 1rem 0;
   text-align: center;
 }
+
 // ━━━━━━━━━━━━━━━━
 // Introduction(導入)のcss
 // ━━━━━━━━━━━━━━━━

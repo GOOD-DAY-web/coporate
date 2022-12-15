@@ -9,7 +9,7 @@ export default function Application() {
     <>
       <div className={styles.area}>
         <h2 className={styles.title}>申込を決めたくなるタイトル</h2>
-        <div className={styles.main}>
+        <div className={`${styles.main} ${styles.background_00}`}>
           <div className={styles.flexE}>
             <div className={styles.leftArea}>
               <Image
