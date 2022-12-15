@@ -19,7 +19,7 @@ export default function UnderNotice() {
             </Link>
           </div>
           <div className={styles.box}>
-            <Link href={"../stylists"}>
+            <Link href={"/campaign"}>
               <button className={styles.iconButton}>
                 <ul className={styles.inner}>
                   <li className={styles.innerMain_03}>&nbsp;</li>
@@ -50,7 +50,7 @@ export default function UnderNotice() {
             </Link>
           </div>
           <div className={styles.box}>
-            <Link href={"/company"}>
+            <Link href={"/campaign"}>
               <button className={styles.iconButton}>
                 <ul className={styles.inner}>
                   <li className={styles.innerMain_09}>&nbsp;</li>

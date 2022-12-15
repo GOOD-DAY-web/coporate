@@ -42,10 +42,7 @@ export default function Application() {
           </div>
           <div className={styles.buttonArea}>
             <Link href={"/campaign"} passHref>
-              <Button
-                props={"20%OFFで予約する"}
-                text={"\\ 予約ページに進む /"}
-              />
+              <Button props={"20%OFFで予約する"} text={"\\ 予約に進む /"} />
             </Link>
           </div>
         </div>

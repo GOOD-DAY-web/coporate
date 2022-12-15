@@ -121,7 +121,7 @@
   
   }
   @media (max-width: 520px) {
-  
+    display: block;
   }
 }
 .background_00 {
@@ -141,6 +141,13 @@
   height: auto;
   margin: 0 auto 1rem;
   text-align: center;
+  width: 90%;
+}
+.title_01 {
+  font-size: 24px;
+  height: auto;
+  margin: 0 auto;
+  text-align: left;
   width: 90%;
 }
 .text {
@@ -167,7 +174,6 @@
 .main {
   height: auto;
   margin: 0 auto 2rem;
-  padding: 1rem;
   width: 90%;
 }
 .area {
@@ -182,6 +188,26 @@
   height: auto;
   padding: 1rem;
   width: 100%;
+}
+.box {
+  width: 20%;
+  margin: 0 auto;
+
+  @media screen and (max-width:960px) {
+      
+  }
+  @media screen and (max-width:520px) {
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+}
+.img {
+  margin: 0 auto;
+  text-align: center;
+
+  &:hover {
+    opacity: 0.8;
+  }
 }
 .flexA {
   display: flex;
@@ -227,6 +253,9 @@
 }
 .itemC {
   align-items: center;
+}
+.textC {
+  text-align: center;
 }
 .leftArea {
   height: auto;
@@ -489,7 +518,11 @@
   padding: 1rem 0;
   text-align: center;
 }
-
+.select {
+  &:hover {
+    border: solid 4px #c0c0c0;
+  }
+}
 // ━━━━━━━━━━━━━━━━
 // Introduction(導入)のcss
 // ━━━━━━━━━━━━━━━━

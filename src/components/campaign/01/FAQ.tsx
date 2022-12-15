@@ -29,7 +29,7 @@ export default function FAQ() {
     alt_03: "",
     src_03: "/campaign/Question_00.png",
     num_03: "Q4.",
-    question_03: "",
+    question_03: "質問4",
     answer_03: "回答4",
 
     alt_04: "",
