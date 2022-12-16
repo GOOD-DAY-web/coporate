@@ -1,11 +1,11 @@
 import React from "react";
-import SEO from "../components/layouts/SEO";
+import Noindex from "../components/layouts/Noindex";
 import CustomerReferral from "../components/campaign/01/CustomerReferral";
 
 export default function Campaign() {
   return (
     <>
-      <SEO
+      <Noindex
         title={
           "GOOD-DAY(グッディ)お客様ご紹介キャンペーン | 岡山県の個室シェアサロン"
         }

@@ -20,7 +20,7 @@ const Company: React.FC = () => {
         url={""}
       />
       <NewShop />
-      {/* <Shimonakano /> */}
+      <Shimonakano />
       <Noda />
       <Nakashima />
       <Corporation />

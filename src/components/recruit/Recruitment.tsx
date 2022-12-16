@@ -35,7 +35,7 @@ export default function Recruitment() {
           <h2 id="RecruitmentSummary" className={styles.subTitle}>
             {RecruitmentItems.subTitle}
           </h2>
-          {/* <ShimonakanoGuidelines /> */}
+          <ShimonakanoGuidelines />
           <NodaGuidelines />
           <ApplicationFlow />
           <MakeFriends />

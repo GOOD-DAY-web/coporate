@@ -75,7 +75,7 @@ export default function Home({ articles }: Props) {
           ))}
         </div>
         <Staffs />
-        {/* <ShimonakanoShopInfo /> */}
+        <ShimonakanoShopInfo />
         <NodaShopInfo />
         <NakashimaShopInfo />
         <Styles />
