@@ -21,7 +21,7 @@ export default function NewShop() {
           <tbody>
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>店舗名</th>
-              <td className={styles.menuTableTd}>GOOD-DAY 新店舗</td>
+              <td className={styles.menuTableTd}>GOOD-DAY 笹沖店</td>
             </tr>
           </tbody>
           <tbody>
@@ -48,7 +48,7 @@ export default function NewShop() {
           <tbody>
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>Open日時</th>
-              <td className={styles.menuTableTd}>2023年春を予定</td>
+              <td className={styles.menuTableTd}>2023年を予定</td>
             </tr>
           </tbody>
           <tbody>

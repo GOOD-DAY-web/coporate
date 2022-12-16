@@ -48,7 +48,7 @@ export default function Noda() {
           <tbody>
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>Open日時</th>
-              <td className={styles.menuTableTd}>2022年11月を予定</td>
+              <td className={styles.menuTableTd}>2022年11月1日</td>
             </tr>
           </tbody>
           <tbody>
