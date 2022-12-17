@@ -23,19 +23,19 @@ export function CampaignFooter() {
 
         <div className={styles.footerBrock}>
           <Link href={"/compaign"} passHref>
-            <p className={styles.footerTitle}>Title</p>
+            <p className={styles.footerTitle}>お客様ご紹介キャンペーン</p>
           </Link>
           <ul className={styles.footerUl}>
-            <Link href={"/compaign"} passHref>
-              <li>リスト</li>
+            <Link href={"https://www.yk-net.co.jp/"} passHref>
+              <li className={styles.footerLi}>株式会社ワイケイ</li>
             </Link>
-            <Link href={"/compaign"} passHref>
-              <li>リスト</li>
+            <Link href={"https://www.goodday-salon.com/"} passHref>
+              <li className={styles.footerLi}>シェアサロンGOOD-DAY</li>
             </Link>
           </ul>
         </div>
 
-        <div className={styles.footerBrock}>
+        {/* <div className={styles.footerBrock}>
           <Link href={"/compaign"} passHref>
             <p className={styles.footerTitle}>Title</p>
           </Link>
@@ -75,7 +75,7 @@ export function CampaignFooter() {
               <li>リスト</li>
             </Link>
           </ul>
-        </div>
+        </div> */}
       </div>
 
       {/* <div className={styles.rules}>

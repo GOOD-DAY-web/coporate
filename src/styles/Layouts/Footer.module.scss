@@ -45,6 +45,7 @@
 }
 .footerTitle {
   font-weight: bold;
+  margin-bottom: 1rem;
 
   @media (max-width: 960px) {
     text-align: center;
@@ -52,6 +53,11 @@
 }
 .footerUl {
   list-style: none;
+  padding: 0;
+}
+.footerLi {
+  list-style: none;
+  margin-bottom: 1rem;
   padding: 0;
 }
 .footerCopyLight {
