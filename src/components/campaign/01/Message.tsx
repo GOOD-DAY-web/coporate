@@ -45,7 +45,7 @@ export default function Message() {
     link_08:
       "https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000524394&stylistId=T000732263",
     name_08: "池本 麻紀子",
-    message_08: "今石のメッセージ",
+    message_08: "池本のメッセージ",
 
     src_07: "/campaign/Fujii_00.png",
     link_07: "https://sam004.salonanswer.com/sas/reserve/goodday/menu",
