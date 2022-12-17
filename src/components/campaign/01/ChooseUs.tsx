@@ -50,7 +50,7 @@ export default function ChooseUs() {
                 <li className={styles.detailLine_00}>安心</li>
                 <li className={styles.detailLine_01}>&nbsp;</li>
                 <li className={styles.detailLine_02}>
-                  GOOD-DAYでは、個室、半個室をご用意!!人目を気にすることなく安心してお過ごしいただけます。
+                  GOOD-DAYでは、セットブースは個室・半個室をご用意しています。人目を気にすることなく安心してお過ごしいただけます。
                 </li>
               </ul>
             </div>
@@ -146,15 +146,13 @@ export default function ChooseUs() {
 
           <div className={styles.detail}>
             <h2 className={styles.detailTitle}>03</h2>
-            <p className={styles.detailText}>
-              腕の良いフリーランススタイリストが在籍!!
-            </p>
+            <p className={styles.detailText}>清潔感ある店内</p>
             <div>
               <ul className={`${styles.flexE} ${styles.detailLine}`}>
-                <li className={styles.detailLine_00}>提案力</li>
+                <li className={styles.detailLine_00}>清潔</li>
                 <li className={styles.detailLine_01}>&nbsp;</li>
                 <li className={styles.detailLine_02}>
-                  GOOD-DAYのスタイリストは全員個人事業主です。美容師であり社長でもある為、一般的な美容師よりもお客様のことを一番に考えています。是非安心してお任せください。
+                  GOOD-DAYでは入口にて手指の消毒や検温を実施しています。Whithコロナ時代でも安心してお過ごしいただけます。また、出来て間もない店舗なので店内が綺麗なことも特徴の一つです。
                 </li>
               </ul>
             </div>

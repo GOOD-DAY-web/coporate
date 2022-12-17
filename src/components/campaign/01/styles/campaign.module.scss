@@ -1,3 +1,14 @@
+// 基本配色
+$bgColor : #f8f8f8;
+$borderColor : #c0c0c0;
+$fontColor : #333333;
+// front
+$frontBgColor :  #f8f8f8;
+$frontBorderColor : #c0c0c0;
+// back side
+$backBgColor : #f4f4f4;
+$backBorderColor : #a9a9a9;
+
 // ━━━━━━━━━━━━━━━━
 // Buttonのcss
 // ━━━━━━━━━━━━━━━━
@@ -117,6 +128,17 @@
   height: auto;
   width: 100%;
   margin: 0 auto 3rem;
+  @media (max-width: 960px) {
+  
+  }
+  @media (max-width: 520px) {
+    display: block;
+  }
+}
+.adjustment_01 {
+  height: auto;
+  width: 100%;
+  margin: 0 auto 6rem;
   @media (max-width: 960px) {
   
   }
@@ -524,11 +546,70 @@
   }
 }
 // ━━━━━━━━━━━━━━━━
-// Introduction(導入)のcss
+// IconButtonのcss
 // ━━━━━━━━━━━━━━━━
+.iconButton {
+  background-color: rgba(255, 0, 0, 0);
+  border: none;
+  display: none;
 
+  &:hover {
+    opacity: 0.8;
+  }
 
-
+  @media screen and (max-width:960px) {
+    display: block;
+    margin: 0 auto;
+  }
+}
+// 位置を調整する場合はここ
+.inner {
+  top: 3rem;
+  right: 3rem;
+  position: relative;
+}
+// 後にある枠の部分
+.innerMain_00 {
+  border: solid 4px $backBorderColor;
+  border-radius: 250px;
+  bottom: 0;
+  filter: drop-shadow(2px 4px 4px rgba(0,0,0,0.2));
+  font-weight: bold;
+  height: 100px;
+  position: absolute;
+  width: 100px;
+  z-index: 1;
+}
+// 動かしたい本体の画像
+.innerMain_01 {
+  // background-image: url("/campaign/Moyashi_00.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  bottom: 1rem;
+  font-weight: bold;
+  height: 100px;
+  position: absolute;
+  width: 100px;
+  z-index: 2;
+  &:hover {
+    animation: puyon 3.0s ease-in-out alternate infinite;
+  }
+}
+// front
+.innerMain_02 {
+  background-color: $frontBgColor;
+  border: solid 4px $frontBorderColor;
+  border-radius: 250px;
+  bottom: 0;
+  color: $fontColor;
+  font-size: 16px;
+  font-weight: bold;
+  height: auto;
+  padding: 0.1rem 0.4rem;
+  position: absolute;
+  width: 100px;
+  z-index: 2;
+}
 // ━━━━━━━━━━━━━━━━
 // FAQ(質問)のcss
 // ━━━━━━━━━━━━━━━━

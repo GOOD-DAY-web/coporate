@@ -23,7 +23,9 @@ export default function CustomerReferral() {
     <>
       <Introduction />
       <div className={styles.adjustment_01}>
-        <div className={styles.title}>Stylist</div>
+        <div id={"stylist"} className={styles.title}>
+          Stylist
+        </div>
         <StylistsGallery />
       </div>
       <Application />

@@ -7,7 +7,6 @@ import UnderNotice from "./UnderNotice";
 export function CampaignFooter() {
   return (
     <footer className={styles.mainFooter}>
-      <ToTopButton />
       <UnderNotice />
       <div className={styles.footerContents}>
         <div className={styles.footerBrock}>

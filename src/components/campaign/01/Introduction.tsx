@@ -10,7 +10,9 @@ export default function Introduction() {
     <>
       <div className={styles.adjustment}>&nbsp;</div>
       <div className={styles.area}>
-        <h2 className={styles.title}>GOOD-DAYお客様ご紹介キャンペーン</h2>
+        <h2 id={"introduction"} className={styles.title}>
+          GOOD-DAYお客様ご紹介キャンペーン
+        </h2>
         <Image
           className={styles.articleImage}
           src={"/campaign/mainImage_00.jpg"}

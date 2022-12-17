@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import styles from "../../../../styles/Layouts/UnderNotice.module.scss";
 
 export default function UnderNotice() {
@@ -8,7 +9,7 @@ export default function UnderNotice() {
       <div className={styles.notice}>
         <div className={styles.flexA}>
           <div className={styles.box}>
-            <Link href={"/campaign"}>
+            <AnchorLink href="#introduction">
               <button className={styles.iconButton}>
                 <ul className={styles.inner}>
                   <li className={styles.innerMain_00}>&nbsp;</li>
@@ -16,10 +17,10 @@ export default function UnderNotice() {
                   <li className={styles.innerMain_02}>Home</li>
                 </ul>
               </button>
-            </Link>
+            </AnchorLink>
           </div>
           <div className={styles.box}>
-            <Link href={"/campaign"}>
+            <AnchorLink href={"#stylist"}>
               <button className={styles.iconButton}>
                 <ul className={styles.inner}>
                   <li className={styles.innerMain_03}>&nbsp;</li>
@@ -32,10 +33,10 @@ export default function UnderNotice() {
                   </li>
                 </ul>
               </button>
-            </Link>
+            </AnchorLink>
           </div>
 
-          <div className={styles.box}>
+          {/* <div className={styles.box}>
             <Link href={"/campaign"}>
               <button className={styles.iconButton}>
                 <ul className={styles.inner}>
@@ -48,8 +49,9 @@ export default function UnderNotice() {
                 </ul>
               </button>
             </Link>
-          </div>
-          <div className={styles.box}>
+          </div> */}
+
+          {/* <div className={styles.box}>
             <Link href={"/campaign"}>
               <button className={styles.iconButton}>
                 <ul className={styles.inner}>
@@ -59,11 +61,10 @@ export default function UnderNotice() {
                 </ul>
               </button>
             </Link>
-          </div>
+          </div> */}
+
           <div className={styles.box}>
-            <Link
-              href={"https://sam004.salonanswer.com/sas/reserve/goodday/staff"}
-            >
+            <AnchorLink href={"#stylists"}>
               <button className={styles.iconButton}>
                 <ul className={styles.inner}>
                   <li className={styles.innerMain_12}>&nbsp;</li>
@@ -71,7 +72,7 @@ export default function UnderNotice() {
                   <li className={styles.innerMain_14}>Reserve</li>
                 </ul>
               </button>
-            </Link>
+            </AnchorLink>
           </div>
         </div>
       </div>
