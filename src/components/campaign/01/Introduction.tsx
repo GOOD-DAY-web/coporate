@@ -15,7 +15,7 @@ export default function Introduction() {
         </h2>
         <Image
           className={styles.articleImage}
-          src={"/campaign/mainImage_00.jpg"}
+          src={"/campaign/mainTitle_01.jpg"}
           alt={""}
           width={2000}
           height={2000}

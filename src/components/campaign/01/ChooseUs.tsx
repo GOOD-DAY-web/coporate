@@ -67,16 +67,8 @@ export default function ChooseUs() {
                 <li className={styles.detailImg}>&nbsp;</li>
                 <li className={styles.detailItemText}>テキスト</li>
               </ul>
-              <ul className={styles.detailItem}>
-                <li className={styles.detailImg}>&nbsp;</li>
-                <li className={styles.detailItemText}>テキスト</li>
-              </ul>
             </div>
             <div className={styles.detailItems}>
-              <ul className={styles.detailItem}>
-                <li className={styles.detailImg}>&nbsp;</li>
-                <li className={styles.detailItemText}>テキスト</li>
-              </ul>
               <ul className={styles.detailItem}>
                 <li className={styles.detailImg}>&nbsp;</li>
                 <li className={styles.detailItemText}>テキスト</li>
@@ -119,16 +111,8 @@ export default function ChooseUs() {
                 <li className={styles.detailImg}>&nbsp;</li>
                 <li className={styles.detailItemText}>テキスト</li>
               </ul>
-              <ul className={styles.detailItem}>
-                <li className={styles.detailImg}>&nbsp;</li>
-                <li className={styles.detailItemText}>テキスト</li>
-              </ul>
             </div>
             <div className={styles.detailItems}>
-              <ul className={styles.detailItem}>
-                <li className={styles.detailImg}>&nbsp;</li>
-                <li className={styles.detailItemText}>テキスト</li>
-              </ul>
               <ul className={styles.detailItem}>
                 <li className={styles.detailImg}>&nbsp;</li>
                 <li className={styles.detailItemText}>テキスト</li>
@@ -169,16 +153,8 @@ export default function ChooseUs() {
                 <li className={styles.detailImg}>&nbsp;</li>
                 <li className={styles.detailItemText}>テキスト</li>
               </ul>
-              <ul className={styles.detailItem}>
-                <li className={styles.detailImg}>&nbsp;</li>
-                <li className={styles.detailItemText}>テキスト</li>
-              </ul>
             </div>
             <div className={styles.detailItems}>
-              <ul className={styles.detailItem}>
-                <li className={styles.detailImg}>&nbsp;</li>
-                <li className={styles.detailItemText}>テキスト</li>
-              </ul>
               <ul className={styles.detailItem}>
                 <li className={styles.detailImg}>&nbsp;</li>
                 <li className={styles.detailItemText}>テキスト</li>
