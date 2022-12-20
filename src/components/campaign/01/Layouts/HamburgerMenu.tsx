@@ -40,7 +40,7 @@ const HamburgerMenu: React.FC = () => {
         overlayClassName={styles.overlay}
         onStateChange={isMenuOpen}
         pageWrapId={"page-wrap"}
-        width={"70%"}
+        width={"80%"}
       >
         <div id="page-wrap">
           <ul className={styles.items}>
