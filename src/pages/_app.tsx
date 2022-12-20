@@ -6,9 +6,9 @@ import { useRouter } from "next/router";
 import type { AppProps } from "next/app";
 import NextNprogress from "nextjs-progressbar";
 import Footer from "../components/layouts/Footer";
-import HamburgerMenu from "../components/layouts/HamburgerMenu";
+import Header from "../components/layouts/Header";
 // campaignのコンポーネント
-import Header from "../components/campaign/01/Layouts/Header";
+import CampaignHeader from "../components/campaign/01/Layouts/CampaignHeader";
 import { CampaignFooter } from "../components/campaign/01/Layouts/CampaignFooter";
 
 import Script from "next/script";
@@ -53,7 +53,7 @@ const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
           height={4}
           showOnShallow={true}
         />
-        <Header />
+        <CampaignHeader />
         <Component key={router.asPath} {...pageProps} />
         <CampaignFooter />
       </>
@@ -86,7 +86,7 @@ const MyApp = ({ Component, pageProps }: AppProps): JSX.Element => {
         height={4}
         showOnShallow={true}
       />
-      <HamburgerMenu />
+      <Header />
       <Component key={router.asPath} {...pageProps} />
       <Footer />
     </>

@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/legacy/image";
-import styles from "../../styles/Layouts/HamburgerMenu.module.scss";
+import styles from "../../../../styles/Layouts/HamburgerMenu.module.scss";
 import { scaleRotate as Menu } from "react-burger-menu";
 
 const HamburgerMenu: React.FC = () => {
@@ -45,33 +45,36 @@ const HamburgerMenu: React.FC = () => {
         <div id="page-wrap">
           <ul className={styles.items}>
             <li className={styles.itemsBrock}>
-              <Link href="/" passHref>
+              <Link href="/campaign" passHref>
                 <p className={styles.itemsTitle}>Home</p>
                 <p className={styles.itemsSubTitle}>ホーム</p>
               </Link>
             </li>
             <li className={styles.itemsBrock}>
-              <Link href="/stylist" passHref>
-                <p className={styles.itemsTitle}>Stylist</p>
-                <p className={styles.itemsSubTitle}>スタイリスト一覧</p>
+              <Link href="/" passHref>
+                <p className={styles.itemsTitle}>HomePage</p>
+                <p className={styles.itemsSubTitle}>ホームページ</p>
               </Link>
             </li>
             <li className={styles.itemsBrock}>
-              <Link href="/service" passHref>
-                <p className={styles.itemsTitle}>Service</p>
-                <p className={styles.itemsSubTitle}>サービス</p>
+              <Link href="https://beauty.hotpepper.jp/slnH000524394/" passHref>
+                <p className={styles.itemsTitle}>HPB倉敷中島店</p>
+                <p className={styles.itemsSubTitle}>外部リンク</p>
               </Link>
             </li>
             <li className={styles.itemsBrock}>
-              <Link href="/recruit" passHref>
-                <p className={styles.itemsTitle}>Recruit</p>
-                <p className={styles.itemsSubTitle}>求人・応募</p>
+              <Link href="https://beauty.hotpepper.jp/slnH000616748/" passHref>
+                <p className={styles.itemsTitle}>HPB岡山野田店</p>
+                <p className={styles.itemsSubTitle}>外部リンク</p>
               </Link>
             </li>
             <li className={styles.itemsBrock}>
-              <Link href="/company" passHref>
-                <p className={styles.itemsTitle}>Company</p>
-                <p className={styles.itemsSubTitle}>運営会社</p>
+              <Link
+                href="/https://page.line.me/153jsnax?openQrModal=true"
+                passHref
+              >
+                <p className={styles.itemsTitle}>Contact</p>
+                <p className={styles.itemsSubTitle}>コンタクト</p>
               </Link>
             </li>
           </ul>
