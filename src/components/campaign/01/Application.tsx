@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/legacy/image";
 import Button from "./Layouts/Button";
 import styles from "./styles/campaign.module.scss";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 export default function Application() {
   return (
@@ -41,9 +42,9 @@ export default function Application() {
             </div>
           </div>
           <div className={styles.buttonArea}>
-            <Link href={"/campaign"} passHref>
+            <AnchorLink href={"#stylists"}>
               <Button props={"20%OFFで予約する"} text={"\\ 予約に進む /"} />
-            </Link>
+            </AnchorLink>
           </div>
         </div>
         <div className={styles.noticeArea}>

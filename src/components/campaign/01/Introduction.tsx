@@ -10,17 +10,19 @@ export default function Introduction() {
     <>
       <div className={styles.adjustment}>&nbsp;</div>
       <div className={styles.area}>
-        <h2 id={"introduction"} className={styles.title}>
-          GOOD-DAYお客様ご紹介キャンペーン
+        <h2 id={"introduction"} className={styles.mainTitle}>
+          お客様ご紹介キャンペーン
         </h2>
-        <Image
-          className={styles.articleImage}
-          src={"/campaign/mainTitle_01.jpg"}
-          alt={""}
-          width={2000}
-          height={2000}
-          objectFit={"contain"}
-        />
+        <div className={`${styles.zoom} ${styles.zoom1}`}>
+          <Image
+            className={`${styles.carousel} ${styles.zoomImage0}`}
+            src={"/campaign/mainTitle_01.jpg"}
+            alt={""}
+            width={2000}
+            height={2000}
+            objectFit={"contain"}
+          />
+        </div>
         <div className={styles.noticeArea}>
           <div>
             <ul>

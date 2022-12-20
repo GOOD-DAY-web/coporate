@@ -108,6 +108,67 @@ $backBorderColor : #a9a9a9;
   70%  { transform: scale(1.0, 1.0) translate(0%, 0%); }
   100% { transform: scale(1.0, 1.0) translate(0%, 0%); }
 }
+// zoomanimationのcss
+.carousel {
+  position: relative;
+}
+.carouselInfo {
+  bottom: 3rem;
+  left: 70%;
+  margin-left: -70%;
+  padding: 1rem;
+  position: absolute;
+  transition: all .5s ease-in-out;
+  width: 100%;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  @media (max-width: 960px) {
+    bottom: 1rem;
+    font-size: 16px;
+    padding: 0.8rem;
+    width: 100%;
+  }
+
+  @media (max-width: 520px) {
+    bottom: 0;
+    font-size: 16px;
+    padding: 0;
+    width: 100%;
+  }
+}
+// zoomanimationのcss
+@keyframes animationZoom0 {
+  100% { transform:scale(1.1)} 
+}
+@keyframes animationZoom1 {
+  60% { transform:scale(1.1)} 
+}
+@keyframes animationZoom2 {
+  40% { transform:scale(1.1)} 
+}
+.zoom {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.zoomImage0 {
+  width: 100%;
+  height: auto;
+  animation: animationZoom0 16s ease-in-out alternate infinite;
+}
+.zoomImage1 {
+  width: 100%;
+  height: auto;
+  animation: animationZoom1 16s ease-in-out alternate infinite;
+}
+.zoomImage2 {
+  width: 100%;
+  height: auto;
+  animation: animationZoom2 16s ease-in-out alternate infinite;
+}
 // ━━━━━━━━━━━━━━━━
 // Buttonのcss
 // ━━━━━━━━━━━━━━━━
@@ -137,6 +198,9 @@ $backBorderColor : #a9a9a9;
   @media (max-width: 520px) {
     width: 80%;
   }
+}
+.messageButton {
+  width: 100%;
 }
 .btn {
   align-items: center;
@@ -255,6 +319,23 @@ $backBorderColor : #a9a9a9;
   background-size: cover;
   background-repeat: no-repeat;
   opacity: 1;
+}
+.mainTitle {
+  font-size: 56px;
+  height: auto;
+  margin: 0 auto 1rem;
+  text-align: center;
+  width: 90%;
+
+  @media screen and (max-width:960px) {
+      
+  }
+  @media screen and (max-width:520px) {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 1rem;
+    width: 100%;
+  }
 }
 .title {
   font-size: 36px;

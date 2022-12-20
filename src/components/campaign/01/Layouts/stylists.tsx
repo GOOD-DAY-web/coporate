@@ -8,55 +8,58 @@ const Stylists = () => {
     title_00: "スタイリスト一覧",
     shop_01: "岡山野田店",
     link_13:
-      "https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000616748&stylistId=T000821168",
+      "https://sam004.salonanswer.com/sas/reserve/goodday-noda/menu/select-staff/15/",
     src_13: "/campaign/Moyashi_00.png",
     name_13: "藤原 朋也",
   };
   const nakashima_00 = {
     shop_00: "倉敷中島店",
     link_12:
-      "https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000524394&stylistId=T000753119",
+      "https://sam004.salonanswer.com/sas/reserve/goodday/menu/select-staff/13/",
     src_12: "/campaign/Nami_00.png",
     name_12: "小野 奈美",
     link_11:
-      "https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000524394&stylistId=T000744032",
+      "https://sam004.salonanswer.com/sas/reserve/goodday/menu/select-staff/12/",
     src_11: "/campaign/Maho_00.png",
     name_11: "土田 真帆",
     link_10:
-      "https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000524394&stylistId=T000744369",
+      "https://sam004.salonanswer.com/sas/reserve/goodday/menu/select-staff/11/",
     src_10: "/campaign/Yuka_00.png",
     name_10: "藤原 由香",
     link_09:
-      "https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000524394&stylistId=T000744375",
+      "https://sam004.salonanswer.com/sas/reserve/goodday/menu/select-staff/10/",
     src_09: "/campaign/Mai_00.png",
     name_09: "今石 麻依",
     link_08:
-      "https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000524394&stylistId=T000732263",
+      "https://sam004.salonanswer.com/sas/reserve/goodday/menu/select-staff/9/",
     src_08: "/campaign/Ikemoto_00.png",
     name_08: "池本 麻紀子",
-    link_07: "https://sam004.salonanswer.com/sas/reserve/goodday/menu",
+    link_07:
+      "https://sam004.salonanswer.com/sas/reserve/goodday/menu/select-staff/8/",
     src_07: "/campaign/Fujii_00.png",
     name_07: "藤井 政美",
     link_06:
-      "https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000524394&stylistId=T000727698",
+      "https://sam004.salonanswer.com/sas/reserve/goodday/menu/select-staff/7/",
     src_06: "/campaign/John_00.png",
     name_06: "神田 敏和",
     link_05:
-      "https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000524394&stylistId=T000706037",
+      "https://sam004.salonanswer.com/sas/reserve/goodday/menu/select-staff/6/",
     src_05: "/campaign/Dai_00.png",
     name_05: "田邉 大将",
     link_04:
-      "https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000524394&stylistId=T000706636",
+      "https://sam004.salonanswer.com/sas/reserve/goodday/menu/select-staff/5/",
     name_04: "natsuki",
     src_04: "/campaign/Natsuki_00.png",
-    link_03: "https://sam004.salonanswer.com/sas/reserve/goodday/menu",
+    link_03:
+      "https://sam004.salonanswer.com/sas/reserve/goodday/menu/select-staff/4/",
     name_03: "磯村 希実",
     src_03: "/campaign/Nozomi_00.png",
-    link_02: "https://sam004.salonanswer.com/sas/reserve/goodday/menu",
+    link_02:
+      "https://sam004.salonanswer.com/sas/reserve/goodday/menu/select-staff/3/",
     name_02: "田原 美華",
     src_02: "/campaign/Mika_00.png",
     link_01:
-      "https://beauty.hotpepper.jp/CSP/bt/reserve/?storeId=H000524394&stylistId=T000693588",
+      "https://sam004.salonanswer.com/sas/reserve/goodday/menu/select-staff/2/",
     name_01: "かたやま はるか",
     src_01: "/campaign/Katayama_00.png",
   };
