@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/legacy/image";
 import Button from "./Layouts/Button";
+import Notice from "./Layouts/Notice";
 import styles from "./styles/campaign.module.scss";
 import { FramerMotion } from "../../layouts/FramerMotion";
 
@@ -23,21 +24,7 @@ export default function Introduction() {
             objectFit={"contain"}
           />
         </div>
-        <div className={styles.noticeArea}>
-          <div>
-            <ul>
-              <li className={styles.listItemText}>
-                ※何か特筆して明示すべき事柄があれば記入
-              </li>
-              <li className={styles.listItemText}>
-                ※何か特筆して明示すべき事柄があれば記入
-              </li>
-              <li className={styles.listItemText}>
-                ※何か特筆して明示すべき事柄があれば記入
-              </li>
-            </ul>
-          </div>
-        </div>
+        <Notice />
       </div>
     </>
   );

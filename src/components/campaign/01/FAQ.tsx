@@ -60,7 +60,9 @@ export default function FAQ() {
     <>
       <div className={styles.main}>
         <h2 className={styles.title}>{Questions.title}</h2>
-        <div className={`${styles.block} ${styles.adjustment_01}`}>
+        <div
+          className={`${styles.block} ${styles.adjustment_01} ${styles.background_02}`}
+        >
           <ul className={`${styles.flexR} ${styles.itemC}`}>
             <li className={styles.titleImage}>
               <Image
@@ -81,7 +83,9 @@ export default function FAQ() {
           </div>
         </div>
 
-        <div className={`${styles.block} ${styles.adjustment_01}`}>
+        <div
+          className={`${styles.block} ${styles.adjustment_01} ${styles.background_02}`}
+        >
           <ul className={`${styles.flexR} ${styles.itemC}`}>
             <li className={styles.titleImage}>
               <Image
@@ -102,7 +106,9 @@ export default function FAQ() {
           </div>
         </div>
 
-        <div className={`${styles.block} ${styles.adjustment_01}`}>
+        <div
+          className={`${styles.block} ${styles.adjustment_01} ${styles.background_02}`}
+        >
           <ul className={`${styles.flexR} ${styles.itemC}`}>
             <li className={styles.titleImage}>
               <Image
@@ -123,7 +129,9 @@ export default function FAQ() {
           </div>
         </div>
 
-        <div className={`${styles.block} ${styles.adjustment_01}`}>
+        <div
+          className={`${styles.block} ${styles.adjustment_01} ${styles.background_02}`}
+        >
           <ul className={`${styles.flexR} ${styles.itemC}`}>
             <li className={styles.titleImage}>
               <Image
@@ -144,7 +152,9 @@ export default function FAQ() {
           </div>
         </div>
 
-        <div className={`${styles.block} ${styles.adjustment_01}`}>
+        <div
+          className={`${styles.block} ${styles.adjustment_01} ${styles.background_02}`}
+        >
           <ul className={`${styles.flexR} ${styles.itemC}`}>
             <li className={styles.titleImage}>
               <Image
@@ -165,7 +175,9 @@ export default function FAQ() {
           </div>
         </div>
 
-        <div className={`${styles.block} ${styles.adjustment_01}`}>
+        <div
+          className={`${styles.block} ${styles.adjustment_01} ${styles.background_02}`}
+        >
           <ul className={`${styles.flexR} ${styles.itemC}`}>
             <li className={styles.titleImage}>
               <Image
@@ -186,7 +198,9 @@ export default function FAQ() {
           </div>
         </div>
 
-        <div className={`${styles.block} ${styles.adjustment_01}`}>
+        <div
+          className={`${styles.block} ${styles.adjustment_01} ${styles.background_02}`}
+        >
           <ul className={`${styles.flexR} ${styles.itemC}`}>
             <li className={styles.titleImage}>
               <Image
@@ -207,7 +221,9 @@ export default function FAQ() {
           </div>
         </div>
 
-        <div className={`${styles.block} ${styles.adjustment_01}`}>
+        <div
+          className={`${styles.block} ${styles.adjustment_01} ${styles.background_02}`}
+        >
           <ul className={`${styles.flexR} ${styles.itemC}`}>
             <li className={styles.titleImage}>
               <Image

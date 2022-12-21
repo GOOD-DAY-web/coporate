@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/legacy/image";
 import Button from "./Layouts/Button";
+import Notice from "./Layouts/Notice";
 import styles from "./styles/campaign.module.scss";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
@@ -9,13 +10,17 @@ export default function Application() {
   return (
     <>
       <div className={styles.area}>
-        <h2 className={styles.title}>申込を決めたくなるタイトル</h2>
+        <h2 className={styles.title}>
+          GOOD-DAYに行くなら今がチャンス!!
+          <br />
+          2023年一番お得なキャンペーン開催中!!
+        </h2>
         <div className={`${styles.main} ${styles.background_00}`}>
           <div className={styles.flexE}>
             <div className={styles.leftArea}>
               <Image
                 className={styles.articleImage}
-                src={"/campaign/campaign_02.png"}
+                src={"/campaign/GOOD-DAY_flyer_00.png"}
                 alt={""}
                 width={1200}
                 height={830}
@@ -47,21 +52,7 @@ export default function Application() {
             </AnchorLink>
           </div>
         </div>
-        <div className={styles.noticeArea}>
-          <div>
-            <ul>
-              <li className={styles.listItemText}>
-                ※本キャンペーンはチラシをお持ちいただいた方限定のキャンペーンです。
-              </li>
-              <li className={styles.listItemText}>
-                ※さらにご成約いただいた際に仲介手数料を20%OFFとさせていただきます。
-              </li>
-              <li className={styles.listItemText}>
-                ※キャンペーンは予告なく変更、終了する場合がございます。予めご了承ください。
-              </li>
-            </ul>
-          </div>
-        </div>
+        <Notice />
       </div>
     </>
   );

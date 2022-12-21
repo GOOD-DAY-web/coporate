@@ -2,6 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/legacy/image";
+import Notice from "./Layouts/Notice";
 import styles from "./styles/campaign.module.scss";
 
 export default function Benefits() {
@@ -9,53 +10,35 @@ export default function Benefits() {
     <>
       <div className={styles.area}>
         <h2 className={styles.title}>キャンペーン3大特権 !!</h2>
-        <div className={styles.image}>
-          <Image
-            className={styles.articleImage}
-            src={"/campaign/mainImage_00.jpg"}
-            alt={""}
-            width={2000}
-            height={2000}
-            objectFit={"contain"}
-          />
-        </div>
         <div className={styles.list}>
           <div>
-            <ul className={styles.listItem}>
+            <ul
+              className={`${styles.listItem} ${styles.kiran} ${styles.background_02}`}
+            >
               <li className={`${styles.flexR} ${styles.itemC}`}>
                 <h2 className={styles.listItemlTitle}>01</h2>
-                <p>今だけ!! 施術費用から20%OFF</p>
+                <p>今だけ!! 施術費用から20%OFF(最大¥3,000引き)</p>
               </li>
             </ul>
-            <ul className={styles.listItem}>
+            <ul
+              className={`${styles.listItem} ${styles.kiran} ${styles.background_02}`}
+            >
               <li className={`${styles.flexR} ${styles.itemC}`}>
                 <h2 className={styles.listItemlTitle}>02</h2>
                 <p>紹介した人、された人どっちもお得!!!</p>
               </li>
             </ul>
-            <ul className={styles.listItem}>
+            <ul
+              className={`${styles.listItem} ${styles.kiran} ${styles.background_02}`}
+            >
               <li className={`${styles.flexR} ${styles.itemC}`}>
                 <h2 className={styles.listItemlTitle}>03</h2>
-                <p>ワイケイでご成約された方には更にプレゼント!!!!</p>
+                <p>予約の取りづらいGOOD-DAYが利用できる!!</p>
               </li>
             </ul>
           </div>
         </div>
-        <div className={styles.noticeArea}>
-          <div>
-            <ul>
-              <li className={styles.listItemText}>
-                ※何か特筆して明示すべき事柄があれば記入
-              </li>
-              <li className={styles.listItemText}>
-                ※何か特筆して明示すべき事柄があれば記入
-              </li>
-              <li className={styles.listItemText}>
-                ※何か特筆して明示すべき事柄があれば記入
-              </li>
-            </ul>
-          </div>
-        </div>
+        <Notice />
       </div>
     </>
   );

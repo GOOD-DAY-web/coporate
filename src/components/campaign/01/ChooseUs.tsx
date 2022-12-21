@@ -2,6 +2,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/legacy/image";
+import Notice from "./Layouts/Notice";
 import styles from "./styles/campaign.module.scss";
 
 export default function ChooseUs() {
@@ -9,7 +10,7 @@ export default function ChooseUs() {
     <>
       <div className={styles.area}>
         <h2 className={styles.title}>選ばれる理由</h2>
-        <div className={styles.image}>
+        {/* <div className={styles.image}>
           <Image
             className={styles.articleImage}
             src={"/campaign/mainImage_00.jpg"}
@@ -18,25 +19,31 @@ export default function ChooseUs() {
             height={2000}
             objectFit={"contain"}
           />
-        </div>
+        </div> */}
         <div className={styles.list}>
           <div>
-            <ul className={styles.listItem}>
+            <ul
+              className={`${styles.listItem} ${styles.kiran} ${styles.background_02}`}
+            >
               <li className={`${styles.flexR} ${styles.itemC}`}>
                 <h2 className={styles.listItemlTitle}>01</h2>
                 <p>全て個室・半個室!!</p>
               </li>
             </ul>
-            <ul className={styles.listItem}>
+            <ul
+              className={`${styles.listItem} ${styles.kiran} ${styles.background_02}`}
+            >
               <li className={`${styles.flexR} ${styles.itemC}`}>
                 <h2 className={styles.listItemlTitle}>02</h2>
                 <p>最初から最後まで一人のスタイリストが担当。</p>
               </li>
             </ul>
-            <ul className={styles.listItem}>
+            <ul
+              className={`${styles.listItem} ${styles.kiran} ${styles.background_02}`}
+            >
               <li className={`${styles.flexR} ${styles.itemC}`}>
                 <h2 className={styles.listItemlTitle}>03</h2>
-                <p>腕の良いフリーランススタイリストが在籍!!</p>
+                <p>Whithコロナ時代でも安心の清潔感</p>
               </li>
             </ul>
           </div>
@@ -56,30 +63,78 @@ export default function ChooseUs() {
             </div>
             <div className={styles.detailItems}>
               <ul className={styles.detailItem}>
-                <li className={styles.detailImg}>&nbsp;</li>
-                <li className={styles.detailItemText}>テキスト</li>
+                <li className={styles.detailImg}>
+                  <Image
+                    alt={""}
+                    height={1000}
+                    objectFit={"contain"}
+                    src={"/campaign/campaign_point_00.png"}
+                    width={1000}
+                  />
+                </li>
+                <li className={styles.detailItemText}>倉敷中島店</li>
               </ul>
               <ul className={styles.detailItem}>
-                <li className={styles.detailImg}>&nbsp;</li>
-                <li className={styles.detailItemText}>テキスト</li>
+                <li className={styles.detailImg}>
+                  <Image
+                    alt={""}
+                    height={1000}
+                    objectFit={"contain"}
+                    src={"/campaign/campaign_point_01.png"}
+                    width={1000}
+                  />
+                </li>
+                <li className={styles.detailItemText}>倉敷中島店</li>
               </ul>
               <ul className={styles.detailItem}>
-                <li className={styles.detailImg}>&nbsp;</li>
-                <li className={styles.detailItemText}>テキスト</li>
+                <li className={styles.detailImg}>
+                  <Image
+                    alt={""}
+                    height={1000}
+                    objectFit={"contain"}
+                    src={"/campaign/campaign_point_02.png"}
+                    width={1000}
+                  />
+                </li>
+                <li className={styles.detailItemText}>倉敷中島店</li>
               </ul>
             </div>
             <div className={styles.detailItems}>
               <ul className={styles.detailItem}>
-                <li className={styles.detailImg}>&nbsp;</li>
-                <li className={styles.detailItemText}>テキスト</li>
+                <li className={styles.detailImg}>
+                  <Image
+                    alt={""}
+                    height={1000}
+                    objectFit={"contain"}
+                    src={"/campaign/campaign_point_03.png"}
+                    width={1000}
+                  />
+                </li>
+                <li className={styles.detailItemText}>岡山野田店</li>
               </ul>
               <ul className={styles.detailItem}>
-                <li className={styles.detailImg}>&nbsp;</li>
-                <li className={styles.detailItemText}>テキスト</li>
+                <li className={styles.detailImg}>
+                  <Image
+                    alt={""}
+                    height={1000}
+                    objectFit={"contain"}
+                    src={"/campaign/campaign_point_04.png"}
+                    width={1000}
+                  />
+                </li>
+                <li className={styles.detailItemText}>岡山野田店</li>
               </ul>
               <ul className={styles.detailItem}>
-                <li className={styles.detailImg}>&nbsp;</li>
-                <li className={styles.detailItemText}>テキスト</li>
+                <li className={styles.detailImg}>
+                  <Image
+                    alt={""}
+                    height={1000}
+                    objectFit={"contain"}
+                    src={"/campaign/campaign_point_05.png"}
+                    width={1000}
+                  />
+                </li>
+                <li className={styles.detailItemText}>岡山野田店</li>
               </ul>
             </div>
           </div>
@@ -94,36 +149,52 @@ export default function ChooseUs() {
                 <li className={styles.detailLine_00}>快適</li>
                 <li className={styles.detailLine_01}>&nbsp;</li>
                 <li className={styles.detailLine_02}>
-                  GOOD-DAYでは、お出迎えからお見送りまで一人のスタイリストが担当します。途中で他の人に変わることが無いので、お客様が気を遣われる必要はございません。
+                  GOOD-DAYでは、お出迎えからお見送りまで一人のスタイリストが担当します。途中で他の人に変わることが無いので、安心です。
                 </li>
               </ul>
             </div>
             <div className={styles.detailItems}>
               <ul className={styles.detailItem}>
-                <li className={styles.detailImg}>&nbsp;</li>
-                <li className={styles.detailItemText}>テキスト</li>
+                <li className={styles.detailImg}>
+                  <Image
+                    alt={""}
+                    height={1000}
+                    objectFit={"contain"}
+                    src={"/campaign/campaign_point_06.png"}
+                    width={1000}
+                  />
+                </li>
+                <li className={styles.detailItemText}>
+                  スタイリストがシャンプーします。
+                </li>
               </ul>
               <ul className={styles.detailItem}>
-                <li className={styles.detailImg}>&nbsp;</li>
-                <li className={styles.detailItemText}>テキスト</li>
+                <li className={styles.detailImg}>
+                  <Image
+                    alt={""}
+                    height={1000}
+                    objectFit={"contain"}
+                    src={"/campaign/campaign_point_07.png"}
+                    width={1000}
+                  />
+                </li>
+                <li className={styles.detailItemText}>
+                  人が変わってほしくないカラーもスタイリスが担当します。
+                </li>
               </ul>
               <ul className={styles.detailItem}>
-                <li className={styles.detailImg}>&nbsp;</li>
-                <li className={styles.detailItemText}>テキスト</li>
-              </ul>
-            </div>
-            <div className={styles.detailItems}>
-              <ul className={styles.detailItem}>
-                <li className={styles.detailImg}>&nbsp;</li>
-                <li className={styles.detailItemText}>テキスト</li>
-              </ul>
-              <ul className={styles.detailItem}>
-                <li className={styles.detailImg}>&nbsp;</li>
-                <li className={styles.detailItemText}>テキスト</li>
-              </ul>
-              <ul className={styles.detailItem}>
-                <li className={styles.detailImg}>&nbsp;</li>
-                <li className={styles.detailItemText}>テキスト</li>
+                <li className={styles.detailImg}>
+                  <Image
+                    alt={""}
+                    height={1000}
+                    objectFit={"contain"}
+                    src={"/campaign/campaign_point_08.png"}
+                    width={1000}
+                  />
+                </li>
+                <li className={styles.detailItemText}>
+                  ドライ&ブローもスタイリストだから安心です。
+                </li>
               </ul>
             </div>
           </div>
@@ -142,50 +213,45 @@ export default function ChooseUs() {
             </div>
             <div className={styles.detailItems}>
               <ul className={styles.detailItem}>
-                <li className={styles.detailImg}>&nbsp;</li>
-                <li className={styles.detailItemText}>テキスト</li>
+                <li className={styles.detailImg}>
+                  <Image
+                    alt={""}
+                    height={1000}
+                    objectFit={"contain"}
+                    src={"/campaign/campaign_point_09.png"}
+                    width={1000}
+                  />
+                </li>
+                <li className={styles.detailItemText}>倉敷中島店</li>
               </ul>
               <ul className={styles.detailItem}>
-                <li className={styles.detailImg}>&nbsp;</li>
-                <li className={styles.detailItemText}>テキスト</li>
+                <li className={styles.detailImg}>
+                  <Image
+                    alt={""}
+                    height={1000}
+                    objectFit={"contain"}
+                    src={"/campaign/campaign_point_10.png"}
+                    width={1000}
+                  />
+                </li>
+                <li className={styles.detailItemText}>倉敷中島店</li>
               </ul>
               <ul className={styles.detailItem}>
-                <li className={styles.detailImg}>&nbsp;</li>
-                <li className={styles.detailItemText}>テキスト</li>
-              </ul>
-            </div>
-            <div className={styles.detailItems}>
-              <ul className={styles.detailItem}>
-                <li className={styles.detailImg}>&nbsp;</li>
-                <li className={styles.detailItemText}>テキスト</li>
-              </ul>
-              <ul className={styles.detailItem}>
-                <li className={styles.detailImg}>&nbsp;</li>
-                <li className={styles.detailItemText}>テキスト</li>
-              </ul>
-              <ul className={styles.detailItem}>
-                <li className={styles.detailImg}>&nbsp;</li>
-                <li className={styles.detailItemText}>テキスト</li>
+                <li className={styles.detailImg}>
+                  <Image
+                    alt={""}
+                    height={1000}
+                    objectFit={"contain"}
+                    src={"/campaign/campaign_point_11.png"}
+                    width={1000}
+                  />
+                </li>
+                <li className={styles.detailItemText}>岡山野田店</li>
               </ul>
             </div>
           </div>
         </div>
-
-        <div className={styles.noticeArea}>
-          <div>
-            <ul>
-              <li className={styles.listItemText}>
-                ※何か特筆して明示すべき事柄があれば記入
-              </li>
-              <li className={styles.listItemText}>
-                ※何か特筆して明示すべき事柄があれば記入
-              </li>
-              <li className={styles.listItemText}>
-                ※何か特筆して明示すべき事柄があれば記入
-              </li>
-            </ul>
-          </div>
-        </div>
+        <Notice />
       </div>
     </>
   );

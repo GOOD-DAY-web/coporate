@@ -108,6 +108,49 @@ $backBorderColor : #a9a9a9;
   70%  { transform: scale(1.0, 1.0) translate(0%, 0%); }
   100% { transform: scale(1.0, 1.0) translate(0%, 0%); }
 }
+.kiran {
+  opacity: 1;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  &::before {
+    background-color: #fff;
+    content: "";
+    display: block;
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    opacity: 0;
+    transition: cubic-bezier(0.32, 0, 0.67, 0);
+  }
+  &:hover::before {
+    animation: kiran 0.5s linear 1;
+  }
+}
+@keyframes kiran {
+  0% {
+    transform: scale(2) rotate(45deg);
+    opacity: 0;
+  }
+  20% {
+    transform: scale(20) rotate(45deg);
+    opacity: 0.6;
+  }
+  40% {
+    transform: scale(30) rotate(45deg);
+    opacity: 0.4;
+  }
+  80% {
+    transform: scale(45) rotate(45deg);
+    opacity: 0.2;
+  }
+  100% {
+    transform: scale(50) rotate(45deg);
+    opacity: 0;
+  }
+}
 // zoomanimationのcss
 .carousel {
   position: relative;
@@ -320,6 +363,16 @@ $backBorderColor : #a9a9a9;
   background-repeat: no-repeat;
   opacity: 1;
 }
+// 緑
+.background_02 {
+  background-color: #d5e5c4;
+  opacity: 1;
+}
+// 赤
+.background_03 {
+  background-color: #eeb0bd;
+  opacity: 1;
+}
 .mainTitle {
   font-size: 56px;
   height: auto;
@@ -390,7 +443,6 @@ $backBorderColor : #a9a9a9;
   width: 100%;
 }
 .block {
-  background-color: #f8f8f8;
   box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   height: auto;
@@ -436,6 +488,16 @@ $backBorderColor : #a9a9a9;
         
   }
   @media screen and (max-width:520px) {
+    display: block;
+  }
+}
+.flexC {
+  display: flex;
+  justify-content: center;
+  @media (max-width: 960px) {
+    
+  }
+  @media (max-width: 520px) {
     display: block;
   }
 }
@@ -525,7 +587,10 @@ $backBorderColor : #a9a9a9;
 }
 .listItem {
   align-items: center;
+  border-radius: 8px;
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.4);
   margin: 2rem auto;
+  padding: 1rem;
 }
 .listItemlTitle {
   font-size: 4rem;
@@ -622,7 +687,8 @@ $backBorderColor : #a9a9a9;
   width: 100%;
 }
 .detailTitle {
-  background-color: #c0c0c0;
+  background-color: #68a973;
+  color: #333333;
   font-size: 56px;
   font-weight: bold;
   font-family: Helvetica;
@@ -637,7 +703,7 @@ $backBorderColor : #a9a9a9;
   }
 }
 .detailText {
-  background-color: #f8f8f8;
+  background-color: #d5e5c4;
   color: #333333;
   padding: 1rem;
   font-size: 36px;
@@ -702,10 +768,11 @@ $backBorderColor : #a9a9a9;
     
   }
   @media (max-width: 520px) {
-    
+    display: block;
   }
 }
 .detailItem {
+  text-align: center;
   padding: 1rem;
   @media (max-width: 960px) {
     
@@ -715,11 +782,17 @@ $backBorderColor : #a9a9a9;
   }
 }
 .detailImg {
-  background-color: #f8f8f8;
   border-radius: 250px;
-  filter: drop-shadow(1px 2px 2px rgba(0,0,0,0.2));
-  height: 80px;
-  width: 80px;
+  filter: drop-shadow(2px 4px 2px rgba(0,0,0,0.2));
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+  @media (max-width: 960px) {
+    
+  }
+  @media (max-width: 520px) {
+    
+  }
 }
 .detailItemText {
   color: #333333;
