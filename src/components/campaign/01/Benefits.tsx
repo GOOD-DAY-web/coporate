@@ -17,7 +17,7 @@ export default function Benefits() {
             >
               <li className={`${styles.flexR} ${styles.itemC}`}>
                 <h2 className={styles.listItemlTitle}>01</h2>
-                <p>今だけ!! 施術費用から20%OFF(最大¥3,000引き)</p>
+                <p>今だけ!! 施術費用から20%OFF(1回のご利用で最大¥3,000引き)</p>
               </li>
             </ul>
             <ul
@@ -25,7 +25,7 @@ export default function Benefits() {
             >
               <li className={`${styles.flexR} ${styles.itemC}`}>
                 <h2 className={styles.listItemlTitle}>02</h2>
-                <p>紹介した人、された人どっちもお得!!!</p>
+                <p>GOOD-DAYを初めて利用する人は超お得!!</p>
               </li>
             </ul>
             <ul
@@ -33,7 +33,7 @@ export default function Benefits() {
             >
               <li className={`${styles.flexR} ${styles.itemC}`}>
                 <h2 className={styles.listItemlTitle}>03</h2>
-                <p>予約の取りづらいGOOD-DAYが利用できる!!</p>
+                <p>更にワイケイでご成約された方はもっとお得に!!</p>
               </li>
             </ul>
           </div>

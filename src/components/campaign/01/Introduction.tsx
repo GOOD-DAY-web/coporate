@@ -17,7 +17,7 @@ export default function Introduction() {
         <div className={`${styles.zoom} ${styles.zoom1}`}>
           <Image
             className={`${styles.carousel} ${styles.zoomImage0}`}
-            src={"/campaign/mainTitle_01.jpg"}
+            src={"/campaign/campaign_mainTitle_00.jpg"}
             alt={""}
             width={2000}
             height={2000}

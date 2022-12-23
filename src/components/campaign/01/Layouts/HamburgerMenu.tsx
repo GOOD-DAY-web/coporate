@@ -70,7 +70,7 @@ const HamburgerMenu: React.FC = () => {
             </li>
             <li className={styles.itemsBrock}>
               <Link
-                href="/https://page.line.me/153jsnax?openQrModal=true"
+                href="https://page.line.me/153jsnax?openQrModal=true"
                 passHref
               >
                 <p className={styles.itemsTitle}>Contact</p>

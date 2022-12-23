@@ -20,7 +20,7 @@ export default function Application() {
             <div className={styles.leftArea}>
               <Image
                 className={styles.articleImage}
-                src={"/campaign/GOOD-DAY_flyer_00.png"}
+                src={"/campaign/mainImage_08.png"}
                 alt={""}
                 width={1200}
                 height={830}
