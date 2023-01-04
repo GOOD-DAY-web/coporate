@@ -16,7 +16,7 @@ export default function Nami() {
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>スタイリングカット</th>
             <td className={styles.menuTableTd}>&nbsp;</td>
-            <td className={styles.menuTableTd}>¥4,180</td>
+            <td className={styles.menuTableTd}>¥4,290</td>
             <td className={styles.menuTableTd}>60分</td>
           </tr>
         </tbody>
@@ -24,7 +24,7 @@ export default function Nami() {
           <tr>
             <th className={styles.menuTableTh}>中高生カット</th>
             <td className={styles.menuTableTd}>&nbsp;</td>
-            <td className={styles.menuTableTd}>¥3,630</td>
+            <td className={styles.menuTableTd}>¥3,740</td>
             <td className={styles.menuTableTd}>50分</td>
           </tr>
         </tbody>
@@ -32,8 +32,8 @@ export default function Nami() {
           <tr className={styles.menuTablLast}>
             <th className={styles.menuTableTh}>幼少カット</th>
             <td className={styles.menuTableTd}>&nbsp;</td>
-            <td className={styles.menuTableTd}>¥2,750</td>
-            <td className={styles.menuTableTd}>50分</td>
+            <td className={styles.menuTableTd}>¥2,860</td>
+            <td className={styles.menuTableTd}>40分</td>
           </tr>
         </tbody>
         <tbody>
