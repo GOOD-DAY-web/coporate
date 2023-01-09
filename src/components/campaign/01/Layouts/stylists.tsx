@@ -72,7 +72,7 @@ const Stylists = () => {
           </h2>
         </div>
         <div className={styles.adjustment_01}>
-          <div className={`${styles.block} ${styles.animeBody}`}>
+          <div className={`${styles.block} ${styles.animeBody_noda}`}>
             <div className={styles.adjustment_01}>
               <h2 className={styles.title_01}>{noda_00.shop_01}</h2>
               <p className={styles.title_02}>
@@ -108,7 +108,7 @@ const Stylists = () => {
           </div>
         </div>
 
-        <div className={`${styles.block} ${styles.animeBody}`}>
+        <div className={`${styles.block} ${styles.animeBody_nakashima}`}>
           <div className={styles.adjustment_01}>
             <h2 className={styles.title_01}>{nakashima_00.shop_00}</h2>
             <p className={styles.title_02}>スタイリストを選択してください。</p>
@@ -140,60 +140,6 @@ const Stylists = () => {
                 </ul>
               </div>
 
-              <div className={styles.box}>
-                <ul>
-                  <Link href={nakashima_00.link_11} passHref>
-                    {/* ここは各個人の一番来てほしい媒体の予約URL */}
-                    <button className={styles.iconButton}>
-                      <ul className={styles.inner}>
-                        <li className={styles.innerMain_00}>&nbsp;</li>
-                        <li className={styles.innerMain_01}>
-                          <Image
-                            alt={""}
-                            src={nakashima_00.src_11}
-                            height={1000}
-                            objectFit={"contain"}
-                            width={1000}
-                          />
-                        </li>
-                        <li className={styles.innerMain_02}>
-                          {nakashima_00.name_11}
-                        </li>
-                      </ul>
-                    </button>
-                  </Link>
-                </ul>
-              </div>
-
-              <div className={styles.box}>
-                <ul>
-                  <Link href={nakashima_00.link_10} passHref>
-                    {/* ここは各個人の一番来てほしい媒体の予約URL */}
-                    <button className={styles.iconButton}>
-                      <ul className={styles.inner}>
-                        <li className={styles.innerMain_00}>&nbsp;</li>
-                        <li className={styles.innerMain_01}>
-                          <Image
-                            alt={""}
-                            src={nakashima_00.src_10}
-                            height={1000}
-                            objectFit={"contain"}
-                            width={1000}
-                          />
-                        </li>
-                        <li className={styles.innerMain_02}>
-                          {nakashima_00.name_10}
-                        </li>
-                      </ul>
-                    </button>
-                  </Link>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div className={styles.adjustment_01}>
-            <div className={styles.flexE}>
               <div className={styles.box}>
                 <ul>
                   <Link href={nakashima_00.link_09} passHref>
@@ -244,6 +190,58 @@ const Stylists = () => {
                 </ul>
               </div>
 
+              {/* <div className={styles.box}>
+                <ul>
+                  <Link href={nakashima_00.link_11} passHref>
+                    <button className={styles.iconButton}>
+                      <ul className={styles.inner}>
+                        <li className={styles.innerMain_00}>&nbsp;</li>
+                        <li className={styles.innerMain_01}>
+                          <Image
+                            alt={""}
+                            src={nakashima_00.src_11}
+                            height={1000}
+                            objectFit={"contain"}
+                            width={1000}
+                          />
+                        </li>
+                        <li className={styles.innerMain_02}>
+                          {nakashima_00.name_11}
+                        </li>
+                      </ul>
+                    </button>
+                  </Link>
+                </ul>
+              </div> */}
+
+              {/* <div className={styles.box}>
+                <ul>
+                  <Link href={nakashima_00.link_10} passHref>
+                    <button className={styles.iconButton}>
+                      <ul className={styles.inner}>
+                        <li className={styles.innerMain_00}>&nbsp;</li>
+                        <li className={styles.innerMain_01}>
+                          <Image
+                            alt={""}
+                            src={nakashima_00.src_10}
+                            height={1000}
+                            objectFit={"contain"}
+                            width={1000}
+                          />
+                        </li>
+                        <li className={styles.innerMain_02}>
+                          {nakashima_00.name_10}
+                        </li>
+                      </ul>
+                    </button>
+                  </Link>
+                </ul>
+              </div> */}
+            </div>
+          </div>
+
+          <div className={styles.adjustment_01}>
+            <div className={styles.flexE}>
               <div className={styles.box}>
                 <ul>
                   <Link href={nakashima_00.link_07} passHref>
@@ -268,11 +266,6 @@ const Stylists = () => {
                   </Link>
                 </ul>
               </div>
-            </div>
-          </div>
-
-          <div className={styles.adjustment_01}>
-            <div className={styles.flexE}>
               <div className={styles.box}>
                 <ul>
                   <Link href={nakashima_00.link_06} passHref>
@@ -322,7 +315,11 @@ const Stylists = () => {
                   </Link>
                 </ul>
               </div>
+            </div>
+          </div>
 
+          <div className={styles.adjustment_01}>
+            <div className={styles.flexE}>
               <div className={styles.box}>
                 <ul>
                   <Link href={nakashima_00.link_04} passHref>
@@ -347,11 +344,7 @@ const Stylists = () => {
                   </Link>
                 </ul>
               </div>
-            </div>
-          </div>
 
-          <div className={styles.adjustment_01}>
-            <div className={styles.flexE}>
               <div className={styles.box}>
                 <ul>
                   <Link href={nakashima_00.link_02} passHref>

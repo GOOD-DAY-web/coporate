@@ -179,7 +179,7 @@ export default function Message() {
           </div>
         </div>
 
-        <div className={styles.main}>
+        {/* <div className={styles.main}>
           <div className={styles.block}>
             <div className={styles.flexE}>
               <div className={styles.leftArea}>
@@ -213,9 +213,9 @@ export default function Message() {
               </Link>
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <div className={styles.main}>
+        {/* <div className={styles.main}>
           <div className={styles.block}>
             <div className={styles.flexE}>
               <div className={styles.leftArea}>
@@ -249,7 +249,7 @@ export default function Message() {
               </Link>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className={styles.main}>
           <div className={styles.block}>

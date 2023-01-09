@@ -398,7 +398,7 @@ $backBorderColor : #a9a9a9;
   width: 90%;
 }
 .title_01 {
-  font-size: 24px;
+  font-size: 40px;
   font-weight: bold;
   height: auto;
   margin: 0 auto 1rem;
@@ -861,6 +861,7 @@ $backBorderColor : #a9a9a9;
 // 動かしたい本体の画像
 .innerMain_01 {
   bottom: 1rem;
+  filter: drop-shadow(1px 2px 2px #333333);
   font-weight: bold;
   height: 200px;
   position: absolute;
@@ -877,7 +878,7 @@ $backBorderColor : #a9a9a9;
   }
   &:hover {
     animation: purupuru 2.0s ease-in-out alternate infinite;
-    filter: drop-shadow(1px 2px 2px #333333);
+    filter: drop-shadow(0 0 0);
  }
 }
 // 名前の枠
@@ -958,8 +959,53 @@ $backBorderColor : #a9a9a9;
     to {
       transform: rotate(1turn); 
     } 
-} 
-.animeBody {
+}
+.animeBody_noda {
+  // background: -moz-linear-gradient(45deg, #02e1ba 0%, #26c9f2 50%, #ffa079 100%);
+  // background: -webkit-linear-gradient(45deg, #02e1ba 0%,#26c9f2 50%, #ffa079 100%);
+  // background: linear-gradient(45deg, #02e1ba 0%,#26c9f2 50%, #ffa079 100%);
+  background: -moz-linear-gradient(135deg, #D2E2C1 0%, #65A370 20%, #fafafa 40%, #D2E2C1 60%, #fafafa 80%, #65A370 100%);
+  background: -webkit-linear-gradient(135deg, #D2E2C1 0%, #65A370 20%, #fafafa 40%, #D2E2C1 60%, #fafafa 80%, #65A370 100%);
+  background: linear-gradient(135deg, #D2E2C1 0%, #65A370 20%, #fafafa 40%, #D2E2C1 60%, #fafafa 80%, #65A370 100%);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+  /*min-height: calc(100vh - 2rem);*/
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-evenly;
+  overflow: hidden;
+  position: relative; 
+}
+.animeBody_noda::before, 
+.animeBodybody_noda::after {
+content: "";
+  width: 70vmax;
+  height: 70vmax;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.07);
+  left: -20vmin;
+  top: -20vmin;
+  animation: morph 15s linear infinite alternate, spin 20s linear infinite;
+  z-index: 1;
+  will-change: border-radius, transform;
+  transform-origin: 55% 55%;
+  pointer-events: none; 
+}
+.animeBody_noda::after {
+  width: 70vmin;
+  height: 70vmin;
+  left: auto;
+  right: -10vmin;
+  top: auto;
+  bottom: 0;
+  animation: morph 10s linear infinite alternate, spin 26s linear infinite reverse;
+  transform-origin: 20% 20%; 
+}
+
+.animeBody_nakashima {
   // background: -moz-linear-gradient(45deg, #02e1ba 0%, #26c9f2 50%, #ffa079 100%);
   // background: -webkit-linear-gradient(45deg, #02e1ba 0%,#26c9f2 50%, #ffa079 100%);
   // background: linear-gradient(45deg, #02e1ba 0%,#26c9f2 50%, #ffa079 100%);
@@ -978,8 +1024,8 @@ $backBorderColor : #a9a9a9;
   overflow: hidden;
   position: relative; 
 }
-.animeBody::before, 
-.animeBodybody::after {
+.animeBody_nakashima::before, 
+.animeBodybody_nakashima::after {
 content: "";
   width: 70vmax;
   height: 70vmax;
@@ -993,7 +1039,7 @@ content: "";
   transform-origin: 55% 55%;
   pointer-events: none; 
 }
-.animeBody::after {
+.animeBody_nakashima::after {
   width: 70vmin;
   height: 70vmin;
   left: auto;
