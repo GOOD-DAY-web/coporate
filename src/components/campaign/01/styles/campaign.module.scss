@@ -593,6 +593,13 @@ $backBorderColor : #a9a9a9;
   box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.4);
   margin: 2rem auto;
   padding: 1rem;
+  width: 80%;
+  @media (max-width: 960px) {
+    width: 90%;
+  }
+  @media (max-width: 520px) {
+    width: 100%;
+  }
 }
 .listItemlTitle {
   font-size: 4rem;
@@ -825,18 +832,20 @@ $backBorderColor : #a9a9a9;
 // 位置を調整する場合はここ
 .inner {
   top: 12rem;
-  right: -2rem;
+  right: 0;
   position: relative;
 
   @media screen and (max-width:960px) {
     top: 6rem;
+  }
+  @media screen and (max-width:960px) {
     right: 3rem;
-    position: relative;
   }
 }
 // 後にある枠の部分
 .innerMain_00 {
-  border: solid 4px $backBorderColor;
+  background-color: $backBgColor;
+  border: solid 8px $backBorderColor;
   border-radius: 250px;
   bottom: 0;
   filter: drop-shadow(2px 4px 4px rgba(0,0,0,0.2));
@@ -884,7 +893,7 @@ $backBorderColor : #a9a9a9;
 // 名前の枠
 .innerMain_02 {
   background-color: $frontBgColor;
-  border: solid 4px $frontBorderColor;
+  border: solid 8px $frontBorderColor;
   border-radius: 250px;
   bottom: 0;
   color: $fontColor;

@@ -17,7 +17,7 @@ export default function FAQ() {
     src_01: "/campaign/Question_00.png",
     num_01: "Q2.",
     question_01: "キャンペーンの期間はいつまでですか？",
-    answer_01: "2023年1月1日〜12月31日の1年間有効です。",
+    answer_01: "2023年1月1日〜12月31日の1年間です。",
 
     alt_02: "",
     src_02: "/campaign/Question_00.png",
@@ -133,7 +133,7 @@ export default function FAQ() {
           </div>
         </div>
 
-        <div
+        {/* <div
           className={`${styles.block} ${styles.adjustment_01} ${styles.background_02}`}
         >
           <ul className={`${styles.flexR} ${styles.itemC}`}>
@@ -154,7 +154,7 @@ export default function FAQ() {
           <div className={styles.answer}>
             <p>{Questions.answer_03}</p>
           </div>
-        </div>
+        </div> */}
 
         <div
           className={`${styles.block} ${styles.adjustment_01} ${styles.background_02}`}
