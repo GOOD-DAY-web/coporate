@@ -108,7 +108,7 @@ export default function Message() {
         <h2 className={styles.title}>{noda_00.title_00}</h2>
 
         <div className={styles.main}>
-          <div className={styles.block}>
+          <div className={`${styles.block} ${styles.background_02}`}>
             <div className={styles.flexE}>
               <div className={styles.leftArea}>
                 <Link href={noda_00.link_13} passHref>
@@ -144,7 +144,7 @@ export default function Message() {
         </div>
 
         <div className={styles.main}>
-          <div className={styles.block}>
+          <div className={`${styles.block} ${styles.background_05}`}>
             <div className={styles.flexE}>
               <div className={styles.leftArea}>
                 <Link href={nakashima_00.link_12} passHref>
@@ -252,7 +252,7 @@ export default function Message() {
         </div> */}
 
         <div className={styles.main}>
-          <div className={styles.block}>
+          <div className={`${styles.block} ${styles.background_05}`}>
             <div className={styles.flexE}>
               <div className={styles.leftArea}>
                 <Link href={nakashima_00.link_09} passHref>
@@ -288,7 +288,7 @@ export default function Message() {
         </div>
 
         <div className={styles.main}>
-          <div className={styles.block}>
+          <div className={`${styles.block} ${styles.background_05}`}>
             <div className={styles.flexE}>
               <div className={styles.leftArea}>
                 <Link href={nakashima_00.link_08} passHref>
@@ -324,7 +324,7 @@ export default function Message() {
         </div>
 
         <div className={styles.main}>
-          <div className={styles.block}>
+          <div className={`${styles.block} ${styles.background_05}`}>
             <div className={styles.flexE}>
               <div className={styles.leftArea}>
                 <Link href={nakashima_00.link_07} passHref>
@@ -360,7 +360,7 @@ export default function Message() {
         </div>
 
         <div className={styles.main}>
-          <div className={styles.block}>
+          <div className={`${styles.block} ${styles.background_05}`}>
             <div className={styles.flexE}>
               <div className={styles.leftArea}>
                 <Link href={nakashima_00.link_06} passHref>
@@ -396,7 +396,7 @@ export default function Message() {
         </div>
 
         <div className={styles.main}>
-          <div className={styles.block}>
+          <div className={`${styles.block} ${styles.background_05}`}>
             <div className={styles.flexE}>
               <div className={styles.leftArea}>
                 <Link href={nakashima_00.link_05} passHref>
@@ -432,7 +432,7 @@ export default function Message() {
         </div>
 
         <div className={styles.main}>
-          <div className={styles.block}>
+          <div className={`${styles.block} ${styles.background_05}`}>
             <div className={styles.flexE}>
               <div className={styles.leftArea}>
                 <Link href={nakashima_00.link_04} passHref>
@@ -468,7 +468,7 @@ export default function Message() {
         </div>
 
         <div className={styles.main}>
-          <div className={styles.block}>
+          <div className={`${styles.block} ${styles.background_05}`}>
             <div className={styles.flexE}>
               <div className={styles.leftArea}>
                 <Link href={nakashima_00.link_02} passHref>
@@ -504,7 +504,7 @@ export default function Message() {
         </div>
 
         <div className={styles.main}>
-          <div className={styles.block}>
+          <div className={`${styles.block} ${styles.background_05}`}>
             <div className={styles.flexE}>
               <div className={styles.leftArea}>
                 <Link href={nakashima_00.link_01} passHref>
