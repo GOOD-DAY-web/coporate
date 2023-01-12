@@ -108,7 +108,10 @@ export default function Message() {
         <h2 className={styles.title}>{noda_00.title_00}</h2>
 
         <div className={styles.main}>
-          <div className={`${styles.block} ${styles.background_02}`}>
+          <div
+            className={`${styles.block}
+            ${styles.background_02}`}
+          >
             <div className={styles.flexE}>
               <div className={styles.leftArea}>
                 <Link href={noda_00.link_13} passHref>
@@ -126,6 +129,7 @@ export default function Message() {
                 <div className={styles.rightAreaInner}>
                   <ul>
                     <li className={styles.title}>{noda_00.name_13}</li>
+                    <li className={styles.shopNoda}>岡山野田店</li>
                     <li className={styles.text}>{noda_00.message_13}</li>
                   </ul>
                 </div>
@@ -144,7 +148,10 @@ export default function Message() {
         </div>
 
         <div className={styles.main}>
-          <div className={`${styles.block} ${styles.background_05}`}>
+          <div
+            className={`${styles.block}
+            ${styles.background_05}`}
+          >
             <div className={styles.flexE}>
               <div className={styles.leftArea}>
                 <Link href={nakashima_00.link_12} passHref>
@@ -162,6 +169,7 @@ export default function Message() {
                 <div className={styles.rightAreaInner}>
                   <ul>
                     <li className={styles.title}>{nakashima_00.name_12}</li>
+                    <li className={styles.shopNakashima}>倉敷中島店</li>
                     <li className={styles.text}>{nakashima_00.message_12}</li>
                   </ul>
                 </div>
@@ -252,7 +260,10 @@ export default function Message() {
         </div> */}
 
         <div className={styles.main}>
-          <div className={`${styles.block} ${styles.background_05}`}>
+          <div
+            className={`${styles.block}
+            ${styles.background_05}`}
+          >
             <div className={styles.flexE}>
               <div className={styles.leftArea}>
                 <Link href={nakashima_00.link_09} passHref>
@@ -270,6 +281,7 @@ export default function Message() {
                 <div className={styles.rightAreaInner}>
                   <ul>
                     <li className={styles.title}>{nakashima_00.name_09}</li>
+                    <li className={styles.shopNakashima}>倉敷中島店</li>
                     <li className={styles.text}>{nakashima_00.message_09}</li>
                   </ul>
                 </div>
@@ -288,7 +300,10 @@ export default function Message() {
         </div>
 
         <div className={styles.main}>
-          <div className={`${styles.block} ${styles.background_05}`}>
+          <div
+            className={`${styles.block}
+            ${styles.background_05}`}
+          >
             <div className={styles.flexE}>
               <div className={styles.leftArea}>
                 <Link href={nakashima_00.link_08} passHref>
@@ -306,6 +321,7 @@ export default function Message() {
                 <div className={styles.rightAreaInner}>
                   <ul>
                     <li className={styles.title}>{nakashima_00.name_08}</li>
+                    <li className={styles.shopNakashima}>倉敷中島店</li>
                     <li className={styles.text}>{nakashima_00.message_08}</li>
                   </ul>
                 </div>
@@ -324,7 +340,10 @@ export default function Message() {
         </div>
 
         <div className={styles.main}>
-          <div className={`${styles.block} ${styles.background_05}`}>
+          <div
+            className={`${styles.block}
+            ${styles.background_05}`}
+          >
             <div className={styles.flexE}>
               <div className={styles.leftArea}>
                 <Link href={nakashima_00.link_07} passHref>
@@ -342,6 +361,7 @@ export default function Message() {
                 <div className={styles.rightAreaInner}>
                   <ul>
                     <li className={styles.title}>{nakashima_00.name_07}</li>
+                    <li className={styles.shopNakashima}>倉敷中島店</li>
                     <li className={styles.text}>{nakashima_00.message_07}</li>
                   </ul>
                 </div>
@@ -360,7 +380,10 @@ export default function Message() {
         </div>
 
         <div className={styles.main}>
-          <div className={`${styles.block} ${styles.background_05}`}>
+          <div
+            className={`${styles.block}
+            ${styles.background_05}`}
+          >
             <div className={styles.flexE}>
               <div className={styles.leftArea}>
                 <Link href={nakashima_00.link_06} passHref>
@@ -378,6 +401,7 @@ export default function Message() {
                 <div className={styles.rightAreaInner}>
                   <ul>
                     <li className={styles.title}>{nakashima_00.name_06}</li>
+                    <li className={styles.shopNakashima}>倉敷中島店</li>
                     <li className={styles.text}>{nakashima_00.message_06}</li>
                   </ul>
                 </div>
@@ -396,7 +420,10 @@ export default function Message() {
         </div>
 
         <div className={styles.main}>
-          <div className={`${styles.block} ${styles.background_05}`}>
+          <div
+            className={`${styles.block}
+            ${styles.background_05}`}
+          >
             <div className={styles.flexE}>
               <div className={styles.leftArea}>
                 <Link href={nakashima_00.link_05} passHref>
@@ -414,6 +441,7 @@ export default function Message() {
                 <div className={styles.rightAreaInner}>
                   <ul>
                     <li className={styles.title}>{nakashima_00.name_05}</li>
+                    <li className={styles.shopNakashima}>倉敷中島店</li>
                     <li className={styles.text}>{nakashima_00.message_05}</li>
                   </ul>
                 </div>
@@ -432,7 +460,10 @@ export default function Message() {
         </div>
 
         <div className={styles.main}>
-          <div className={`${styles.block} ${styles.background_05}`}>
+          <div
+            className={`${styles.block}
+            ${styles.background_05}`}
+          >
             <div className={styles.flexE}>
               <div className={styles.leftArea}>
                 <Link href={nakashima_00.link_04} passHref>
@@ -450,6 +481,7 @@ export default function Message() {
                 <div className={styles.rightAreaInner}>
                   <ul>
                     <li className={styles.title}>{nakashima_00.name_04}</li>
+                    <li className={styles.shopNakashima}>倉敷中島店</li>
                     <li className={styles.text}>{nakashima_00.message_04}</li>
                   </ul>
                 </div>
@@ -468,7 +500,10 @@ export default function Message() {
         </div>
 
         <div className={styles.main}>
-          <div className={`${styles.block} ${styles.background_05}`}>
+          <div
+            className={`${styles.block}
+            ${styles.background_05}`}
+          >
             <div className={styles.flexE}>
               <div className={styles.leftArea}>
                 <Link href={nakashima_00.link_02} passHref>
@@ -486,6 +521,7 @@ export default function Message() {
                 <div className={styles.rightAreaInner}>
                   <ul>
                     <li className={styles.title}>{nakashima_00.name_02}</li>
+                    <li className={styles.shopNakashima}>倉敷中島店</li>
                     <li className={styles.text}>{nakashima_00.message_02}</li>
                   </ul>
                 </div>
@@ -504,7 +540,10 @@ export default function Message() {
         </div>
 
         <div className={styles.main}>
-          <div className={`${styles.block} ${styles.background_05}`}>
+          <div
+            className={`${styles.block}
+            ${styles.background_05}`}
+          >
             <div className={styles.flexE}>
               <div className={styles.leftArea}>
                 <Link href={nakashima_00.link_01} passHref>
@@ -522,6 +561,7 @@ export default function Message() {
                 <div className={styles.rightAreaInner}>
                   <ul>
                     <li className={styles.title}>{nakashima_00.name_01}</li>
+                    <li className={styles.shopNakashima}>倉敷中島店</li>
                     <li className={styles.text}>{nakashima_00.message_01}</li>
                   </ul>
                 </div>
