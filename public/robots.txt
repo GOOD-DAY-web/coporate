@@ -1,0 +1,10 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.goodday-salon.com
+
+# Sitemaps
+Sitemap: https://www.goodday-salon.com/sitemap.xml
+Sitemap: https://www.goodday-salon.com/server-sitemap.xml

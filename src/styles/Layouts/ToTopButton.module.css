@@ -1,0 +1,48 @@
+.toTopButton {
+  -webkit-animation: toTopButton 3s infinite ease-in-out 0.8s alternate;
+          animation: toTopButton 3s infinite ease-in-out 0.8s alternate;
+  background: url("/media/toTopPageButton_01.png") no-repeat center center/64px auto;
+  border: none;
+  display: inline-block;
+  transition: 1.6s ease-in-out;
+  position: fixed;
+  right: 2rem;
+  bottom: 8rem;
+  width: 64px;
+  height: 64px;
+  z-index: 2;
+  margin-top: 16px;
+}
+.toTopButton:hover {
+  opacity: 0.8;
+}
+@media screen and (max-width: 960px) {
+  .toTopButton {
+    right: 2rem;
+    bottom: 4rem;
+  }
+}
+
+@-webkit-keyframes toTopButton {
+  0% {
+    transform: translate(0, 0) rotate(-7deg);
+  }
+  50% {
+    transform: translate(0, -7px) rotate(0deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(7deg);
+  }
+}
+
+@keyframes toTopButton {
+  0% {
+    transform: translate(0, 0) rotate(-7deg);
+  }
+  50% {
+    transform: translate(0, -7px) rotate(0deg);
+  }
+  100% {
+    transform: translate(0, 0) rotate(7deg);
+  }
+}/*# sourceMappingURL=ToTopButton.module.css.map */

@@ -1,0 +1,1132 @@
+// 基本配色
+$bgColor : #f8f8f8;
+$borderColor : #c0c0c0;
+$fontColor : #333333;
+// front
+$frontBgColor :  #f8f8f8;
+$frontBorderColor : #c0c0c0;
+// back side
+$backBgColor : #f4f4f4;
+$backBorderColor : #a9a9a9;
+// ━━━━━━━━━━━━━━━━
+// アニメーションの宣言
+// ━━━━━━━━━━━━━━━━
+// 縦に戻るアニメーション
+.puyon {
+  animation: puyon 3.0s ease-in-out alternate infinite;
+}
+@keyframes puyon {
+  0%   { transform: scale(1.0, 1.0) translate(0%, 0%); }
+  40%  { transform: scale(0.95, 1.2) translate(0%, -10%); }
+  50%  { transform: scale(1.1, 0.9) translate(0%, 5%); }
+  60%  { transform: scale(0.95, 1.05) translate(0%, -3%); }
+  70%  { transform: scale(1.05, 0.95) translate(0%, 3%); }
+  80%  { transform: scale(1.0, 1.0) translate(0%, 0%); }
+  100% { transform: scale(1.0, 1.0) translate(0%, 0%); }
+}
+// プルプル動く
+.purupuru {
+  animation: purupuru 2.0s ease-in-out alternate infinite;
+}
+@keyframes purupuru {
+  0%   { transform: scale(1.0, 1.0) translate(0%, 0%); }
+  20%  { transform: scale(1.0, 1.06) translate(-5%, -4%) skew(6deg, 0deg); }
+  50%  { transform: scale(1.0, 0.94) translate(5%, 4%) skew(-6deg, 0deg); }
+  65%  { transform: scale(1.0, 1.03) translate(2%, -2%) skew(-3deg, 0deg); }
+  80%  { transform: scale(1.0, 0.97) translate(-2%, 2%) skew(3deg, 0deg); }
+  100% { transform: scale(1.0, 1.0) translate(0%, 0%); }
+}
+// 横に戻るアニメーション
+.pururun {
+  animation: pururun 5.0s ease-in-out alternate infinite;
+}
+@keyframes pururun {
+0%   { transform: scale(1.0, 1.0) translate(0%, 0%); }
+10%  { transform: scale(1.0, 1.0) translate(10%, 0%) skew(-10deg, 0deg); }
+60%  { transform: scale(1.0, 1.0) translate(20%, 0%) skew(-20deg, 0deg); }
+70%  { transform: scale(1.0, 1.0) translate(-15%, 0%) skew(15deg, 0deg); }
+80%  { transform: scale(1.0, 1.0) translate(15%, 0%) skew(-15deg, 0deg); }
+80%  { transform: scale(1.0, 1.0) translate(5%, 0%) skew(-5deg, 0deg); }
+90%  { transform: scale(1.0, 1.0) translate(-5%, 0%) skew(5deg, 0deg); }
+100% { transform: scale(1.0, 1.0) translate(0%, 0%); }
+}
+// 伸び縮みするアニメーション
+.purun {
+  animation: purun 2.0s ease-in-out alternate infinite;
+}
+@keyframes purun {
+  0%   { transform: scale(1.0, 1.0) translate(0%, 0%); }
+  15%  { transform: scale(0.9, 0.9) translate(0%, 5%); }
+  30%  { transform: scale(1.3, 0.8) translate(0%, 10%); }
+  50%  { transform: scale(0.8, 1.3) translate(0%, -10%); }
+  70%  { transform: scale(1.1, 0.9) translate(0%, 5%); }
+  100% { transform: scale(1.0, 1.0) translate(0%, 0%); }
+}
+// はねるアニメーション
+.poyooon {
+  animation: poyooon 4.0s ease-in-out alternate infinite;
+}
+@keyframes poyooon {
+  0%   { transform: scale(1.0, 1.0) translate(0%, 0%); }
+  10%  { transform: scale(1.1, 0.9) translate(0%, 5%); }
+  40%  { transform: scale(1.2, 0.8) translate(0%, 15%); }
+  50%  { transform: scale(1.0, 1.0) translate(0%, 0%); }
+  60%  { transform: scale(0.9, 1.2) translate(0%, -100%); }
+  75%  { transform: scale(0.9, 1.2) translate(0%, -20%); }
+  85%  { transform: scale(1.2, 0.8) translate(0%, 15%); }
+  100% { transform: scale(1.0, 1.0) translate(0%, 0%); }
+}
+// 横にコロコロ動く
+.korokoro {
+  animation: korokoro 4s ease-in-out alternate infinite;
+}
+@keyframes korokoro {
+  0%   { transform: translate(0%, 0%); }
+  5%   { transform: translate(10%, 0%) rotate(10deg); }
+  25%  { transform: translate(20%, 0%) rotate(20deg); }
+  30%  { transform: translate(-10%, 0%) rotate(-10deg); }
+  35%  { transform: translate(-15%, 0%) rotate(-15deg); }
+  45%  { transform: translate(10%, 0%) rotate(10deg); }
+  50%  { transform: translate(15%, 0%) rotate(15deg); }
+  60%  { transform: translate(-5%, 0%) rotate(-5deg); }
+  65%  { transform: translate(-7%, 0%) rotate(-7deg); }
+  75%  { transform: translate(0%, 0%) rotate(0deg); }
+  100% { transform: translate(0%, 0%) rotate(0deg); }
+}
+// 着地するような
+.poyon {
+  animation: poyon 4s ease-in-out alternate infinite;
+}
+@keyframes poyon {
+  0%   { transform: scale(0.8, 1.4) translate(0%, -100%); }
+  10%  { transform: scale(0.8, 1.4) translate(0%, -15%); }
+  20%  { transform: scale(1.4, 0.6) translate(0%, 30%); }
+  30%  { transform: scale(0.9, 1.1) translate(0%, -10%); }
+  40%  { transform: scale(0.95, 1.2) translate(0%, -30%); }
+  50%  { transform: scale(0.95, 1.2) translate(0%, -10%); }
+  60%  { transform: scale(1.1, 0.9) translate(0%, 5%); }
+  70%  { transform: scale(1.0, 1.0) translate(0%, 0%); }
+  100% { transform: scale(1.0, 1.0) translate(0%, 0%); }
+}
+.kiran {
+  opacity: 1;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  &::before {
+    background-color: #fff;
+    content: "";
+    display: block;
+    position: absolute;
+    top: -100px;
+    left: 0;
+    width: 30px;
+    height: 100%;
+    opacity: 0;
+    transition: cubic-bezier(0.32, 0, 0.67, 0);
+  }
+  &:hover::before {
+    animation: kiran 0.5s linear 1;
+  }
+}
+@keyframes kiran {
+  0% {
+    transform: scale(2) rotate(45deg);
+    opacity: 0;
+  }
+  20% {
+    transform: scale(20) rotate(45deg);
+    opacity: 0.6;
+  }
+  40% {
+    transform: scale(30) rotate(45deg);
+    opacity: 0.4;
+  }
+  80% {
+    transform: scale(45) rotate(45deg);
+    opacity: 0.2;
+  }
+  100% {
+    transform: scale(50) rotate(45deg);
+    opacity: 0;
+  }
+}
+// zoomanimationのcss
+.carousel {
+  position: relative;
+}
+.carouselInfo {
+  bottom: 3rem;
+  left: 70%;
+  margin-left: -70%;
+  padding: 1rem;
+  position: absolute;
+  transition: all .5s ease-in-out;
+  width: 100%;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  @media (max-width: 960px) {
+    bottom: 1rem;
+    font-size: 16px;
+    padding: 0.8rem;
+    width: 100%;
+  }
+
+  @media (max-width: 520px) {
+    bottom: 0;
+    font-size: 16px;
+    padding: 0;
+    width: 100%;
+  }
+}
+// zoomanimationのcss
+@keyframes animationZoom0 {
+  100% { transform:scale(1.1)} 
+}
+@keyframes animationZoom1 {
+  60% { transform:scale(1.1)} 
+}
+@keyframes animationZoom2 {
+  40% { transform:scale(1.1)} 
+}
+.zoom {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.zoomImage0 {
+  width: 100%;
+  height: auto;
+  animation: animationZoom0 16s ease-in-out alternate infinite;
+}
+.zoomImage1 {
+  width: 100%;
+  height: auto;
+  animation: animationZoom1 16s ease-in-out alternate infinite;
+}
+.zoomImage2 {
+  width: 100%;
+  height: auto;
+  animation: animationZoom2 16s ease-in-out alternate infinite;
+}
+// ━━━━━━━━━━━━━━━━
+// Buttonのcss
+// ━━━━━━━━━━━━━━━━
+@keyframes blinkFont {
+  0% {
+    color: #ffd700;
+  }
+  100% {
+    color: #c0c0c0;
+  }
+}
+@keyframes blinkBorder {
+  0% {
+    border: 8px solid #ffd700;
+  }
+  100% {
+    border: 8px solid rgba(255, 0, 0, 0);
+  }
+}
+.buttonArea {
+  height: auto;
+  margin: 0 auto;
+  width: 50%;
+  @media (max-width: 960px) {
+    width: 70%;
+  }
+  @media (max-width: 520px) {
+    width: 80%;
+  }
+}
+.messageButton {
+  width: 100%;
+}
+.btn {
+  align-items: center;
+  background: linear-gradient(to right, pink, #ff8c00);
+  // background-image: url("/campaign/pattern_001.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 16px;
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.4);
+  color: #333333;
+  display: block;
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  height: auto;
+  letter-spacing: 0.1rem;
+  margin: 0;
+  padding: 1.6rem;
+  position: relative;
+  text-align: center;
+  width: 100%;
+
+  &:hover {
+    animation: blinkFont 1s ease infinite alternate;
+  }
+  @media (max-width: 960px) {
+    font-size: 16px;
+    text-align: center;
+  }
+  @media (max-width: 520px) {
+    padding: 1rem;
+  }
+}
+// ボタンを選択した時に現在値をインタラクティブに視認させる
+.btnBlink {
+  align-items: center;
+  border: solid 8px rgba(255, 0, 0, 0);
+  border-radius: 24px;
+  margin: 0 auto;
+  height: auto;
+  width: 50%;
+
+  &:hover {
+    box-sizing: border-box;
+    animation: blinkBorder 1s ease infinite alternate;
+  }
+  @media (max-width: 1630px) {
+    width: 70%;
+  }
+  @media (max-width: 960px) {
+    width: 80%;
+  }
+  @media (max-width: 520px) {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
+.btnText {
+  color: #000000;
+  font-size: 16px;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+
+  @media (max-width: 960px) {
+    
+  }
+  @media (max-width: 520px) {
+    font-size: 12px;
+  }
+}
+// ━━━━━━━━━━━━━━━━
+// Application(申込)のcss
+// ━━━━━━━━━━━━━━━━
+.adjustment {
+  height: auto;
+  width: 100%;
+  margin-top: 4rem;
+  @media (max-width: 960px) {
+    margin-top: 6rem;
+  }
+  @media (max-width: 520px) {
+    margin-top: 4rem;
+  }
+}
+.adjustment_01 {
+  height: auto;
+  width: 100%;
+  margin: 0 auto 3rem;
+  @media (max-width: 960px) {
+  
+  }
+  @media (max-width: 520px) {
+    display: block;
+  }
+}
+.adjustment_01 {
+  height: auto;
+  width: 100%;
+  margin: 0 auto 6rem;
+  @media (max-width: 960px) {
+  
+  }
+  @media (max-width: 520px) {
+    display: block;
+  }
+}
+.background_00 {
+  background-image: url("/campaign/bd.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+.background_01 {
+  background-image: url("/campaign/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 1;
+}
+// 緑
+.background_02 {
+  background-color: #f0fff0;
+  opacity: 1;
+}
+// 赤
+.background_03 {
+  background-color: #eeb0bd;
+  opacity: 1;
+}
+// 青
+.background_04 {
+  background-color: #f0f8ff;
+  opacity: 1;
+}
+// 黄
+.background_05 {
+  background-color: #ffffe0;
+  opacity: 1;
+}
+.mainTitle {
+  font-size: 56px;
+  height: auto;
+  margin: 0 auto 1rem;
+  text-align: center;
+  width: 90%;
+
+  @media screen and (max-width:960px) {
+      
+  }
+  @media screen and (max-width:520px) {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 1rem;
+    width: 100%;
+  }
+}
+.title {
+  font-size: 36px;
+  height: auto;
+  margin: 0 auto 1rem;
+  text-align: center;
+  width: 90%;
+}
+.title_01 {
+  font-size: 40px;
+  font-weight: bold;
+  height: auto;
+  margin: 0 auto 1rem;
+  text-align: left;
+  width: 90%;
+}
+.title_02 {
+  font-size: 16px;
+  height: auto;
+  margin: 0 auto 1rem;
+  text-align: left;
+  width: 90%;
+}
+.shopNoda {
+  color: #629E6D;
+  background-color: #fafafa;
+  border-radius: 24px;
+  font-size: 24px;
+  filter: drop-shadow(1px 2px 2px rgba(0,0,0,0.2));
+  font-weight: bold;
+  height: auto;
+  margin: 0 auto 1rem;
+  padding: 1rem;
+  text-align: center;
+  width: 50%;
+  @media screen and (max-width:960px) {
+      
+  }
+  @media screen and (max-width:520px) {
+    width: 80%;
+  }
+}
+.shopNakashima {
+  color: #ff8c00;
+  background-color: #fafafa;
+  border-radius: 24px;
+  font-size: 24px;
+  filter: drop-shadow(1px 2px 2px rgba(0,0,0,0.2));
+  font-weight: bold;
+  height: auto;
+  margin: 0 auto 1rem;
+  padding: 1rem;
+  text-align: center;
+  width: 50%;
+  @media screen and (max-width:960px) {
+      
+  }
+  @media screen and (max-width:520px) {
+    width: 80%;
+  }
+}
+.text {
+  line-height: 2rem;
+  letter-spacing: 1px;
+}
+.image {
+  margin: 0 auto 1rem;
+  width: 20%;
+  height: auto;
+}
+.titleImage {
+  margin: 1rem;
+}
+.question {
+  font-family: Helvetica;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  padding: 1rem;
+}
+.answer {
+  margin: 1rem;
+}
+.main {
+  height: auto;
+  margin: 0 auto 2rem;
+  width: 90%;
+}
+.area {
+  height: auto;
+  margin-bottom: 3rem;
+  width: 100%;
+}
+.block {
+  box-shadow: 1px 4px 4px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  height: auto;
+  padding: 1rem;
+  width: 100%;
+}
+.box {
+  width: 20%;
+  margin: 0 auto;
+
+  @media screen and (max-width:960px) {
+      
+  }
+  @media screen and (max-width:520px) {
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+}
+.img {
+  margin: 0 auto;
+  text-align: center;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+.flexA {
+  display: flex;
+  justify-content: space-around;
+
+  @media screen and (max-width:960px) {
+      
+  }
+  @media screen and (max-width:520px) {
+    display: block;
+  }
+}
+.flexB {
+  display: flex;
+  justify-content: space-between;
+  
+  @media screen and (max-width:960px) {
+        
+  }
+  @media screen and (max-width:520px) {
+    display: block;
+  }
+}
+.flexC {
+  display: flex;
+  justify-content: center;
+  @media (max-width: 960px) {
+    
+  }
+  @media (max-width: 520px) {
+    display: block;
+  }
+}
+.flexE {
+  display: flex;
+  justify-content: space-evenly;
+  @media (max-width: 960px) {
+    
+  }
+  @media (max-width: 520px) {
+    display: block;
+  }
+}
+.flexR {
+  display: flex;
+  flex-direction: row;
+  @media (max-width: 960px) {
+    
+  }
+  @media (max-width: 520px) {
+    display: block;
+  }
+}
+.itemC {
+  align-items: center;
+}
+.textC {
+  text-align: center;
+}
+.leftArea {
+  height: auto;
+  padding-top: 1rem;
+  width: 50%;
+  @media (max-width: 960px) {
+    padding: 3rem 0 0 0;
+    width: 100%;
+  }
+  @media (max-width: 520px) {
+    
+  }
+}
+.rightArea {
+  height: auto;
+  padding: 1rem 0;
+  width: 50%;
+  @media (max-width: 960px) {
+    width: 100%;
+  }
+  @media (max-width: 520px) {
+    
+  }
+}
+.rightAreaInner {
+  height: auto;
+  margin: 2rem auto;
+  width: 90%;
+}
+.innerText_00 {
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.innerText_01 {
+  color: #dc143c;
+  filter: drop-shadow(8px -16px 2px rgba(0,0,0,0.2));
+  font-size: 80px;
+  font-weight: bold;
+  text-align: center;
+}
+.arrow {
+  width: 100%;
+}
+.noticeArea {
+  height: auto;
+  line-height: 3rem;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 90%;
+}
+.list {
+  height: auto;
+  line-height: 2rem;
+  letter-spacing: 1px;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 90%;
+}
+.listItem {
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.4);
+  margin: 2rem auto;
+  padding: 1rem;
+  width: 80%;
+  @media (max-width: 960px) {
+    width: 90%;
+  }
+  @media (max-width: 520px) {
+    width: 100%;
+  }
+}
+.listItemlTitle {
+  font-size: 4rem;
+  height: 4.6rem;
+  margin-right: 2rem;
+  padding: 1.2rem 2rem 0 0.4rem;
+  width: 12%;
+
+  @media (max-width: 960px) {
+    
+  }
+  @media (max-width: 520px) {
+    width: 28%;
+  }
+}
+.listItemText {
+  color: #333333;
+  text-align: center;
+  width: 100%;
+  @media (max-width: 960px) {
+    
+  }
+  @media (max-width: 520px) {
+    color: #000000;
+    font-size: 12px;
+  }
+}
+.listItem_03 {
+  border: solid 2px #c0c0c0;
+  border-radius: 250px;
+  line-height: 3rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+
+  &::before {
+    background-color: #c0c0c0;
+    border-radius: 250px;
+    color: #fafafa;
+    content: "01";
+    font-weight: bold;
+    margin-right: 1rem;
+    padding: 1rem;
+    width: 100%;
+  }
+  &::after {
+    content: "";
+  }
+}
+.listItem_04 {
+  border: solid 2px #c0c0c0;
+  border-radius: 250px;
+  line-height: 3rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+
+  &::before {
+    background-color: #c0c0c0;
+    border-radius: 250px;
+    color: #fafafa;
+    content: "02";
+    font-weight: bold;
+    margin-right: 1rem;
+    padding: 1rem;
+    width: 100%;
+  }
+  &::after {
+    content: "";
+  }
+}
+.listItem_05 {
+  border: solid 2px #c0c0c0;
+  border-radius: 250px;
+  line-height: 3rem;
+  margin-bottom: 1rem;
+  padding: 1rem;
+
+  &::before {
+    background-color: #c0c0c0;
+    border-radius: 250px;
+    color: #fafafa;
+    content: "03";
+    font-weight: bold;
+    margin-right: 1rem;
+    padding: 1rem;
+    width: 100%;
+  }
+  &::after {
+    content: "";
+  }
+}
+.details {
+  height: auto;
+  margin: 0 auto;
+  width: 90%;
+}
+.detail {
+  color: #fafafa;
+  height: auto;
+  margin: 0 auto 1rem;
+  padding: 1rem;
+  width: 100%;
+}
+.detailTitle {
+  background-color: #68a973;
+  color: #333333;
+  font-size: 56px;
+  font-weight: bold;
+  font-family: Helvetica;
+  padding-left: 0.6rem;
+  opacity: 0.9;
+  width: 5rem;
+  @media (max-width: 960px) {
+    
+  }
+  @media (max-width: 520px) {
+    width: 5rem;
+  }
+}
+.detailText {
+  background-color: #d5e5c4;
+  color: #333333;
+  padding: 1rem;
+  font-size: 36px;
+
+  @media (max-width: 960px) {
+    
+  }
+  @media (max-width: 520px) {
+    
+  }
+}
+.detailLine {
+  align-items: center;
+  margin: 1rem 0;
+}
+.detailLine_00 {
+  color: #333333;
+  font-size: 40px;
+  padding: 1rem 0;
+  text-align: center;
+  width: 30%;
+  @media (max-width: 960px) {
+    
+  }
+  @media (max-width: 520px) {
+    width: 100%;
+  }
+}
+.detailLine_01 {
+  background-color: #333333;
+  border-radius: 250px;
+  height: 5rem;
+  width: 4px;
+
+  @media (max-width: 960px) {
+    
+  }
+  @media (max-width: 520px) {
+    display: none;
+  }
+}
+.detailLine_02 {
+  color: #333333;
+  line-height: 2rem;
+  letter-spacing: 1px;
+  padding: 1rem;
+  width: 60%;
+
+  @media (max-width: 960px) {
+    
+  }
+  @media (max-width: 520px) {
+    width: 100%;
+  }
+}
+.detailItems {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1rem;
+  @media (max-width: 960px) {
+    
+  }
+  @media (max-width: 520px) {
+    display: block;
+  }
+}
+.detailItem {
+  text-align: center;
+  padding: 1rem;
+  @media (max-width: 960px) {
+    
+  }
+  @media (max-width: 520px) {
+    padding: 0.2rem;
+  }
+}
+.detailImg {
+  border-radius: 250px;
+  filter: drop-shadow(2px 4px 2px rgba(0,0,0,0.2));
+  margin: 0 auto;
+  height: auto;
+  width: 100%;
+  @media (max-width: 960px) {
+    
+  }
+  @media (max-width: 520px) {
+    
+  }
+}
+.detailItemText {
+  color: #333333;
+  padding: 1rem 0;
+  text-align: center;
+}
+.select {
+  &:hover {
+    border: solid 4px #c0c0c0;
+  }
+}
+// ━━━━━━━━━━━━━━━━
+// IconButtonのcss
+// ━━━━━━━━━━━━━━━━
+.iconButton {
+  background-color: rgba(255, 0, 0, 0);
+  border: none;
+  margin: 0 auto 10rem;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  @media screen and (max-width:960px) {
+    display: block;
+  }
+}
+// 位置を調整する場合はここ
+.inner {
+  top: 12rem;
+  right: 0;
+  position: relative;
+
+  @media screen and (max-width:960px) {
+    top: 6rem;
+  }
+  @media screen and (max-width:960px) {
+    right: 3rem;
+  }
+}
+// 後にある枠の部分
+.innerMain_00 {
+  background-color: $backBgColor;
+  border: solid 8px $backBorderColor;
+  border-radius: 250px;
+  bottom: 0;
+  filter: drop-shadow(2px 4px 4px rgba(0,0,0,0.2));
+  font-weight: bold;
+  height: 200px;
+  position: absolute;
+  width: 200px;
+  z-index: 1;
+
+  @media screen and (max-width:960px) {
+    border: solid 4px $backBorderColor;
+    border-radius: 250px;
+    bottom: 0;
+    filter: drop-shadow(2px 4px 4px rgba(0,0,0,0.2));
+    font-weight: bold;
+    height: 100px;
+    position: absolute;
+    width: 100px;
+    z-index: 1; 
+  }
+}
+// 動かしたい本体の画像
+.innerMain_01 {
+  bottom: 1rem;
+  filter: drop-shadow(1px 2px 2px #333333);
+  font-weight: bold;
+  height: 200px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+
+  @media screen and (max-width:960px) {
+    bottom: 1rem;
+    font-weight: bold;
+    height: 100px;
+    position: absolute;
+    width: 100px;
+    z-index: 2;
+  }
+  &:hover {
+    animation: purupuru 2.0s ease-in-out alternate infinite;
+    filter: drop-shadow(0 0 0);
+ }
+}
+// 名前の枠
+.innerMain_02 {
+  background-color: $frontBgColor;
+  border: solid 8px $frontBorderColor;
+  border-radius: 250px;
+  bottom: 0;
+  color: $fontColor;
+  font-size: 16px;
+  font-weight: bold;
+  height: auto;
+  padding: 0.1rem 0.4rem;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+
+  @media screen and (max-width:960px) {
+    background-color: $frontBgColor;
+    border: solid 4px $frontBorderColor;
+    border-radius: 250px;
+    bottom: 0;
+    left: -0.5rem;
+    color: $fontColor;
+    font-size: 13px;
+    font-weight: bold;
+    height: auto;
+    padding: 0.1rem 0.4rem;
+    position: absolute;
+    width: 120px;
+    z-index: 2; 
+  }
+}
+// ━━━━━━━━━━━━━━━━
+// 背景アニメーションのcss
+// ━━━━━━━━━━━━━━━━
+// アニメーションのcss
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0 50%
+  }
+  }
+  @-moz-keyframes Gradient {
+  0% {
+    background-position: 0 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0 50%
+  }
+  }
+  @keyframes Gradient {
+  0% {
+    background-position: 0 50%
+  }
+  50% {
+    background-position: 100% 50%
+  }
+  100% {
+    background-position: 0 50%
+  }
+  }
+  @keyframes morph {
+  0% {
+    border-radius: 40% 60% 60% 40% / 70% 30% 70% 30%; }
+  100% {
+    border-radius: 40% 60%; } 
+  }
+  @keyframes spin {
+    to {
+      transform: rotate(1turn); 
+    } 
+}
+.animeBody_noda {
+  // background: -moz-linear-gradient(45deg, #02e1ba 0%, #26c9f2 50%, #ffa079 100%);
+  // background: -webkit-linear-gradient(45deg, #02e1ba 0%,#26c9f2 50%, #ffa079 100%);
+  // background: linear-gradient(45deg, #02e1ba 0%,#26c9f2 50%, #ffa079 100%);
+  background: -moz-linear-gradient(135deg, #D2E2C1 0%, #65A370 20%, #fafafa 40%, #D2E2C1 60%, #fafafa 80%, #65A370 100%);
+  background: -webkit-linear-gradient(135deg, #D2E2C1 0%, #65A370 20%, #fafafa 40%, #D2E2C1 60%, #fafafa 80%, #65A370 100%);
+  background: linear-gradient(135deg, #D2E2C1 0%, #65A370 20%, #fafafa 40%, #D2E2C1 60%, #fafafa 80%, #65A370 100%);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+  /*min-height: calc(100vh - 2rem);*/
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-evenly;
+  overflow: hidden;
+  position: relative; 
+}
+.animeBody_noda::before, 
+.animeBodybody_noda::after {
+content: "";
+  width: 70vmax;
+  height: 70vmax;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.07);
+  left: -20vmin;
+  top: -20vmin;
+  animation: morph 15s linear infinite alternate, spin 20s linear infinite;
+  z-index: 1;
+  will-change: border-radius, transform;
+  transform-origin: 55% 55%;
+  pointer-events: none; 
+}
+.animeBody_noda::after {
+  width: 70vmin;
+  height: 70vmin;
+  left: auto;
+  right: -10vmin;
+  top: auto;
+  bottom: 0;
+  animation: morph 10s linear infinite alternate, spin 26s linear infinite reverse;
+  transform-origin: 20% 20%; 
+}
+
+.animeBody_nakashima {
+  // background: -moz-linear-gradient(45deg, #02e1ba 0%, #26c9f2 50%, #ffa079 100%);
+  // background: -webkit-linear-gradient(45deg, #02e1ba 0%,#26c9f2 50%, #ffa079 100%);
+  // background: linear-gradient(45deg, #02e1ba 0%,#26c9f2 50%, #ffa079 100%);
+  background: -moz-linear-gradient(45deg, #ffd700 0%, #ffa079 20%, #fafafa 40%, #ffd700 60%, #fafafa 80%, #ffa079 100%);
+  background: -webkit-linear-gradient(45deg, #ffd700 0%, #ffa079 20%, #fafafa 40%, #ffd700 60%, #fafafa 80%, #ffa079 100%);
+  background: linear-gradient(45deg, #ffd700 0%, #ffa079 20%, #fafafa 40%, #ffd700 60%, #fafafa 80%, #ffa079 100%);
+  background-size: 400% 400%;
+  -webkit-animation: Gradient 15s ease infinite;
+  -moz-animation: Gradient 15s ease infinite;
+  animation: Gradient 15s ease infinite;
+  /*min-height: calc(100vh - 2rem);*/
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-evenly;
+  overflow: hidden;
+  position: relative; 
+}
+.animeBody_nakashima::before, 
+.animeBodybody_nakashima::after {
+content: "";
+  width: 70vmax;
+  height: 70vmax;
+  position: absolute;
+  background: rgba(255, 255, 255, 0.07);
+  left: -20vmin;
+  top: -20vmin;
+  animation: morph 15s linear infinite alternate, spin 20s linear infinite;
+  z-index: 1;
+  will-change: border-radius, transform;
+  transform-origin: 55% 55%;
+  pointer-events: none; 
+}
+.animeBody_nakashima::after {
+  width: 70vmin;
+  height: 70vmin;
+  left: auto;
+  right: -10vmin;
+  top: auto;
+  bottom: 0;
+  animation: morph 10s linear infinite alternate, spin 26s linear infinite reverse;
+  transform-origin: 20% 20%; 
+}
+.st0{display:none;}
+.st1{display:inline;}
+.st2{opacity:0.29;}
+.st3{fill:#FFFFFF;}
+.st4{clip-path:url(#SVGID_2_);fill:#FFFFFF;}
+.st5{clip-path:url(#SVGID_4_);}
+.st6{clip-path:url(#SVGID_6_);}
+.st7{clip-path:url(#SVGID_8_);}
+.st8{clip-path:url(#SVGID_10_);}
+.st9{fill:none;}
+.st10{clip-path:url(#SVGID_12_);}
+.st11{opacity:0.7;}
+.st12{clip-path:url(#SVGID_14_);}
+.st13{opacity:0.2;}
+.st14{clip-path:url(#SVGID_16_);}
+.st15{opacity:0.3;fill:#FFFFFF;enable-background:new;
+}

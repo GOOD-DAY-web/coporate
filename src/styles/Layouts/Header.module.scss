@@ -1,0 +1,46 @@
+.flexA {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.flexB {
+  align-items: center;
+  display: flex;
+  height: 5rem;
+  justify-content: space-between;
+  margin: 0 0 0 auto;
+  padding:0 1rem 1rem 0;
+  width: 40%;
+
+  @media (max-width: 960px) {
+    width: 60%;
+  }
+
+  @media (max-width: 520px) {
+    width: 70%;
+  }
+}
+.flexE {
+  align-items: center;
+  display: flex;
+  margin: 0 0 0 auto;
+  justify-content: space-evenly;
+  height: 3rem;
+  width: 40%;
+}
+.flexR {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.header {
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+.news {
+  margin-top: 2rem;
+}
+.logo {
+  margin-top: 2rem;
+}

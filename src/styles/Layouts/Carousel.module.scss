@@ -1,0 +1,38 @@
+.carousel {
+  position: relative;
+}
+.carouselInfo {
+  background: linear-gradient(#ffffff, #ffff00);
+  border-radius: 40px;
+  bottom: 6rem;
+  color: #333333;
+  font-size: 32px;
+  font-weight: bold;
+  left: 70%;
+  margin-left: -40%;
+  opacity: 0.8;
+  padding: 1rem;
+  position: absolute;
+  transition: all .5s ease-in-out;
+  text-align: center;
+  transition: opacity .35s ease-in-out;
+  width: 40%;
+
+  &:hover {
+    opacity: 0.6;
+  }
+
+  @media (max-width: 960px) {
+    bottom: 3rem;
+    font-size: 16px;
+    padding: 0.8rem;
+    width: 40%;
+  }
+
+  @media (max-width: 520px) {
+    bottom: 2rem;
+    font-size: 16px;
+    padding: 0.4rem;
+    width: 40%;
+  }
+}
