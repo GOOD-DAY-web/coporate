@@ -543,7 +543,7 @@ export default function Natsuki() {
           </tr>
         </tbody>
         <tbody>
-          <tr className={styles.menuTablLast}>
+          <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>ロング</th>
             <td className={styles.menuTableTd}>&nbsp;</td>
             <td className={styles.menuTableTd}>¥21,000</td>
@@ -551,11 +551,19 @@ export default function Natsuki() {
           </tr>
         </tbody>
         <tbody>
-          <tr className={styles.menuTablLast}>
+          <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>リタッチ</th>
             <td className={styles.menuTableTd}>(新生毛)</td>
-            <td className={styles.menuTableTd}>¥12,000〜¥14,000</td>
+            <td className={styles.menuTableTd}>¥15,000</td>
             <td className={styles.menuTableTd}>210分</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr className={styles.menuTablLast}>
+            <th className={styles.menuTableTh}>ケア剤</th>
+            <td className={styles.menuTableTd}>&nbsp;</td>
+            <td className={styles.menuTableTd}>¥1,000</td>
+            <td className={styles.menuTableTd}></td>
           </tr>
         </tbody>
       </table>
@@ -567,7 +575,7 @@ export default function Natsuki() {
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>フロント縮毛矯正</th>
             <td className={styles.menuTableTd}>&nbsp;</td>
-            <td className={styles.menuTableTd}>¥6,600</td>
+            <td className={styles.menuTableTd}>¥7,700</td>
             <td className={styles.menuTableTd}>120分</td>
           </tr>
         </tbody>
@@ -575,7 +583,7 @@ export default function Natsuki() {
           <tr className={styles.menuTablLast}>
             <th className={styles.menuTableTh}>ハーフ縮毛矯正</th>
             <td className={styles.menuTableTd}>必要範囲によって値段が変動</td>
-            <td className={styles.menuTableTd}>¥9,800</td>
+            <td className={styles.menuTableTd}>¥15,000</td>
             <td className={styles.menuTableTd}>150分</td>
           </tr>
         </tbody>

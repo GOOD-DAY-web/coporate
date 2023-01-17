@@ -3,8 +3,6 @@ import Link from "next/link";
 import Image from "next/legacy/image";
 import Button from "./Layouts/Button";
 import styles from "./styles/campaign.module.scss";
-import ModalNoda from "./Layouts/Modal";
-import Modal from "react-modal";
 
 export const Message: React.FC = () => {
   const noda_00 = {
@@ -138,13 +136,13 @@ export const Message: React.FC = () => {
               </div>
             </div>
             <div className={styles.messageButton}>
-              {/* <Link href={noda_00.link_13} passHref> */}
-              <Button
-                props={`${noda_00.name_13}
-                ${"で予約する"}`}
-                text={"\\ 岡山野田店 /"}
-              />
-              {/* </Link> */}
+              <Link href={noda_00.link_13} passHref>
+                <Button
+                  props={`${noda_00.name_13}
+                  ${"で予約する"}`}
+                  text={"\\ 岡山野田店 /"}
+                />
+              </Link>
             </div>
           </div>
         </div>
