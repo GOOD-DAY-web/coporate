@@ -561,7 +561,7 @@ export default function Natsuki() {
         <tbody>
           <tr className={styles.menuTablLast}>
             <th className={styles.menuTableTh}>ケア剤</th>
-            <td className={styles.menuTableTd}></td>
+            <td className={styles.menuTableTd}>&nbsp;</td>
             <td className={styles.menuTableTd}>¥1,000</td>
             <td className={styles.menuTableTd}></td>
           </tr>
