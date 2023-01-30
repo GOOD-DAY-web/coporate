@@ -102,6 +102,14 @@ export default function Nozomi() {
             <td className={styles.menuTableTd}>90分</td>
           </tr>
         </tbody>
+        <tbody>
+          <tr className={styles.menuTablLast}>
+            <th className={styles.menuTableTh}>ヘアマニキュアリタッチ</th>
+            <td className={styles.menuTableTd}>&nbsp;</td>
+            <td className={styles.menuTableTd}>¥4,400</td>
+            <td className={styles.menuTableTd}>60分</td>
+          </tr>
+        </tbody>
       </table>
 
       <h2 className={styles.menuTitle}>カラープラスメニュー</h2>
