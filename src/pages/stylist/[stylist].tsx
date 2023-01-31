@@ -22,7 +22,7 @@ import YukaSNS from "../../components/sns/YukaSNS";
 import MahoSNS from "../../components/sns/MahoSNS";
 import NamiSNS from "../../components/sns/NamiSNS";
 import TomoyaSNS from "../../components/sns/TomoyaSNS";
-import KahoSNS from "../../components/sns/KahoSNS";
+// import KahoSNS from "../../components/sns/KahoSNS";
 // 各スタイリストのMenuを読み込む(暫定適用)
 import Katayama from "../../components/menu/Katayama";
 import Mika from "../../components/menu/Mika";
@@ -37,7 +37,7 @@ import Yuka from "../../components/menu/Yuka";
 import Maho from "../../components/menu/Maho";
 import Nami from "../../components/menu/Nami";
 import Tomoya from "../../components/menu/Tomoya";
-import Kaho from "../../components/menu/Kaho";
+// import Kaho from "../../components/menu/Kaho";
 // 各スタイリストのPaginationを読み込む(暫定適用)
 import KatayamaPagination from "../../components/pagination/KatayamaPagination";
 import MikaPagination from "../../components/pagination/MikaPagination";
@@ -52,7 +52,7 @@ import YukaPagination from "../../components/pagination/YukaPagination";
 import MahoPagination from "../../components/pagination/MahoPagination";
 import NamiPagination from "../../components/pagination/NamiPagination";
 import TomoyaPagination from "../../components/pagination/TomoyaPagination";
-import KahoPagination from "../../components/pagination/KahoPagination";
+// import KahoPagination from "../../components/pagination/KahoPagination";
 
 type Props = {
   stylist: Stylist;
@@ -108,7 +108,7 @@ export default function Stylist({ stylist }: Props) {
                       {id == 11 && <MahoSNS />}
                       {id == 12 && <NamiSNS />}
                       {id == 13 && <TomoyaSNS />}
-                      {id == 14 && <KahoSNS />}
+                      {/* {id == 14 && <KahoSNS />} */}
                     </div>
                   );
                 })}
@@ -202,7 +202,7 @@ export default function Stylist({ stylist }: Props) {
                 {id == 11 && <Maho />}
                 {id == 12 && <Nami />}
                 {id == 13 && <Tomoya />}
-                {id == 14 && <Kaho />}
+                {/* {id == 14 && <Kaho />} */}
               </div>
             );
           })}
@@ -238,7 +238,7 @@ export default function Stylist({ stylist }: Props) {
                 {id == 11 && <MahoPagination />}
                 {id == 12 && <NamiPagination />}
                 {id == 13 && <TomoyaPagination />}
-                {id == 14 && <KahoPagination />}
+                {/* {id == 14 && <KahoPagination />} */}
               </div>
             );
           })}
