@@ -38,7 +38,7 @@ export default function Shimonakano() {
                   <div className={styles.nemuVertical}>
                     公式LINEよりご連絡ください。
                   </div>
-                  <Link href={"https://line.me/R/ti/p/%40511gsugf"} passHref>
+                  <Link href={"https://page.line.me/153jsnax?openQrModal=true"} passHref>
                     <p className={styles.line}></p>
                   </Link>
                 </div>
