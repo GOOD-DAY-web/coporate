@@ -8,14 +8,14 @@ export default function MahoPagination() {
     <>
       <div className={styles.nextFlex}>
         <div className={styles.next}>
-          <Link href={"nami"} passHref>
+          <Link href={"yuka"} passHref>
             <div className={styles.nextInner}>
               <span className={styles.nextInnerIn}>Back</span>
             </div>
           </Link>
         </div>
         <div className={styles.next}>
-          <Link href={"yuka"} passHref>
+          <Link href={"nami"} passHref>
             <div className={styles.nextInner}>
               <span className={styles.nextInnerIn}>Next</span>
             </div>

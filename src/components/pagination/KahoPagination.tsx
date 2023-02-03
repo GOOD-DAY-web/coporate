@@ -3,7 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "../../styles/Pagination/Pagination.module.scss";
 
-export default function MikaPagination() {
+export default function KahoPagination() {
   return (
     <>
       <div className={styles.nextFlex}>
@@ -15,7 +15,7 @@ export default function MikaPagination() {
           </Link>
         </div>
         <div className={styles.next}>
-          <Link href={"nozomi"} passHref>
+          <Link href={"tomoya"} passHref>
             <div className={styles.nextInner}>
               <span className={styles.nextInnerIn}>Next</span>
             </div>

@@ -8,14 +8,14 @@ export default function DaiPagination() {
     <>
       <div className={styles.nextFlex}>
         <div className={styles.next}>
-          <Link href={"john"} passHref>
+          <Link href={"natsuki"} passHref>
             <div className={styles.nextInner}>
               <span className={styles.nextInnerIn}>Back</span>
             </div>
           </Link>
         </div>
         <div className={styles.next}>
-          <Link href={"natsuki"} passHref>
+          <Link href={"john"} passHref>
             <div className={styles.nextInner}>
               <span className={styles.nextInnerIn}>Next</span>
             </div>

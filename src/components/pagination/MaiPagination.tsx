@@ -8,14 +8,14 @@ export default function MaiPagination() {
     <>
       <div className={styles.nextFlex}>
         <div className={styles.next}>
-          <Link href={"yuka"} passHref>
+          <Link href={"ikemoto"} passHref>
             <div className={styles.nextInner}>
               <span className={styles.nextInnerIn}>Back</span>
             </div>
           </Link>
         </div>
         <div className={styles.next}>
-          <Link href={"ikemoto"} passHref>
+          <Link href={"yuka"} passHref>
             <div className={styles.nextInner}>
               <span className={styles.nextInnerIn}>Next</span>
             </div>
