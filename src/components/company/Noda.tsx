@@ -38,7 +38,10 @@ export default function Noda() {
                   <div className={styles.nemuVertical}>
                     公式LINEよりご連絡ください。
                   </div>
-                  <Link href={"https://page.line.me/153jsnax?openQrModal=true"} passHref>
+                  <Link
+                    href={"https://page.line.me/153jsnax?openQrModal=true"}
+                    passHref
+                  >
                     <p className={styles.line}></p>
                   </Link>
                 </div>
