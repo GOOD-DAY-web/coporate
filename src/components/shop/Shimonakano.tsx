@@ -7,7 +7,7 @@ export default function ShimonakanoShopInfo() {
   return (
     <>
       <div id="Nakashima" className={styles.main}>
-        <h2 className={styles.menuTitle}>岡山下中野店(予定)</h2>
+        <h2 className={styles.menuTitle}>岡山下中野店</h2>
         <table className={styles.menuArea}>
           <tbody>
             <tr className={styles.menuTableTr}>
@@ -23,7 +23,9 @@ export default function ShimonakanoShopInfo() {
               <td className={styles.menuTableTd}>
                 <div className={styles.next}>
                   <div className={styles.nextInner}>
-                    <span className={styles.nextInnerIn}>未定</span>
+                    <Link href="tel:070-2363-7899">
+                      <span className={styles.nextInnerIn}>電話番号</span>
+                    </Link>
                   </div>
                 </div>
                 {/* <div className={styles.next}>
@@ -40,7 +42,7 @@ export default function ShimonakanoShopInfo() {
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>住所</th>
               <td className={styles.menuTableTd}>
-                ※情報解禁まで今しばらくお待ちください
+                岡山県岡山市北区下中野477-4
               </td>
             </tr>
           </tbody>
@@ -76,7 +78,7 @@ export default function ShimonakanoShopInfo() {
           <tbody>
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>席数</th>
-              <td className={styles.menuTableTd}>未定</td>
+              <td className={styles.menuTableTd}>7</td>
             </tr>
           </tbody>
           <tbody>

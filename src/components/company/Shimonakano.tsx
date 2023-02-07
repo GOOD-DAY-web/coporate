@@ -58,7 +58,7 @@ export default function Shimonakano() {
             <tr className={styles.menuTablLast}>
               <th className={styles.menuTableTh}>所在地</th>
               <td className={styles.menuTableTd}>
-                ※情報解禁まで今しばらくお待ちください
+                岡山県岡山市北区下中野477-4
               </td>
             </tr>
           </tbody>

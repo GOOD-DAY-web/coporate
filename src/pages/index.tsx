@@ -13,12 +13,13 @@ import MakeFriends from "../components/home/MakeFriends";
 import NakashimaShopInfo from "../components/shop/Nakashima";
 import NodaShopInfo from "../components/shop/Noda";
 import ShimonakanoShopInfo from "../components/shop/Shimonakano";
+import { Pagination } from "../components/pagination/Pagination";
 
 type Props = {
   articles: Array<Article>;
 };
 
-export default function Home({ articles }: Props) {
+export default function Home({ articles, totalCount }: any) {
   return (
     <>
       <SEO
@@ -36,7 +37,7 @@ export default function Home({ articles }: Props) {
         <TopCarousel />
         <div className={styles.articleArea}>
           <h2 className={styles.articleMainTitle}>News &amp; Topics</h2>
-          {articles.map((article) => (
+          {articles.map((article: any) => (
             <div className={styles.articleSingle} key={article.id}>
               <div className={styles.articleFlex}>
                 <div className={styles.articleLeft}>
@@ -74,6 +75,10 @@ export default function Home({ articles }: Props) {
             </div>
           ))}
         </div>
+        <Pagination
+          currentPageNumber={1}
+          maxPageNumber={Math.ceil(totalCount / 5)}
+        />
         <Staffs />
         <ShimonakanoShopInfo />
         <NodaShopInfo />
@@ -88,6 +93,9 @@ export default function Home({ articles }: Props) {
 
 // データをテンプレートに受け渡す部分の処理を記述します
 export const getStaticProps = async () => {
+  const offset = 0;
+  const limit = 4;
+  const queries = { offset: offset, limit: limit };
   const data = await client.get({
     endpoint: "articles",
     queries: { limit: 3, offset: 0 },
@@ -96,6 +104,7 @@ export const getStaticProps = async () => {
   return {
     props: {
       articles: data.contents,
+      totalCount: data.totalCount,
     },
   };
 };
