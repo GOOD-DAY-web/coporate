@@ -8,14 +8,14 @@ export default function KahoPagination() {
     <>
       <div className={styles.nextFlex}>
         <div className={styles.next}>
-          <Link href={"katayama"} passHref>
+          <Link href={"tomoya"} passHref>
             <div className={styles.nextInner}>
               <span className={styles.nextInnerIn}>Back</span>
             </div>
           </Link>
         </div>
         <div className={styles.next}>
-          <Link href={"tomoya"} passHref>
+          <Link href={"yuki"} passHref>
             <div className={styles.nextInner}>
               <span className={styles.nextInnerIn}>Next</span>
             </div>

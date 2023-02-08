@@ -12,9 +12,7 @@ export default function ShimonakanoShopInfo() {
           <tbody>
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>店舗名</th>
-              <td className={styles.menuTableTd}>
-                GOOD-DAY 岡山下中野店(予定)
-              </td>
+              <td className={styles.menuTableTd}>GOOD-DAY 岡山下中野店</td>
             </tr>
           </tbody>
           <tbody>

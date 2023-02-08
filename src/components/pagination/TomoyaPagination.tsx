@@ -15,7 +15,7 @@ export default function TomoyaPagination() {
           </Link>
         </div>
         <div className={styles.next}>
-          <Link href={"katayama"} passHref>
+          <Link href={"kaho"} passHref>
             <div className={styles.nextInner}>
               <span className={styles.nextInnerIn}>Next</span>
             </div>
