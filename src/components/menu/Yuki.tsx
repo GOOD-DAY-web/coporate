@@ -534,6 +534,38 @@ export default function Yuki() {
           </tr>
         </tbody>
       </table>
+
+      <h2 className={styles.menuTitle}>店販商品</h2>
+      <p className={styles.menuDetail}>
+        ※在庫がない場合には取り寄せになる場合がございます。予めご了承ください。
+      </p>
+      <table className={styles.menuArea}>
+        <tbody>
+          <tr className={styles.menuTablLast}>
+            <th className={styles.menuTableTh}>N.セラム</th>
+            <td className={styles.menuTableTd}>(詳細)</td>
+            <td className={styles.menuTableTd}>¥3,740</td>
+            <td className={styles.menuTableTd}>&nbsp;</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr className={styles.menuTablLast}>
+            <th className={styles.menuTableTh}>N.バーム</th>
+            <td className={styles.menuTableTd}>(詳細)</td>
+            <td className={styles.menuTableTd}>¥2,200</td>
+            <td className={styles.menuTableTd}>&nbsp;</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr className={styles.menuTablLast}>
+            <th className={styles.menuTableTh}>N.ポリッシュオイル</th>
+            <td className={styles.menuTableTd}>(詳細)</td>
+            <td className={styles.menuTableTd}>¥3,540</td>
+            <td className={styles.menuTableTd}>&nbsp;</td>
+          </tr>
+        </tbody>
+      </table>
+
       <div className={styles.kuchikomi}>
         <div className={styles.kuchikomiImage}>
           <Link href="/" passHref>
