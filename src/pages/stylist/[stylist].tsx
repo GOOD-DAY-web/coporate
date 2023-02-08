@@ -8,6 +8,7 @@ import type { Stylist } from "../../types/stylist";
 import styles from "../../styles/Stylist/Detail.module.scss";
 import HamburgerMenu from "../../components/layouts/HamburgerMenu";
 import { LikeButton } from "../../components/layouts/LikeButton";
+
 // 各スタイリストのSNSを読み込む(暫定適用)
 import KatayamaSNS from "../../components/sns/KatayamaSNS";
 import MikaSNS from "../../components/sns/MikaSNS";
@@ -22,7 +23,9 @@ import YukaSNS from "../../components/sns/YukaSNS";
 import MahoSNS from "../../components/sns/MahoSNS";
 import NamiSNS from "../../components/sns/NamiSNS";
 import TomoyaSNS from "../../components/sns/TomoyaSNS";
-// import KahoSNS from "../../components/sns/KahoSNS";
+import KahoSNS from "../../components/sns/KahoSNS";
+import YukiSNS from "../../components/sns/YukiSNS";
+
 // 各スタイリストのMenuを読み込む(暫定適用)
 import Katayama from "../../components/menu/Katayama";
 import Mika from "../../components/menu/Mika";
@@ -37,7 +40,9 @@ import Yuka from "../../components/menu/Yuka";
 import Maho from "../../components/menu/Maho";
 import Nami from "../../components/menu/Nami";
 import Tomoya from "../../components/menu/Tomoya";
-// import Kaho from "../../components/menu/Kaho";
+import Kaho from "../../components/menu/Kaho";
+import Yuki from "../../components/menu/Yuki";
+
 // 各スタイリストのPaginationを読み込む(暫定適用)
 import KatayamaPagination from "../../components/pagination/KatayamaPagination";
 import MikaPagination from "../../components/pagination/MikaPagination";
@@ -52,7 +57,8 @@ import YukaPagination from "../../components/pagination/YukaPagination";
 import MahoPagination from "../../components/pagination/MahoPagination";
 import NamiPagination from "../../components/pagination/NamiPagination";
 import TomoyaPagination from "../../components/pagination/TomoyaPagination";
-// import KahoPagination from "../../components/pagination/KahoPagination";
+import KahoPagination from "../../components/pagination/KahoPagination";
+import YukiPagination from "../../components/pagination/YukiPagination";
 
 type Props = {
   stylist: Stylist;
@@ -108,7 +114,8 @@ export default function Stylist({ stylist }: Props) {
                       {id == 11 && <MahoSNS />}
                       {id == 12 && <NamiSNS />}
                       {id == 13 && <TomoyaSNS />}
-                      {/* {id == 14 && <KahoSNS />} */}
+                      {id == 14 && <KahoSNS />}
+                      {id == 15 && <YukiSNS />}
                     </div>
                   );
                 })}
@@ -202,7 +209,8 @@ export default function Stylist({ stylist }: Props) {
                 {id == 11 && <Maho />}
                 {id == 12 && <Nami />}
                 {id == 13 && <Tomoya />}
-                {/* {id == 14 && <Kaho />} */}
+                {id == 14 && <Kaho />}
+                {id == 15 && <Yuki />}
               </div>
             );
           })}
@@ -238,7 +246,8 @@ export default function Stylist({ stylist }: Props) {
                 {id == 11 && <MahoPagination />}
                 {id == 12 && <NamiPagination />}
                 {id == 13 && <TomoyaPagination />}
-                {/* {id == 14 && <KahoPagination />} */}
+                {id == 14 && <KahoPagination />}
+                {id == 15 && <YukiPagination />}
               </div>
             );
           })}
