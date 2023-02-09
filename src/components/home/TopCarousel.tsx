@@ -6,6 +6,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const TopCarousel = () => {
   const images: string[] = [
+    // この部分に設置(終わったら消す)
     "/media/Noda_sliderimg_00.jpg",
     "/media/Noda_sliderimg_01.jpg",
     "/media/main_slider_00.jpg",
@@ -22,6 +23,24 @@ const TopCarousel = () => {
         showThumbs={false}
         statusFormatter={() => ``}
       >
+        {/* ━━━━━━━━━━━━━━━━━━━━━
+        今回変更する箇所 ここから (終わったら消す)
+        ━━━━━━━━━━━━━━━━━━━━━ */}
+        <div>
+          <Image
+            className={styles.carousel}
+            src={images[0]}
+            alt={""}
+            width={2000}
+            height={1250}
+          />
+          <Link href={`/recruit`} passHref>
+            <p className={styles.carouselInfo}>詳しく見る</p>
+          </Link>
+        </div>
+        {/* ━━━━━━━━━━━━━━━━━━━━━
+        今回変更する箇所 ここまで (終わったら消す)
+        ━━━━━━━━━━━━━━━━━━━━━ */}
         <div>
           <Image
             className={styles.carousel}
