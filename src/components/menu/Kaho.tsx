@@ -289,7 +289,9 @@ export default function Kaho() {
         <tbody>
           <tr className={styles.menuTablLast}>
             <th className={styles.menuTableTh}>シャンプーブロー</th>
-            <td className={styles.menuTableTd}>(詳細)</td>
+            <td className={styles.menuTableTd}>
+              シャンプーブローのみのmenuです。
+            </td>
             <td className={styles.menuTableTd}>¥2,200</td>
             <td className={styles.menuTableTd}>60分</td>
           </tr>
