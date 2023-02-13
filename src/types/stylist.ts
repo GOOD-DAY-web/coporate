@@ -1,5 +1,5 @@
 export type Stylist = {
-  id: string;
+  id: string | number;
   createdAt: string;
   updatedAt: string;
   publishedAt: string;
@@ -33,4 +33,5 @@ export type Stylist = {
   };
   description: string;
   keyword: string;
+  totalCount: number;
 };
