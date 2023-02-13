@@ -21,7 +21,7 @@ export default function ShimonakanoShopInfo() {
               <td className={styles.menuTableTd}>
                 <div className={styles.next}>
                   <div className={styles.nextInner}>
-                    <Link href="tel:070-2363-7899">
+                    <Link href="tel:086-250-5828">
                       <span className={styles.nextInnerIn}>電話番号</span>
                     </Link>
                   </div>

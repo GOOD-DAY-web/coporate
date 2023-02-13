@@ -1,5 +1,5 @@
 export type Article = {
-  id: string;
+  id: string | number;
   totalCount: number;
   createdAt: string;
   updatedAt: string;
