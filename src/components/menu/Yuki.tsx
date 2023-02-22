@@ -18,7 +18,7 @@ export default function Yuki() {
               お客様に伝わる説明があると良い
             </td>
             <td className={styles.menuTableTd}>¥4,950</td>
-            <td className={styles.menuTableTd}>分</td>
+            <td className={styles.menuTableTd}>90分</td>
           </tr>
         </tbody>
         <tbody>
@@ -28,7 +28,7 @@ export default function Yuki() {
               お客様に伝わる説明があると良い
             </td>
             <td className={styles.menuTableTd}>¥4,455</td>
-            <td className={styles.menuTableTd}>分</td>
+            <td className={styles.menuTableTd}>90分</td>
           </tr>
         </tbody>
         <tbody>
@@ -38,7 +38,7 @@ export default function Yuki() {
               お客様に伝わる説明があると良い
             </td>
             <td className={styles.menuTableTd}>¥1,100</td>
-            <td className={styles.menuTableTd}>分</td>
+            <td className={styles.menuTableTd}>30分</td>
           </tr>
         </tbody>
       </table>
@@ -313,12 +313,12 @@ export default function Yuki() {
             <th className={styles.menuTableTh}>眉カット</th>
             <td className={styles.menuTableTd}>(詳細)</td>
             <td className={styles.menuTableTd}>¥1,100</td>
-            <td className={styles.menuTableTd}>分</td>
+            <td className={styles.menuTableTd}>30分</td>
           </tr>
         </tbody>
       </table>
 
-      <h2 className={styles.menuTitle}>複合メニュー</h2>
+      {/* <h2 className={styles.menuTitle}>複合メニュー</h2>
       <p className={styles.menuDetail}>特にご要望の多い複数メニューです。</p>
       <table className={styles.menuArea}>
         <tbody>
@@ -533,7 +533,7 @@ export default function Yuki() {
             <td className={styles.menuTableTd}>150分</td>
           </tr>
         </tbody>
-      </table>
+      </table> */}
 
       <h2 className={styles.menuTitle}>店販商品</h2>
       <p className={styles.menuDetail}>
