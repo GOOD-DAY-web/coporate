@@ -12,9 +12,7 @@ export default function Kaho() {
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>一般カット</th>
-            <td className={styles.menuTableTd}>
-              お客様に伝わる説明があると良い
-            </td>
+            <td className={styles.menuTableTd}>&nbsp;</td>
             <td className={styles.menuTableTd}>¥4,950</td>
             <td className={styles.menuTableTd}>90分</td>
           </tr>
@@ -22,9 +20,7 @@ export default function Kaho() {
         <tbody>
           <tr>
             <th className={styles.menuTableTh}>中高生カット</th>
-            <td className={styles.menuTableTd}>
-              お客様に伝わる説明があると良い
-            </td>
+            <td className={styles.menuTableTd}>シャンプー・ブロー込み</td>
             <td className={styles.menuTableTd}>¥3,850</td>
             <td className={styles.menuTableTd}>60分</td>
           </tr>
@@ -32,9 +28,7 @@ export default function Kaho() {
         <tbody>
           <tr className={styles.menuTablLast}>
             <th className={styles.menuTableTh}>小学生以下</th>
-            <td className={styles.menuTableTd}>
-              お客様に伝わる説明があると良い
-            </td>
+            <td className={styles.menuTableTd}>シャンプー・ブロー込み</td>
             <td className={styles.menuTableTd}>¥3,300</td>
             <td className={styles.menuTableTd}>60分</td>
           </tr>
@@ -42,9 +36,7 @@ export default function Kaho() {
         <tbody>
           <tr className={styles.menuTablLast}>
             <th className={styles.menuTableTh}>Fカット</th>
-            <td className={styles.menuTableTd}>
-              お客様に伝わる説明があると良い
-            </td>
+            <td className={styles.menuTableTd}>&nbsp;</td>
             <td className={styles.menuTableTd}>¥550</td>
             <td className={styles.menuTableTd}>20分</td>
           </tr>
@@ -57,9 +49,7 @@ export default function Kaho() {
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>リタッチ</th>
-            <td className={styles.menuTableTd}>
-              お客様に伝わる説明があると良い
-            </td>
+            <td className={styles.menuTableTd}>根本のみのカラーです</td>
             <td className={styles.menuTableTd}>¥4,800</td>
             <td className={styles.menuTableTd}>120分</td>
           </tr>
@@ -67,9 +57,7 @@ export default function Kaho() {
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>フルカラー</th>
-            <td className={styles.menuTableTd}>
-              お客様に伝わる説明があると良い
-            </td>
+            <td className={styles.menuTableTd}>全体のカラーです</td>
             <td className={styles.menuTableTd}>¥6,600</td>
             <td className={styles.menuTableTd}>150分</td>
           </tr>
@@ -78,7 +66,7 @@ export default function Kaho() {
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>Wカラー</th>
             <td className={styles.menuTableTd}>
-              お客様に伝わる説明があると良い
+              全体のブリーチ+オンカラーです
             </td>
             <td className={styles.menuTableTd}>¥13,200</td>
             <td className={styles.menuTableTd}>240分</td>
@@ -88,7 +76,7 @@ export default function Kaho() {
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>ケアブリーチ</th>
             <td className={styles.menuTableTd}>
-              お客様に伝わる説明があると良い
+              ダメージを抑えたブリーチを使用します(オンカラー込み)
             </td>
             <td className={styles.menuTableTd}>¥15,400</td>
             <td className={styles.menuTableTd}>240分</td>
@@ -97,9 +85,7 @@ export default function Kaho() {
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>ブリーチリタッチ</th>
-            <td className={styles.menuTableTd}>
-              お客様に伝わる説明があると良い
-            </td>
+            <td className={styles.menuTableTd}>根本のブリーチ+オンカラー</td>
             <td className={styles.menuTableTd}>¥11,000</td>
             <td className={styles.menuTableTd}>240分</td>
           </tr>
@@ -107,9 +93,7 @@ export default function Kaho() {
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>オンカラー</th>
-            <td className={styles.menuTableTd}>
-              お客様に伝わる説明があると良い
-            </td>
+            <td className={styles.menuTableTd}>2回染める場合のカラーです</td>
             <td className={styles.menuTableTd}>¥0</td>
             <td className={styles.menuTableTd}>0分</td>
           </tr>
@@ -117,8 +101,16 @@ export default function Kaho() {
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>イヤリングカラー</th>
+            <td className={styles.menuTableTd}>耳上のみのカラーです</td>
+            <td className={styles.menuTableTd}>¥0</td>
+            <td className={styles.menuTableTd}>0分</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr className={styles.menuTableTr}>
+            <th className={styles.menuTableTh}>ハイライト・ローライト(5枚)</th>
             <td className={styles.menuTableTd}>
-              お客様に伝わる説明があると良い
+              オンカラーは別途料金が必要です
             </td>
             <td className={styles.menuTableTd}>¥0</td>
             <td className={styles.menuTableTd}>0分</td>
@@ -126,24 +118,20 @@ export default function Kaho() {
         </tbody>
         <tbody>
           <tr className={styles.menuTableTr}>
-            <th className={styles.menuTableTh}>ハイライト・ローライト</th>
-            <td className={styles.menuTableTd}>(5枚)</td>
-            <td className={styles.menuTableTd}>¥0</td>
-            <td className={styles.menuTableTd}>0分</td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr className={styles.menuTableTr}>
-            <th className={styles.menuTableTh}>ハイライト・ローライト</th>
-            <td className={styles.menuTableTd}>(15枚)</td>
+            <th className={styles.menuTableTh}>ハイライト・ローライト(15枚)</th>
+            <td className={styles.menuTableTd}>
+              オンカラーは別途料金が必要です
+            </td>
             <td className={styles.menuTableTd}>¥0</td>
             <td className={styles.menuTableTd}>0分</td>
           </tr>
         </tbody>
         <tbody>
           <tr className={styles.menuTablLast}>
-            <th className={styles.menuTableTh}>ハイライト・ローライト</th>
-            <td className={styles.menuTableTd}>(20枚)</td>
+            <th className={styles.menuTableTh}>ハイライト・ローライト(20枚)</th>
+            <td className={styles.menuTableTd}>
+              オンカラーは別途料金が必要です
+            </td>
             <td className={styles.menuTableTd}>¥0</td>
             <td className={styles.menuTableTd}>0分</td>
           </tr>
@@ -158,9 +146,7 @@ export default function Kaho() {
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>パーマ</th>
-            <td className={styles.menuTableTd}>
-              お客様に伝わる説明があると良い
-            </td>
+            <td className={styles.menuTableTd}>通常のパーマです</td>
             <td className={styles.menuTableTd}>¥6,600</td>
             <td className={styles.menuTableTd}>150分</td>
           </tr>
@@ -169,7 +155,7 @@ export default function Kaho() {
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>特殊パーマ</th>
             <td className={styles.menuTableTd}>
-              お客様に伝わる説明があると良い
+              ツイスト・スパイラルなどを含む特殊なパーマです
             </td>
             <td className={styles.menuTableTd}>¥8,800</td>
             <td className={styles.menuTableTd}>180分</td>
@@ -178,9 +164,7 @@ export default function Kaho() {
         <tbody>
           <tr className={styles.menuTablLast}>
             <th className={styles.menuTableTh}>ポイントパーマ</th>
-            <td className={styles.menuTableTd}>
-              お客様に伝わる説明があると良い
-            </td>
+            <td className={styles.menuTableTd}>部分的なパーマです</td>
             <td className={styles.menuTableTd}>¥4,400</td>
             <td className={styles.menuTableTd}>120分</td>
           </tr>
@@ -193,9 +177,7 @@ export default function Kaho() {
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>縮毛矯正</th>
-            <td className={styles.menuTableTd}>
-              お客様に伝わる説明があると良い
-            </td>
+            <td className={styles.menuTableTd}>全体の縮毛矯正です</td>
             <td className={styles.menuTableTd}>¥13,200</td>
             <td className={styles.menuTableTd}>240分</td>
           </tr>
@@ -203,9 +185,7 @@ export default function Kaho() {
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>ポイント矯正</th>
-            <td className={styles.menuTableTd}>
-              お客様に伝わる説明があると良い
-            </td>
+            <td className={styles.menuTableTd}>部分的な縮毛矯正です</td>
             <td className={styles.menuTableTd}>¥6,600</td>
             <td className={styles.menuTableTd}>150分</td>
           </tr>
@@ -214,7 +194,7 @@ export default function Kaho() {
           <tr className={styles.menuTablLast}>
             <th className={styles.menuTableTh}>パーマ落とし</th>
             <td className={styles.menuTableTd}>
-              お客様に伝わる説明があると良い
+              一度パーマを行った毛髪からカールを取り除きます
             </td>
             <td className={styles.menuTableTd}>¥7,700</td>
             <td className={styles.menuTableTd}>180分</td>
@@ -229,7 +209,7 @@ export default function Kaho() {
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>クイックトリートメント</th>
             <td className={styles.menuTableTd}>
-              お客様に伝わる説明があると良い
+              外部補修中心のトリートメントです
             </td>
             <td className={styles.menuTableTd}>¥1,100</td>
             <td className={styles.menuTableTd}>60分</td>
@@ -239,9 +219,9 @@ export default function Kaho() {
           <tr className={styles.menuTablLast}>
             <th className={styles.menuTableTh}>システムトリートメント</th>
             <td className={styles.menuTableTd}>
-              お客様に伝わる説明があると良い
+              4stepで外部補修と内部補修をします
             </td>
-            <td className={styles.menuTableTd}>¥000</td>
+            <td className={styles.menuTableTd}>¥0</td>
             <td className={styles.menuTableTd}>120分</td>
           </tr>
         </tbody>
