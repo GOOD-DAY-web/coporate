@@ -13,6 +13,36 @@ const Staffs: React.FC = () => {
       <div className={styles.main}>
         <div>
           <ul className={styles.flex}>
+            <Link href={"/stylist/yuki"}>
+              <li className={styles.stylistImage}>
+                <Image
+                  className={styles.stylistImageHover}
+                  src={"/media/Yuki_00.jpg"}
+                  alt={"yuki"}
+                  width={240}
+                  height={240}
+                />
+                <div className={styles.stylistMask}>
+                  <p className={styles.stylistCaption}>yuki</p>
+                  <p className={styles.stylistCaptionSub}>岡山下中野店</p>
+                </div>
+              </li>
+            </Link>
+            <Link href={"/stylist/kaho"}>
+              <li className={styles.stylistImage}>
+                <Image
+                  className={styles.stylistImageHover}
+                  src={"/media/Kaho_00.jpg"}
+                  alt={"kaho"}
+                  width={240}
+                  height={240}
+                />
+                <div className={styles.stylistMask}>
+                  <p className={styles.stylistCaption}>kaho</p>
+                  <p className={styles.stylistCaptionSub}>岡山野田店</p>
+                </div>
+              </li>
+            </Link>
             <Link href={"/stylist/tomoya"}>
               <li className={styles.stylistImage}>
                 <Image
@@ -28,6 +58,7 @@ const Staffs: React.FC = () => {
                 </div>
               </li>
             </Link>
+
             <Link href={"/stylist/nami"}>
               <li className={styles.stylistImage}>
                 <Image
