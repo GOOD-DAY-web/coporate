@@ -343,7 +343,6 @@ export default function Yuki() {
             <td className={styles.menuTableTd}>150分</td>
           </tr>
         </tbody>
-
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>
@@ -356,16 +355,6 @@ export default function Yuki() {
             <td className={styles.menuTableTd}>90分</td>
           </tr>
         </tbody>
-
-        <tbody>
-          <tr className={styles.menuTableTr}>
-            <th className={styles.menuTableTh}>カット + ヘッドスパ</th>
-            <td className={styles.menuTableTd}>(35分)</td>
-            <td className={styles.menuTableTd}>¥9,900</td>
-            <td className={styles.menuTableTd}>120分</td>
-          </tr>
-        </tbody>
-
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>カット＋炭酸スパ(15分)</th>
@@ -376,7 +365,6 @@ export default function Yuki() {
             <td className={styles.menuTableTd}>90分</td>
           </tr>
         </tbody>
-
         <tbody>
           <tr className={styles.menuTablLast}>
             <th className={styles.menuTableTh}>
