@@ -568,7 +568,7 @@ export default function Yuki() {
 
       <div className={styles.kuchikomi}>
         <div className={styles.kuchikomiImage}>
-          <Link href="/" passHref>
+          <Link href="https://g.page/r/CW8s23RofMNVEAI/review" passHref>
             <Image
               src={"/media/kuchikomi_01.png"}
               alt={"口コミのご協力をお願いします。"}
