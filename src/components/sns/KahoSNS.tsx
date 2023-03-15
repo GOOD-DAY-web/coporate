@@ -19,9 +19,9 @@ export default function KahoSNS() {
         >
           <div className={styles.line}></div>
         </Link>
-        {/* <Link href={"https://minimodel.jp/r/KmDJoKw?list_no=1"} passHref>
+        <Link href={"https://minimodel.jp/r/CEt7yks"} passHref>
           <div className={styles.minimo}></div>
-        </Link> */}
+        </Link>
       </div>
     </>
   );
