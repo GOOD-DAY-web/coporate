@@ -80,7 +80,7 @@ export default function ShimonakanoShopInfo() {
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>スタイリスト</th>
               <td className={styles.menuTableTd}>
-                ※募集中
+                1名
                 <br />
                 <br />
                 詳しくは

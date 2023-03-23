@@ -63,6 +63,21 @@ export default function Kaho() {
           </tr>
         </tbody>
         <tbody>
+          <tr className={styles.menuTablLast}>
+            <th className={styles.menuTableTh}>ポイントカラー</th>
+            <td className={styles.menuTableTd}>
+              部分カラーです。カットなし、シャンプー・ブロー別
+            </td>
+            <td className={styles.menuTableTd}>¥2,200</td>
+            <td className={styles.menuTableTd}>60分</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2 className={styles.menuTitle}>特殊カラー</h2>
+      <p className={styles.menuDetail}>(シャンプー・ブロー別)</p>
+      <table className={styles.menuArea}>
+        <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>Wカラー</th>
             <td className={styles.menuTableTd}>
