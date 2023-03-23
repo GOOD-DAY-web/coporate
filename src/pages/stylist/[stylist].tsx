@@ -168,7 +168,7 @@ export default function Stylist({ stylist, totalCount }: Props) {
               height={1000}
               objectFit="contain"
             />
-            <LikeButton />
+            {/* <LikeButton /> */}
           </div>
           <div>
             <Image
@@ -179,7 +179,7 @@ export default function Stylist({ stylist, totalCount }: Props) {
               height={1000}
               objectFit="contain"
             />
-            <LikeButton />
+            {/* <LikeButton /> */}
           </div>
           <div>
             <Image
@@ -190,7 +190,7 @@ export default function Stylist({ stylist, totalCount }: Props) {
               height={1000}
               objectFit="contain"
             />
-            <LikeButton />
+            {/* <LikeButton /> */}
           </div>
         </div>
         {/* ここでstylistIdを認識して、各自のメニューを表示します。 */}
