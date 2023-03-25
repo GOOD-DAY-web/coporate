@@ -14,9 +14,7 @@ export default function Yuki() {
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>カット</th>
-            <td className={styles.menuTableTd}>
-              お客様に伝わる説明があると良い
-            </td>
+            <td className={styles.menuTableTd}>(シャンプー・ブロー込み)</td>
             <td className={styles.menuTableTd}>¥4,950</td>
             <td className={styles.menuTableTd}>90分</td>
           </tr>
@@ -25,7 +23,7 @@ export default function Yuki() {
           <tr>
             <th className={styles.menuTableTh}>スクールカット</th>
             <td className={styles.menuTableTd}>
-              お客様に伝わる説明があると良い
+              (高校生以下対象。シャンプー・ブロー込み)
             </td>
             <td className={styles.menuTableTd}>¥4,455</td>
             <td className={styles.menuTableTd}>90分</td>
@@ -35,7 +33,7 @@ export default function Yuki() {
           <tr className={styles.menuTablLast}>
             <th className={styles.menuTableTh}>フロントカット</th>
             <td className={styles.menuTableTd}>
-              お客様に伝わる説明があると良い
+              (前髪・顔まわりのカット、シャンプー・ブロー別)
             </td>
             <td className={styles.menuTableTd}>¥1,100</td>
             <td className={styles.menuTableTd}>30分</td>
@@ -170,7 +168,9 @@ export default function Yuki() {
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>パーマ</th>
-            <td className={styles.menuTableTd}>通常のパーマです</td>
+            <td className={styles.menuTableTd}>
+              通常のパーマです。＋特殊パーマ(波巻・ツイスト・スパイラル)は対象外
+            </td>
             <td className={styles.menuTableTd}>¥7,700</td>
             <td className={styles.menuTableTd}>120分</td>
           </tr>
@@ -225,14 +225,18 @@ export default function Yuki() {
             <td className={styles.menuTableTd}>30分</td>
           </tr>
         </tbody>
-        {/* <tbody>
+        <tbody>
           <tr className={styles.menuTablLast}>
-            <th className={styles.menuTableTh}>Hita髪質改善トリートメント</th>
-            <td className={styles.menuTableTd}>5Step</td>
+            <th className={styles.menuTableTh}>
+              ユーラシアトリートメント【ホームケア付き】30分
+            </th>
+            <td className={styles.menuTableTd}>
+              ダメージ+エイジング+くせ毛の3つをケアを可能に。髪の内部で補修成分×保湿成分が密着！週2回のホームケアトリートメント付。
+            </td>
             <td className={styles.menuTableTd}>¥6,600</td>
             <td className={styles.menuTableTd}>60分</td>
           </tr>
-        </tbody> */}
+        </tbody>
       </table>
 
       <h2 className={styles.menuTitle}>ヘッドスパ</h2>
