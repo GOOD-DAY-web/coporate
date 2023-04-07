@@ -8,7 +8,7 @@ export default function IkemotoPagination() {
     <>
       <div className={styles.nextFlex}>
         <div className={styles.next}>
-          <Link href={"fujii"} passHref>
+          <Link href={"john"} passHref>
             <div className={styles.nextInner}>
               <span className={styles.nextInnerIn}>Back</span>
             </div>

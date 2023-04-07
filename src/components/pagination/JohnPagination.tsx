@@ -15,7 +15,7 @@ export default function JohnPagination() {
           </Link>
         </div>
         <div className={styles.next}>
-          <Link href={"fujii"} passHref>
+          <Link href={"ikemoto"} passHref>
             <div className={styles.nextInner}>
               <span className={styles.nextInnerIn}>Next</span>
             </div>

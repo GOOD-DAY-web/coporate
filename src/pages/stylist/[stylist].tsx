@@ -16,7 +16,6 @@ import NozomiSNS from "../../components/sns/NozomiSNS";
 import NatsukiSNS from "../../components/sns/NatsukiSNS";
 import DaiSNS from "../../components/sns/DaiSNS";
 import JohnSNS from "../../components/sns/JohnSNS";
-import FujiiSNS from "../../components/sns/FujiiSNS";
 import IkemotoSNS from "../../components/sns/IkemotoSNS";
 import MaiSNS from "../../components/sns/MaiSNS";
 import YukaSNS from "../../components/sns/YukaSNS";
@@ -33,7 +32,6 @@ import Nozomi from "../../components/menu/Nozomi";
 import Natsuki from "../../components/menu/Natsuki";
 import Dai from "../../components/menu/Dai";
 import John from "../../components/menu/John";
-import Fujii from "../../components/menu/Fujii";
 import Ikemoto from "../../components/menu/Ikemoto";
 import Mai from "../../components/menu/Mai";
 import Yuka from "../../components/menu/Yuka";
@@ -50,7 +48,6 @@ import NozomiPagination from "../../components/pagination/NozomiPagination";
 import NatsukiPagination from "../../components/pagination/NatsukiPagination";
 import DaiPagination from "../../components/pagination/DaiPagination";
 import JohnPagination from "../../components/pagination/JohnPagination";
-import FujiiPagination from "../../components/pagination/FujiiPagination";
 import IkemotoPagination from "../../components/pagination/IkemotoPagination";
 import MaiPagination from "../../components/pagination/MaiPagination";
 import YukaPagination from "../../components/pagination/YukaPagination";
@@ -109,15 +106,14 @@ export default function Stylist({ stylist, totalCount }: Props) {
                       {id == 4 && <NatsukiSNS />}
                       {id == 5 && <DaiSNS />}
                       {id == 6 && <JohnSNS />}
-                      {id == 7 && <FujiiSNS />}
-                      {id == 8 && <IkemotoSNS />}
-                      {id == 9 && <MaiSNS />}
-                      {id == 10 && <YukaSNS />}
-                      {id == 11 && <MahoSNS />}
-                      {id == 12 && <NamiSNS />}
-                      {id == 13 && <TomoyaSNS />}
-                      {id == 14 && <KahoSNS />}
-                      {id == 15 && <YukiSNS />}
+                      {id == 7 && <IkemotoSNS />}
+                      {id == 8 && <MaiSNS />}
+                      {id == 9 && <YukaSNS />}
+                      {id == 10 && <MahoSNS />}
+                      {id == 11 && <NamiSNS />}
+                      {id == 12 && <TomoyaSNS />}
+                      {id == 13 && <KahoSNS />}
+                      {id == 14 && <YukiSNS />}
                     </div>
                   );
                 })}
@@ -204,15 +200,14 @@ export default function Stylist({ stylist, totalCount }: Props) {
                 {id == 4 && <Natsuki />}
                 {id == 5 && <Dai />}
                 {id == 6 && <John />}
-                {id == 7 && <Fujii />}
-                {id == 8 && <Ikemoto />}
-                {id == 9 && <Mai />}
-                {id == 10 && <Yuka />}
-                {id == 11 && <Maho />}
-                {id == 12 && <Nami />}
-                {id == 13 && <Tomoya />}
-                {id == 14 && <Kaho />}
-                {id == 15 && <Yuki />}
+                {id == 7 && <Ikemoto />}
+                {id == 8 && <Mai />}
+                {id == 9 && <Yuka />}
+                {id == 10 && <Maho />}
+                {id == 11 && <Nami />}
+                {id == 12 && <Tomoya />}
+                {id == 13 && <Kaho />}
+                {id == 14 && <Yuki />}
               </div>
             );
           })}
@@ -242,15 +237,14 @@ export default function Stylist({ stylist, totalCount }: Props) {
                 {id == 4 && <NatsukiPagination />}
                 {id == 5 && <DaiPagination />}
                 {id == 6 && <JohnPagination />}
-                {id == 7 && <FujiiPagination />}
-                {id == 8 && <IkemotoPagination />}
-                {id == 9 && <MaiPagination />}
-                {id == 10 && <YukaPagination />}
-                {id == 11 && <MahoPagination />}
-                {id == 12 && <NamiPagination />}
-                {id == 13 && <TomoyaPagination />}
-                {id == 14 && <KahoPagination />}
-                {id == 15 && <YukiPagination />}
+                {id == 7 && <IkemotoPagination />}
+                {id == 8 && <MaiPagination />}
+                {id == 9 && <YukaPagination />}
+                {id == 10 && <MahoPagination />}
+                {id == 11 && <NamiPagination />}
+                {id == 12 && <TomoyaPagination />}
+                {id == 13 && <KahoPagination />}
+                {id == 14 && <YukiPagination />}
               </div>
             );
           })}

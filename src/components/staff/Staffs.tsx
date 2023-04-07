@@ -134,7 +134,7 @@ const Staffs: React.FC = () => {
                 </div>
               </li>
             </Link>
-            <Link href={"/stylist/fujii"}>
+            {/* <Link href={"/stylist/fujii"}>
               <li className={styles.stylistImage}>
                 <Image
                   className={styles.stylistImageHover}
@@ -148,7 +148,7 @@ const Staffs: React.FC = () => {
                   <p className={styles.stylistCaptionSub}>倉敷中島店</p>
                 </div>
               </li>
-            </Link>
+            </Link> */}
             <Link href={"/stylist/john"}>
               <li className={styles.stylistImage}>
                 <Image
