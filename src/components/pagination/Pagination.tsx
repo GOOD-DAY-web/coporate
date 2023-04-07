@@ -1,3 +1,4 @@
+import React from "react";
 import Link from "next/link";
 
 export const Pagination = ({
@@ -10,17 +11,19 @@ export const Pagination = ({
   const nextPage = currentPageNumber + 1;
 
   return (
-    <div className="">
-      {currentPageNumber !== 1 && (
-        <Link href={`/blogs/page/${prevPage}`}>
-          <a>&lt; Previous</a>
-        </Link>
-      )}
-      {currentPageNumber !== maxPageNumber && (
-        <Link href={`/blogs/page/${nextPage}`}>
-          <a className="ml-4">Next &gt;</a>
-        </Link>
-      )}
-    </div>
+    <>
+      <div className="">
+        {currentPageNumber !== 1 && (
+          <Link href={`/example/page/${prevPage}`}>
+            <a>&lt; Previous</a>
+          </Link>
+        )}
+        {currentPageNumber !== maxPageNumber && (
+          <Link href={`/example/page/${nextPage}`}>
+            <a className="ml-4">Next &gt;</a>
+          </Link>
+        )}
+      </div>
+    </>
   );
 };

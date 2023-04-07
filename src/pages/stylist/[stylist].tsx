@@ -59,12 +59,14 @@ import NamiPagination from "../../components/pagination/NamiPagination";
 import TomoyaPagination from "../../components/pagination/TomoyaPagination";
 import KahoPagination from "../../components/pagination/KahoPagination";
 import YukiPagination from "../../components/pagination/YukiPagination";
+import { StylistPagination } from "../../components/pagination/StylistPagination";
 
 type Props = {
   stylist: Stylist;
+  totalCount: number;
 };
 
-export default function Stylist({ stylist }: Props) {
+export default function Stylist({ stylist, totalCount }: Props) {
   const stylistIds: number[] = [stylist.stylist_id];
   return (
     <>
@@ -166,7 +168,7 @@ export default function Stylist({ stylist }: Props) {
               height={1000}
               objectFit="contain"
             />
-            <LikeButton />
+            {/* <LikeButton /> */}
           </div>
           <div>
             <Image
@@ -177,7 +179,7 @@ export default function Stylist({ stylist }: Props) {
               height={1000}
               objectFit="contain"
             />
-            <LikeButton />
+            {/* <LikeButton /> */}
           </div>
           <div>
             <Image
@@ -188,7 +190,7 @@ export default function Stylist({ stylist }: Props) {
               height={1000}
               objectFit="contain"
             />
-            <LikeButton />
+            {/* <LikeButton /> */}
           </div>
         </div>
         {/* ここでstylistIdを認識して、各自のメニューを表示します。 */}
@@ -229,6 +231,7 @@ export default function Stylist({ stylist }: Props) {
           </Link>
         </div>
         {/* ここでstylistIdを認識して、各自のページネーションを表示(暫定適用) */}
+        {/* <StylistPagination currentPageNumber={1} maxPageNumber={Math.ceil(totalCount / 4)}/> */}
         <div>
           {stylistIds.map((id) => {
             return (
@@ -258,16 +261,22 @@ export default function Stylist({ stylist }: Props) {
 }
 
 export const getServerSideProps: GetServerSideProps = async (ctx) => {
-  const id = ctx.params?.stylist;
-  const idExceptArray = id instanceof Array ? id[0] : id;
+  const offset = 0;
+  const limit = 4;
+  const queries = { offset: offset, limit: limit };
+  const stylistNum = ctx.params?.stylist;
+  const idExceptArray =
+    stylistNum instanceof Array ? stylistNum[0] : stylistNum;
   const data = await client.get({
     endpoint: "stylists",
+    queries: queries,
     contentId: idExceptArray,
   });
 
   return {
     props: {
       stylist: data,
+      totalCount: data,
     },
   };
 };

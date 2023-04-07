@@ -7,18 +7,21 @@ export default function KahoSNS() {
   return (
     <>
       <div className={styles.sns}>
-        <Link href={"/"} passHref>
+        <Link href={"https://beauty.hotpepper.jp/slnH000616748/blog/"} passHref>
           <div className={styles.blog}></div>
         </Link>
-        <Link href={"/"} passHref>
+        <Link href={"https://www.instagram.com/kah0_____/"} passHref>
           <div className={styles.instagram}></div>
         </Link>
-        <Link href={"/"} passHref>
+        <Link
+          href={"https://liff.line.me/1645278921-kWRPP32q/?accountId=771dtkjh"}
+          passHref
+        >
           <div className={styles.line}></div>
         </Link>
-        {/* <Link href={"https://minimodel.jp/r/KmDJoKw?list_no=1"} passHref>
+        <Link href={"https://minimodel.jp/r/CEt7yks"} passHref>
           <div className={styles.minimo}></div>
-        </Link> */}
+        </Link>
       </div>
     </>
   );

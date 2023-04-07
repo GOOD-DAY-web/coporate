@@ -46,7 +46,7 @@ export default function ShimonakanoGuidelines() {
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>勤務先・アクセス</th>
               <td className={styles.menuTableTd}>
-                ※情報解禁まで今しばらくお待ちください
+                〒700-0973 岡山県岡山市北区下中野477-4
               </td>
             </tr>
           </tbody>
@@ -174,7 +174,7 @@ export default function ShimonakanoGuidelines() {
                 ③4月14日(水) 12:00〜
                 <br />
                 <br />
-                ※岡山下中野店のサロン見学は2023年2月から開始予定です。
+                ※岡山下中野店のサロン見学は随時受け付けております。公式LINEよりご連絡ください。
                 <br />
                 <br />
                 ※上記例を参考に、日付、曜日、お時間をお知らせいただけるとスムーズです。

@@ -72,7 +72,7 @@ export default function NodaShopInfo() {
           <tbody>
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>スタイリスト</th>
-              <td className={styles.menuTableTd}>1名</td>
+              <td className={styles.menuTableTd}>2名</td>
             </tr>
           </tbody>
           <tbody>

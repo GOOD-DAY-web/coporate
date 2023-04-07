@@ -21,7 +21,7 @@ export default function ShimonakanoShopInfo() {
               <td className={styles.menuTableTd}>
                 <div className={styles.next}>
                   <div className={styles.nextInner}>
-                    <Link href="tel:070-2363-7899">
+                    <Link href="tel:086-250-5828">
                       <span className={styles.nextInnerIn}>電話番号</span>
                     </Link>
                   </div>
@@ -60,9 +60,6 @@ export default function ShimonakanoShopInfo() {
             <tr className={styles.menuTablLast}>
               <th className={styles.menuTableTh}>支払方法</th>
               <td className={styles.menuTableTd}>
-                ※以下の支払方法を予定
-                <br />
-                <br />
                 VISA/MasterCard/JCB/AmericanExpress/Diners/Discover/PayPay/楽天ペイ/auPAY/d払い/メルペイ
               </td>
             </tr>
@@ -70,7 +67,7 @@ export default function ShimonakanoShopInfo() {
           <tbody>
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>カット価格</th>
-              <td className={styles.menuTableTd}>未定</td>
+              <td className={styles.menuTableTd}>¥4,950〜</td>
             </tr>
           </tbody>
           <tbody>
@@ -83,7 +80,7 @@ export default function ShimonakanoShopInfo() {
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>スタイリスト</th>
               <td className={styles.menuTableTd}>
-                ※募集中
+                1名
                 <br />
                 <br />
                 詳しくは
@@ -99,16 +96,13 @@ export default function ShimonakanoShopInfo() {
           <tbody>
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>駐車場</th>
-              <td className={styles.menuTableTd}>未定</td>
+              <td className={styles.menuTableTd}>6台(縦列駐車を含む)</td>
             </tr>
           </tbody>
           <tbody>
             <tr className={styles.menuTablLast}>
               <th className={styles.menuTableTh}>こだわり</th>
               <td className={styles.menuTableTd}>
-                ※以下のこだわり条件を予定
-                <br />
-                <br />
                 駐車場あり/夜19時以降も受付OK/一人のスタイリストが仕上げまで担当/年中無休/朝10時前でも受付OK/カード支払いOK/完全予約制/個室あり/お子さま同伴可/禁煙
               </td>
             </tr>
