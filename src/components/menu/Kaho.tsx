@@ -271,6 +271,46 @@ export default function Kaho() {
         </tbody>
       </table>
 
+      <h2 className={styles.menuTitle}>セットメニュー</h2>
+      <table className={styles.menuArea}>
+        <tbody>
+          <tr className={styles.menuTableTr}>
+            <th className={styles.menuTableTh}>
+              似合わせカット+クイックトリートメント
+            </th>
+            <td className={styles.menuTableTd}>(所要時間は90分です)</td>
+            <td className={styles.menuTableTd}>¥6,050</td>
+            <td className={styles.menuTableTd}>90分</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr className={styles.menuTablLast}>
+            <th className={styles.menuTableTh}>カラー+トリートメント</th>
+            <td className={styles.menuTableTd}>(所要時間は150分です)</td>
+            <td className={styles.menuTableTd}>¥9,900</td>
+            <td className={styles.menuTableTd}>150分</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr className={styles.menuTableTr}>
+            <th className={styles.menuTableTh}>カット+カラー+トリートメン</th>
+            <td className={styles.menuTableTd}>(所要時間は180分です)</td>
+            <td className={styles.menuTableTd}>¥12,650</td>
+            <td className={styles.menuTableTd}>180分</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr className={styles.menuTableTr}>
+            <th className={styles.menuTableTh}>
+              カット＋デザインカラー＋トリートメント
+            </th>
+            <td className={styles.menuTableTd}>(所要時間は270分です)</td>
+            <td className={styles.menuTableTd}>¥19,250</td>
+            <td className={styles.menuTableTd}>270分</td>
+          </tr>
+        </tbody>
+      </table>
+
       <h2 className={styles.menuTitle}>その他</h2>
       <table className={styles.menuArea}>
         <tbody>
