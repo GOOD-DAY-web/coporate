@@ -75,6 +75,16 @@ export default function Footer() {
           </ul>
         </div>
         <div className={styles.footerBrock}>
+          <Link href={"/interview"} passHref>
+            <p className={styles.footerTitle}>Interview</p>
+          </Link>
+          <ul className={styles.footerUl}>
+            <Link href={"/interview"} passHref>
+              <li>インタビュー記事</li>
+            </Link>
+          </ul>
+        </div>
+        <div className={styles.footerBrock}>
           <Link href={"/recruit"} passHref>
             <p className={styles.footerTitle}>Recruit</p>
           </Link>
