@@ -69,3 +69,8 @@
     margin-bottom: 2rem;
   }
 }/*# sourceMappingURL=Philosophy.module.css.map */
+.centerImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import SEO from "../components/layouts/SEO";
-import Features from "../components/philosophy/Features";
+import Interviewtomoya from "../components/interview/interviewtomoya";
 
 const Service: React.FC = () => {
   return (
@@ -16,7 +16,7 @@ const Service: React.FC = () => {
         image={"/media/GOOD-DAY_mainImage_00.jpg"}
         url={""}
       />
-      <Features />
+      <Interviewtomoya />
     </>
   );
 };
