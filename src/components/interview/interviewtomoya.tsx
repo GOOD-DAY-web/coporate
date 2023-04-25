@@ -15,7 +15,7 @@ const Features: React.FC = () => {
           <>
           <Image
               className={styles.centerImage}
-              src={"/media/tomoyainterview.jpg"}
+              src={"/media/tomoyainterview00.jpg"}
               alt={"藤原さんインタビュー画像00"}
               width={1080}
               height={800}

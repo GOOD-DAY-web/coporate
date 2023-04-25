@@ -17,7 +17,7 @@ const Customer: React.FC = () => {
           >
               <Image
                 className={styles.featuresImage}
-                src={"/media/Tomoya_00.jpg"}
+                src={"/media/tomoyainterview00.jpg"}
                 alt={"こだわり1"}
                 width={240}
                 height={240}
@@ -27,20 +27,19 @@ const Customer: React.FC = () => {
                 大阪から岡山へ。お客様ゼロからの挑戦
               </p>
               </Link>
+              <div className={styles.next}>
+              <Link
+                href={"/interviewtomoya"}
+                passHref
+              >
+                <div className={styles.nextInner}>
+                  <span className={styles.nextInnerIn}>記事を読む</span>
+                </div>
+              </Link>
+            </div>
             </li>
-            
           </ul>
         </>
-        <div className={styles.next}>
-          <Link
-            href={"/interviewtomoya"}
-            passHref
-          >
-            <div className={styles.nextInner}>
-              <span className={styles.nextInnerIn}>記事を読む</span>
-            </div>
-          </Link>
-        </div>
       </div>
     </>
   );
