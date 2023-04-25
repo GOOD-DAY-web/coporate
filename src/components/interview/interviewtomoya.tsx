@@ -11,15 +11,15 @@ const Features: React.FC = () => {
         <p className={styles.featuresMainSubTitle}>
           フリーランスになって半年、想うこと。
         </p>
-        <Image
+        <div className={styles.featuresArea}>
+          <>
+          <Image
               className={styles.centerImage}
               src={"/media/interviewtomoya00.jpg"}
               alt={"藤原さんインタビュー画像00"}
-              width={800}
-              height={500}
-              />
-        <div className={styles.featuresArea}>
-          <>
+              width={1080}
+              height={800}
+            />
             <h2 className={styles.featuresTitle}>
               はじめに
             </h2>
@@ -34,7 +34,7 @@ const Features: React.FC = () => {
             </div>
           </>
           <>
-            <h2 className={styles.featuresTitle}>1.美容師プロフィール</h2>
+            <h2 className={styles.featuresTitle}>美容師プロフィール</h2>
             <div className={styles.featuresDescription}>
             岡山県出身。大阪の美容専門学校で学び、大阪の美容院にて5年勤務。
             <br />
@@ -52,7 +52,7 @@ const Features: React.FC = () => {
             </div>
           </>
           <>
-            <h2 className={styles.featuresTitle}>2. どうして大阪ではなく、岡山のGOOD-DAYに？</h2>
+            <h2 className={styles.featuresTitle}>どうして大阪ではなく、岡山のGOOD-DAYに？</h2>
             <div className={styles.featuresDescription}>
             将来のことを考え、都会よりは落ち着いた地方の自然の豊かな場所で自分のお店をもちたいということが大きな理由の一つです。
             <br />
@@ -78,12 +78,12 @@ const Features: React.FC = () => {
                 className={styles.centerImage}
                 src={"/media/interviewtomoya01.jpg"}
                 alt={"藤原さんインタビュー画像01"}
-                width={800}
-                height={500}
+                width={1080}
+                height={800}
               />
           </>
           <>
-            <h2 className={styles.featuresTitle}>3.フリーランスという道を選んだ理由</h2>
+            <h2 className={styles.featuresTitle}>フリーランスという道を選んだ理由</h2>
             <div className={styles.featuresDescription}>
             「美容院の先輩の姿＝未来の自分の姿だと考えた時に夢が持てなかった」これが1番の理由です。
             <br />
@@ -102,7 +102,7 @@ const Features: React.FC = () => {
             </div>
           </>
           <>
-            <h2 className={styles.featuresTitle}>4.フリーランスとして働き始めて大変だったことは？</h2>
+            <h2 className={styles.featuresTitle}>フリーランスとして働き始めて大変だったことは？</h2>
             <div className={styles.featuresDescription}>
             最初は、特に集客面において不安が大きかったです。
             <br />
@@ -122,12 +122,12 @@ const Features: React.FC = () => {
                 className={styles.centerImage}
                 src={"/media/interviewtomoya02.jpg"}
                 alt={"藤原さんインタビュー画像02"}
-                width={800}
-                height={500}
+                width={1080}
+                height={800}
               />
           </>
           <>
-            <h2 className={styles.featuresTitle}>5.GOOD-DAYにきてよかったこと</h2>
+            <h2 className={styles.featuresTitle}>GOOD-DAYにきてよかったこと</h2>
             <div className={styles.featuresDescription}>
             人生の自由度が増えたことがGOOD-DAYに入会して一番よかったと思うことですね。
             <br />
@@ -150,12 +150,12 @@ const Features: React.FC = () => {
                 className={styles.centerImage}
                 src={"/media/interviewtomoya03.jpg"}
                 alt={"藤原さんインタビュー画像03"}
-                width={800}
-                height={500}
+                width={1080}
+                height={800}
               />
           </>
           <>
-            <h2 className={styles.featuresTitle}>6.今後の目標</h2>
+            <h2 className={styles.featuresTitle}>今後の目標</h2>
             <div className={styles.featuresDescription}>
             売り上げ月100万円！
             <br />
@@ -169,12 +169,12 @@ const Features: React.FC = () => {
                 className={styles.centerImage}
                 src={"/media/interviewtomoya04.jpg"}
                 alt={"藤原さんインタビュー画像04"}
-                width={800}
-                height={500}
+                width={1080}
+                height={800}
               />
           </>
           <>
-            <h2 className={styles.featuresTitle}>7.フリーランス美容師に興味のある方へ</h2>
+            <h2 className={styles.featuresTitle}>フリーランス美容師に興味のある方へ</h2>
             <div className={styles.featuresDescription}>
             最初不安になる気持ち、とても分かります。
             <br />
@@ -200,12 +200,13 @@ const Features: React.FC = () => {
             GOOD-DAYで働く仲間が増えることを楽しみにしています！
             <br />
             <br />
-            <br />
+            <div className={styles.matome}>
             <br />
             フリーランス美容師に興味がある方はぜひ一度サロン見学にてお話してみませんか？
             <br />
             <br />
             公式LINEよりお問い合わせください。
+            </div>
             </div>
           </>
           <div className={styles.next}>
