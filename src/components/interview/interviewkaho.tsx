@@ -24,7 +24,7 @@ const Features: React.FC = () => {
               はじめに
             </h2>
             <div className={styles.featuresDescription}>
-            今回ご紹介する美容師は、【GOOD-DAY入会半年】(*2023年4月現在)の藤原朋也さん。
+            今回ご紹介する美容師は、【GOOD-DAY入会1ヶ月】(*2023年4月現在)の藤原朋也さん。
             <br />
             <br />
             大阪から岡山に来てGOOD-DAYを選んだ理由は？お客さまゼロからのスタートはどうだったのか？
