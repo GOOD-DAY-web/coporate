@@ -18,7 +18,7 @@ const Customer: React.FC = () => {
               <Image
                 className={styles.featuresImage}
                 src={"/media/tomoyainterview00.jpg"}
-                alt={"こだわり1"}
+                alt={"藤原朋也topイメージ"}
                 width={240}
                 height={240}
               />
@@ -30,6 +30,34 @@ const Customer: React.FC = () => {
               <div className={styles.next}>
               <Link
                 href={"/interviewtomoya"}
+                passHref
+              >
+                <div className={styles.nextInner}>
+                  <span className={styles.nextInnerIn}>記事を読む</span>
+                </div>
+              </Link>
+            </div>
+            </li>
+            <li className={styles.featuresItem}>
+            <Link
+            href={"/interviewtomoya"}
+            passHref
+          >
+              <Image
+                className={styles.featuresImage}
+                src={"/media/tomoyainterview00.jpg"}
+                alt={"kahotopイメージ"}
+                width={240}
+                height={240}
+              />
+              <p className={styles.featuresMainTitle}>【入会1ヶ月】kaho</p>
+              <p className={styles.featuresMainSubTitle}>
+                入会1ヶ月で手取り2倍に。
+              </p>
+              </Link>
+              <div className={styles.next}>
+              <Link
+                href={"/interviewkaho"}
                 passHref
               >
                 <div className={styles.nextInner}>

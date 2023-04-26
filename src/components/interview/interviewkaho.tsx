@@ -7,9 +7,9 @@ const Features: React.FC = () => {
   return (
     <>
       <div className={styles.features}>
-        <h2 className={styles.featuresMainTitle}>藤原朋也さんインタビュー記事</h2>
+        <h2 className={styles.featuresMainTitle}>kahoさんインタビュー記事</h2>
         <p className={styles.featuresMainSubTitle}>
-          フリーランスになって半年、想うこと。
+          フリーランスになって1ヶ月、想うこと。
         </p>
         <div className={styles.featuresArea}>
           <>
@@ -50,35 +50,6 @@ const Features: React.FC = () => {
             <br />
             「お客さまの綺麗を思って行動する」ことを大切にしている。
             </div>
-          </>
-          <>
-            <h2 className={styles.featuresTitle}>どうして大阪ではなく、岡山のGOOD-DAYに？</h2>
-            <div className={styles.featuresDescription}>
-            将来のことを考え、都会よりは落ち着いた地方の自然豊かな場所で自分のお店をもちたいという夢がありました。
-            <br />
-            <br />
-            色々なシェアサロンを調べている時に、母親からGOOD-DAYのことを聞き、とても気になったので
-            まずはお客さまがどんな印象を持つか知るためにサロン見学ではなく、自分がお客として髪を切りに行きました。
-            <br />
-            <br />
-            その時にGOOD-DAYで働いている方の雰囲気の良さ・お店が綺麗・設備も充実していて、夢シャンもあるというところに惹かれました。
-            <br />
-            <br />
-            何よりも、他のシェアサロンは単価が決まっているところが多かったのですが、
-            <br />
-            <br />
-            GOOD-DAYはメニュー設定が自由で、ブースのほとんどが個室だからこそ
-            <br />
-            <br />
-            自分のお店を持った感覚で働けるという環境に最大の魅力を感じ、すぐにサロン見学の申し込みをしました！(笑)
-            </div>
-            <Image
-                className={styles.centerImage}
-                src={"/media/interviewtomoya01.jpg"}
-                alt={"藤原さんインタビュー画像01"}
-                width={1080}
-                height={800}
-              />
           </>
           <>
             <h2 className={styles.featuresTitle}>フリーランスという道を選んだ理由</h2>
