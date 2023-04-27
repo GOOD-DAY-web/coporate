@@ -40,12 +40,12 @@ const Customer: React.FC = () => {
             </li>
             <li className={styles.featuresItem}>
             <Link
-            href={"/interviewtomoya"}
+            href={"/interviewkaho"}
             passHref
           >
               <Image
                 className={styles.featuresImage}
-                src={"/media/tomoyainterview00.jpg"}
+                src={"/media/kahointerview00.jpg"}
                 alt={"kahotopイメージ"}
                 width={240}
                 height={240}
