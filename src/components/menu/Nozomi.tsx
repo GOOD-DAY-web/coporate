@@ -53,7 +53,7 @@ export default function Nozomi() {
           <tr className={styles.menuTablLast}>
             <th className={styles.menuTableTh}>カット</th>
             <td className={styles.menuTableTd}>(マッサージSP込)</td>
-            <td className={styles.menuTableTd}>¥6,160</td>
+            <td className={styles.menuTableTd}>¥6,600</td>
             <td className={styles.menuTableTd}>75分</td>
           </tr>
         </tbody>
@@ -73,7 +73,7 @@ export default function Nozomi() {
         <tbody>
           <tr className={styles.menuTablLast}>
             <th className={styles.menuTableTh}>リタッチ</th>
-            <td className={styles.menuTableTd}>(50日以内・シャンプー込)</td>
+            <td className={styles.menuTableTd}>(50日以内・シャンプー別)</td>
             <td className={styles.menuTableTd}>¥3,850</td>
             <td className={styles.menuTableTd}>90分</td>
           </tr>
@@ -105,7 +105,7 @@ export default function Nozomi() {
         <tbody>
           <tr className={styles.menuTablLast}>
             <th className={styles.menuTableTh}>ヘアマニキュアリタッチ</th>
-            <td className={styles.menuTableTd}>&nbsp;</td>
+            <td className={styles.menuTableTd}>(50日以内)</td>
             <td className={styles.menuTableTd}>¥4,400</td>
             <td className={styles.menuTableTd}>60分</td>
           </tr>
@@ -165,7 +165,7 @@ export default function Nozomi() {
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>縮毛矯正S</th>
             <td className={styles.menuTableTd}>&nbsp;</td>
-            <td className={styles.menuTableTd}>¥13,200</td>
+            <td className={styles.menuTableTd}>¥14,520</td>
             <td className={styles.menuTableTd}>90〜240分</td>
           </tr>
         </tbody>
@@ -173,7 +173,7 @@ export default function Nozomi() {
           <tr>
             <th className={styles.menuTableTh}>縮毛矯正M</th>
             <td className={styles.menuTableTd}>&nbsp;</td>
-            <td className={styles.menuTableTd}>¥15,400</td>
+            <td className={styles.menuTableTd}>¥16,940</td>
             <td className={styles.menuTableTd}>90〜240分</td>
           </tr>
         </tbody>
@@ -211,25 +211,26 @@ export default function Nozomi() {
         </tbody>
         <tbody>
           <tr className={styles.menuTableTr}>
-            <th className={styles.menuTableTh}>トリートメントストレート</th>
+            <th className={styles.menuTableTh}>トリートメントストレート S</th>
             <td className={styles.menuTableTd}>&nbsp;</td>
-            <td className={styles.menuTableTd}>¥6,600</td>
+            <td className={styles.menuTableTd}>¥7,810</td>
             <td className={styles.menuTableTd}>90〜240分</td>
           </tr>
         </tbody>
         <tbody>
           <tr className={styles.menuTableTr}>
-            <th className={styles.menuTableTh}>トリートメント</th>
-            <td className={styles.menuTableTd}>(アイロン込)</td>
-            <td className={styles.menuTableTd}>¥7,700</td>
+            <th className={styles.menuTableTh}>トリートメントストレート M</th>
+            <td className={styles.menuTableTd}>&nbsp;</td>
+            <td className={styles.menuTableTd}>¥8,910</td>
             <td className={styles.menuTableTd}>90〜240分</td>
           </tr>
         </tbody>
         <tbody>
-          <tr className={styles.menuTablLast}>
-            <th className={styles.menuTableTh}>
-              ※ロングの場合は、プラス¥1,100
-            </th>
+          <tr className={styles.menuTableTr}>
+            <th className={styles.menuTableTh}>長さ料金</th>
+            <td className={styles.menuTableTd}>&nbsp;</td>
+            <td className={styles.menuTableTd}>¥1,100〜</td>
+            <td className={styles.menuTableTd}>&nbsp;</td>
           </tr>
         </tbody>
       </table>
@@ -241,7 +242,7 @@ export default function Nozomi() {
           <tr className={styles.menuTablLast}>
             <th className={styles.menuTableTh}>質感チェンジ</th>
             <td className={styles.menuTableTd}>(カラーストレート時)</td>
-            <td className={styles.menuTableTd}>¥1,650</td>
+            <td className={styles.menuTableTd}>¥1,870</td>
             <td className={styles.menuTableTd}>10分</td>
           </tr>
         </tbody>
