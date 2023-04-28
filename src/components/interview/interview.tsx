@@ -34,7 +34,7 @@ const Customer: React.FC = () => {
                 </Link>
               </div>
             </li>
-            {/* <li className={styles.featuresItem}>
+            <li className={styles.featuresItem}>
               <Link
               href={"/interviewkaho"}
               passHref
@@ -61,7 +61,7 @@ const Customer: React.FC = () => {
                   </div>
                 </Link>
               </div>
-            </li>  */}
+            </li>
           </ul>
         </>
       </div>
