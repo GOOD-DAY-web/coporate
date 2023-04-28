@@ -35,33 +35,33 @@ const Customer: React.FC = () => {
               </div>
             </li>
             {/* <li className={styles.featuresItem}>
-            <Link
-            href={"/interviewkaho"}
-            passHref
-          >
-              <Image
-                className={styles.featuresImage}
-                src={"/media/kahointerview00.jpg"}
-                alt={"kahotopイメージ"}
-                width={240}
-                height={240}
-              />
-              <p className={styles.featuresMainTitle}>【入会1ヶ月】kaho</p>
-              <p className={styles.featuresMainSubTitle}>
-                入会1ヶ月で手取り2倍に。
-              </p>
+              <Link
+              href={"/interviewkaho"}
+              passHref
+              >
+                <Image
+                  className={styles.featuresImage}
+                  src={"/media/kahointerview00.jpg"}
+                  alt={"kahotopイメージ"}
+                  width={240}
+                  height={240}
+                />
+                <p className={styles.featuresMainTitle}>【入会1ヶ月】kaho</p>
+                <p className={styles.featuresMainSubTitle}>
+                  入会1ヶ月で手取り2倍に。
+                </p>
               </Link>
               <div className={styles.next}>
-              <Link
-                href={"/interviewkaho"}
-                passHref
-              >
-                <div className={styles.nextInner}>
-                  <span className={styles.nextInnerIn}>記事を読む</span>
-                </div>
-              </Link>
-            </div>
-            </li> */}
+                <Link
+                  href={"/interviewkaho"}
+                  passHref
+                >
+                  <div className={styles.nextInner}>
+                    <span className={styles.nextInnerIn}>記事を読む</span>
+                  </div>
+                </Link>
+              </div>
+            </li>  */}
           </ul>
         </>
       </div>
