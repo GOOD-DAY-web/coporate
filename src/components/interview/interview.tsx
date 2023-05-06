@@ -35,10 +35,7 @@ const Customer: React.FC = () => {
               </div>
             </li>
             <li className={styles.featuresItem}>
-              <Link
-              href={"/interviewkaho"}
-              passHref
-              >
+              <Link href={"/interviewkaho"} passHref>
                 <Image
                   className={styles.featuresImage}
                   src={"/media/kahointerview00.jpg"}
@@ -52,10 +49,7 @@ const Customer: React.FC = () => {
                 </p>
               </Link>
               <div className={styles.next}>
-                <Link
-                  href={"/interviewkaho"}
-                  passHref
-                >
+                <Link href={"/interviewkaho"} passHref>
                   <div className={styles.nextInner}>
                     <span className={styles.nextInnerIn}>記事を読む</span>
                   </div>
