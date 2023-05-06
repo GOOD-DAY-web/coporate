@@ -26,7 +26,7 @@
   text-align: center;
 }
 .featuresItem {
-  margin-bottom: 1rem;
+  margin: 5rem 2rem;
   text-align: center;
   width: 50%;
   box-sizing: border-box;
@@ -36,11 +36,16 @@
 
   @media (max-width: 960px) {
     padding: 1rem;
+    margin: 5rem 1.5rem;
+    width: 80%;
   }
 
   @media (max-width: 520px) {
     padding: 1rem;
     width: 100%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    width: 90%;
   }
 }
 .featuresImage {
