@@ -167,7 +167,7 @@ const Features: React.FC = () => {
             <Image
               className={styles.centerImage}
               src={"/media/kahointerview04.jpg"}
-              alt={"藤原さんインタビュー画像04"}
+              alt={"kahoさんインタビュー画像04"}
               width={1080}
               height={800}
             />

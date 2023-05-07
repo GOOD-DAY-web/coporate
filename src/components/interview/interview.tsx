@@ -65,7 +65,9 @@ const Customer: React.FC = () => {
                   width={240}
                   height={240}
                 />
-                <p className={styles.featuresMainTitle}>【入会3年】かたやま はるか</p>
+                <p className={styles.featuresMainTitle}>
+                  【入会3年】かたやま はるか
+                </p>
                 <p className={styles.featuresMainSubTitle}>
                   お客様ゼロからのスタート。ダブルワークでより自分らしく。
                 </p>
