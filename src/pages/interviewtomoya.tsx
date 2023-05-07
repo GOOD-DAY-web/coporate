@@ -6,14 +6,14 @@ const Service: React.FC = () => {
   return (
     <>
       <SEO
-        title={"GOOD-DAY経営理念|岡山県倉敷市の個室シェアサロン"}
+        title={"GOOD-DAYスタイリスト藤原朋也さんインタビュー記事|岡山県の個室シェアサロン"}
         description={
-          "時代に合った、新しい働き方を…。GOOD-DAYは、美容師に「美容師で良かった」と感じてもらえるような環境を創ることを目標としています。"
+          "今回ご紹介する美容師は、【GOOD-DAY入会半年】(*2023年4月現在)の藤原朋也さん。なぜ大阪からお客様ゼロの岡山県でフリーランス美容師になったのか。その想いに迫ります。"
         }
         keyword={
-          "岡山県,倉敷市,美容室,シェアサロン,GOOD-DAY,グッディ,独立,独立支援,理念,経営理念"
+          "岡山県,岡山市,岡山市野田,美容室,シェアサロン,GOOD-DAY,グッディ,個室美容室,フリーランス美容師,働き方改革,スタイリストインタビュー"
         }
-        image={"/media/GOOD-DAY_mainImage_00.jpg"}
+        image={"/media/tomoyainterview00.jpg"}
         url={""}
       />
       <Interviewtomoya />

@@ -212,13 +212,6 @@ const Features: React.FC = () => {
               <br />
               将来、妊婦の方や介護が必要な方の役にもっと立てるようになりたいとも思っているので、色んな方と関わる中で学び、成長していきたいです！
             </div>
-            <Image
-              className={styles.centerImage}
-              src={"/media/kahointerview04.jpg"}
-              alt={"かたやまさんインタビュー画像04"}
-              width={1080}
-              height={800}
-            />
           </>
           <>
             <h2 className={styles.featuresTitle}>
