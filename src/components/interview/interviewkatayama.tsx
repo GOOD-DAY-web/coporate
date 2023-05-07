@@ -7,7 +7,9 @@ const Features: React.FC = () => {
   return (
     <>
       <div className={styles.features}>
-        <h2 className={styles.featuresMainTitle}>かたやまはるかさんインタビュー記事</h2>
+        <h2 className={styles.featuresMainTitle}>
+          かたやまはるかさんインタビュー記事
+        </h2>
         <p className={styles.featuresMainSubTitle}>
           フリーランスになって3年、想うこと。
         </p>
@@ -15,7 +17,7 @@ const Features: React.FC = () => {
           <>
             <Image
               className={styles.centerImage}
-              src={"/media/kahointerview00.jpg"}
+              src={"/media/katayamainterview00.jpg"}
               alt={"かたやまさんインタビュー画像00"}
               width={1080}
               height={800}
@@ -59,17 +61,15 @@ const Features: React.FC = () => {
               <br />
               <Image
                 className={styles.centerImage}
-                src={"/media/kahointerview01.jpg"}
-                alt={"かたやまさんインタビュー画像02"}
+                src={"/media/katayamainterview01.jpg"}
+                alt={"かたやまさんインタビュー画像01"}
                 width={1080}
                 height={800}
               />
             </div>
           </>
           <>
-            <h2 className={styles.featuresTitle}>
-              GOOD-DAYを選んだ理由
-            </h2>
+            <h2 className={styles.featuresTitle}>GOOD-DAYを選んだ理由</h2>
             <div className={styles.featuresDescription}>
               自由度の高さに魅力を感じ、私はGOOD-DAYを選びました。
               <br />
@@ -116,14 +116,16 @@ const Features: React.FC = () => {
             </div>
             <Image
               className={styles.centerImage}
-              src={"/media/kahointerview02.jpg"}
-              alt={"かたやまさんインタビュー画像03"}
+              src={"/media/katayamainterview02.jpg"}
+              alt={"かたやまさんインタビュー画像02"}
               width={1080}
               height={800}
             />
           </>
           <>
-            <h2 className={styles.featuresTitle}>なぜダブルワークをしようと思ったのか</h2>
+            <h2 className={styles.featuresTitle}>
+              なぜダブルワークをしようと思ったのか
+            </h2>
             <div className={styles.featuresDescription}>
               1つの職業にとらわれたくないと思っていたからです！
               <br />
@@ -141,7 +143,7 @@ const Features: React.FC = () => {
             </div>
             <Image
               className={styles.centerImage}
-              src={"/media/kahointerview03.jpg"}
+              src={"/media/katayamainterview03.jpg"}
               alt={"かたやまさんインタビュー画像03"}
               width={1080}
               height={800}
@@ -187,8 +189,8 @@ const Features: React.FC = () => {
             </div>
             <Image
               className={styles.centerImage}
-              src={"/media/kahointerview03.jpg"}
-              alt={"かたやまさんインタビュー画像03"}
+              src={"/media/katayamainterview04.jpg"}
+              alt={"かたやまさんインタビュー画像04"}
               width={1080}
               height={800}
             />

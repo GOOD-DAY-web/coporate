@@ -60,7 +60,7 @@ const Customer: React.FC = () => {
               <Link href={"/interviewkatayama"} passHref>
                 <Image
                   className={styles.featuresImage}
-                  src={"/media/kahointerview00.jpg"}
+                  src={"/media/katayamainterview00.jpg"}
                   alt={"katayamatopイメージ"}
                   width={240}
                   height={240}
