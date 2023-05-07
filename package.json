@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@netlify/plugin-nextjs": "^4.33.0",
+    "@next/env": "^13.4.1",
     "@types/brainhubeu__react-carousel": "^2.0.5",
     "@types/google-map-react": "^2.1.7",
     "@types/react-anchor-link-smooth-scroll": "^1.0.2",
@@ -36,6 +37,7 @@
     "react-burger-menu": "^3.0.9",
     "react-dom": "^18.2.0",
     "react-image-gallery": "^1.2.11",
+    "react-is": "^18.2.0",
     "react-leaflet": "^4.2.1",
     "react-loader-spinner": "^5.3.4",
     "react-paginate": "^8.1.5",
@@ -43,7 +45,7 @@
     "react-scroll": "^1.8.9",
     "react-slick": "^0.29.0",
     "sass": "^1.61.0",
-    "styled-components": "^5.3.10",
+    "styled-components": "^6.0.0-rc.1",
     "swiper": "^9.2.0",
     "yarn": "^1.22.19"
   },
