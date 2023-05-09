@@ -57,7 +57,7 @@ const Customer: React.FC = () => {
               </div>
             </li>
             <li className={styles.featuresItem}>
-              <Link href={"/interviewkatayama"} passHref>
+              {/* <Link href={"/interviewkatayama"} passHref>
                 <Image
                   className={styles.featuresImage}
                   src={"/media/katayamainterview00.jpg"}
@@ -71,7 +71,7 @@ const Customer: React.FC = () => {
                 <p className={styles.featuresMainSubTitle}>
                   お客様ゼロからのスタート。ダブルワークでより自分らしく。
                 </p>
-              </Link>
+              </Link> */}
               <div className={styles.next}>
                 <Link href={"/interviewkatayama"} passHref>
                   <div className={styles.nextInner}>
