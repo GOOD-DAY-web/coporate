@@ -6,7 +6,9 @@ const Service: React.FC = () => {
   return (
     <>
       <SEO
-        title={"GOOD-DAYスタイリストkahoさんインタビュー記事|岡山県の個室シェアサロン"}
+        title={
+          "GOOD-DAYスタイリストkahoさんインタビュー記事|岡山県の個室シェアサロン"
+        }
         description={
           "今回ご紹介する美容師は、【GOOD-DAY入会1ヶ月】(*2023年4月現在)のkahoさん。なぜ会社員ではなくフリーランス美容師として働く決断をしたのか。その想いに迫ります。"
         }

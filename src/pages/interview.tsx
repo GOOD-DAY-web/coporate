@@ -5,7 +5,9 @@ const Service: React.FC = () => {
   return (
     <>
       <SEO
-        title={"GOOD-DAYスタイリストインタビュー記事一覧|岡山県の個室シェアサロン"}
+        title={
+          "GOOD-DAYスタイリストインタビュー記事一覧|岡山県の個室シェアサロン"
+        }
         description={
           "岡山県にあるシェアサロンGOOD-DAY(グッディ)。フリーランスで働くスタイリストへのインタビュー記事一覧です。"
         }
