@@ -1,19 +1,19 @@
 import React from "react";
 import SEO from "../components/layouts/SEO";
-import Interviewkatayama from "../components/interview/interviewfujiwara";
+import Interviewfujiwara from "../components/interview/interviewfujiwara";
 
 const Service: React.FC = () => {
   return (
     <>
       <SEO
         title={
-          "GOOD-DAYスタイリストかたやまはるかさんインタビュー記事|岡山県の個室シェアサロン"
+          "GOOD-DAYスタイリスト藤原由香さんインタビュー記事|岡山県の個室シェアサロン"
         }
         description={
-          "今回ご紹介する美容師は、【GOOD-DAY入会3年】(*2023年4月現在)のかたやまはるかさん。GOOD-DAYを選んだ理由、そしてフリーランスという働きかたを選んだ理由に迫ります。"
+          "今回ご紹介する美容師は、【GOOD-DAY入会2年】(*2023年4月現在)の藤原由香さん。GOOD-DAYを選んだ理由、そしてフリーランスという働き方を選んだ理由に迫ります。"
         }
         keyword={
-          "岡山県,倉敷市,岡山市,美容室,シェアサロン,GOOD-DAY,グッディ,独立,美容師,働き方,フリーランス,インタビュー"
+          "岡山県,倉敷市,岡山市,美容室,シェアサロン,GOOD-DAY,グッディ,独立,美容師,主婦美容師,働き方,フリーランス,インタビュー"
         }
         image={"/media/katayamainterview00.jpg"}
         url={""}
