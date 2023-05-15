@@ -15,7 +15,7 @@ const Service: React.FC = () => {
         keyword={
           "岡山県,倉敷市,岡山市,美容室,シェアサロン,GOOD-DAY,グッディ,独立,美容師,主婦美容師,働き方,フリーランス,インタビュー"
         }
-        image={"/media/katayamainterview00.jpg"}
+        image={"/media/interviewfujiwara00.jpg"}
         url={""}
       />
       <Interviewfujiwara />

@@ -7,7 +7,9 @@ function Features() {
   return (
     <>
       <div className={styles.features}>
-        <h2 className={styles.featuresMainTitle}>藤原由香さんインタビュー記事</h2>
+        <h2 className={styles.featuresMainTitle}>
+          藤原由香さんインタビュー記事
+        </h2>
         <p className={styles.featuresMainSubTitle}>
           フリーランスになって2年、想うこと。
         </p>
@@ -15,13 +17,12 @@ function Features() {
           <>
             <Image
               className={styles.centerImage}
-              src={"/media/kahointerview00.jpg"}
-              alt={"kahoさんインタビュー画像00"}
+              src={"/media/interviewfujiwara00.jpg"}
+              alt={"fujiwaraさんインタビュー画像00"}
               width={1080}
-              height={800} 
+              height={800}
             />
-            <h2 className=
-            {styles.featuresTitle}>はじめに</h2>
+            <h2 className={styles.featuresTitle}>はじめに</h2>
             <div className={styles.featuresDescription}>
               今回ご紹介する美容師は、【GOOD-DAY入会2年】(*2023年4月現在)の藤原由香さん。
               <br />
@@ -39,6 +40,13 @@ function Features() {
             </div>
           </>
           <>
+            <Image
+              className={styles.centerImage}
+              src={"/media/interviewfujiwara01.jpg"}
+              alt={"fujiwaraさんインタビュー画像01"}
+              width={1080}
+              height={800}
+            />
             <h2 className={styles.featuresTitle}>
               フリーランスという道を選んだ理由
             </h2>
@@ -68,20 +76,17 @@ function Features() {
               <br />
               <br />
               フリーランスとして働く道を選んで良かったと実感する瞬間です！(笑)
-              <Image
-                className={styles.centerImage}
-                src={"/media/kahointerview01.jpg"}
-                alt={"kahoさんインタビュー画像02"}
-                width={1080}
-                height={800}
-
-              />
             </div>
           </>
           <>
-            <h2 className={styles.featuresTitle}>
-              GOOD-DAYDAYを選んだ理由
-            </h2>
+            <Image
+              className={styles.centerImage}
+              src={"/media/interviewfujiwara02.jpg"}
+              alt={"fujiwaraさんインタビュー画像02"}
+              width={1080}
+              height={800}
+            />
+            <h2 className={styles.featuresTitle}>GOOD-DAYを選んだ理由</h2>
             <div className={styles.featuresDescription}>
               専門学生時代から仲の良かった先輩がGOOD-DAYで働いていて、色々と話を聞いているうちに興味を持ちました。
               <br />
@@ -117,17 +122,18 @@ function Features() {
               <br />
               自分の中でフリーランスとしての働き方が確立できて、充実した毎日を過ごせています！
             </div>
+          </>
+          <>
             <Image
               className={styles.centerImage}
-              src={"/media/kahointerview02.jpg"}
-              alt={"kahoさんインタビュー画像03"}
+              src={"/media/interviewfujiwara04.jpg"}
+              alt={"fujiwaraさんインタビュー画像04"}
               width={1080}
               height={800}
             />
-          </>
-
-          <>
-            <h2 className={styles.featuresTitle}>GOOD-DAYなら家庭と仕事の両立ができる</h2>
+            <h2 className={styles.featuresTitle}>
+              GOOD-DAYなら家庭と仕事の両立ができる
+            </h2>
             <div className={styles.featuresDescription}>
               GOOD-DAYでフリーランスという働き方に挑戦して本当によかったです！(笑)
               <br />
@@ -154,8 +160,8 @@ function Features() {
             </div>
             <Image
               className={styles.centerImage}
-              src={"/media/kahointerview03.jpg"}
-              alt={"kahoさんインタビュー画像03"}
+              src={"/media/interviewfujiwara05.jpg"}
+              alt={"kahoさんインタビュー画像05"}
               width={1080}
               height={800}
             />
@@ -183,13 +189,6 @@ function Features() {
               <br />
               ストレスが少なくなった分、自己成長に意欲的になれる環境だと思います！
             </div>
-            <Image
-              className={styles.centerImage}
-              src={"/media/kahointerview04.jpg"}
-              alt={"kahoさんインタビュー画像04"}
-              width={1080}
-              height={800}
-            />
           </>
           <>
             <h2 className={styles.featuresTitle}>今後の目標</h2>
@@ -204,6 +203,13 @@ function Features() {
             </div>
           </>
           <>
+            <Image
+              className={styles.centerImage}
+              src={"/media/interviewfujiwara06.jpg"}
+              alt={"kahoさんインタビュー画像06"}
+              width={1080}
+              height={800}
+            />
             <h2 className={styles.featuresTitle}>
               フリーランス美容師に興味のある方へ
             </h2>

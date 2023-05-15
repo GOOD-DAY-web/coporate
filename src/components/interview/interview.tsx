@@ -21,9 +21,15 @@ const Customer: React.FC = () => {
                   width={240}
                   height={240}
                 />
-                <p className={styles.featuresMainTitle}>【入会半年】藤原朋也</p>
+                <p className={styles.featuresMainTitle}>
+                  【入会半年】
+                  <br />
+                  藤原朋也
+                </p>
                 <p className={styles.featuresMainSubTitle}>
-                  大阪から岡山へ。お客様ゼロからの挑戦
+                  大阪から岡山へ
+                  <br />
+                  お客様ゼロからの挑戦。
                 </p>
               </Link>
               <div className={styles.next}>
@@ -43,7 +49,11 @@ const Customer: React.FC = () => {
                   width={240}
                   height={240}
                 />
-                <p className={styles.featuresMainTitle}>【入会1ヶ月】kaho</p>
+                <p className={styles.featuresMainTitle}>
+                  【入会1ヶ月】
+                  <br />
+                  kaho
+                </p>
                 <p className={styles.featuresMainSubTitle}>
                   入会1ヶ月で手取り2倍に。
                 </p>
@@ -67,10 +77,41 @@ const Customer: React.FC = () => {
                 />
                 <p className={styles.featuresMainTitle}>
                   【入会3年】
-                  <br>かたやま はるか</br>
+                  <br />
+                  かたやまはるか
                 </p>
                 <p className={styles.featuresMainSubTitle}>
-                  お客様ゼロからのスタート。ダブルワークでより自分らしく。
+                  お客様ゼロからのスタート
+                  <br />
+                  ダブルワークでより自分らしく。
+                </p>
+              </Link>
+              <div className={styles.next}>
+                <Link href={"/interviewkatayama"} passHref>
+                  <div className={styles.nextInner}>
+                    <span className={styles.nextInnerIn}>記事を読む</span>
+                  </div>
+                </Link>
+              </div>
+            </li>
+          </ul>
+          <ul className={styles.flex}>
+            <li className={styles.featuresItem}>
+              <Link href={"/interviewfujiwara"} passHref>
+                <Image
+                  className={styles.featuresImage}
+                  src={"/media/interviewfujiwara00.jpg"}
+                  alt={"fujiwaratopイメージ"}
+                  width={240}
+                  height={240}
+                />
+                <p className={styles.featuresMainTitle}>
+                  【入会2年】
+                  <br />
+                  藤原由香
+                </p>
+                <p className={styles.featuresMainSubTitle}>
+                  主婦とフリーランス美容師の両立。
                 </p>
               </Link>
               <div className={styles.next}>
@@ -82,19 +123,23 @@ const Customer: React.FC = () => {
               </div>
             </li>
             <li className={styles.featuresItem}>
-              <Link href={"/interviewfujiwara"} passHref>
+              <Link href={"/interviewmaho"} passHref>
                 <Image
                   className={styles.featuresImage}
-                  src={"/media/katayamainterview00.jpg"}
-                  alt={"katayamatopイメージ"}
+                  src={"/media/interviewmaho00.jpg"}
+                  alt={"mahotopイメージ"}
                   width={240}
                   height={240}
                 />
                 <p className={styles.featuresMainTitle}>
-                  【入会2年】藤原由香
+                  【入会2年】
+                  <br />
+                  土田真帆
                 </p>
                 <p className={styles.featuresMainSubTitle}>
-                  お客様ゼロからのスタート。ダブルワークでより自分らしく。
+                  業務委託ではなく
+                  <br />
+                  シェアサロンを選んだ理由。
                 </p>
               </Link>
               <div className={styles.next}>
