@@ -18,8 +18,10 @@ function Features() {
               src={"/media/kahointerview00.jpg"}
               alt={"kahoさんインタビュー画像00"}
               width={1080}
-              height={800} />
-            <h2 className={styles.featuresTitle}>はじめに</h2>
+              height={800} 
+            />
+            <h2 className=
+            {styles.featuresTitle}>はじめに</h2>
             <div className={styles.featuresDescription}>
               今回ご紹介する美容師は、【GOOD-DAY入会2年】(*2023年4月現在)の藤原由香さん。
               <br />
@@ -71,7 +73,9 @@ function Features() {
                 src={"/media/kahointerview01.jpg"}
                 alt={"kahoさんインタビュー画像02"}
                 width={1080}
-                height={800} />
+                height={800}
+
+              />
             </div>
           </>
           <>
@@ -118,8 +122,10 @@ function Features() {
               src={"/media/kahointerview02.jpg"}
               alt={"kahoさんインタビュー画像03"}
               width={1080}
-              height={800} />
+              height={800}
+            />
           </>
+
           <>
             <h2 className={styles.featuresTitle}>GOOD-DAYなら家庭と仕事の両立ができる</h2>
             <div className={styles.featuresDescription}>
@@ -151,7 +157,8 @@ function Features() {
               src={"/media/kahointerview03.jpg"}
               alt={"kahoさんインタビュー画像03"}
               width={1080}
-              height={800} />
+              height={800}
+            />
           </>
           <>
             <h2 className={styles.featuresTitle}>GOOD-DAYに来て良かったこと</h2>
@@ -181,7 +188,8 @@ function Features() {
               src={"/media/kahointerview04.jpg"}
               alt={"kahoさんインタビュー画像04"}
               width={1080}
-              height={800} />
+              height={800}
+            />
           </>
           <>
             <h2 className={styles.featuresTitle}>今後の目標</h2>
