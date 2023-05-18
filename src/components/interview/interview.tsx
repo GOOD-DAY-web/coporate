@@ -115,7 +115,7 @@ const Customer: React.FC = () => {
                 </p>
               </Link>
               <div className={styles.next}>
-                <Link href={"/interviewkatayama"} passHref>
+                <Link href={"/interviewfujiwara"} passHref>
                   <div className={styles.nextInner}>
                     <span className={styles.nextInnerIn}>記事を読む</span>
                   </div>
@@ -143,7 +143,35 @@ const Customer: React.FC = () => {
                 </p>
               </Link>
               <div className={styles.next}>
-                <Link href={"/interviewkatayama"} passHref>
+                <Link href={"/interviewmaho"} passHref>
+                  <div className={styles.nextInner}>
+                    <span className={styles.nextInnerIn}>記事を読む</span>
+                  </div>
+                </Link>
+              </div>
+            </li>
+            <li className={styles.featuresItem}>
+              <Link href={"/interviewmai"} passHref>
+                <Image
+                  className={styles.featuresImage}
+                  src={"/media/interviewmaho00.jpg"}
+                  alt={"mahotopイメージ"}
+                  width={240}
+                  height={240}
+                />
+                <p className={styles.featuresMainTitle}>
+                  【入会1年半】
+                  <br />
+                  今石麻依
+                </p>
+                <p className={styles.featuresMainSubTitle}>
+                  独立のためのステップアップとして
+                  <br />
+                  シェアサロンを選んだ理由。
+                </p>
+              </Link>
+              <div className={styles.next}>
+                <Link href={"/interviewmai"} passHref>
                   <div className={styles.nextInner}>
                     <span className={styles.nextInnerIn}>記事を読む</span>
                   </div>
