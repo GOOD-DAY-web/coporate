@@ -8,7 +8,7 @@ function Features() {
     <>
       <div className={styles.features}>
         <h2 className={styles.featuresMainTitle}>
-          土田真帆さんインタビュー記事
+          今石麻依さんインタビュー記事
         </h2>
         <p className={styles.featuresMainSubTitle}>
           フリーランスになって2年、想うこと。

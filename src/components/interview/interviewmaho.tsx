@@ -24,7 +24,7 @@ function Features() {
             />
             <h2 className={styles.featuresTitle}>はじめに</h2>
             <div className={styles.featuresDescription}>
-              今回ご紹介する美容師は、【GOOD-DAY入会2年】(*2023年4月現在)の藤原由香さん。
+              今回ご紹介する美容師は、【GOOD-DAY入会2年】(*2023年4月現在)の土田真帆さん。
               <br />
               <br />
               なぜフリーランスという働き方を選んだのか、その思いに迫ります。
