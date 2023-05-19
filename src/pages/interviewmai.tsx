@@ -15,7 +15,7 @@ const Service: React.FC = () => {
         keyword={
           "岡山県,倉敷市,岡山市,倉敷市,美容室,シェアサロン,GOOD-DAY,グッディ,独立,美容師,業務委託,働き方,フリーランス,インタビュー"
         }
-        image={"/media/interviewmaho00.jpg"}
+        image={"/media/iinterviewmai00.jpg"}
         url={""}
       />
       <Interviewmai />

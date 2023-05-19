@@ -154,8 +154,8 @@ const Customer: React.FC = () => {
               <Link href={"/interviewmai"} passHref>
                 <Image
                   className={styles.featuresImage}
-                  src={"/media/interviewmaho00.jpg"}
-                  alt={"mahotopイメージ"}
+                  src={"/media/interviewmai00.jpg"}
+                  alt={"maitopイメージ"}
                   width={240}
                   height={240}
                 />
