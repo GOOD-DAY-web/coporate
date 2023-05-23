@@ -95,7 +95,7 @@ const Customer: React.FC = () => {
               </div>
             </li>
           </ul>
-          {/* <ul className={styles.flex}>
+          <ul className={styles.flex}>
             <li className={styles.featuresItem}>
               <Link href={"/interviewfujiwara"} passHref>
                 <Image
@@ -177,8 +177,8 @@ const Customer: React.FC = () => {
                   </div>
                 </Link>
               </div>
-            </li> */}
-          {/* </ul> */}
+            </li>
+          </ul>
         </>
       </div>
     </>
