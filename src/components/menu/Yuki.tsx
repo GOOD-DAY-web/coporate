@@ -384,13 +384,13 @@ export default function Yuki() {
         <tbody>
           <tr className={styles.menuTablLast}>
             <th className={styles.menuTableTh}>
-              カット + フルカラー＋イヤリングカラー
+              カット + オーガニックフルカラー ＋ イヤリングカラー
             </th>
             <td className={styles.menuTableTd}>
               耳周りに差し色を入れて可愛くオシャレに♪※イヤリングカラーはブリーチ→オンカラーの2回分料金込みです。
             </td>
-            <td className={styles.menuTableTd}>¥17,050</td>
-            <td className={styles.menuTableTd}>210分</td>
+            <td className={styles.menuTableTd}>¥18,150</td>
+            <td className={styles.menuTableTd}>180分</td>
           </tr>
         </tbody>
       </table>
