@@ -6,7 +6,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const TopCarousel = () => {
   const images: string[] = [
-    "/media/Shimonakano_sliderimg_00.jpg",
+    "/media/Shimonakano_sliderimg_01.jpg",
     "/media/Noda_sliderimg_00.jpg",
     "/media/Noda_sliderimg_01.jpg",
     "/media/main_slider_00.jpg",

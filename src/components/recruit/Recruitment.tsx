@@ -4,6 +4,7 @@ import Image from "next/image";
 import FAQ from "../../components/recruit/FAQ";
 import NodaGuidelines from "./NodaGuidelines";
 import ShimonakanoGuidelines from "./ShimonakanoGuidelines";
+import SasaokiGuidelines from "./SasaokiGuidelines";
 import MakeFriends from "../../components/home/MakeFriends";
 import styles from "../../styles/Recruit/Recruit.module.scss";
 import ApplicationFlow from "../Application/ApplicationFlow";
@@ -35,6 +36,7 @@ export default function Recruitment() {
           <h2 id="RecruitmentSummary" className={styles.subTitle}>
             {RecruitmentItems.subTitle}
           </h2>
+          <SasaokiGuidelines />
           <ShimonakanoGuidelines />
           <NodaGuidelines />
           <ApplicationFlow />
