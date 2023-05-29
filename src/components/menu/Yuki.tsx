@@ -304,8 +304,12 @@ export default function Yuki() {
         </tbody>
         <tbody>
           <tr className={styles.menuTablLast}>
-            <th className={styles.menuTableTh}>シャンプー・ブロー(カットなし)</th>
-            <td className={styles.menuTableTd}>カットをしない場合の選択メニュー</td>
+            <th className={styles.menuTableTh}>
+              シャンプー・ブロー(カットなし)
+            </th>
+            <td className={styles.menuTableTd}>
+              カットをしない場合の選択メニュー
+            </td>
             <td className={styles.menuTableTd}>¥1,980</td>
             <td className={styles.menuTableTd}>30分</td>
           </tr>

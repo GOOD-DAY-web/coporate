@@ -45,9 +45,7 @@ export default function SasaokiGuidelines() {
           <tbody>
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>勤務先・アクセス</th>
-              <td className={styles.menuTableTd}>
-                samplesamplesample
-              </td>
+              <td className={styles.menuTableTd}>samplesamplesample</td>
             </tr>
           </tbody>
           <tbody>
