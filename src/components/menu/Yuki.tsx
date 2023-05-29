@@ -46,28 +46,18 @@ export default function Yuki() {
       <table className={styles.menuArea}>
         <tbody>
           <tr className={styles.menuTableTr}>
-            <th className={styles.menuTableTh}>リタッチカラー</th>
+            <th className={styles.menuTableTh}>オーガニックリタッチカラー</th>
             <td className={styles.menuTableTd}>根元のみのカラーです</td>
-            <td className={styles.menuTableTd}>¥5,500</td>
+            <td className={styles.menuTableTd}>¥6,600</td>
             <td className={styles.menuTableTd}>120分</td>
           </tr>
         </tbody>
         <tbody>
           <tr className={styles.menuTableTr}>
-            <th className={styles.menuTableTh}>フルカラー</th>
+            <th className={styles.menuTableTh}>オーガニックフルカラー</th>
             <td className={styles.menuTableTd}>全体のカラーです</td>
-            <td className={styles.menuTableTd}>¥7,700</td>
+            <td className={styles.menuTableTd}>¥8,800</td>
             <td className={styles.menuTableTd}>150分</td>
-          </tr>
-        </tbody>
-        <tbody>
-          <tr className={styles.menuTableTr}>
-            <th className={styles.menuTableTh}>オーガニックカラー</th>
-            <td className={styles.menuTableTd}>
-              天然由来成分の肌•髪に優しいカラーです
-            </td>
-            <td className={styles.menuTableTd}>+¥1,100</td>
-            <td className={styles.menuTableTd}>0分</td>
           </tr>
         </tbody>
         <tbody>
@@ -306,10 +296,18 @@ export default function Yuki() {
         </tbody> */}
         <tbody>
           <tr className={styles.menuTablLast}>
-            <th className={styles.menuTableTh}>シャンプー・ブロー</th>
+            <th className={styles.menuTableTh}>シャンプー・ブローのみ</th>
             <td className={styles.menuTableTd}>(詳細)</td>
             <td className={styles.menuTableTd}>¥3,300</td>
             <td className={styles.menuTableTd}>60分</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr className={styles.menuTablLast}>
+            <th className={styles.menuTableTh}>シャンプー・ブロー(カットなし)</th>
+            <td className={styles.menuTableTd}>カットをしない場合の選択メニュー</td>
+            <td className={styles.menuTableTd}>¥1,980</td>
+            <td className={styles.menuTableTd}>30分</td>
           </tr>
         </tbody>
         <tbody>
