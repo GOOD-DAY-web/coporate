@@ -14,12 +14,24 @@
   font-size: 32px;
   font-weight: bold;
   padding: 1rem;
+  margin-top: 5rem;
   text-align: center;
+  @media screen and (max-width: 960px) {
+    font-size: 24px;
+  }
+}
+.pTitle {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  @media screen and (max-width: 960px) {
+    font-size: 24px;
+  }
 }
 .subTitle {
   font-size: 24px;
   font-weight: bold;
-  padding: 1rem;
+  margin-top: 5rem;
   text-align: center;
 }
 .mainTitleArea {

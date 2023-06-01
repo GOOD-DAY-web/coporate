@@ -80,6 +80,7 @@ export default function Home({ articles, totalCount }: any) {
           maxPageNumber={Math.ceil(totalCount / 5)}
         />
         <Staffs />
+        <h2 className={styles.articleMainTitle}>店舗情報</h2>
         <ShimonakanoShopInfo />
         <NodaShopInfo />
         <NakashimaShopInfo />

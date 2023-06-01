@@ -45,7 +45,7 @@ export default function SasaokiGuidelines() {
           <tbody>
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>勤務先・アクセス</th>
-              <td className={styles.menuTableTd}>samplesamplesample</td>
+              <td className={styles.menuTableTd}>GOOD-DAY 倉敷笹沖店</td>
             </tr>
           </tbody>
           <tbody>
@@ -102,10 +102,7 @@ export default function SasaokiGuidelines() {
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>会費</th>
               <td className={styles.menuTableTd}>
-                入会金¥55,000(税込)/(初回のみ)
-                <br />
-                <br />
-                月額会費¥55,000(税込)
+                coming soon
                 <br />
               </td>
             </tr>
@@ -155,7 +152,9 @@ export default function SasaokiGuidelines() {
                 <span className={styles.textBold}>サロン見学について</span>
                 <br />
                 <br />
-                サロン見学をご希望のスタイリストさんはGOOD-DAY公式LINEよりご連絡ください。
+                <span className={styles.fontColorRed}>
+                  ※笹沖店は現在建築中のため、施工完了までは他店での見学になります
+                </span>
                 <br />
                 <br />
                 ご希望のサロン見学の日程を第一希望から第三希望までご検討ください。

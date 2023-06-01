@@ -6,6 +6,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 const TopCarousel = () => {
   const images: string[] = [
+    "/media/sasaoki_slider.jpg",
     "/media/Shimonakano_sliderimg_01.jpg",
     "/media/Noda_sliderimg_00.jpg",
     "/media/Noda_sliderimg_01.jpg",
@@ -27,7 +28,7 @@ const TopCarousel = () => {
           <Image
             className={styles.carousel}
             src={images[0]}
-            alt={"GOOD-DAY岡山下中野店スタイリスト募集中"}
+            alt={"GOOD-DAY倉敷笹沖店スタイリスト募集中"}
             width={2000}
             height={1250}
           />
@@ -39,7 +40,7 @@ const TopCarousel = () => {
           <Image
             className={styles.carousel}
             src={images[1]}
-            alt={"GOOD-DAY岡山野田店スタイリスト募集中"}
+            alt={"GOOD-DAY岡山下中野店スタイリスト募集中"}
             width={2000}
             height={1250}
           />
@@ -51,16 +52,19 @@ const TopCarousel = () => {
           <Image
             className={styles.carousel}
             src={images[2]}
-            alt={"GOOD-DAY岡山野田店"}
+            alt={"GOOD-DAY岡山野田店スタイリスト募集中"}
             width={2000}
             height={1250}
           />
+          <Link href={`/recruit`} passHref>
+            <p className={styles.carouselInfo}>詳しく見る</p>
+          </Link>
         </div>
         <div>
           <Image
             className={styles.carousel}
             src={images[3]}
-            alt={"GOOD-DAY倉敷中島店"}
+            alt={"GOOD-DAY岡山野田店"}
             width={2000}
             height={1250}
           />
@@ -78,6 +82,15 @@ const TopCarousel = () => {
           <Image
             className={styles.carousel}
             src={images[5]}
+            alt={"GOOD-DAY倉敷中島店"}
+            width={2000}
+            height={1250}
+          />
+        </div>
+        <div>
+          <Image
+            className={styles.carousel}
+            src={images[6]}
             alt={"GOOD-DAY倉敷中島店"}
             width={2000}
             height={1250}

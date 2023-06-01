@@ -14,7 +14,8 @@ export default function Recruitment() {
     title: "Recruit",
     src: "/media/Noda_sliderimg_03.jpg",
     alt: "Recruitメインイメージ",
-    copy: "GOOD-DAYなら手取り倍以上、労働時間は今までの半分に…。",
+    copy: "GOOD-DAYなら収入アップ",
+    ptitle: "理想の働き方を実現",
     subTitle: "募集要項",
   };
   return (
@@ -31,6 +32,7 @@ export default function Recruitment() {
         </div>
         <div className={styles.mainTitleArea}>
           <h2 className={styles.mainTitle}>{RecruitmentItems.copy}</h2>
+          <h2 className={styles.pTitle}>{RecruitmentItems.ptitle}</h2>
         </div>
         <>
           <h2 id="RecruitmentSummary" className={styles.subTitle}>
