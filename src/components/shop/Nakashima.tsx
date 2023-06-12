@@ -7,13 +7,13 @@ export default function NakashimaShopInfo() {
   return (
     <>
       <div id="Nakashima" className={styles.main}>
-      {/* <Image
-          className={styles.shopImage}
-          src={"/media/nakashima_gaikan.jpg"}
-          alt={"こだわり1"}
-          width={240}
-          height={240}
-        /> */}
+        {/* <Image
+            className={styles.shopImage}
+            src={"/media/nakashima_gaikan.jpg"}
+            alt={"こだわり1"}
+            width={240}
+            height={240}
+          /> */}
         <h2 className={styles.menuTitle}>倉敷中島店</h2>
         <table className={styles.menuArea}>
           <tbody>
