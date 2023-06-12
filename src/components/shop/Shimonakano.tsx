@@ -7,6 +7,13 @@ export default function ShimonakanoShopInfo() {
   return (
     <>
       <div id="Nakashima" className={styles.main}>
+      {/* <Image
+                className={styles.shopImage}
+                src={"/media/shimonakano.jpg"}
+                alt={"こだわり1"}
+                width={240}
+                height={240}
+              /> */}
         <h2 className={styles.menuTitle}>岡山下中野店</h2>
         <table className={styles.menuArea}>
           <tbody>
@@ -96,7 +103,7 @@ export default function ShimonakanoShopInfo() {
           <tbody>
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>駐車場</th>
-              <td className={styles.menuTableTd}>6台(縦列駐車を含む)</td>
+              <td className={styles.menuTableTd}>9台（縦列駐車を含む）</td>
             </tr>
           </tbody>
           <tbody>

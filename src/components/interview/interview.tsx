@@ -149,8 +149,8 @@ const Customer: React.FC = () => {
                   </div>
                 </Link>
               </div>
-            </li>
-            <li className={styles.featuresItem}>
+            </li> */}
+            {/* <li className={styles.featuresItem}>
               <Link href={"/interviewmai"} passHref>
                 <Image
                   className={styles.featuresImage}

@@ -7,6 +7,13 @@ export default function NodaShopInfo() {
   return (
     <>
       <div id="Nakashima" className={styles.main}>
+        {/* <Image
+          className={styles.shopImage}
+          src={"/media/noda.jpg"}
+          alt={"こだわり1"}
+          width={240}
+          height={240}
+        /> */}
         <h2 className={styles.menuTitle}>岡山野田店</h2>
         <table className={styles.menuArea}>
           <tbody>
