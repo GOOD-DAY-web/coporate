@@ -24,6 +24,7 @@ import NamiSNS from "../../components/sns/NamiSNS";
 import TomoyaSNS from "../../components/sns/TomoyaSNS";
 import KahoSNS from "../../components/sns/KahoSNS";
 import YukiSNS from "../../components/sns/YukiSNS";
+import EriSNS from "../../components/sns/EriSNS";
 
 // 各スタイリストのMenuを読み込む(暫定適用)
 import Katayama from "../../components/menu/Katayama";
@@ -40,6 +41,7 @@ import Nami from "../../components/menu/Nami";
 import Tomoya from "../../components/menu/Tomoya";
 import Kaho from "../../components/menu/Kaho";
 import Yuki from "../../components/menu/Yuki";
+import Eri from "../../components/menu/Eri";
 
 // 各スタイリストのPaginationを読み込む(暫定適用)
 import KatayamaPagination from "../../components/pagination/KatayamaPagination";
@@ -56,6 +58,7 @@ import NamiPagination from "../../components/pagination/NamiPagination";
 import TomoyaPagination from "../../components/pagination/TomoyaPagination";
 import KahoPagination from "../../components/pagination/KahoPagination";
 import YukiPagination from "../../components/pagination/YukiPagination";
+import EriPagination from "../../components/pagination/EriPagination";
 import { StylistPagination } from "../../components/pagination/StylistPagination";
 
 type Props = {
@@ -114,6 +117,7 @@ export default function Stylist({ stylist, totalCount }: Props) {
                       {id == 12 && <TomoyaSNS />}
                       {id == 13 && <KahoSNS />}
                       {id == 14 && <YukiSNS />}
+                      {id == 15 && <EriSNS />}
                     </div>
                   );
                 })}
@@ -208,6 +212,7 @@ export default function Stylist({ stylist, totalCount }: Props) {
                 {id == 12 && <Tomoya />}
                 {id == 13 && <Kaho />}
                 {id == 14 && <Yuki />}
+                {id == 15 && <Eri />}
               </div>
             );
           })}
@@ -245,6 +250,7 @@ export default function Stylist({ stylist, totalCount }: Props) {
                 {id == 12 && <TomoyaPagination />}
                 {id == 13 && <KahoPagination />}
                 {id == 14 && <YukiPagination />}
+                {id == 15 && <EriPagination />}
               </div>
             );
           })}
