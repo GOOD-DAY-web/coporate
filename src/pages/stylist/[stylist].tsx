@@ -117,7 +117,7 @@ export default function Stylist({ stylist, totalCount }: Props) {
                       {id == 12 && <TomoyaSNS />}
                       {id == 13 && <KahoSNS />}
                       {id == 14 && <YukiSNS />}
-                      {id == 15 && <EriSNS />}
+                      {/* {id == 15 && <EriSNS />} */}
                     </div>
                   );
                 })}
@@ -212,7 +212,7 @@ export default function Stylist({ stylist, totalCount }: Props) {
                 {id == 12 && <Tomoya />}
                 {id == 13 && <Kaho />}
                 {id == 14 && <Yuki />}
-                {id == 15 && <Eri />}
+                {/* {id == 15 && <Eri />} */}
               </div>
             );
           })}
@@ -250,7 +250,7 @@ export default function Stylist({ stylist, totalCount }: Props) {
                 {id == 12 && <TomoyaPagination />}
                 {id == 13 && <KahoPagination />}
                 {id == 14 && <YukiPagination />}
-                {id == 15 && <EriPagination />}
+                {/* {id == 15 && <EriPagination />} */}
               </div>
             );
           })}
