@@ -44,20 +44,22 @@ export default function Stylist({ stylists }: Props) {
                     height={1000}
                   />
                 </Link>
-                <div className={styles.stylistSubTitle}>
-                  <Link href={`/stylist/${stylist.id}`} passHref>
-                    {stylist.title}
-                  </Link>
-                </div>
-                <div className={styles.stylistTag}>
-                  {stylist.tag && <span className="">#{stylist.tag}</span>}
-                </div>
-                <div className={styles.next}>
-                  <Link href={stylist.url} passHref>
-                    <div className={styles.nextInner}>
-                      <span className={styles.nextInnerIn}>Web予約する</span>
-                    </div>
-                  </Link>
+                <div className={styles.stylistArea}>
+                  <div className={styles.stylistSubTitle}>
+                    <Link href={`/stylist/${stylist.id}`} passHref>
+                      {stylist.title}
+                    </Link>
+                  </div>
+                  <div className={styles.stylistTag}>
+                    {stylist.tag && <span className="">#{stylist.tag}</span>}
+                  </div>
+                  <div className={styles.next}>
+                    <Link href={stylist.url} passHref>
+                      <div className={styles.nextInner}>
+                        <span className={styles.nextInnerIn}>Web予約する</span>
+                      </div>
+                    </Link>
+                  </div>
                 </div>
               </div>
             ))}

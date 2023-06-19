@@ -22,9 +22,7 @@ export default function Eri() {
         <tbody>
           <tr>
             <th className={styles.menuTableTh}>中高生カット</th>
-            <td className={styles.menuTableTd}>
-              (高校生以下対象。シャンプー・ブロー込み)
-            </td>
+            <td className={styles.menuTableTd}></td>
             <td className={styles.menuTableTd}>¥3,850</td>
             <td className={styles.menuTableTd}>60分</td>
           </tr>
@@ -148,9 +146,9 @@ export default function Eri() {
           <tr className={styles.menuTablLast}>
             <th className={styles.menuTableTh}>縮毛矯正</th>
             <td className={styles.menuTableTd}>
-              長さによりプラス料金あり・シャンプーブロー別
+              電話予約orお問い合わせください
             </td>
-            <td className={styles.menuTableTd}>¥15,400</td>
+            <td className={styles.menuTableTd}>¥15,400〜</td>
             <td className={styles.menuTableTd}>150分</td>
           </tr>
         </tbody>
@@ -160,7 +158,7 @@ export default function Eri() {
             <td className={styles.menuTableTd}>
               前髪だけ、顔周りのみなどの部分ストレート・シャンプーブロー別
             </td>
-            <td className={styles.menuTableTd}>¥4,400</td>
+            <td className={styles.menuTableTd}>¥4,400〜</td>
             <td className={styles.menuTableTd}>60分</td>
           </tr>
         </tbody>
@@ -180,7 +178,7 @@ export default function Eri() {
               2Stepのコーティングトリートメント・シャンプーブロー別
             </td>
             <td className={styles.menuTableTd}>¥1,650</td>
-            <td className={styles.menuTableTd}>15分</td>
+            <td className={styles.menuTableTd}>10分</td>
           </tr>
         </tbody>
       </table>
@@ -241,7 +239,7 @@ export default function Eri() {
               クセを整えて扱いやすい髪質に・シャンプーブロー別
             </td>
             <td className={styles.menuTableTd}>¥7,700</td>
-            <td className={styles.menuTableTd}>100分</td>
+            <td className={styles.menuTableTd}>90分</td>
           </tr>
         </tbody>
         <tbody>

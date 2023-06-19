@@ -11,9 +11,9 @@ export default function Maho() {
       <table className={styles.menuArea}>
         <tbody>
           <tr className={styles.menuTableTr}>
-            <th className={styles.menuTableTh}>カット</th>
+            <th className={styles.menuTableTh}>レディースカット</th>
             <td className={styles.menuTableTd}>L プラス ¥1,100</td>
-            <td className={styles.menuTableTd}>¥4,400</td>
+            <td className={styles.menuTableTd}>¥4,900</td>
             <td className={styles.menuTableTd}>90分</td>
           </tr>
         </tbody>
@@ -42,7 +42,7 @@ export default function Maho() {
               シャンプーなし・小学6年生以下のお子さま対象
             </td>
             <td className={styles.menuTableTd}>¥2,700</td>
-            <td className={styles.menuTableTd}>45分</td>
+            <td className={styles.menuTableTd}>60分</td>
           </tr>
         </tbody>
         <tbody>
@@ -91,24 +91,24 @@ export default function Maho() {
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>リタッチ</th>
             <td className={styles.menuTableTd}>根元染め3センチ以内</td>
-            <td className={styles.menuTableTd}>¥4,400</td>
-            <td className={styles.menuTableTd}>60分〜90分</td>
+            <td className={styles.menuTableTd}>¥4,900</td>
+            <td className={styles.menuTableTd}>90分</td>
           </tr>
         </tbody>
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>リタッチ</th>
-            <td className={styles.menuTableTd}>当店にてカラーから45日以内</td>
-            <td className={styles.menuTableTd}>¥3,800</td>
-            <td className={styles.menuTableTd}>60分〜90分</td>
+            <td className={styles.menuTableTd}>当店にてカラーから35日以内</td>
+            <td className={styles.menuTableTd}>¥3,850</td>
+            <td className={styles.menuTableTd}>90分</td>
           </tr>
         </tbody>
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>全体カラー</th>
             <td className={styles.menuTableTd}>ロング料金あり</td>
-            <td className={styles.menuTableTd}>¥5,500〜</td>
-            <td className={styles.menuTableTd}>90分</td>
+            <td className={styles.menuTableTd}>¥6,100</td>
+            <td className={styles.menuTableTd}>120分</td>
           </tr>
         </tbody>
         <tbody>
@@ -117,16 +117,16 @@ export default function Maho() {
             <td className={styles.menuTableTd}>
               当店にてカラー施術より60日以内
             </td>
-            <td className={styles.menuTableTd}>¥4,900〜</td>
-            <td className={styles.menuTableTd}>90分</td>
+            <td className={styles.menuTableTd}>¥5,500</td>
+            <td className={styles.menuTableTd}>120分</td>
           </tr>
         </tbody>
         <tbody>
           <tr className={styles.menuTableTr}>
-            <th className={styles.menuTableTh}>ダブルカラー</th>
+            <th className={styles.menuTableTh}>ブリーチ</th>
             <td className={styles.menuTableTd}>ワンブリーチまでのカラー</td>
-            <td className={styles.menuTableTd}>¥6,600〜</td>
-            <td className={styles.menuTableTd}>60分〜90分</td>
+            <td className={styles.menuTableTd}>¥6,600</td>
+            <td className={styles.menuTableTd}>90分</td>
           </tr>
         </tbody>
         <tbody>
@@ -147,7 +147,7 @@ export default function Maho() {
             <td className={styles.menuTableTd}>
               ※オンカラーやシャンプー、ブローは含まれません
             </td>
-            <td className={styles.menuTableTd}>¥5,500〜</td>
+            <td className={styles.menuTableTd}>¥5,500</td>
             <td className={styles.menuTableTd}>60分</td>
           </tr>
         </tbody>
@@ -159,7 +159,7 @@ export default function Maho() {
             <td className={styles.menuTableTd}>
               ※他カラーメニューにプラスの場合の料金です
             </td>
-            <td className={styles.menuTableTd}>¥4,400〜</td>
+            <td className={styles.menuTableTd}>¥4,400</td>
             <td className={styles.menuTableTd}>60分</td>
           </tr>
         </tbody>
@@ -185,18 +185,6 @@ export default function Maho() {
             <td className={styles.menuTableTd}>60分</td>
           </tr>
         </tbody>
-        <tbody>
-          <tr className={styles.menuTablLast}>
-            <th className={styles.menuTableTh}>
-              カラーメニュー用シャンプー、ブロー
-            </th>
-            <td className={styles.menuTableTd}>
-              カラー専用のシャンプーブローです
-            </td>
-            <td className={styles.menuTableTd}>¥1,500</td>
-            <td className={styles.menuTableTd}>&nbsp;</td>
-          </tr>
-        </tbody>
       </table>
 
       <h2 className={styles.menuTitle}>パーマ</h2>
@@ -211,7 +199,7 @@ export default function Maho() {
             <td className={styles.menuTableTd}>
               カット、シャンプーブロー込み、ロング料金あり
             </td>
-            <td className={styles.menuTableTd}>¥9,900</td>
+            <td className={styles.menuTableTd}>¥11,000</td>
             <td className={styles.menuTableTd}>150分</td>
           </tr>
         </tbody>
@@ -221,7 +209,7 @@ export default function Maho() {
             <td className={styles.menuTableTd}>
               カット、シャンプーブロー込み、ロング料金あり
             </td>
-            <td className={styles.menuTableTd}>¥9,900</td>
+            <td className={styles.menuTableTd}>¥11,000</td>
             <td className={styles.menuTableTd}>150分</td>
           </tr>
         </tbody>
@@ -240,7 +228,7 @@ export default function Maho() {
             <th className={styles.menuTableTh}>特殊パーマ</th>
             <td className={styles.menuTableTd}>ツイスト、スパイラルなど</td>
             <td className={styles.menuTableTd}>¥12,100</td>
-            <td className={styles.menuTableTd}>45分</td>
+            <td className={styles.menuTableTd}>150分</td>
           </tr>
         </tbody>
       </table>
@@ -252,40 +240,40 @@ export default function Maho() {
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>S</th>
             <td className={styles.menuTableTd}>&nbsp;</td>
-            <td className={styles.menuTableTd}>¥13,200</td>
-            <td className={styles.menuTableTd}>180分</td>
+            <td className={styles.menuTableTd}>¥13,750</td>
+            <td className={styles.menuTableTd}>210分</td>
           </tr>
         </tbody>
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>M</th>
             <td className={styles.menuTableTd}>&nbsp;</td>
-            <td className={styles.menuTableTd}>¥14,200</td>
-            <td className={styles.menuTableTd}>180分</td>
+            <td className={styles.menuTableTd}>¥14,850</td>
+            <td className={styles.menuTableTd}>210分</td>
           </tr>
         </tbody>
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>L</th>
             <td className={styles.menuTableTd}>&nbsp;</td>
-            <td className={styles.menuTableTd}>¥16,500</td>
-            <td className={styles.menuTableTd}>180分</td>
+            <td className={styles.menuTableTd}>¥17,050</td>
+            <td className={styles.menuTableTd}>210分</td>
           </tr>
         </tbody>
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>部分</th>
             <td className={styles.menuTableTd}>&nbsp;</td>
-            <td className={styles.menuTableTd}>¥5,500</td>
-            <td className={styles.menuTableTd}>90分〜</td>
+            <td className={styles.menuTableTd}>¥7,700〜</td>
+            <td className={styles.menuTableTd}>120分</td>
           </tr>
         </tbody>
         <tbody>
           <tr className={styles.menuTablLast}>
             <th className={styles.menuTableTh}>前髪のみ</th>
             <td className={styles.menuTableTd}>&nbsp;</td>
-            <td className={styles.menuTableTd}>¥3,300</td>
-            <td className={styles.menuTableTd}>90分</td>
+            <td className={styles.menuTableTd}>¥4,500</td>
+            <td className={styles.menuTableTd}>120分</td>
           </tr>
         </tbody>
       </table>
@@ -297,7 +285,7 @@ export default function Maho() {
             <th className={styles.menuTableTh}>シャンプー・ブロー</th>
             <td className={styles.menuTableTd}>&nbsp;</td>
             <td className={styles.menuTableTd}>¥2,500</td>
-            <td className={styles.menuTableTd}>30分</td>
+            <td className={styles.menuTableTd}>60分</td>
           </tr>
         </tbody>
       </table>
@@ -345,7 +333,7 @@ export default function Maho() {
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>セット</th>
             <td className={styles.menuTableTd}>&nbsp;</td>
-            <td className={styles.menuTableTd}>¥4,400</td>
+            <td className={styles.menuTableTd}>¥4,900</td>
             <td className={styles.menuTableTd}>45分</td>
           </tr>
         </tbody>
@@ -374,7 +362,7 @@ export default function Maho() {
             <th className={styles.menuTableTh}>ポイントメイク</th>
             <td className={styles.menuTableTd}>&nbsp;</td>
             <td className={styles.menuTableTd}>¥2,200</td>
-            <td className={styles.menuTableTd}>25分</td>
+            <td className={styles.menuTableTd}>30分</td>
           </tr>
         </tbody>
       </table>
@@ -413,7 +401,7 @@ export default function Maho() {
             <th className={styles.menuTableTh}>袴</th>
             <td className={styles.menuTableTd}>&nbsp;</td>
             <td className={styles.menuTableTd}>¥8,800</td>
-            <td className={styles.menuTableTd}>45分</td>
+            <td className={styles.menuTableTd}>60分</td>
           </tr>
         </tbody>
         <tbody>
@@ -435,7 +423,7 @@ export default function Maho() {
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>カット + 炭酸スパ</th>
             <td className={styles.menuTableTd}>&nbsp;</td>
-            <td className={styles.menuTableTd}>¥6,600</td>
+            <td className={styles.menuTableTd}>¥7,100</td>
             <td className={styles.menuTableTd}>90分</td>
           </tr>
         </tbody>
@@ -443,7 +431,7 @@ export default function Maho() {
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>カット + トリートメント</th>
             <td className={styles.menuTableTd}>&nbsp;</td>
-            <td className={styles.menuTableTd}>¥6,600〜</td>
+            <td className={styles.menuTableTd}>¥7,100</td>
             <td className={styles.menuTableTd}>90分</td>
           </tr>
         </tbody>
@@ -451,7 +439,7 @@ export default function Maho() {
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>カット + 全体カラー</th>
             <td className={styles.menuTableTd}>&nbsp;</td>
-            <td className={styles.menuTableTd}>¥9,900〜</td>
+            <td className={styles.menuTableTd}>¥11,000〜</td>
             <td className={styles.menuTableTd}>150分</td>
           </tr>
         </tbody>
@@ -461,8 +449,8 @@ export default function Maho() {
               ハイライト + カット + トリートメント
             </th>
             <td className={styles.menuTableTd}>&nbsp;</td>
-            <td className={styles.menuTableTd}>¥15,900〜</td>
-            <td className={styles.menuTableTd}>180分</td>
+            <td className={styles.menuTableTd}>¥18,700〜</td>
+            <td className={styles.menuTableTd}>210分</td>
           </tr>
         </tbody>
         <tbody>
@@ -471,8 +459,8 @@ export default function Maho() {
               グラデーションカラー + カット + トリートメント
             </th>
             <td className={styles.menuTableTd}>&nbsp;</td>
-            <td className={styles.menuTableTd}>¥15,900〜</td>
-            <td className={styles.menuTableTd}>180分</td>
+            <td className={styles.menuTableTd}>¥17,600〜</td>
+            <td className={styles.menuTableTd}>210分</td>
           </tr>
         </tbody>
         <tbody>
@@ -481,7 +469,7 @@ export default function Maho() {
               ダブルカラー + カット + トリートメント
             </th>
             <td className={styles.menuTableTd}>&nbsp;</td>
-            <td className={styles.menuTableTd}>¥18,100〜</td>
+            <td className={styles.menuTableTd}>¥19,800〜</td>
             <td className={styles.menuTableTd}>210分</td>
           </tr>
         </tbody>
@@ -489,15 +477,15 @@ export default function Maho() {
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>パーマ + カット</th>
             <td className={styles.menuTableTd}>&nbsp;</td>
-            <td className={styles.menuTableTd}>¥9,900〜</td>
-            <td className={styles.menuTableTd}>120分</td>
+            <td className={styles.menuTableTd}>¥11,000〜</td>
+            <td className={styles.menuTableTd}>150分</td>
           </tr>
         </tbody>
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>パーマ + カット + カラー</th>
             <td className={styles.menuTableTd}>&nbsp;</td>
-            <td className={styles.menuTableTd}>¥14,800〜</td>
+            <td className={styles.menuTableTd}>¥16,500〜</td>
             <td className={styles.menuTableTd}>180分</td>
           </tr>
         </tbody>
@@ -505,7 +493,7 @@ export default function Maho() {
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>前髪縮毛矯正 + カット</th>
             <td className={styles.menuTableTd}>&nbsp;</td>
-            <td className={styles.menuTableTd}>¥7,700</td>
+            <td className={styles.menuTableTd}>¥9,400</td>
             <td className={styles.menuTableTd}>120分</td>
           </tr>
         </tbody>
@@ -515,8 +503,16 @@ export default function Maho() {
               インナーカラー + カット + トリートメント
             </th>
             <td className={styles.menuTableTd}>&nbsp;</td>
-            <td className={styles.menuTableTd}>¥15,900</td>
+            <td className={styles.menuTableTd}>¥17,600〜</td>
             <td className={styles.menuTableTd}>210分</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr className={styles.menuTablLast}>
+            <th className={styles.menuTableTh}>メンズカット + 炭酸スパ</th>
+            <td className={styles.menuTableTd}>&nbsp;</td>
+            <td className={styles.menuTableTd}>¥6,600</td>
+            <td className={styles.menuTableTd}>90分</td>
           </tr>
         </tbody>
       </table>
