@@ -13,7 +13,7 @@ const Staffs: React.FC = () => {
       <div className={styles.main}>
         <div>
           <ul className={styles.flex}>
-            {/* <Link href={"/stylist/eri"}>
+            <Link href={"/stylist/eri"}>
               <li className={styles.stylistImage}>
                 <Image
                   className={styles.stylistImageHover}
@@ -24,10 +24,10 @@ const Staffs: React.FC = () => {
                 />
                 <div className={styles.stylistMask}>
                   <p className={styles.stylistCaption}>ERI</p>
-                  <p className={styles.stylistCaptionSub}>岡山下中野店</p>
+                  <p className={styles.stylistCaptionSub}>岡山野田店</p>
                 </div>
               </li>
-            </Link> */}
+            </Link>
             <Link href={"/stylist/yuki"}>
               <li className={styles.stylistImage}>
                 <Image
