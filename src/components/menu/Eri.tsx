@@ -194,7 +194,7 @@ export default function Eri() {
             <td className={styles.menuTableTd}>
               10分間ヘッドマッサージ・シャンプーブロー別
             </td>
-            <td className={styles.menuTableTd}>¥1,100</td>
+            <td className={styles.menuTableTd}>¥1,650</td>
             <td className={styles.menuTableTd}>10分</td>
           </tr>
         </tbody>
@@ -204,7 +204,7 @@ export default function Eri() {
             <td className={styles.menuTableTd}>
               15分間ヘッドマッサージ・頭皮クレンジング付き・シャンプーブロー別
             </td>
-            <td className={styles.menuTableTd}>¥1,650</td>
+            <td className={styles.menuTableTd}>¥2,200</td>
             <td className={styles.menuTableTd}>15分</td>
           </tr>
         </tbody>
