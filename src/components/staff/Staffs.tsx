@@ -23,7 +23,7 @@ const Staffs: React.FC = () => {
                   height={240}
                 />
                 <div className={styles.stylistMask}>
-                  <p className={styles.stylistCaption}>ERI</p>
+                  <p className={styles.stylistCaption}>えり</p>
                   <p className={styles.stylistCaptionSub}>岡山野田店</p>
                 </div>
               </li>
