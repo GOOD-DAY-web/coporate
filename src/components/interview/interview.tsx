@@ -122,7 +122,7 @@ const Customer: React.FC = () => {
                 </Link>
               </div>
             </li>
-            {/* <li className={styles.featuresItem}>
+            <li className={styles.featuresItem}>
               <Link href={"/interviewmaho"} passHref>
                 <Image
                   className={styles.featuresImage}
@@ -149,7 +149,7 @@ const Customer: React.FC = () => {
                   </div>
                 </Link>
               </div>
-            </li> */}
+            </li>
             {/* <li className={styles.featuresItem}>
               <Link href={"/interviewmai"} passHref>
                 <Image
@@ -177,8 +177,8 @@ const Customer: React.FC = () => {
                   </div>
                 </Link>
               </div>
-            </li> */}
-            {/* <li className={styles.featuresItem}>
+            </li>
+            <li className={styles.featuresItem}>
               <Link href={"/interviewono"} passHref>
                 <Image
                   className={styles.featuresImage}
@@ -198,6 +198,32 @@ const Customer: React.FC = () => {
               </Link>
               <div className={styles.next}>
                 <Link href={"/interviewono"} passHref>
+                  <div className={styles.nextInner}>
+                    <span className={styles.nextInnerIn}>記事を読む</span>
+                  </div>
+                </Link>
+              </div>
+            </li>
+            <li className={styles.featuresItem}>
+              <Link href={"/interviewkanda"} passHref>
+                <Image
+                  className={styles.featuresImage}
+                  src={"/media/interviewkanda00.jpg"}
+                  alt={"onotopイメージ"}
+                  width={240}
+                  height={240}
+                />
+                <p className={styles.featuresMainTitle}>
+                  【入会1年半】
+                  <br />
+                  神田敏和
+                </p>
+                <p className={styles.featuresMainSubTitle}>
+                  ステップアップのためのシェアサロン。
+                </p>
+              </Link>
+              <div className={styles.next}>
+                <Link href={"/interviewkanda"} passHref>
                   <div className={styles.nextInner}>
                     <span className={styles.nextInnerIn}>記事を読む</span>
                   </div>

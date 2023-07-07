@@ -8,21 +8,21 @@ export default function EriSNS() {
     <>
       <div className={styles.sns}>
         <Link
-          href={"https://beauty.hotpepper.jp/slnH000616748/stylist/T000873217/"}
+          href={"https://beauty.hotpepper.jp/slnH000636670/stylist/T000876495/"}
           passHref
         >
           <div className={styles.blog}></div>
         </Link>
         {/* <Link href={"https://www.instagram.com/goodday_yuki/"} passHref>
           <div className={styles.instagram}></div>
-        </Link> */}
-        {/* <Link
+        </Link>
+        <Link
           href={"https://liff.line.me/1645278921-kWRPP32q/?accountId=816eodgk"}
           passHref
         >
           <div className={styles.line}></div>
-        </Link> */}
-        {/* <Link href={"https://minimodel.jp/r/qgTkuh6?sharefrom=app"} passHref>
+        </Link>
+        <Link href={"https://minimodel.jp/r/qgTkuh6?sharefrom=app"} passHref>
           <div className={styles.minimo}></div>
         </Link> */}
       </div>

@@ -13,6 +13,21 @@ const Staffs: React.FC = () => {
       <div className={styles.main}>
         <div>
           <ul className={styles.flex}>
+            <Link href={"/stylist/misaki"}>
+              <li className={styles.stylistImage}>
+                <Image
+                  className={styles.stylistImageHover}
+                  src={"/media/misaki_img.jpg"}
+                  alt={"misaki"}
+                  width={240}
+                  height={240}
+                />
+                <div className={styles.stylistMask}>
+                  <p className={styles.stylistCaption}>misaki</p>
+                  <p className={styles.stylistCaptionSub}>岡山下中野店</p>
+                </div>
+              </li>
+            </Link>
             <Link href={"/stylist/eri"}>
               <li className={styles.stylistImage}>
                 <Image
