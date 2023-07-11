@@ -150,7 +150,7 @@ const Customer: React.FC = () => {
                 </Link>
               </div>
             </li>
-            {/* <li className={styles.featuresItem}>
+            <li className={styles.featuresItem}>
               <Link href={"/interviewmai"} passHref>
                 <Image
                   className={styles.featuresImage}
@@ -178,7 +178,9 @@ const Customer: React.FC = () => {
                 </Link>
               </div>
             </li>
-            <li className={styles.featuresItem}>
+          </ul>
+          <ul className={styles.flex}>
+            {/* <li className={styles.featuresItem}>
               <Link href={"/interviewono"} passHref>
                 <Image
                   className={styles.featuresImage}
