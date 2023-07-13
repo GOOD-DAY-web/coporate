@@ -185,12 +185,12 @@ const Customer: React.FC = () => {
                 <Image
                   className={styles.featuresImage}
                   src={"/media/interviewkanda00.jpg"}
-                  alt={"onotopイメージ"}
+                  alt={"kandatopイメージ"}
                   width={240}
                   height={240}
                 />
                 <p className={styles.featuresMainTitle}>
-                  【入会1年半】
+                  【入会2年】
                   <br />
                   神田敏和
                 </p>

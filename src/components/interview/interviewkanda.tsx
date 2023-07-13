@@ -11,7 +11,7 @@ const Features: React.FC = () => {
           神田敏和さんインタビュー記事
         </h2>
         <p className={styles.featuresMainSubTitle}>
-          フリーランスになって半年、想うこと。
+          フリーランスになって、2年想うこと。
         </p>
         <div className={styles.featuresArea}>
           <>
@@ -24,7 +24,7 @@ const Features: React.FC = () => {
             />
             <h2 className={styles.featuresTitle}>はじめに</h2>
             <div className={styles.featuresDescription}>
-              今回ご紹介する美容師は、【GOOD-DAY入会2年】(*2023年4月現在)の神田敏和さん。
+              今回ご紹介する美容師は、【GOOD-DAY入会2年】(*2023年7月現在)の神田敏和さん。
               <br />
               <br />
               なぜフリーランスという働き方を選んだのか、その思いに迫ります。
