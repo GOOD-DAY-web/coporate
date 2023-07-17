@@ -216,7 +216,7 @@ const Customer: React.FC = () => {
                   height={240}
                 />
                 <p className={styles.featuresMainTitle}>
-                  【入会1年半】
+                  【入会2年】
                   <br />
                   小野奈美
                 </p>
