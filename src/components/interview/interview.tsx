@@ -206,7 +206,7 @@ const Customer: React.FC = () => {
                 </Link>
               </div>
             </li>
-            {/* <li className={styles.featuresItem}>
+            <li className={styles.featuresItem}>
               <Link href={"/interviewono"} passHref>
                 <Image
                   className={styles.featuresImage}
@@ -231,7 +231,7 @@ const Customer: React.FC = () => {
                   </div>
                 </Link>
               </div>
-            </li> */}
+            </li>
           </ul>
         </>
       </div>

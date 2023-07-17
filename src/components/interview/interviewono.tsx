@@ -9,7 +9,7 @@ const Features: React.FC = () => {
       <div className={styles.features}>
         <h2 className={styles.featuresMainTitle}>小野さんインタビュー記事</h2>
         <p className={styles.featuresMainSubTitle}>
-          フリーランスになって3年、想うこと。
+          フリーランスになって2年目、想うこと。
         </p>
         <div className={styles.featuresArea}>
           <>
@@ -22,7 +22,7 @@ const Features: React.FC = () => {
             />
             <h2 className={styles.featuresTitle}>はじめに</h2>
             <div className={styles.featuresDescription}>
-              今回ご紹介する美容師は、【GOOD-DAY入会1年半】(*2023年6月現在)の小野奈美さん。
+              今回ご紹介する美容師は、【GOOD-DAY入会2年】(*2023年6月現在)の小野奈美さん。
               <br />
               <br />
               なぜフリーランスという働き方を選んだのか、その思いに迫ります。
@@ -123,7 +123,7 @@ const Features: React.FC = () => {
               いろんな店舗で働いていた経験のある人たちの集まりだから、情報共有ができるので刺激が多くて楽しいです。
               <br />
               <br />
-              GOOD-DAYはフリーランスの集まりだからやる気のある人ばかりで、自分も「頑張ろう！」と良い影響を日々受けています！
+              自分も「頑張ろう！」と日々良い影響を受けています！
               <br />
               <br />
               たまに今までのことを振り返ることがあるのですが、その度に「今が1番充実しているな」と感じるので、
