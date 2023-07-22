@@ -15,7 +15,7 @@ export default function EriPagination() {
           </Link>
         </div>
         <div className={styles.next}>
-          <Link href={"Misaki"} passHref>
+          <Link href={"misaki"} passHref>
             <div className={styles.nextInner}>
               <span className={styles.nextInnerIn}>Next</span>
             </div>

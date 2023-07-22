@@ -13,18 +13,15 @@ export default function EriSNS() {
         >
           <div className={styles.blog}></div>
         </Link>
-        {/* <Link href={"https://www.instagram.com/goodday_yuki/"} passHref>
+        <Link href={"https://instagram.com/misaki____00?igshid=OGQ5ZDc2ODk2ZA=="} passHref>
           <div className={styles.instagram}></div>
         </Link>
         <Link
-          href={"https://liff.line.me/1645278921-kWRPP32q/?accountId=816eodgk"}
+          href={"https://liff.line.me/1645278921-kWRPP32q/?accountId=373vzavx"}
           passHref
         >
           <div className={styles.line}></div>
         </Link>
-        <Link href={"https://minimodel.jp/r/qgTkuh6?sharefrom=app"} passHref>
-          <div className={styles.minimo}></div>
-        </Link> */}
       </div>
     </>
   );

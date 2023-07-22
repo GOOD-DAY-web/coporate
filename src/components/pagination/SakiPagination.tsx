@@ -8,14 +8,14 @@ export default function EriPagination() {
     <>
       <div className={styles.nextFlex}>
         <div className={styles.next}>
-          <Link href={"eri"} passHref>
+          <Link href={"misaki"} passHref>
             <div className={styles.nextInner}>
               <span className={styles.nextInnerIn}>Back</span>
             </div>
           </Link>
         </div>
         <div className={styles.next}>
-          <Link href={"kitami"} passHref>
+          <Link href={"katayama"} passHref>
             <div className={styles.nextInner}>
               <span className={styles.nextInnerIn}>Next</span>
             </div>

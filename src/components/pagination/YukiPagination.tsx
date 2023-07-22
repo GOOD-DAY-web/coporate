@@ -15,7 +15,7 @@ export default function KahoPagination() {
           </Link>
         </div>
         <div className={styles.next}>
-          <Link href={"katayama"} passHref>
+          <Link href={"eri"} passHref>
             <div className={styles.nextInner}>
               <span className={styles.nextInnerIn}>Next</span>
             </div>

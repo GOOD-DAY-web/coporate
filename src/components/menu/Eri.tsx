@@ -260,6 +260,28 @@ export default function Eri() {
         </tbody>
       </table>
 
+      <h2 className={styles.menuTitle}>セットメニュー</h2>
+      <table className={styles.menuArea}>
+        <tbody>
+          <tr className={styles.menuTableTr}>
+            <th className={styles.menuTableTh}>似合わせカット＋カラー</th>
+            <td className={styles.menuTableTd}>
+              カットカラーのメニューです。白髪染めに変更可能です。シャンプー・ブロー込み
+            </td>
+            <td className={styles.menuTableTd}>¥11,550</td>
+            <td className={styles.menuTableTd}>150分</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr className={styles.menuTableTr}>
+            <th className={styles.menuTableTh}>似合わせカット＋炭酸ヘッドスパ</th>
+            <td className={styles.menuTableTd}>カットと炭酸シャンプーのマッサージ10分付きメニューです。</td>
+            <td className={styles.menuTableTd}>¥6,600</td>
+            <td className={styles.menuTableTd}>90分</td>
+          </tr>
+        </tbody>
+      </table>
+
       <div className={styles.kuchikomi}>
         <div className={styles.kuchikomiImage}>
           <Link href="https://g.page/r/CW8s23RofMNVEAI/review" passHref>
