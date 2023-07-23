@@ -274,8 +274,12 @@ export default function Eri() {
         </tbody>
         <tbody>
           <tr className={styles.menuTableTr}>
-            <th className={styles.menuTableTh}>似合わせカット＋炭酸ヘッドスパ</th>
-            <td className={styles.menuTableTd}>カットと炭酸シャンプーのマッサージ10分付きメニューです。</td>
+            <th className={styles.menuTableTh}>
+              似合わせカット＋炭酸ヘッドスパ
+            </th>
+            <td className={styles.menuTableTd}>
+              カットと炭酸シャンプーのマッサージ10分付きメニューです。
+            </td>
             <td className={styles.menuTableTd}>¥6,600</td>
             <td className={styles.menuTableTd}>90分</td>
           </tr>

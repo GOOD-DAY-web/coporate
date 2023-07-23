@@ -13,7 +13,10 @@ export default function EriSNS() {
         >
           <div className={styles.blog}></div>
         </Link>
-        <Link href={"https://instagram.com/misaki____00?igshid=OGQ5ZDc2ODk2ZA=="} passHref>
+        <Link
+          href={"https://instagram.com/misaki____00?igshid=OGQ5ZDc2ODk2ZA=="}
+          passHref
+        >
           <div className={styles.instagram}></div>
         </Link>
         <Link

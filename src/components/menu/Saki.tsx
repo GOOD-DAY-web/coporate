@@ -19,7 +19,9 @@ export default function Saki() {
         <tbody>
           <tr>
             <th className={styles.menuTableTh}>スクールCUT</th>
-            <td className={styles.menuTableTd}>シャンプー・ブロー込み〜小学生のお子様に〜中高生は+880円</td>
+            <td className={styles.menuTableTd}>
+              シャンプー・ブロー込み〜小学生のお子様に〜中高生は+880円
+            </td>
             <td className={styles.menuTableTd}>¥2,970〜</td>
             <td className={styles.menuTableTd}>60分</td>
           </tr>
@@ -27,7 +29,9 @@ export default function Saki() {
         <tbody>
           <tr className={styles.menuTablLast}>
             <th className={styles.menuTableTh}>キッズCUT</th>
-            <td className={styles.menuTableTd}>シャンプー・ブロー別〜未就学児のお子様に〜</td>
+            <td className={styles.menuTableTd}>
+              シャンプー・ブロー別〜未就学児のお子様に〜
+            </td>
             <td className={styles.menuTableTd}>¥2,200</td>
             <td className={styles.menuTableTd}>30分</td>
           </tr>
@@ -47,7 +51,9 @@ export default function Saki() {
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>リタッチ(2cm以内)</th>
-            <td className={styles.menuTableTd}>単品メニュー。カットなしの場合はシャンプーブローを選択してください。</td>
+            <td className={styles.menuTableTd}>
+              単品メニュー。カットなしの場合はシャンプーブローを選択してください。
+            </td>
             <td className={styles.menuTableTd}>¥5,000</td>
             <td className={styles.menuTableTd}>60分</td>
           </tr>
@@ -55,7 +61,9 @@ export default function Saki() {
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>リタッチ(2cm以上)</th>
-            <td className={styles.menuTableTd}>単品メニュー。カットなしの場合はシャンプーブローを選択してください。</td>
+            <td className={styles.menuTableTd}>
+              単品メニュー。カットなしの場合はシャンプーブローを選択してください。
+            </td>
             <td className={styles.menuTableTd}>¥5,500</td>
             <td className={styles.menuTableTd}>60分</td>
           </tr>
@@ -74,8 +82,9 @@ export default function Saki() {
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>ハイライト</th>
-            <td className={styles.menuTableTd}>枚数により料金が変わります。
-            リタッチorフルカラーもされる方はカラーメニューも選択してください。</td>
+            <td className={styles.menuTableTd}>
+              枚数により料金が変わります。リタッチorフルカラーもされる方はカラーメニューも選択してください。
+            </td>
             <td className={styles.menuTableTd}>¥1,650〜</td>
             <td className={styles.menuTableTd}>30分</td>
           </tr>
@@ -184,8 +193,12 @@ export default function Saki() {
       <table className={styles.menuArea}>
         <tbody>
           <tr className={styles.menuTableTr}>
-            <th className={styles.menuTableTh}>シャンプー・ブロー(カラーなどの単品時)</th>
-            <td className={styles.menuTableTd}>単品メニューの時は必ずこちらも選択してください。前髪カットは含まれています。</td>
+            <th className={styles.menuTableTh}>
+              シャンプー・ブロー(カラーなどの単品時)
+            </th>
+            <td className={styles.menuTableTd}>
+              単品メニューの時は必ずこちらも選択してください。前髪カットは含まれています。
+            </td>
             <td className={styles.menuTableTd}>¥1,650</td>
             <td className={styles.menuTableTd}>30分</td>
           </tr>
@@ -193,7 +206,9 @@ export default function Saki() {
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>シャンプーブローセット</th>
-            <td className={styles.menuTableTd}>シャンプーのみの場合のメニューです。</td>
+            <td className={styles.menuTableTd}>
+              シャンプーのみの場合のメニューです。
+            </td>
             <td className={styles.menuTableTd}>¥2,200</td>
             <td className={styles.menuTableTd}>30分</td>
           </tr>
@@ -201,7 +216,9 @@ export default function Saki() {
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>ヘアセット</th>
-            <td className={styles.menuTableTd}>アップスタイル、ハーフアップなど華やかなスタイルに</td>
+            <td className={styles.menuTableTd}>
+              アップスタイル、ハーフアップなど華やかなスタイルに
+            </td>
             <td className={styles.menuTableTd}>¥4,400</td>
             <td className={styles.menuTableTd}>30分</td>
           </tr>
@@ -223,14 +240,18 @@ export default function Saki() {
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>カット＋フルカラー</th>
-            <td className={styles.menuTableTd}>ロング料金有り(M+220円,L+770円)</td>
+            <td className={styles.menuTableTd}>
+              ロング料金有り(M+220円,L+770円)
+            </td>
             <td className={styles.menuTableTd}>¥11,000〜</td>
             <td className={styles.menuTableTd}>150分</td>
           </tr>
         </tbody>
         <tbody>
           <tr className={styles.menuTableTr}>
-            <th className={styles.menuTableTh}>カット＋【MILBON】トリートメント</th>
+            <th className={styles.menuTableTh}>
+              カット＋【MILBON】トリートメント
+            </th>
             <td className={styles.menuTableTd}>
               髪質やお悩みにあわせて選べるトリートメント。1ヶ月分のホームケア付き
             </td>
