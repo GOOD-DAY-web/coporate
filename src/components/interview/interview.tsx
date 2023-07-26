@@ -232,6 +232,32 @@ const Customer: React.FC = () => {
                 </Link>
               </div>
             </li>
+            {/* <li className={styles.featuresItem}>
+              <Link href={"/interviewisomura"} passHref>
+                <Image
+                  className={styles.featuresImage}
+                  src={"/media/isomura00.jpg"}
+                  alt={"isomuratopイメージ"}
+                  width={240}
+                  height={240}
+                />
+                <p className={styles.featuresMainTitle}>
+                  【入会2年】
+                  <br />
+                  磯村希
+                </p>
+                <p className={styles.featuresMainSubTitle}>
+                  主婦とフリーランス美容師の両立。
+                </p>
+              </Link>
+              <div className={styles.next}>
+                <Link href={"/interviewisomura"} passHref>
+                  <div className={styles.nextInner}>
+                    <span className={styles.nextInnerIn}>記事を読む</span>
+                  </div>
+                </Link>
+              </div>
+            </li> */}
           </ul>
         </>
       </div>

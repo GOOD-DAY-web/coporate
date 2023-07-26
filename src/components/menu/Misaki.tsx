@@ -307,6 +307,64 @@ export default function Misaki() {
         </tbody>
       </table>
 
+      <h2 className={styles.menuTitle}>複合メニュー</h2>
+      <table className={styles.menuArea}>
+        <tbody>
+          <tr className={styles.menuTableTr}>
+            <th className={styles.menuTableTh}>
+              カット＋フルカラー＋トリートメント
+            </th>
+            <td className={styles.menuTableTd}>
+              白髪染めも♪透明感や艶感アップ♪色味もご相談ください。
+            </td>
+            <td className={styles.menuTableTd}>¥14,850</td>
+            <td className={styles.menuTableTd}>150分</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr className={styles.menuTableTr}>
+            <th className={styles.menuTableTh}>カット＋リタッチカラー</th>
+            <td className={styles.menuTableTd}>
+              カットと根元のみのカラーのセットメニューです。
+            </td>
+            <td className={styles.menuTableTd}>¥11,550</td>
+            <td className={styles.menuTableTd}>150分</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr className={styles.menuTableTr}>
+            <th className={styles.menuTableTh}>カット＋矯正ストレート</th>
+            <td className={styles.menuTableTd}>
+              広がりや癖毛をおさえて自然な感じで仕上げることもできるので毎朝のセットも楽になります。
+            </td>
+            <td className={styles.menuTableTd}>¥21,450</td>
+            <td className={styles.menuTableTd}>180分</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr className={styles.menuTableTr}>
+            <th className={styles.menuTableTh}>
+              メンズカット＋眉カット＋炭酸spa
+            </th>
+            <td className={styles.menuTableTd}>
+              炭酸スパでベタつきをなくし頭皮までスッキリ！眉カットもご希望に合わせて綺麗にさせてもらいます。
+            </td>
+            <td className={styles.menuTableTd}>¥6,600</td>
+            <td className={styles.menuTableTd}>90分</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr className={styles.menuTableTr}>
+            <th className={styles.menuTableTh}>カット＋ヘッドspa15分</th>
+            <td className={styles.menuTableTd}>
+              頭皮マッサージで目疲れ、肩こりなどにも効果あり♪頭皮や髪の毛の保湿効果も♪リラックスメニューです。
+            </td>
+            <td className={styles.menuTableTd}>¥8,800</td>
+            <td className={styles.menuTableTd}>90分</td>
+          </tr>
+        </tbody>
+      </table>
+
       <div className={styles.kuchikomi}>
         <div className={styles.kuchikomiImage}>
           <Link href="https://g.page/r/CW8s23RofMNVEAI/review" passHref>
