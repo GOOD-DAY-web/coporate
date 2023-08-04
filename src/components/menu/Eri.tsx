@@ -234,7 +234,7 @@ export default function Eri() {
       <table className={styles.menuArea}>
         <tbody>
           <tr className={styles.menuTableTr}>
-            <th className={styles.menuTableTh}>髪質改善チューニング</th>
+            <th className={styles.menuTableTh}>髪質改善ストレート</th>
             <td className={styles.menuTableTd}>
               クセを整えて扱いやすい髪質に・シャンプーブロー別
             </td>

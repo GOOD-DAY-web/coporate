@@ -247,11 +247,65 @@ const Customer: React.FC = () => {
                   磯村希
                 </p>
                 <p className={styles.featuresMainSubTitle}>
-                  主婦とフリーランス美容師の両立。
+                  ステップアップとしてのシェアサロン
                 </p>
               </Link>
               <div className={styles.next}>
                 <Link href={"/interviewisomura"} passHref>
+                  <div className={styles.nextInner}>
+                    <span className={styles.nextInnerIn}>記事を読む</span>
+                  </div>
+                </Link>
+              </div>
+            </li>
+          </ul>
+          <ul className={styles.flex}>
+            <li className={styles.featuresItem}>
+              <Link href={"/interviewikemoto"} passHref>
+                <Image
+                  className={styles.featuresImage}
+                  src={"/media/interviewikwmoto000.jpg"}
+                  alt={"kandatopイメージ"}
+                  width={240}
+                  height={240}
+                />
+                <p className={styles.featuresMainTitle}>
+                  【入会2年】
+                  <br />
+                  池本麻紀子
+                </p>
+                <p className={styles.featuresMainSubTitle}>
+                  ステップアップのためのシェアサロン。
+                </p>
+              </Link>
+              <div className={styles.next}>
+                <Link href={"/interviewikemoto"} passHref>
+                  <div className={styles.nextInner}>
+                    <span className={styles.nextInnerIn}>記事を読む</span>
+                  </div>
+                </Link>
+              </div>
+            </li>
+            <li className={styles.featuresItem}>
+              <Link href={"/interviewmika"} passHref>
+                <Image
+                  className={styles.featuresImage}
+                  src={"/media/interviewmika00.jpg"}
+                  alt={"kandatopイメージ"}
+                  width={240}
+                  height={240}
+                />
+                <p className={styles.featuresMainTitle}>
+                  【入会2年】
+                  <br />
+                  田原美華
+                </p>
+                <p className={styles.featuresMainSubTitle}>
+                  主婦とフリーランス美容師の両立。
+                </p>
+              </Link>
+              <div className={styles.next}>
+                <Link href={"/interviewmika"} passHref>
                   <div className={styles.nextInner}>
                     <span className={styles.nextInnerIn}>記事を読む</span>
                   </div>
