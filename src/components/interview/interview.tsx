@@ -232,7 +232,7 @@ const Customer: React.FC = () => {
                 </Link>
               </div>
             </li>
-            {/* <li className={styles.featuresItem}>
+            <li className={styles.featuresItem}>
               <Link href={"/interviewisomura"} passHref>
                 <Image
                   className={styles.featuresImage}
@@ -311,7 +311,61 @@ const Customer: React.FC = () => {
                   </div>
                 </Link>
               </div>
-            </li> */}
+            </li>
+          </ul>
+          <ul className={styles.flex}>
+            <li className={styles.featuresItem}>
+              <Link href={"/interviewtanabe"} passHref>
+                <Image
+                  className={styles.featuresImage}
+                  src={"/media/interviewtanabe.jpg"}
+                  alt={"tanabetopイメージ"}
+                  width={240}
+                  height={240}
+                />
+                <p className={styles.featuresMainTitle}>
+                  【入会2年】
+                  <br />
+                  田邊大将
+                </p>
+                <p className={styles.featuresMainSubTitle}>
+                  ステップアップのためのシェアサロン。
+                </p>
+              </Link>
+              <div className={styles.next}>
+                <Link href={"/interviewtanabe"} passHref>
+                  <div className={styles.nextInner}>
+                    <span className={styles.nextInnerIn}>記事を読む</span>
+                  </div>
+                </Link>
+              </div>
+            </li>
+            <li className={styles.featuresItem}>
+              <Link href={"/interviewnatsuki"} passHref>
+                <Image
+                  className={styles.featuresImage}
+                  src={"/media/interviewnatuki.jpg"}
+                  alt={"natsukitopイメージ"}
+                  width={240}
+                  height={240}
+                />
+                <p className={styles.featuresMainTitle}>
+                  【入会2年】
+                  <br />
+                  natsuki
+                </p>
+                <p className={styles.featuresMainSubTitle}>
+                  お客様に寄り添いたい。
+                </p>
+              </Link>
+              <div className={styles.next}>
+                <Link href={"/interviewnatsuki"} passHref>
+                  <div className={styles.nextInner}>
+                    <span className={styles.nextInnerIn}>記事を読む</span>
+                  </div>
+                </Link>
+              </div>
+            </li>
           </ul>
         </>
       </div>
