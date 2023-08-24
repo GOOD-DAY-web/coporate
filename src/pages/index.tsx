@@ -13,6 +13,7 @@ import MakeFriends from "../components/home/MakeFriends";
 import NakashimaShopInfo from "../components/shop/Nakashima";
 import NodaShopInfo from "../components/shop/Noda";
 import ShimonakanoShopInfo from "../components/shop/Shimonakano";
+import SasaokiShopInfo from "../components/shop/Sasaoki";
 import { Pagination } from "../components/pagination/Pagination";
 
 type Props = {
@@ -81,6 +82,7 @@ export default function Home({ articles, totalCount }: any) {
         />
         <Staffs />
         <h2 className={styles.articleMainTitle}>店舗情報</h2>
+        <SasaokiShopInfo />
         <ShimonakanoShopInfo />
         <NodaShopInfo />
         <NakashimaShopInfo />

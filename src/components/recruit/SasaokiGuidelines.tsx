@@ -45,7 +45,7 @@ export default function SasaokiGuidelines() {
           <tbody>
             <tr className={styles.menuTableTr}>
               <th className={styles.menuTableTh}>勤務先・アクセス</th>
-              <td className={styles.menuTableTd}>GOOD-DAY 倉敷笹沖店</td>
+              <td className={styles.menuTableTd}>〒710-0834 倉敷市笹沖580-6</td>
             </tr>
           </tbody>
           <tbody>
