@@ -292,11 +292,35 @@ export default function Kaho() {
           </tr>
         </tbody>
         <tbody>
+          <tr className={styles.menuTablLast}>
+            <th className={styles.menuTableTh}>
+              フルカラー+クイックトリートメント
+            </th>
+            <td className={styles.menuTableTd}>
+              長さ料金あり　M＋¥1100 L＋¥2200
+              <br />
+              シャンプー・ブロー込み
+            </td>
+            <td className={styles.menuTableTd}>¥9,900〜</td>
+            <td className={styles.menuTableTd}>120分</td>
+          </tr>
+        </tbody>
+        <tbody>
           <tr className={styles.menuTableTr}>
-            <th className={styles.menuTableTh}>カット+カラー+トリートメン</th>
+            <th className={styles.menuTableTh}>カット+カラー+トリートメント</th>
             <td className={styles.menuTableTd}>(所要時間は180分です)</td>
             <td className={styles.menuTableTd}>¥12,650</td>
             <td className={styles.menuTableTd}>180分</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr className={styles.menuTableTr}>
+            <th className={styles.menuTableTh}>
+              カット＋カラー＋クイックトリートメント
+            </th>
+            <td className={styles.menuTableTd}>(所要時間は90分です)</td>
+            <td className={styles.menuTableTd}>¥12,650〜</td>
+            <td className={styles.menuTableTd}>150分</td>
           </tr>
         </tbody>
         <tbody>
@@ -316,7 +340,13 @@ export default function Kaho() {
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>ヘアセット</th>
-            <td className={styles.menuTableTd}>要相談</td>
+            <td className={styles.menuTableTd}>
+              要相談
+              <br />
+              10時より前は早朝料金をいただいております。
+              <br />
+              30分毎につき+¥1100
+            </td>
             <td className={styles.menuTableTd}>¥4,400</td>
             <td className={styles.menuTableTd}>90分</td>
           </tr>
