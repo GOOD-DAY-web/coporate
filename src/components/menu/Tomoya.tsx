@@ -106,7 +106,7 @@ export default function Tomoya() {
               <br />
               2回目のカラーで透明感のあるカラーを再現できます。
               <br />
-              オーガニック＋¥1100イルミナ＋¥2200  シャンプーブロー別
+              オーガニック＋¥1100イルミナ＋¥2200 シャンプーブロー別
             </td>
             <td className={styles.menuTableTd}>¥16,500〜</td>
             <td className={styles.menuTableTd}>180分</td>
@@ -203,12 +203,11 @@ export default function Tomoya() {
             <td className={styles.menuTableTd}>90分</td>
           </tr>
         </tbody>
-        
         <h2 className={styles.menuTitle}>縮毛矯正</h2>
-      <p className={styles.menuDetail}>
-        前処理剤にこだわり、髪への負担をなるべく少なく施術します。
-      </p>
-      <table className={styles.menuArea}></table>
+        <p className={styles.menuDetail}>
+          前処理剤にこだわり、髪への負担をなるべく少なく施術します。
+        </p>
+        <table className={styles.menuArea}></table>
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>プレミアム縮毛矯正</th>
