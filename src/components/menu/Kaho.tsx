@@ -7,7 +7,7 @@ export default function Kaho() {
   return (
     <div className={styles.menu}>
       <h2 className={styles.menuTitle}>カット</h2>
-      <p className={styles.menuDetail}>(カットなし、SHブロー * ¥2,200)</p>
+      <p className={styles.menuDetail}>(カットなし、SHブロー* ¥2,200)</p>
       <table className={styles.menuArea}>
         <tbody>
           <tr className={styles.menuTableTr}>
