@@ -26,14 +26,14 @@ export default function Tomoya() {
               高校生以下、シャンプー•ブロー込
             </td>
             <td className={styles.menuTableTd}>¥4,455</td>
-            <td className={styles.menuTableTd}>60分</td>
+            <td className={styles.menuTableTd}>90分</td>
           </tr>
         </tbody>
         <tbody>
           <tr className={styles.menuTablLast}>
             <th className={styles.menuTableTh}>前髪カット</th>
             <td className={styles.menuTableTd}>シャンプー•ブロー別</td>
-            <td className={styles.menuTableTd}>¥1,150</td>
+            <td className={styles.menuTableTd}>¥1,100</td>
             <td className={styles.menuTableTd}>30分</td>
           </tr>
         </tbody>
@@ -46,7 +46,7 @@ export default function Tomoya() {
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>リタッチカラー</th>
             <td className={styles.menuTableTd}>根元のみのカラーです</td>
-            <td className={styles.menuTableTd}>¥5,500</td>
+            <td className={styles.menuTableTd}>¥5,500〜</td>
             <td className={styles.menuTableTd}>90分</td>
           </tr>
         </tbody>
@@ -96,6 +96,20 @@ export default function Tomoya() {
             </td>
             <td className={styles.menuTableTd}>¥4,400</td>
             <td className={styles.menuTableTd}>120分</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr className={styles.menuTableTr}>
+            <th className={styles.menuTableTh}>ダブルカラー</th>
+            <td className={styles.menuTableTd}>
+              ケアブリーチを使用しています。1回目で色素を除去し、
+              <br />
+              2回目のカラーで透明感のあるカラーを再現できます。
+              <br />
+              オーガニック＋¥1100イルミナ＋¥2200  シャンプーブロー別
+            </td>
+            <td className={styles.menuTableTd}>¥16,500〜</td>
+            <td className={styles.menuTableTd}>180分</td>
           </tr>
         </tbody>
         <tbody>
@@ -175,8 +189,8 @@ export default function Tomoya() {
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>特殊パーマ</th>
             <td className={styles.menuTableTd}>波巻•ツイスト•スパイラル</td>
-            <td className={styles.menuTableTd}>+¥2,200</td>
-            <td className={styles.menuTableTd}>0分</td>
+            <td className={styles.menuTableTd}>¥9,900</td>
+            <td className={styles.menuTableTd}>150分</td>
           </tr>
         </tbody>
         <tbody>
@@ -189,9 +203,15 @@ export default function Tomoya() {
             <td className={styles.menuTableTd}>90分</td>
           </tr>
         </tbody>
+        
+        <h2 className={styles.menuTitle}>縮毛矯正</h2>
+      <p className={styles.menuDetail}>
+        前処理剤にこだわり、髪への負担をなるべく少なく施術します。
+      </p>
+      <table className={styles.menuArea}></table>
         <tbody>
           <tr className={styles.menuTableTr}>
-            <th className={styles.menuTableTh}>縮毛矯正</th>
+            <th className={styles.menuTableTh}>プレミアム縮毛矯正</th>
             <td className={styles.menuTableTd}>
               癖毛を半永久的にストレートにします
             </td>
@@ -222,6 +242,14 @@ export default function Tomoya() {
           </tr>
         </tbody>
         <tbody>
+          <tr className={styles.menuTableTr}>
+            <th className={styles.menuTableTh}>EURASIA トリートメント</th>
+            <td className={styles.menuTableTd}>2Step</td>
+            <td className={styles.menuTableTd}>¥4,400〜</td>
+            <td className={styles.menuTableTd}>30分</td>
+          </tr>
+        </tbody>
+        <tbody>
           <tr className={styles.menuTablLast}>
             <th className={styles.menuTableTh}>Hita髪質改善トリートメント</th>
             <td className={styles.menuTableTd}>5Step</td>
@@ -236,6 +264,46 @@ export default function Tomoya() {
         お客様のご要望に合わせて細かく時間設定をしています。
       </p>
       <table className={styles.menuArea}>
+        <tbody>
+          <tr className={styles.menuTableTr}>
+            <th className={styles.menuTableTh}>ヘッドスパ15分</th>
+            <td className={styles.menuTableTd}>(15分)</td>
+            <td className={styles.menuTableTd}>¥1,650</td>
+            <td className={styles.menuTableTd}>30分</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr className={styles.menuTableTr}>
+            <th className={styles.menuTableTh}>ヘッドスパ25分</th>
+            <td className={styles.menuTableTd}>(25分)</td>
+            <td className={styles.menuTableTd}>¥3,850</td>
+            <td className={styles.menuTableTd}>30分</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr className={styles.menuTableTr}>
+            <th className={styles.menuTableTh}>ヘッドスパ45分</th>
+            <td className={styles.menuTableTd}>(45分)</td>
+            <td className={styles.menuTableTd}>¥6,050</td>
+            <td className={styles.menuTableTd}>60分</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr className={styles.menuTableTr}>
+            <th className={styles.menuTableTh}>炭酸ヘッドスパ</th>
+            <td className={styles.menuTableTd}>(5分)</td>
+            <td className={styles.menuTableTd}>¥550</td>
+            <td className={styles.menuTableTd}>30分</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr className={styles.menuTableTr}>
+            <th className={styles.menuTableTh}>炭酸ヘッドスパ</th>
+            <td className={styles.menuTableTd}>(5分)</td>
+            <td className={styles.menuTableTd}>¥550</td>
+            <td className={styles.menuTableTd}>30分</td>
+          </tr>
+        </tbody>
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>炭酸ヘッドスパ</th>
@@ -292,7 +360,7 @@ export default function Tomoya() {
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>アップスタイル</th>
             <td className={styles.menuTableTd}>ヘアセットメニューです。</td>
-            <td className={styles.menuTableTd}>¥5,200</td>
+            <td className={styles.menuTableTd}>¥5,720</td>
             <td className={styles.menuTableTd}>60分</td>
           </tr>
         </tbody>
@@ -309,6 +377,14 @@ export default function Tomoya() {
       <h2 className={styles.menuTitle}>複合メニュー</h2>
       <p className={styles.menuDetail}>特にご要望の多い複数メニューです。</p>
       <table className={styles.menuArea}>
+        <tbody>
+          <tr className={styles.menuTableTr}>
+            <th className={styles.menuTableTh}>カット + カラー</th>
+            <td className={styles.menuTableTd}>(詳細)</td>
+            <td className={styles.menuTableTd}>¥12,650〜</td>
+            <td className={styles.menuTableTd}>150分</td>
+          </tr>
+        </tbody>
         <tbody>
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>カット + オーガニックカラー</th>
@@ -342,6 +418,16 @@ export default function Tomoya() {
             </th>
             <td className={styles.menuTableTd}>(詳細)</td>
             <td className={styles.menuTableTd}>¥14,850〜</td>
+            <td className={styles.menuTableTd}>150分</td>
+          </tr>
+        </tbody>
+        <tbody>
+          <tr className={styles.menuTableTr}>
+            <th className={styles.menuTableTh}>
+              カット + カラー + トリートメント
+            </th>
+            <td className={styles.menuTableTd}>(詳細)</td>
+            <td className={styles.menuTableTd}>¥13,750〜</td>
             <td className={styles.menuTableTd}>150分</td>
           </tr>
         </tbody>
@@ -485,7 +571,7 @@ export default function Tomoya() {
           <tr className={styles.menuTableTr}>
             <th className={styles.menuTableTh}>カット + ヘッドスパ</th>
             <td className={styles.menuTableTd}>(15分)</td>
-            <td className={styles.menuTableTd}>¥6,490</td>
+            <td className={styles.menuTableTd}>¥6,600</td>
             <td className={styles.menuTableTd}>90分</td>
           </tr>
         </tbody>
