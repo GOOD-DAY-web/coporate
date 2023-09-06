@@ -16,7 +16,7 @@ export default function Eri() {
             <th className={styles.menuTableTh}>カット</th>
             <td className={styles.menuTableTd}>(シャンプー・ブロー込み)</td>
             <td className={styles.menuTableTd}>¥4,950</td>
-            <td className={styles.menuTableTd}>60分</td>
+            <td className={styles.menuTableTd}>90分</td>
           </tr>
         </tbody>
         <tbody>
